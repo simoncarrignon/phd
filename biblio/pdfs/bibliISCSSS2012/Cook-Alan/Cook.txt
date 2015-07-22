@@ -1,0 +1,8 @@
+Abstract:
+Our perception fluctuates when we view images at the threshold of our visual capabilities.  It has been widely shown that fluctuations in visual cortical activity are correlated with fluctuations in perception.  The source of these neural fluctuations, however, is not clear.  Are they causal, such as bottom-up sensory noise, that directly influences perception? Or are these fluctuations non-causal, such as top-down attentional modulation, that produce correlations between sensory neural activity and perception when no functional link actually exists between the two?  In this presentation, I will present accumulating evidence that both causal and non-causal processes are responsible for this functional link and that careful electrophysiological observations can distinguish between these two sources of neural fluctuations.
+
+References:
+Smith, J.E., Zhan, C.A. and Cook, E.P.  The functional link between area MT neural fluctuations and detection of a brief motion stimulus.  Journal of Neuroscience 31: 13458 - 68, 2011.  
+http://www.jneurosci.org/content/31/38/13458.long  
+
+

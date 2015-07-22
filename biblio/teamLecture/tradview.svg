@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="tradview.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path3999"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3999-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4521"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4523"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4525"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4527"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="358.21066"
+     inkscape:cy="664.51641"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="1001"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:snap-nodes="false"
+     inkscape:snap-page="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3930"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3932"><rect
+           id="rect3934"
+           width="356.42856"
+           height="443.57144"
+           x="70"
+           y="142.36218" /></flowRegion><flowPara
+         id="flowPara3936"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3938"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3940"><rect
+           id="rect3942"
+           width="278.57144"
+           height="143.57143"
+           x="76.428574"
+           y="238.79076" /></flowRegion><flowPara
+         id="flowPara3944"></flowPara></flowRoot>    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;stroke:#000000;stroke-opacity:1"
+       id="path3052"
+       sodipodi:cx="167.85715"
+       sodipodi:cy="474.50504"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 187.85715,474.50504 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       transform="matrix(1,0,0,0.96473811,-86.87312,64.39623)"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(1,0,0,0.96473811,8.8411614,64.39623)"
+       sodipodi:type="arc"
+       style="fill:#ffffff;stroke:#000000;stroke-opacity:1"
+       id="path3052-7"
+       sodipodi:cx="167.85715"
+       sodipodi:cy="474.50504"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 187.85715,474.50504 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(1,0,0,0.96473811,-136.87312,64.39623)"
+       sodipodi:type="arc"
+       style="fill:#ffffff;stroke:#000000;stroke-opacity:1"
+       id="path3052-3"
+       sodipodi:cx="167.85715"
+       sodipodi:cy="474.50504"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 187.85715,474.50504 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:39.28843307px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="105.5018"
+       y="534.06287"
+       id="text3876"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(1.0181114,0.98221079)"><tspan
+         sodipodi:role="line"
+         id="tspan3878"
+         x="105.5018"
+         y="534.06287">...</tspan><tspan
+         sodipodi:role="line"
+         x="105.5018"
+         y="583.1734"
+         id="tspan3880" /></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.75302285;stroke-opacity:1"
+       id="rect3886"
+       width="182.14285"
+       height="19.036457"
+       x="95.632889"
+       y="288.52594"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.75302285;stroke-opacity:1"
+       id="rect3886-3"
+       width="182.14285"
+       height="19.036457"
+       x="95.632889"
+       y="254.3876"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.75302285;stroke-opacity:1"
+       id="rect3886-5"
+       width="182.14285"
+       height="19.036457"
+       x="95.632889"
+       y="229.82343"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:39.28843307px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="164.65001"
+       y="288.50018"
+       id="text3924"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(1.0181114,0.98221079)"><tspan
+         sodipodi:role="line"
+         id="tspan3926"
+         x="164.65001"
+         y="288.50018">...</tspan><tspan
+         sodipodi:role="line"
+         x="164.65001"
+         y="337.61072"
+         id="tspan3928" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.98221081px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="M 42.120846,506.14032 180.09113,307.5624"
+       id="path3968"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="3"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-end="#rect3886"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-start="#path3052-3" />
+    <path
+       inkscape:connection-start="#path3052"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3886"
+       inkscape:connection-end-point="d4"
+       style="fill:none;stroke:#000000;stroke-width:0.98221081px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 89.270006,504.60319 182.21455,307.5624"
+       id="path3974"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="3"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.98221081px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 177.55893,502.8921 8.72045,-195.3297"
+       id="path3982"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="3"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:connection-end="#rect3886"
+       inkscape:connection-end-point="d4"
+       inkscape:connection-start="#path3052-7"
+       inkscape:connection-start-point="d4" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="233.34525"
+       y="154.33656"
+       id="text4442"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4444"
+         x="233.34525"
+         y="154.33656">Theory</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;stroke:#000000;stroke-opacity:1"
+       id="path3052-9"
+       sodipodi:cx="167.85715"
+       sodipodi:cy="474.50504"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 187.85715,474.50504 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       transform="translate(301.28791,44.930963)"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(397.0022,44.930963)"
+       sodipodi:type="arc"
+       style="fill:#ffffff;stroke:#000000;stroke-opacity:1"
+       id="path3052-7-7"
+       sodipodi:cx="167.85715"
+       sodipodi:cy="474.50504"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 187.85715,474.50504 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(251.28791,44.930963)"
+       sodipodi:type="arc"
+       style="fill:#ffffff;stroke:#000000;stroke-opacity:1"
+       id="path3052-3-2"
+       sodipodi:cx="167.85715"
+       sodipodi:cy="474.50504"
+       sodipodi:rx="20"
+       sodipodi:ry="20"
+       d="m 187.85715,474.50504 a 20,20 0 1 1 -40,0 20,20 0 1 1 40,0 z"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="495.57361"
+       y="521.91638"
+       id="text3876-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3878-0"
+         x="495.57361"
+         y="521.91638">...</tspan><tspan
+         sodipodi:role="line"
+         x="495.57361"
+         y="571.91638"
+         id="tspan3880-0" /></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.76666111;stroke-opacity:1"
+       id="rect3886-0"
+       width="182.14285"
+       height="19.732254"
+       x="321.66443"
+       y="287.64682"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.76666111;stroke-opacity:1"
+       id="rect3886-3-7"
+       width="182.14285"
+       height="19.732254"
+       x="321.66443"
+       y="252.26068"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.76666111;stroke-opacity:1"
+       id="rect3886-5-9"
+       width="182.14285"
+       height="19.732254"
+       x="321.66443"
+       y="226.79865"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="393.66364"
+       y="282.30035"
+       id="text3924-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3926-7"
+         x="393.66364"
+         y="282.30035">...</tspan><tspan
+         sodipodi:role="line"
+         x="393.66364"
+         y="332.30035"
+         id="tspan3928-4" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="m 418.56769,499.44417 -5.5469,-192.0651"
+       id="path3968-0"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="3"
+       inkscape:connection-start="#path3052-3-2"
+       inkscape:connection-start-point="d4"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:connection-end="#rect3886-0"
+       inkscape:connection-end-point="d4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 464.21688,500.04774 415.24366,307.37907"
+       id="path3974-5"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="3"
+       inkscape:connection-start="#path3052-9"
+       inkscape:connection-start-point="d4"
+       inkscape:connection-end="#rect3886-0"
+       inkscape:connection-end-point="d4"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend);display:inline"
+       d="M 553.55036,502.93805 419.49887,307.37907"
+       id="path3982-8"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="3"
+       inkscape:connection-start="#path3052-7-7"
+       inkscape:connection-start-point="d4"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:connection-end="#rect3886-0"
+       inkscape:connection-end-point="d4" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="594.13629"
+       y="522.52765"
+       id="text4434-0"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/scarrign/projects/PhD/biblio/teamLecture/tradView.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4436-1"
+         x="594.13629"
+         y="522.52765"
+         style="font-size:12px">Empiricals Observations</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4713"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4715"><rect
+           id="rect4717"
+           width="257.5889"
+           height="212.13203"
+           x="9.0913725"
+           y="166.4584" /></flowRegion><flowPara
+         id="flowPara4719"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="159.60411"
+       y="599.81384"
+       id="text4835"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4837"
+         x="159.60411"
+         y="599.81384"
+         style="font-size:20px">Temporal &amp; spatial changes</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker4525)"
+       d="m 220.10632,519.00164 154.16169,-1.01015"
+       id="path4841"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="3" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.96311472;fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path5239"
+       sodipodi:cx="337.89603"
+       sodipodi:cy="281.11072"
+       sodipodi:rx="278.29703"
+       sodipodi:ry="95.459419"
+       d="m 616.19305,281.11072 a 278.29703,95.459419 0 1 1 -556.594051,0 278.29703,95.459419 0 1 1 556.594051,0 z"
+       transform="translate(-20.203051,-15.152288)" />
+  </g>
+</svg>

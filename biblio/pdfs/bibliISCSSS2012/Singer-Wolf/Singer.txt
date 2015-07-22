@@ -1,0 +1,23 @@
+Abstract:
+The search for neuronal correlates of consciousness (NCC) often relies on comparisons between neuronal activation patterns associated with conscious and non-conscious processing, respectively, of physically identical stimuli. This strategy is known as the subtraction method and thought to isolate neuronal processes specific for conscious experience. However, this approach does not allow one to clearly separate the NCC proper from processes that just permit access to consciousness such as fluctuations in excitability at early stages or from processes that follow conscious experience such as storage of perceived items in working memory and response preparation. This problem can be reduced but not eliminated by considering the precise temporal sequence of events, using methods that capture brain activity with high temporal resolution such as time frequency analysis and event related potentials extracted from EEG or MEG signals.
+Applying these methods we find as an early NCC a brief burst of oscillatory activity in the beta/gamma frequency range that occurs about 180 ms after stimulus presentation and is synchronized across a widely distributed network of cortical areas. This suggests as NCC not the activation of a particular, higher order cortical area but a dynamic state that is characterized by the coherent activation of a widely distributed network. This agrees with Bar´s and Dehaene´s hypothesis of a work space and also with Sherrington´s view that the unity of conscious experience does not require convergence in space (anatomical convergence) but results from coherence in time (temporal convergence, phase coherence). Indications for a special role of precisely synchronized oscillatory responses in the high frequency range have been obtained previously in animal experiments, using the paradigm of binocular rivalry.
+
+References:
+Fries, P., Roelfsema, P.R., Engel, A.K., König, P., and Singer, W. (1997) Synchronization of oscillatory responses in visual cortex correlates with perception in interocular rivalry. Proceedings of the National Academy of Sciences of America. 94(23), 12699-12704
+	http://www.pnas.org/content/94/23/12699.full.pdf+html
+
+Singer, W. (1998) Consciousness and the structure of neuronal representations. Phil. Trans. R. Soc. Lond. B 353: 1829-1840
+
+Engel, A.K., P. Fries, P.König, M. Brecht, and W. Singer (1999) Target Article. Temporal binding, binocular rivalry, and consciousness. Consciousness and Cognition 8: 128-151
+	http://www.sciencedirect.com/science/article/pii/S1053810099903896
+
+Engel, A.K., P. Fries, P. König, M. Brecht, and W. Singer (1999) Concluding Commentary. Does time help to understand consciousness? Consciousness and Cognition 8: 260-268
+	http://www.sciencedirect.com/science/article/pii/S1053810099904002
+
+Melloni, L., C. Molina, M. Pena, D. Torres, W. Singer, and E. Rodriguez (2007) Synchronization of neural activity across cortical areas correlates with conscious perception. The Journal of Neuroscience 27(11): 2858-2865
+	http://www.jneurosci.org/content/27/11/2858.full.pdf+html
+
+Melloni, L. and W. Singer (2010) Distinct characteristics of conscious experience are met by large-scale neuronal synchronization. In: E. Perry, D. Collerton, F. LeBeau and H. Ashton (Eds.). New Horizons in the Neuroscience of Consciousness. Advances in Consciousness Research 79. John Benjamins, B.V., Amsterdam 2010, 17-28
+
+Aru, J., T. Bachmann, W. Singer and L. Melloni (2012) Distilling the neural correlates of consciousness. Neuroscience and Biobehavioral Reviews 36(2): 737-746
+	http://www.sciencedirect.com/science/article/pii/S0149763411002107	

@@ -1,0 +1,12 @@
+Abstract:
+We have a remarkable ability to recognize the behavioral significance, or category membership of a wide range of visual stimuli. While much is known about how simple visual features (such as color, orientation and direction of motion) are processed in early stages of the visual system, much less is known about how the brain learns and recognizes categorical information that gives meaning to incoming stimuli. This talk will review a series of neurophysiological and behavioral experiments aimed at understanding the neuronal representations underlying visual categorization. We have found that the activity of individual neurons in both the posterior parietal and lateral prefrontal cortices can reflect the learned category membership of visual stimuli, and that these two areas play distinct roles in category-based decision making.
+
+References:
+
+Freedman D.J. and Assad J.A. Experience-Dependent Representation of Visual Categories in Parietal Cortex. Nature, 443: 85-88, 2006.
+
+Swaminathan S.K. and Freedman D.J. Preferential encoding of visual categories in parietal cortex compared to prefrontal cortex. Nature Neuroscience, 15: 315-320, 2012.
+
+Freedman D.J. and Assad J.A. A Proposed Common Neural Mechanisms for Categorization and Perceptual Decisions. Nature Neuroscience, 14:143-146, 2011.
+
+Freedman D.J., Riesenhuber M., Poggio T., and Miller E.K. A Comparison of Primate Prefrontal and Inferior Temporal Cortices During Visual Categorization. Journal of Neuroscience, 23: 5235-5246, 2003.

@@ -1,0 +1,20 @@
+Speaker:
+Diego Mendoza-Halliday & Julio Martinez-Trujillo
+
+Abstract:
+Neurons in the dorsolateral prefrontal cortex (dlPFC) of primates respond to visual stimuli and are selective for attributes such as location, object identity and motion direction (Zaksas and Pasternak, 2006). Furthermore, this selectivity persists when stimuli are removed and their attributes maintained in working memory. Previous studies have suggested that some dlPFC neurons preferentially represent the current sensory input, while others represent the contents of working memory (Fuster, 2000; Pasternak and Greenle, 2005). To investigate this issue we recorded the spiking activity of 155 dlPFC neurons from two rhesus monkeys while they performed different tasks in which they compared the motion direction of a sample random-dot pattern to that of a subsequent test pattern. In the Memory task, the sample and test presentations were separated by a delay period during which the monkey was required to remember the sample direction. In the No-memory task, the sample remained present during the entire trial, thus eliminating the working memory requirement. For each of the two tasks, the ability of each neuron to represent the motion direction of the sample during the delay period was quantified using signal detection theory. In approximately half of the direction-selective neurons, representations were stronger when the sample remained present (No-memory task) than when it was remembered (Memory task). Interestingly, in the remaining neurons, the sample direction was more strongly encoded when it was remembered than when it remained perceptually available. This suggests that while the former neurons preferentially encode sensory input, the latter may serve a specific role in working memory maintenance. The ability of the entire population of recorded neurons to represent the sample direction was quantified using a linear discriminant analysis. In both tasks classification performance remained well above chance throughout the entire delay period. These results demonstrate that in the dlPFC the strength of visual representations during working memory is temporally robust and comparable to that of representations driven by sensory input.
+
+References:
+Fuster JM. Memory networks in the prefrontal cortex. Prog Brain Res.
+2000;122:309-16.
+http://bit.ly/FusterPFC
+
+Zaksas D, Pasternak T. Directional signals in the prefrontal cortex and in
+area MT during a working memory for visual motion task. J Neurosci. 2006
+8;26(45):11726-42.
+http://www.jneurosci.org/content/26/45/11726.full
+
+Pasternak T, Greenlee MW. Working memory in primate sensory systems. Nat Rev
+Neurosci. 2005 Feb;6(2):97-107. Review. Erratum in: Nat Rev Neurosci. 2005
+6(3):255. 
+http://www.psychology.nottingham.ac.uk/staff/ds1/uploads/Teaching/NatRevNeurosci2005Pasternak.pdf

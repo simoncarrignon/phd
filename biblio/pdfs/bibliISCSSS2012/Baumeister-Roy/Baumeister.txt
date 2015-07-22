@@ -1,0 +1,14 @@
+Abstract:
+Consciousness is a distinguishing trait of human experience, but does it cause behavior or serve other useful functions? Recent critiques, especially from studies of automatic processes and brain functions, have suggested that it is inefficient and ineffective for controlling action and unnecessary for perceiving the environment. This talk reviews experimental studies on how manipulations of conscious thought cause changes in behavior. It draws new conclusions about what conscious thought can and cannot do — and what it can do better than unconscious processes. It goes on to argue that the core functions of conscious thought are for relating to the social and cultural environment.
+
+References:
+Roy F. Baumeister1, E. J. Masicampo, and Kathleen D. Vohs (2011)
+Do Conscious Thoughts Cause Behavior?
+Annual Review of Psychology 62: 331-361
+http://carlson.umn.edu/assets/165663.pdf
+
+Roy F. Baumeister and E. J. Masicampo (2010)
+Conscious Thought Is for Facilitating Social and Cultural Interactions:
+How Mental Simulations Serve the Animal–Culture Interface
+Psychological Review 117(3) 945–971
+http://ambadylab.stanford.edu/ej/BaumeisterMasicampo2010PsychRev.pdf

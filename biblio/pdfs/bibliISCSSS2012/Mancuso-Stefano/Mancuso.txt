@@ -1,0 +1,30 @@
+
+Abstract:
+Intelligent behavior is a complex adaptive phenomenon that has evolved to enable organisms to deal with variable environmental circumstances. Maximizing fitness requires skill in foraging for necessary resources (food) in competitive circumstances and is probably the activity in which intelligent behavior is most easily seen. Biologists suggest that intelligence encompasses the characteristics of detailed sensory perception, information processing, learning, memory, choice, optimisation of resource sequestration with minimal outlay, self-recognition, and foresight by predictive modeling. All these properties are concerned with a capacity for problem solving in recurrent and novel situations. I will review the evidence that individual plant species exhibit all of these intelligent behavioral capabilities but do so through phenotypic plasticity, not movement. Furthermore it is in the competitive foraging for resources that most of these intelligent attributes have been detected. Plants should therefore be regarded as prototypical intelligent organisms, a concept that has considerable consequences for investigations of whole plant communication, computation and signal transduction.
+
+It should not be surprising that neuronal computation is not limited to animal brains but is used also by bacteria and plants. It is generally assumed that brains and neurons represent late evolutionary achievements which are present only in more advanced animals. But recent data suggest that our understanding of bacteria, unicellular eukaryotic organisms, plants, brains and neurons, rooted in Aristotelian philosophy is flawed. Neural aspects of biological systems are obvious already in bacteria and unicellular biological units such as sexual gametes and diverse unicellular eukaryotic organisms. Altogether, processes and activities thought to represent evolutionarily ‘recent’ specializations of the nervous system may be ancient and fundamental cell survival processes.
+
+References:
+Mindless mastery - Nature 2002 http://www.linv.org/images/about_pdf/Nature%202002%20Trewavas.pdf
+
+Aspects of Plant Intelligence - Annals pf Botany 2003 http://www.linv.org/images/about_pdf/Ann%20Bot%202003%20Trewavas.pdf
+
+Plant intelligence - Naturwissenschaften 2005 http://www.linv.org/images/about_pdf/Naturwissenschaften%202005%20Trewavas.pdf
+
+Green plants as intelligent organisms - TRENDS in Plant Science 2005 http://www.linv.org/images/about_pdf/Trends%202005%20Trewavas.pdf
+
+Plant Neurobiology as a Paradigm Shift Not Only in the Plant Sciences http://www.linv.org/images/about_pdf/Plant%20Signaling%20&%20Behavior%20%202007%20F.pdf
+
+Plant neurobiology: no brain, no gain? - TRENDS in Plant Science 2007 http://www.linv.org/images/about_pdf/Trends%202007%20Alpi.pdf
+
+Response to Alpi et al.: Plant neurobiology: the gain is more than the name - TRENDS in Plant Science 2007 http://www.linv.org/images/about_pdf/Trends%202007%20Brenner.pdf
+
+Response to Alpi et al.: Plant neurobiology - all metaphors have value - TRENDS in Plant Science 2007 http://www.linv.org/images/about_pdf/Trends%202007%20Trewavas.pdf
+
+Reflections on 'plant neurobiology' - BioSystems 2008 http://www.linv.org/images/about_pdf/BioSystems%202008%20Barlow.pdf
+
+Plant neurobiology: from sensory biology, via plant communication, to social plant behavior - Cognitive Process 2009 http://www.linv.org/images/about_pdf/Cognitive%20processing%202008.pdf
+
+Spatiotemporal dynamics of the electrical network activity in the root apex - Proceedings of the National Academy of Sciences 2009 http://www.linv.org/images/about_pdf/PNAS%202009%20Masi.pdf
+
+Deep evolutionary origins of neurobiology - Communicative & Integrative Biology 2009 http://www.linv.org/images/about_pdf/Communicative%20Integrative%20Biology%20%202009%20.pdf

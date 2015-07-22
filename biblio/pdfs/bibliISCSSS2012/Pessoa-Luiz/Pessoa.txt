@@ -1,0 +1,11 @@
+Abstract:
+The current view of brain organization supports the notion that there is a considerable degree of functional specialization and that many regions can be conceptualized as either “affective” or “cognitive”. Popular examples are the amygdala in the domain of emotion and the lateral prefrontal cortex in cognition. This prevalent view is problematic for a number of reasons. It will be argued that complex cognitive-emotional behaviors have their basis in networks of brain areas, none of which should be conceptualized as specifically affective or cognitive. Central to cognitive-emotional interactions are brain areas with a high degree of connectivity called hubs, which are critical for regulating the flow and integration of information between regions. To illustrate cognitive-emotional processing, I will discuss a series of studies that have investigated interactions between emotion and perception, and emotion and executive function. In the final part of my talk, I will address the following question: What is the relationship between emotion and consciousness? I will discuss how large-scale interactions are critical for both emotion-cognition and consciousness, suggesting that the study of these interactions is needed for advancing our understanding of their relationship.
+
+References:
+Pessoa, L. On the relationship between emotion and cognition. Nature Reviews Neuroscience 2008. Feb;9(2):148-58. http://lce.umd.edu/publications_files/Pessoa_NRN_2008.pdf
+ 
+Tsuchiya N, Adolphs R. Emotion and consciousness. Trends Cogn Sci, 2007 Apr;11(4):158-67
+http://emotion.caltech.edu/papers/TsuchiyaAdolphs2007Emotion.pdf
+ 
+Thompson, E. & Varela, F. J. Radical embodiment:  neural dynamics and consciousness. Trends Cogn. Sci. 5, 418–425 (2001).
+http://www.sciencedirect.com/science/article/pii/S1364661300017502

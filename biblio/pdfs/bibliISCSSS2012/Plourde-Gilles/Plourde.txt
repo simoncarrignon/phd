@@ -1,0 +1,10 @@
+Abstract:
+Although general anesthetics have been used for more than 150 years and suppress consciousness in a predictable manner, their mechanisms of action are not fully elucidated. Numerous studies have been devoted to understanding how general anesthetics impair consciousness in human subjects using either functional brain imaging or electrophysiology. These studies have obvious relevance for the study of consciousness, particularly for consciousness as a waking state and in regard to self-awareness. They have revealed the critical involvement of the thalamus and offered evidence supporting the hypothesis that the anesthetized state is associated with loss of connectivity and attenuation neuronal oscillations in the high-gamma range. In this lecture, I will first review the aspect of the pharmacology of general anesthetic that are essential to appreciate the possibilities that these drugs offer to study consciousness as well as their limitations. In the second part, I will summarize the main findings that emerge from the literature.
+
+References:
+
+Alkire MT, Hudetz AG, Tononi G. Consciousness and anesthesia. Science 2008; 322: 876-80;
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2743249/ 
+
+Franks NP. General anaesthesia: from molecular targets to neuronal pathways of sleep and arousal. Nat Rev Neurosci 2008; 9: 370-86
+http://hopecenterdev.wustl.edu/training/bio5663/Documents/FRANKS_NATNEUROSCI_rev.pdf

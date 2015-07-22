@@ -1,0 +1,13 @@
+
+Title:
+Neurophysiological and hemodynamic measurements of spontaneous activity and functional connectivity
+
+Abstract:
+Recent functional MRI (fMRI) studies have demonstrated large amplitude slow (< 0.1 Hz) fluctuations in humans in the resting state. Importantly, these spontaneous fluctuations in the Blood-Oxygenation-Level-Dependent (BOLD) signal are often synchronized over distant parts of the brain, a phenomenon termed resting-state functional connectivity. Functional connectivity analysis identifies resting-state networks of areas that also coactivate in response to stimuli or tasks. In my talk, I’ll first explore whether fMRI-measured spontaneous fluctuations are similar to those seen in neurophysiological activity. I will then demonstrate that resting-state functional connectivity exists in a hierarchical manner in space. In addition to the commonly reported networks on the spatial scale of cortical areas, smaller networks can be observed at the resolution scales of sub-areas and cortical columns. I will conclude with hypotheses on the mechanisms involved, the role of spontaneous activity, and implications to clinical neuroscience. 
+
+References:
+
+Correspondence of the brain's functional architecture during activation and rest
+Smith et al., 2009.
+http://www.pnas.org/content/106/31/13040.full
+

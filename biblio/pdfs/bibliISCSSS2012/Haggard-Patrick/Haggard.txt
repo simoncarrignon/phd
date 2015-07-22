@@ -1,0 +1,12 @@
+Abstract:
+Voluntary actions are often defined as actions that are internally-generated, rather than directly triggered by an external stimulus.  The capacity for voluntary action gives control of human behaviour a 'freedom from immediacy' (Mike Shadlen's term), that other animals may lack.  But voluntary actions are also characterised by a special relation with conscious thought.  On a classical, rationalist model, we consciously deliberate, form conscious intentions, and these drive our actions.  The crucial link in this chain is the transition from mind to body, when an intentions-in-action is transformed to a motor command, and a bodily movement.  I will discuss a number of studies of this process.  First, I will consider whether the experience of being about to act is a direct readout of ongoing neural preparation, or a retrospective narrative to explain our actions post hoc.  I will then ask the same questions about sense of agency - i.e., the feeling that our actions cause events in the outside world.  Both prospective and retrospective components are shown to exist.  The retrospective component presumably aims at providing a coherent and description of our own behaviour and self-consciousness.  The prospective component is harder to account for, and I will consider two possible functions.  First, being aware of what we are about to do just before we do it might contribute to the control or veto of action. Second, it might improve complex instrumental learning.  Both accounts suffer from the normal difficulties of ascribing causal roles to consciousness, and the existence of prospective aspects of intention and agency cannot save concepts of 'conscious free will'.  Finally, I will consider the implications of recent work on action awareness for moral and legal responsibility.
+
+References:
+
+Haggard P (2008).  Human volition: towards a neuroscience of will.  Nature Reviews Neuroscience, 9, 934-946.
+http://www.ncbi.nlm.nih.gov/pubmed/19020512
+
+Chambon V, Wenke D, Fleming D, Prinz W & Haggard P. (in press).  An online neural substrate for sense of agency.  Cerebral Cortex, in press.
+http://www.ncbi.nlm.nih.gov/pubmed/22510529 
+
+     

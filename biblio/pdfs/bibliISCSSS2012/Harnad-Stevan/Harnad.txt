@@ -1,0 +1,20 @@
+Title:
+How and Why the Problem of Explaining the Causal Role of Consciousness is Hard
+
+Abstract:
+There are two things that cognitive science needs to explain: (1) How and why organisms can do all the things they can do and (2) how and why organisms feel. Explaining doing -- Turing's problem -- has been dubbed the "easy" problem (though it's no easier than other problems in biological science, and we're nowhere near solving it). Explaining feeling has been dubbed the "hard" problem. The reason it is hard is that feeling keeps on turning out to be superfluous in any causal explanation of doing.
+
+References:
+
+Harnad, Stevan (1995) "Why and How We Are Not Zombies. Journal of Consciousness Studies 1:164-167. http://cogprints.org/1601/
+
+Harnad, S. (2000) Correlation vs. Causality: How/Why the Mind/Body Problem Is Hard. Journal of Consciousness Studies 7(4): 54-61. http://cogprints.org/1617/
+
+Harnad, S. (2008) The Annotation Game: On Turing (1950) on Computing, Machinery and Intelligence. In: Epstein, Robert & Peters, Grace (Eds.) Parsing the Turing Test: Philosophical and Methodological Issues in the Quest for the Thinking Computer. Springer  http://eprints.ecs.soton.ac.uk/7741/
+
+Harnad, S. (2011) Minds, Brains and Turing. Consciousness Online 3. http://eprints.ecs.soton.ac.uk/22242/ 
+
+Harnad, S. (2011) Doing, Feeling, Meaning And Explaining. In: On the Human. http://eprints.ecs.soton.ac.uk/22243/
+
+Turing, A. M. (1950) Computing Machinery and Intelligence. Mind 49:433-460.
+http://cogprints.org/499/

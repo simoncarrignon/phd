@@ -1,0 +1,11 @@
+Abstract: 
+A spectacular demonstration of the power of natural selection comes from experiments in the field of evolutionary robotics [1,2], where scientists have conduct- ed experimental evolution with robots. Evolutionary robotics has also been advo- cated as a method to automatically generate control systems that are comparatively simpler or more efficient than those engi- neered with other design methods because the space of solutions explored by evolution can be larger and less constrained than that explored by conventional engineering meth- ods [3]. In this essay we will examine key experiments that illustrate how, for example, robots whose genes are translated into simple neural networks can evolve the ability to navigate, escape predators, coadapt brains and body morphologies, and cooperate. We present mostly—but not only—experimental results performed in our laboratory, which satisfy the following criteria. First, the experiments were at least partly carried out with real robots, allowing us to present a video showing the behaviours of the evolved robots. Second, the robot’s neural networks had a simple architecture with no synaptic plasticity, no ontogenetic development, and no detailed modelling of ion channels and spike transmission. Third, the genomes were directly mapped into the neural network (i.e., no gene-to-gene interaction, time-dependent dynamics, or ontogenetic plasticity). By limiting our analysis to these studies we are able to highlight the strength of the process of Darwinian selection in comparable simple systems exposed to different environmental conditions.
+
+References:
+
+D. Floreano and L. Keller (2010) Evolution of Adaptive Behaviour in Robots by Means of Darwinian Selection, in PLOS Biology, vol. 8, num. 1, p. e100029.
+http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1000292
+
+Harvey I, Di Paolo E, Wood R, Quinn M, Tuci E (2005) Evolutionary robotics: a new scientific tool for studying cognition. Artif Life 11: 79–98.
+http://www.mitpressjournals.org/doi/abs/10.1162/1064546053278991
+

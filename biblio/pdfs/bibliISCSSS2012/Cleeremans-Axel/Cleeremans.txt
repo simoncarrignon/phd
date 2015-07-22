@@ -1,0 +1,20 @@
+Abstract:
+Here, starting from the fact that neural activity is intrinsically unconscious, I suggest that consciousness arises as a result of the brain’s continuous attempts at predicting not only the consequences of action on the world and on other agents, but also the consequences of activity in one cerebral region on activity in other regions. By this account, the brain continuously and unconsciously learns to redescribe its own activity to itself, so developing systems of metarepresentations that characterize and qualify their target representations. Such re-representations form the basis of conscious experience, and also subtend successful control of action. In a sense thus, this is the enactive perspective, but turned both inwards and further outwards. Consciousness amounts to “signal detection on the mind”; it is the brain’s (non-conceptual, embodied, implicit) theory about itself. By this hypothesis, which I call the "radical plasticity thesis", consciousness critically depends on a cognitive system’s ability to learn about (1) the effects of its actions on the environment, (2) the effects of its actions on other agents, and on (3) the effects of activity in one cerebral region on other cerebral regions. 
+
+References: 
+
+Cleeremans, A. (2011).
+The Radical Plasticity Thesis: How the brain learns to be conscious
+Frontiers in Psychology, 2, 1-12.
+http://www.ncbi.nlm.nih.gov/pubmed/21687455
+
+Timmermans, B., Schilbach, L., Pasquali, A., & Cleeremans, A. (2012).
+Higher-order thoughts in action: Consciousness as an unconscious redescription process
+Philosophical Transactions of the Royal Society B
+http://rstb.royalsocietypublishing.org/content/367/1594/1412
+
+Pasquali, A., Timmermans, B., & Cleeremans, A.(2010).
+Know thyself: Metacognitive networks and measures of consciousness
+Cognition, 117 182-190
+http://www.ncbi.nlm.nih.gov/pubmed/20825936
+http://srsc.ulb.ac.be/axcWWW/papers/pdf/10-COG.pdf

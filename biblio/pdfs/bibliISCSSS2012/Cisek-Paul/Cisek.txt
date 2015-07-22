@@ -1,0 +1,10 @@
+Abstract:
+Modern theories of the brain describe it as a series of information processing stages for perceiving and representing the world, thinking about it, and then acting upon it. However, this intuitively appealing and influential view is not well-supported by neurophysiological data. Sensory, cognitive, and motor functions appear distributed through diverse brain regions and often mixed within the activity of individual neurons. As an alternative, I will describe a model based on theories from ethology, which suggests that behavior involves a continuous competition between potential ways to interact with the world. I will present recent results supporting some of the key predictions of this alternative way of looking at how the brain implements behavior, focusing on neurophysiological studies of decisions between actions.
+
+References:
+
+Cisek, P. (1999) “Beyond the computer metaphor: Behaviour as interaction”. Journal of Consciousness Studies. 6(11-12): 125-142.
+http://www.cisek.org/pavel/Pubs/Cis1999.pdf
+ 
+Cisek, P. and Kalaska, J.F. (2010) “Neural mechanisms for interacting with a world full of action choices”. Annual Review of Neuroscience. 33: 269-298.
+http://www.cisek.org/pavel/Pubs/CisekKalaska2010.pdf

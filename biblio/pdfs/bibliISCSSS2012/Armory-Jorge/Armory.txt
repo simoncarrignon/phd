@@ -1,0 +1,11 @@
+Title:
+Neural Bases of Emotion
+
+Abstract:
+In this talk I will describe the main neural systems and mechanisms involved in the processing of emotional information, highlighting the similarities and differences between species (rats, monkeys and humans). In addition, I will briefly present findings and controversies regarding the interactions between emotion and other cognitive processes, such as attention and awareness.
+
+
+References:
+1. Sergerie, K., Chochol, C., & Armony, J.L. (2008). The role of the amygdala in emotional processing: A quantitative meta-analysis of functional neuroimaging studies. Neuroscience & Biobehavioral Reviews, 32(4), 811-830.
+2. Armony, J.L. & LeDoux, J.E. (2010). Emotional responses to auditory stimuli. In A. Palmer & A. Rees (Eds), The Oxford Handbook of Auditory Science: The Auditory Brain (pp. 479-505). Oxford, UK: Oxford University Press
+3. Vuilleumier, P., & Pourtois, G. (2007). Distributed and interactive brain mechanisms during emotion face perception: evidence from functional neuroimaging. Neuropsychologia, 45(1), 174-194.

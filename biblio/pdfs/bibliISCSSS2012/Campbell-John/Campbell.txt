@@ -1,0 +1,12 @@
+Title:
+What does Visual Experience Have to do with Visual Science?
+
+Abstract:
+Classically, vision science assumed we do not need to appeal to notions relating to sensory awareness to explain how it is that perception generates knowledge of our surroundings.  Sensory experience has often been seen as an epiphenomenon in the generation of knowledge.  This is not the view of ordinary common-sense.  Ordinarily, we take that it is only because we have sensory experience that we can know what the objects and properties around us are.  But where would a role for sensory experience fit in an account of the production of knowledge?  I approach this question by looking at the contrast Huang and Pashler (2007) draw between the roles of visible properties in selecting and in accessing regions or objects in the visual field.  I use this to articulate an account of the way in which an externalist account of perceptual experience relates to a classical account of visual computation.
+
+References:
+
+Huang and Pashler, 2007, 'A Boolean Map Theory of Visual Attention', Psych. Review 114, 599-631.
+http://www.pashler.com/Articles/Huang_Pashler_PR2007.pdf
+
+Campbell, John, 2011, 'Visual Attention and the Epistemic Role of Consciousness', in Mole, Smithies and Wu (eds.), Attention:  Philosophical and Psychological Essays (Oxford:  OUP), 321-343.
