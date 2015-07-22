@@ -1,0 +1,67 @@
+\documentclass[a4paper,10pt]{report}
+
+%%%%lualatex on
+%\usepackage{luatextra}
+\usepackage{fontspec}
+%Ligatures={Contextual, Common, Historical, Rare, Discretionary}
+\setmainfont[Mapping=tex-text]{Linux Libertine O}
+
+%%%lua off
+%\usepackage[utf8x]{inputenc}
+%\usepackage[T1]{fontenc} 
+%\usepackage{lmodern}
+
+\usepackage{enumerate}
+\usepackage{paralist}
+\usepackage{graphicx}
+\usepackage[french,ruled,vlined]{algorithm2e}
+\usepackage[authoryear,round]{natbib}
+\usepackage[frenchb]{babel}
+
+%\usepackage[top=1.5cm,bottom=2cm,left=2.5cm,right=2.5cm]{geometry}
+%\linespread{1.5}\selectfont
+
+\usepackage{lettrine}
+\usepackage{paris7}
+
+%%Fichier Latex utilisé pour le mémoire envoyé le 26 août 2013 à Philippe Huneman et stephane schmitt frederic bouchard et nicolas bredèche.
+\usepackage[colorlinks=true,urlcolor=black,citecolor=black,linkcolor=black,bookmarks=true]{hyperref}
+\title{La Robotique Évolutionnaire comme modèle pour étudier la Biologie de l'Évolution }
+
+\author{Simon Carrignon}
+
+\begin{document}
+
+\maketitle
+
+\include{abstract}
+
+\tableofcontents
+
+\addcontentsline{toc}{chapter}{Introduction} 
+
+\include{introduction}
+
+\include{firstpart}  %%Théorie de l'evolution, histoire principes, problèmes
+
+\include{secondpart} %%étudier la théorie de l'évolution : expériences de pensée, modèles, simulation
+
+\include{thirdpart}  %%la robotique evolutionnaire
+
+\include{conclusion}
+
+\addcontentsline{toc}{chapter}{Conclusion} 
+
+\include{remerciements}
+
+
+\bibliographystyle{apalike}
+\bibliography{/home/simon/Documents/biblio/memoireLophiss}
+\addcontentsline{toc}{chapter}{Bibliographie} 
+
+
+
+
+
+\end{document}
+

@@ -1,0 +1,175 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{lmodern}
+\usepackage[utf8x]{inputenc}
+
+\usepackage[T1]{fontenc} 
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[french]{babel}
+\usepackage[authoryear,round]{natbib}
+%\bibpunct{(}{)}{,}{a}{,}{,}
+
+%opening
+\title{Robotique Évolutionnaire et Biologie de l'Évolution : une échange épistémique à deux sens. }
+\author{ Simon Carrignon - Université Paris Diderot}% \and Nicolas Bredèche - Université Paris Sud/INRIA Saclay \and Frédéric Bouchard - Université de Montréal}
+
+\begin{document}
+\maketitle
+% \begin{abstract}
+% The beginning of the 1990’s saw the birth and the development of a new field of research in Artificial Intelligence: “Evolutionary Robotics” (Nolfi \& Floreano 2001). Binding tools from Behavior-based Robotics (Brooks 1990) and Evolutionary Computation (Eiben \& Smith, 2008), this new field uses the idea from Evolutionary Biology to build up simple yet robust and efficient control architecture for autonomous agents. This approach brings original and practical methods to design robust robot behaviors in partially or totally unknown environments, but also stand as a good way to test biological theories through computational, operative, models. Since the 1990’s the field have evolved a lot and now face some theoretical problems. It is now time to look back at recent debates that animate Theoretical Biology and Philosophy of Biology in order to find some new ways to deal with Evolutionary Robotics and the problem it faces.
+% Starting from our previous work (Bredeche et al., 2010), we look on how well concepts from different paradigms developed by biologists and philosophers (such as interactor, replicator or reproducer), fit the artificial model used. At the same time we discuss how results given by this kind of artificial model can be used to re-evaluate and/or refine the related biological concepts. Finally, in the light of these considerations, we attempt to analyse and discuss what kind of change of paradigm may help to improve Evolutionary Robotics in general.
+% \end{abstract}
+
+%\begin{abstract}
+% % \section*{Proposition de Sujet}
+%  %   Le but de cette étude est d'essayer de comprendre quelles connaissances de la Biologie de l'\'{E}volution et de l'\'{E}cologie les m\'ethodes et modèles développés en informatique, et plus particulièrement en Algorithmique \'{E}volutionnaire (AE) et en Vie Artificielle (VA), peuvent produire. Dans quelles mesures les problèmes rencontrés dans ces domaines peuvent être assimilés à des problèmes rencontrés par les théoriciens et philosophes de la Biologie de l'\'Evolution et de l'\'Ecologie, et dans quelle mesure la compréhension et la résolution de ces problèmes artificiels peuvent éclairer la compréhension de la Biologie. Afin de réduire le corpus \`a étudier et par int\'er\^ets personnels, nous nous pencherons plus particulièrement sur l'étude d'une sous-branche plus récente et moins souvent \'etudi\'ee par les philosophes des sciences, d\'erivée de l'AE et de la VA : la Robotique \'Evolutionnaire (RE). De m\^eme, et d'une fa\c con g\'en\'erale dans la suite de l'\'etude, l'accent sera port\'e et la r\'eflexion centr\'ee sur les approches Multi-Agents (Multi-Agents Systems, MAS) et la Mod\'elisation Agent Centr\'es (Agent Based Modelisation, ABM). 
+%  % 
+%  %   Après avoir fait le tour de la littérature et un bref historique de ces approches et domaines (RE, MAS, ABM), des m\'ethode d'AE et de VA et de quelques rappels sur les théories de la Biologie de l'\'Evolution, nous verrons les questions philosophiques que l'utilisation, l'interprétation et l'analyse des mod\`eles artificiels soulèvent. Nous essayerons ensuite de faire l'inventaire des positions avancées par les philosophes des sciences vis a vis des ces questions et aborderons notamment les nombreuses réflexions faites sur l'utilisation des modèles et de la simulation en \'{E}cologie et en Biologie de l'\'{E}volution. Nous terminerons par une discussion sur la pertinence de ces réflexions et des voies et directions qu'elles indiquent aux recherches futurs à mener en AE, VA et en Robotique \'{E}volutionnaire.
+%
+%     Comprendre l'évolution est compliqu\'e non? donc? comment faire pour y arriver? Th\'eorie . Ainsi Dans la th\'eorie de Darwin ce dernier esaye de dgager les lement principaux capable de rendre compte de l'volution Pourquoi ne pas utiliser la modelisation pour se faire? en effet construire des mod\`eles permets de les tester et d´en comparer les effets. Comme le souligne \citet{d}
+%  Cette tude se veut une r\'eflexino sur l'int\'er\^et d'utiliser la Robotique Evolutionnaire, que nous prsenterons succintement, pour modeliser, eimuler et questionner les th\'eories de l'\'evolution 
+%La robotique évolutionnaire peut-elle servir de model de 
+% \end{abstract}
+
+\begin{abstract}
+	Cette étude tente de clarifier la position épistémique de la robotique évolutionnaire et essaye de montrer qu'en tant que possible expérience de pensée illustratrice de la biologie évolutionnaire, cette discipline peut et doit revoir ses fondements théorique à la lumière des réflexions de la philosophe de la biologie pour 1/ surmonter les obstacles qu'elle rencontre et 2/ proposer des éclaircissements aux théories et propositions récentes avancées par philosophes et biologistes de l'évolution.
+\end{abstract}
+
+\section{Introduction}
+
+Depuis maintenant plus d'une trentaine d'années, l'informatique assiste à l'expension et la popularisation de toute une famille de techniques et méthodes classées (plus ou moins consensuellement) sous le terme d'Algorithmique Évolutionnaire  (ou Informatique Évolutionnaire, en anglais \emph{Evolutionnary Computation, EC}, cf. \citet{schoenauer09lesalgorithmesevolutionnaires}). 
+Sous cette étiquette sont regroupées un ensemble de méthodes apparues plus ou moins parallèlement dans les annés 60-70, dont notamment l'Algorithmique Génétique de \citet{holland75adaptationnaturalartificialsystem} ou encore les Stratégies Evolutionnaire, développées par \citet{rechenberg73evolutionsstrategieoptimierungtechnischersystemenachprinzipienderbiologischenevolution} pour ne citer que les plus connues.
+
+Le point commun de toutes ces techniques est qu'elles se basent toutes sur la recette, initialement décrite par \citet{darwin1859originspeciesbymeansnaturalselectionorpreservationfavouredracesstrugglelife} puis raffinée par les artisans de la synthèse moderne, de la théorique de l'évolution et plus particulièrement de l'évolution par sélection naturelle. 
+Le succès, l'attrait intellectuel et la solide assise mathématique que ces techniques d'algorithmique évolutionnaire ont fini par acquérir, ont fait d'elles un élément important de la recherche en informatique et de nombreux colloques et journaux ont vu le jours. L'objectif de ces recherches toujours plus fructueuses, est de coupler la puissance de calcul des ordinateurs avec les principes de l'évolution pour trouver les meilleures solutions à toute une gamme de problèmes très variés, souvent très abstraits, en tout cas mathématisables. 
+
+C'est au seins de cette grande famille que dans les années 90 est apparue la Robotique Évolutionnaire. 
+Avec le développement de la robotique réactive par \citet{brooks91intelligencewithoutreason} et les connaissances toujours plus précises des neurones artificiels, les roboticiens se sont vus eux aussi offrir la possibilité d'appliquer les méthodes évolutionnaires pour concevoir des robots. 
+
+Mais, alors que dans la majorité des cas traités par les méthodes d'évolution artificielle traditionnelles l'analogie avec la biologie est souvent très lointaine, avec la robotique la donne change un peu.
+Pour les roboticiens le but est de construire des ``agents'' qui seront amenés à se déplacer dans un environnement ``réel'', ouvert et changeant.
+Le problème n'est plus de simplement trouver une suite de chiffres qui \emph{fittent} le mieux avec un problème donné précis dans un cadre connu.
+Les ``agents'' doivent effectuer des tâches diverses et complexes, comme se déplacer dans l'environnement en évitant les obstacles, échanger avec l'environnement pour assurer leur autonomie énergétique ou encore se synchroniser avec d'autres ``agents'' pour construire des structures complexes.
+
+Faire évoluer ces agents n'est pas chose aisée, alors qu'il semble bien que l'évolution biologique ait réussi à le faire.
+L'analogie est cette fois-ci beaucoup plus forte entre les deux, les problématiques posées beaucoup plus proches.
+Les biologistes veulent comprendre comment ont pu se développer cette multitude d'entités autonomes et adaptées à de nombreux environnements tandis que les roboticiens veulent savoir comment construire des entités autonomes et adaptées à de nombreux environnements.
+Il semblerai donc qu'un échange entre les techniques informatiques est les théories de la biologie soit de nouveau nécessaire et possible. C'est en tout cas ce que nous soutiendrons ici. 
+Après avoir présenté un peu plus en détails ce qu'était la robotique évolutionnaire, ses résultats et ses limites, nous verrons pourquoi elle aurait tout intérêt à se tourner vers les réflexions des philosophes et théoriciens de la biologie ainsi que pourquoi ces derniers auraient tout autant intérêt à analyser les problèmes des roboticiens avec eux.
+
+\section{La Robotique Évolutionnaire : histoire, méthode et succès.}
+
+\subsection{Histoire}
+Comme souligné en introduction la Robotique Évolutionnaire (en anglais \emph{Evolutionary Robotics}) a vu le jours dans la foulée du développement de l'algorithmique évolutionnaire.
+Bien que l'idée d'appliquer ces algorithmes évolutionnaires sur des robots était présente dès le début des techniques d'informatique évolutionnaire, la mise en pratique de ces dernières ne s'est faite que dans les années 1990. Cette apparition tardive, qui eu lieu de fa\c{c}on quasi simultanée et parallèle dans différentes universités d'Europe et des États-Unis (voir par exemple \citet{harvey97evolutionaryroboticssussexapproach}), a en grande partie été rendue possible par le développement quelques années auparavant de ce que l'on appelle \emph{la robotique réactive} \citep{brooks91intelligencewithoutreason}. 
+
+Ce nouveau courant de robotique a opéré un changement conceptuel quasi philosophique à la fin des années 80 en démontrant brillamment que la voie suivie par l'Intelligence Artificielle traditionnelle, fille du computationalisme des années 60, n'était pas la seule possible. Reprenant les travaux de \citet{braintenberg86vehicles} et de certains éthologues, Brooks montra que pour obtenir des comportements efficaces et robustes dans des environnements complexes, la longue computation d'une représentation symbolique du monde n'est pas forcement la meilleure solution pour agir avec justesse et rapidité. Souvent il suffit de construire un système dont les propriétés morpho-physiologiques répondent correctement aux contraintes de l'environnement, s'imbriquant dans une boucle ``perception-action'' simple et ``réactive''.
+
+Ce changement de perspective a permis aux chercheurs en évolution artificielle d'imaginer pouvoir coder simplement des comportements efficaces et intéressants, sans besoin de bases de données gigantesques manipulées par des systèmes experts complexes. Cette approche, couplée avec les neurones artificiels notamment, dont le succès ne cessait (et n'a toujours pas cessé) de croître, se présentait comme la candidate idéale pour penser et concevoir une robotique évolutionnaire efficace.
+
+Le succès du transfert des techniques d'algorithmique évolutionnaire fut assez rapide et concluant. Il devenait possible de concevoir des robots sans avoir à connaître les réglages délicats nécessaires au bon fonctionnement des machines, ces réglages étant \emph{adaptés} quasi optimalement par l'évolution. 
+Ainsi en 2000 paraissait le livre ``éponyme'' \emph{Evolutionary Robotics} \citep{nolfi00evolrobobiolintetechselfmach}, signe selon certains, de l'auto reconnaissance de la Robotique Évolutionnaire en tant que discipline à part entière. On ne citera pas toutes les réussites de cette discipline, mais celles-ci sont nombreuses, allant de l'évolution de robots capable de se recharger en se dirigeant grâce à des indices lumineux à l'évolution de groupes de robots capables de coopérer pour résoudre des problèmes de rangements d'objet.
+
+\subsection{Efficacité et fonctionnement}
+
+Cette réussite (relative, comme nous le verrons ensuite) pourrait bien s'expliquer par l'analogie forte qu'il y a entre la robotique et le monde du vivant. En effet des ``individus'', des agents, vont se déplacer dans l'environnement et interagir avec lui. Que ce soit en biologie ou en robotique ; les fonctions développées par les uns, voulus pour les autres, sont les mêmes : autonomie énergétique, comportementale, adaptation aux variation du milieux, coopération, coordination, etc. Quoi de plus naturel donc que de vouloir, pour construire ces robots, utiliser la recette toute prête et bien défini par les biologistes, de l'évolution par sélection naturelle? 
+Si l'on reprend par exemple la définition parmi les plus citées, de \citet{lewontin70unitsselection} :
+\begin{enumerate}
+\item Different individuals in a population have different morphologies, physiologies, and behaviors (phenotypic variation).
+\item Different phenotypes have different rates of survival and reproduction in different environments (differential fitness).
+\item There is a correlation between parents and offspring in the contribution of each to future generations (fitness is heritable).
+\end{enumerate}
+On comprend assez aisément que reprendre cette ``formule magique" a été un jeu d'enfant pour les informaticiens des années 70. Ils n'avaient qu'à suivre point par point cette recette pour construire un système qui répondrait à ses attentes et qui "devrait'' donc, en théorie, évoluer en s'adaptant par sélection naturelle.
+
+Voici comment \citet{holland75adaptationnaturalartificialsystem} et ses associés ont construit leurs algorithmes (les algorithmes génétiques) pour qu'ils suivent la définition : Des individus sont définis, dont les caractéristiques varient aléatoirement (1). La qualité (la \emph{fitness}) de ces individus peut être mesurée au regard du problème à résoudre, certaines variations répondant mieux au problème que d'autres (la fitness des individus est différente) (2). Enfin, les caractéristiques des individus les mieux adaptés (qui répondent mieux au problème) sont transmises plus ou moins fidèlement et avec une plus grande probabilité que celles des individus moins bien adaptés, à de nouveaux individus formant une nouvelle génération (3) (cf. fig. \ref{fig:AG} pour une implémentation plus précise).
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.4\textwidth]{images/AG.png}
+	\caption{Exemple d'algorithme génétique (source : wikipedia)}\label{fig:AG}
+\end{figure}
+
+
+Si il est tout à fait logique que les algorithmes génétiques répondent parfaitement à la définition de l'évolution par sélection naturelle puisque ils ont été créés pour le faire, il est néanmoins intéressant de remarquer à quel point les roboticiens n'ont pas eu trop à les distordre pour s'en servir.
+En effet, là où les informaticiens en algorithmique évolutionnaire classique ont souvent du ruser, détourner et ajouter de nombreux mécanismes \emph{ad-hoc} et sans équivalent biologique aux principes de base pour répondre aux problèmes qui leur étaient posés, les roboticiens n'ont bien souvent eux qu'à reprendre les premières formulations des algorithmes génétiques (cf. fig. \ref{fig:AG}), superposables quasi parfaitement avec la définition de Lewotin, pour obtenir de très bon résultats (pour une revue assez complète, voir \citet{nolfi00evolrobobiolintetechselfmach}, pour une revue plus récente : \citet{floreano10evolutionadaptivebehaviourrobotsbymeansdarwinianselection}).
+
+\section{Valeur et échanges épistémiques}
+
+\subsection{Vie Artificielle et modèles conceptuels}
+Là est-il peut-être le moment de passer un peu de temps à réfléchir à la valeur épistémique de ces résultats. En effet, si l'analogie est forte, comme nous le soutenons, entre robotique évolutionnaire et biologie, cette réussite ne peut-elle pas être per\c{c}ue comme l'illustration du bien fondé de la théorie de l'évolution par sélection naturelle? En d'autres termes, la robotique évolutionnaire ne pourrait-elle pas être un modèle de l'évolution biologique?
+
+Sans s'engager trop en avant dans une discussion complexe sur la valeur explicatrice des modèles \citep{frigg12modelsscience} où sur la différence entre modèles, simulations et leur rapport avec les théories, nous reprendrons à notre compte quelques réflexions de philosophes des sciences, principalement de la Vie Artificielle, pour montrer que oui, la robotique évolutionnaire peut, et doit, être considérée comme l'illustration de certains phénomènes évolutifs. 
+
+
+Pour commencer, si le début de l'étude a pris le parti de la robotique évolutionnaire comme défi d'ingénierie, il est possible de voir cette discipline sous un autre angle.
+
+Bien souvent, l'intérêt des chercheurs n'est pas forcement de répondre à un problème technique particulier, mais plutôt ``simplement'' d'essayer d'imiter, ou de refaire, quelque chose de vivant ou qui y ressemble. 
+
+La communauté de gens s'appliquant à cette tâche est souvent désignée par le nom vie artificielle (\emph{artificial life} en anglais, ou \emph{alife}, cf \citet{langton89alifeiproceedingsfirstinternationalworkshopsynthesissimulationlivingsystems}) et la robotique évolutionnaire, par bien des aspects, historiques, méthodologiques et scientifiques, a toujours été très proche de cette communauté. Dans cette optique, que nous nuancerons un peu, le but est de ``faire'' de la vie, en utilisant des techniques et procédés mis au points par l'homme et donc, artificiels. 
+
+\citet{barandiaran06alifemodelsasepistemicartefacts} divisent en trois catégories les modèles produits et étudiés par/dans cette discipline :
+\begin{enumerate}
+	\item Les modèles esthétiques, \label{it:est}
+	\item les modèles d'ingénierie et,\label{it:ing}
+	\item les modèles épistémiques. \label{it:epi}
+\end{enumerate}
+
+Ce sont avec ces modèles épistémiques que nous voulons ici rapprocher la robotique évolutionnaire. L'intérêt n'est plus de construire un objet technologique avec des caractéristiques particulières
+\footnote{Ce qui correspond évidemment aux caractéristiques de la catégorie \ref{it:ing} de Barandiaran et Moreno dans laquelle pourrait aussi être classée la robotique évolutionnaire. Mais ce classement n'est pas forcé \emph{a priori} : la robotique évolutionnaire pourrait n'être qu'un outils d'ingénierie n'ayant à voir avec la vie artificielle que le mot \emph{évolutionnaire} et donc ne pas être classé comme modèle d'ingénierie de vie artificielle mais comme technique d'ingénierie tout court.},
+mais de comprendre ``comment les systèmes naturels fonctionnent''.
+
+Parmi les modèles épistémiques, \citet{barandiaran06alifemodelsasepistemicartefacts} dégagent 4 classes bâties en fonction du but et de la portée épistémique du modèle :
+\begin{enumerate}[(a)]
+	\item Des modèles génériques, \label{it:gnx}
+	\item des modèles conceptuels, \label{it:con}
+	\item des modèles fonctionnels et,\label{it:fun}
+	\item des modèles mécanistes. \label{it:mech}
+\end{enumerate}
+
+Les deux dernières classes décrivent des modèles qui s'évertuent à recréer des mécanismes présents dans le vivant pour en permettre l'étude (par exemple reconstruire une fourmilières artificiellement) et se veulent (surtout pour les modèles mécanistes) au plus proche possible des données empiriques. Leur but et de valider des modèles précis de fonctions et mécanismes du vivant (modèles d'une synapse, etc.). 
+
+Les deux premières classes elles se veulent plus générales. Les modèles qui tombent dans la première se rapprochent plus des lois mathématiques (les auteurs donnent l'exemple des modèles NK de Kauffman, etc.) très génériques et applicables aussi bien aux réseaux sociaux qu'aux interaction protéiques. Les seconds, les modèles conceptuels, ont quant à eux un statuts épistémique plus ``hétérodoxe''. À cheval entre théorie et expérience empirique, ils servent d'outils pour questionner et réorganiser certaines assomptions théoriques. Ce sont dans cela que nous voulons classer la robotique évolutionnaire.
+
+L'idée de ces modèles conceptuels est de permettre la mise sur pieds de simulations comme véritables ``expériences de pensée'', beaucoup plus élaborées que celles que le cerveau humain seul peut faire. Ces expériences de pensée peuvent être d'une grande utilité. Nous rejoignons en ce sens les conclusions de \citet{paolo00simulationmodelsasopaquethoughtexperiments} et sans prétendre qu'elles offriraient l'accès a des connaissances qui sans elles seraient inateignables, il nous semble claire qu'elles peuvent ``[to help] changing an attitude toward an already known piece of information.'', et qu'elles permettent la remise en question et la mise à l'epreuve de certains points théoriques flous ou mal compris.
+
+Notre but ici n'est pas d'avancer, comme le fait \citet{bedau98philosophicalcontentmethodartificiallife} et les partisans d'une vie artificielle forte (\emph{strong Alife}), que les phénomènes observés \emph{sont} biologiques. Non plus que de dire que seule la reconstitution de ces phénomènes via une approche artificielle, la reconstruction d'une biologie tel qu'elle \emph{pourrait} être, d'une \emph{biologie universelle}, permettrait de comprendre les mécanismes de la biologie tel que nous la connaissons. Cette approche d'une vie artificielle \emph{forte}, qui veut que les propriétés des parties étudiées suffisent à faire \emph{émerger} la vie, indépendamment du substrat physique, serait difficile à tenir ici, d'autant qu'elle a beaucoup été critiquée par certains philosophes de la biologie \citep[Ch. 15]{sterelny99sexdeathintroductiontophilosophybiology}. Néanmoins même les plus critiques semblent s'accorder sur la valeur, si ce n'est explicative des modèles artificiels, au moins illustrative de ceux-ci. Et c'est cette valeur illustrative, cette capacité défendu par \citet{paolo00simulationmodelsasopaquethoughtexperiments} qu'ont les modèles artificiels à permettre de dérouler des mécanismes aux interactions multiples et qui rendent les systèmes difficiles à analyser analytiquement au premier abords, et que leurs équivalents artificiels ouvrent à l'expérimentation. On peut alors en tester certains paramètres, les ajuster, jusqu'à éclaircir une situation \emph{a priori} bien ``opaque''.
+
+\subsection{Un échange épistémique à double sens}
+
+C'est dans cette optique que nous voyons l'apport épistémique de la robotique évolutionnaire à la biologie, des modèles conceptuels permettant d'éclaircir les théories.
+
+Et cette démarche a déjà largement été embrassée par les acteurs de la discipline. On notera par exemple l'étude de \citet{nolfi96learning} qui mesurent la différence d'efficacité entre un cas où les caractères adaptés sont uniquement adaptés par évolution, et un autre où une phase d'apprentissage est associée à l'évolution dans une tentative toute théorique de montrer que ``learning and behavior are among the causes of evolution''. On notera aussi les travaux de \citet{waibel06divisionlabourcolonyefficiencysocialinsectseffectsinteractionsbetweengeneticarchitecturecolonykinstructurerateperturbations} sur l'impact de la distance génétique entre les individus sur la division des tâches au sein d'une colonie, ou encore de \citet{waibel09geneticteamcompositionlevelselectionevolutioncooperation} qui essayent d'étudier l'impacte du niveau de sélection dans un population sur l'évolution de certains caractères. Autant d'essais pour illustrer les effets de propositions initialement faites par les théoriciens de la biologie, toujours débattues par ses derniers quant au rôle qu'elles ont pu jouer dans l'émergence des formes de vies actuelles. Si la robotique évolutionnaire ne pourra trancher elle même sur ces questions et dire effectivement quel a été l'impact de la ``kin selection'' dans l'évolution de la vie actuelle, toujours est-il qu'elle peut donner d'importants indices sur la prise en compte et l'importance de ces hypothèses au sein de théories plus larges.  
+
+
+Mais l'échange épistémique de doit pas s'arrêter là, bien au contraire. Cette volonté des chercheurs en robotique évolutionnaire de se tourner vers des questions de biologie théorique, témoigne parfois de la volonté de ces derniers de trouver des solutions à des problèmes qui les empêchent d'avancer.
+En effet, si l'on retourne sur les résultats ``d'ingénierie'' apportés par la robotique évolutionnaire, ceux-ci restent limités. C'est en cela que la réussite n'est pas totale (et peut-être heureusement d'ailleurs).
+
+Appliquant à la lettre les principes de l'évolution par sélection naturelle tel que nous les avons décrits, les chercheurs en RE se sont vite retrouvés bloqués par de nombreux problèmes pratiques.
+Et si la fine adaptation de fonctions particulières et clairement définies et mesurables se fait très efficacement par ces méthode, développer un ensemble de fonctions complexes et \emph{a priori} inconnues devient impossible. Il serait même tentant d'y voir une belle illustration de la critique de \citet{gould79spandrelssanmarcopanglossianparadigmcritiqueadaptationistprogramme}.
+
+En effet, calqués sur le modèle traditionnel adaptationiste, les roboticiens doivent créer des systèmes capables d'adapter graduellement les robots jusqu'au but ultime attendu. Malheureusement cette gradualité ne peut s'obtenir qu'au prix d'une connaissance quasi complète du problème, afin de pouvoir évaluer parfaitement quels sont les robots mieux adaptés que d'autre et pouvoir sélectionner chaque fois les mutations qui nous conduirons  sans détours sur la route de la meilleure solution. Hors c'est tout le contraire que voulait le projet initial de la robotique évolutionnaire :  ne pas avoir à connaître les détails du problème pour le résoudre. Ici les roboticiens doivent reconstruire de leurs mains les ``histoires adaptationnistes'' tant critiquées par Gould. Donnant crédit à ce dernier, cette voie est de moins en moins suivit par les chercheurs en robotique évolutionnaire. Construire ces histoires et souvent trop complexe, voir impossible. Sélectionner untel plutôt qu'un autre n'a vite plus de sens lorsqu'il s'agit de répondre à des problème plus généraux et complexes. Les individu deviennent vite, aux yeux de l'expérimentateur,  souvent ``aussi bons'' ou plutôt ``également mauvais'' et indépartageable d'un point de vue purement adaptatif.
+
+
+Ainsi, dans l'optique de surmonter ces obstacles, de nombreux efforts ont été entrepris depuis une dizaine d'années par les informaticiens pour re-intégrer au sein de l'algorithmique évolutionnaire les avancées récentes de la biologie \citep{hu10evolvabilityspeedevolutionaryalgorithmslightrecentdevelopmentsbiology}.
+Le fort désire d'intégrer l'évo-dévo dans une ``evo-devo-robo'' est symptomatique de ces démarches et abondamment discuté \citep{bredeche11evolutionaryadaptationpopulationrobots}.
+Parfois des solutions sont cherchées en ajoutant des concepts absents ou difficilement transposable à la biologie, comme l'ajout d'une pression sélective à la diversité \citep{mouret12encouragingbehavioraldiversityevolutionaryroboticsempiricalstudy}.
+
+
+Ce semi échec et ce désire fort de trouver de nouvelles solutions ne doivent pas être négligés. Compte tenu de la position épistémique que nous avons choisie d'adopter, ils pourraient très bien être l'indice d'un semi-échec de la théorie de l'évolution elle-même et justifient bien un retour sur la théorie biologique.
+
+À titre d'exemple il pourrait être très intéressant de reprendre le cadre de réflexion offert par \citet{godfrey2009darwinian} pour classer les différentes populations darwiniennes et voir ou pourrait se situer la robotique évolutionnaire. L'utilisation dès la base, d'une certaine approche de la théorie de l'évolution, par sélection naturelle, d'individu (défini en générale par leur gènes et capable de reproduction sexué, se reproduisant en génération avec une transmission de parent a enfant seulement) pourrait très bien être un frein important au développement de l'évolution artificielle. Godfrey-smith ne nous dit-il pas lui-même que les populations biologique ne sont pas toute darwinienne au même degré? Alors que les informaticiens on voulut calquer un certains type de population darwinienne ``paradigmatique'' dans leur modèle, ne se sont-ils pas limités?
+
+Ainsi, revoir tous les concepts et notions utilisés à la lumière d'une philosophie de la biologie plus récente, ouverte nous semble la marche à suivre. Que sont vraiment les individus que la robotique évolutionnaire cherche à faire évoluer? quels notions de fitness peuvent leur convenir? Que faire de l'épigénétique, de la ``niche construction''?  Des pistes de réflexions sur ces questions sont données par de nombreux philosophes, et l'application du fruit de ces réflexions à la robotique pourrai non seulement résoudre certains problème, mais aussi en retour servir d'illustration, et appuyer plus où moins, certaines visions et certaines voies théoriques à prendre pour la biologie de l'évolution.
+
+C'est dans cet échange à double sens non symétrique, supervisé avec attention par le philosophe de la biologie, que nous voyons les perspectives les plus fructueuses pour la robotique évolutionnaire \emph{et} (quoique probablement dans des mesures différentes, d'où le \emph{non-symétrique}) pour la biologie de l'évolution.
+
+
+
+\newpage
+\setcounter{page}{1}
+\bibliographystyle{apalike}
+\bibliography{/home/simon/Documents/philoBioModelAndER}
+
+\end{document}
+

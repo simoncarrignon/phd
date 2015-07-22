@@ -1,0 +1,47 @@
+\documentclass[a4paper,10pt]{report}
+
+\usepackage{luatextra}
+\usepackage{lmodern}
+%\usepackage{todo}
+\usepackage[utf8x]{inputenc}
+
+\usepackage[T1]{fontenc} 
+%\setmainfont{Zapfino}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[frenchb]{babel}
+\usepackage[authoryear,round]{natbib}
+
+\usepackage{paris7}
+
+\title{Robotique Évolutionnaire et Biologie de l'Évolution : quels liens? }
+
+\author{Simon Carrignon}
+
+\begin{document}
+
+\maketitle
+%l'auteur c'est : \author le titre c'est \title
+
+\tableofcontents
+
+\include{introduction}
+
+\include{firstpart}
+
+\include{secondpart}
+
+\include{conclusion}
+
+\include{remerciements}
+
+
+\bibliographystyle{apalike}
+\bibliography{/home/simon/Documents/biblio/memoireLophiss}
+
+
+
+
+
+\end{document}
+
