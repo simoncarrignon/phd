@@ -1,0 +1,164 @@
+Athens
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+	<head>
+		<variable name='lon'/>
+		<variable name='lat'/>
+	</head>
+	<results>
+		<result>
+			<binding name='lon'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>2.3733E1</literal>
+			</binding>
+			<binding name='lat'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>3.7983E1</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='lon'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>2.4133E1</literal>
+			</binding>
+			<binding name='lat'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>3.5417E1</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='lon'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>2.3724E1</literal>
+			</binding>
+			<binding name='lat'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>3.7973E1</literal>
+			</binding>
+		</result>
+	</results>
+</sparql>
+
+Ephesos
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+	<head>
+		<variable name='lon'/>
+		<variable name='lat'/>
+	</head>
+	<results>
+		<result>
+			<binding name='lon'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>2.7346E1</literal>
+			</binding>
+			<binding name='lat'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>3.7942E1</literal>
+			</binding>
+		</result>
+	</results>
+</sparql>
+
+"Ephesos",2.7346E1,3.7942E1
+Sparta
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+	<head>
+		<variable name='lon'/>
+		<variable name='lat'/>
+	</head>
+	<results>
+		<result>
+			<binding name='lon'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>2.243E1</literal>
+			</binding>
+			<binding name='lat'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>3.7083E1</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='lon'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>2.243E1</literal>
+			</binding>
+			<binding name='lat'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>3.7073E1</literal>
+			</binding>
+		</result>
+	</results>
+</sparql>
+
+Kyzikos
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+	<head>
+		<variable name='lon'/>
+		<variable name='lat'/>
+	</head>
+	<results>
+		<result>
+			<binding name='lon'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>2.7874E1</literal>
+			</binding>
+			<binding name='lat'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>4.039E1</literal>
+			</binding>
+		</result>
+	</results>
+</sparql>
+
+"Kyzikos",2.7874E1,4.039E1
+Cyrene
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+	<head>
+		<variable name='lon'/>
+		<variable name='lat'/>
+	</head>
+	<results>
+		<result>
+			<binding name='lon'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>2.1856E1</literal>
+			</binding>
+			<binding name='lat'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>3.2822E1</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='lon'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>2.25E1</literal>
+			</binding>
+			<binding name='lat'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>3.25E1</literal>
+			</binding>
+		</result>
+	</results>
+</sparql>
+
+Amathous
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+	<head>
+		<variable name='lon'/>
+		<variable name='lat'/>
+	</head>
+	<results>
+		<result>
+			<binding name='lon'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>3.5616E1</literal>
+			</binding>
+			<binding name='lat'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>3.2281E1</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='lon'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>2.2482E1</literal>
+			</binding>
+			<binding name='lat'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>3.6437E1</literal>
+			</binding>
+		</result>
+		<result>
+			<binding name='lon'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>3.3144E1</literal>
+			</binding>
+			<binding name='lat'>
+				<literal datatype='http://www.w3.org/2001/XMLSchema#double'>3.4712E1</literal>
+			</binding>
+		</result>
+	</results>
+</sparql>
+

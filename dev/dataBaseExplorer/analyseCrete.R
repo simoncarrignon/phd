@@ -1,0 +1,32 @@
+png("allPlaces.png",height=1000,width=1000)
+map("worldHires",".",  col="gray95", fill=TRUE,xlim=c(-16,50),ylim=c(20,60),mar=c(0,0,0,0))
+text(creteCoor[,2],creteCoor[,3],creteCoor[,1],pch=20,cex=1,col="black")
+points(creteCoor[,2],creteCoor[,3],pch=20,cex=1,col=alpha("red", 0.3))
+dev.off()
+
+png("smallerPlaces.png",height=1000,width=1000)
+map("worldHires",".",  col="gray95", fill=TRUE,xlim=c(10,50),ylim=c(30,50),mar=c(0,0,0,0))
+text(creteCoor[,2],creteCoor[,3],creteCoor[,1],pch=20,cex=1,col="black")
+points(creteCoor[,2],creteCoor[,3],pch=20,cex=1,col=alpha("red", 0.3))
+dev.off()
+
+png("greekPlaces.png",height=1000,width=1000)
+map("worldHires",".",  col="gray95", fill=TRUE,xlim=c(21,29),ylim=c(36,40),mar=c(0,0,0,0))
+text(creteCoor[,2],creteCoor[,3],creteCoor[,1],pch=20,cex=1,col="black")
+points(creteCoor[,2],creteCoor[,3],pch=20,cex=1,col=alpha("red", 0.3))
+dev.off()
+png("athenaPlaces.png",height=1000,width=1000)
+map("worldHires",".",  col="gray95", fill=TRUE,xlim=c(23.5,24.5),ylim=c(37.5,38.5),mar=c(0,0,0,0))
+text(creteCoor[,2],creteCoor[,3],creteCoor[,1],pch=20,cex=1,col="black")
+points(creteCoor[,2],creteCoor[,3],pch=20,cex=1,col=alpha("red", 0.3))
+dev.off()
+
+png("fortGreekPlaceAndAmphora.png",height=1000,width=1000)
+ map("worldHires",".",  col="gray95", fill=TRUE,xlim=c(-16,50),ylim=c(20,60),mar=c(0,0,0,0))
+ points(coordinateB[,2],coordinateB[,3],pch=20,cex=4,col=alpha("orange", 0.3))
+ points(alladb[,3],alladb[,4],pch=20,cex=2,col=alpha("green",.1))
+ points(creteCoor[,2],creteCoor[,3],pch=20,cex=2,col=alpha("red", 0.1))
+ legend("topright",legend=c("legionary fort","amphora in CEIPAC","place in greek network"),col=c(alpha("orange", 0.3),alpha("green",.3),alpha("red", 0.3)),bty="o",bg="white",pch=20,pt.cex=c(4,2,2))
+ dev.off()
+
+

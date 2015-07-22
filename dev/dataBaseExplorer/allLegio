@@ -1,0 +1,5274 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+	<head>
+		<variable name='pl'/>
+	</head>
+	<results>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-10006</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-9549</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-2074</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-1381</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-5732</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-7413</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-5615</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3611</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-2999</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-2965</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-8753</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-5858</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-743</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-2972</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-5599</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-2971</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-2966</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-7970</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-2967</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-14232</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3279</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-2977</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-9331</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-5575</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3826</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3922</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3865</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3858</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3765</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-27299</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3778</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-2105</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-671</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3982</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3873</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-8988</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3861</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3834</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3772</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-5574</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3815</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3809</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3957</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3766</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3800</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-7326</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-7244</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-3810</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-8829</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-8828</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-275629</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-275629</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-275729</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-285426</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-285426</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-285428</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-285428</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-285477</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-285495</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29501</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29501</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29501</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-295247</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-295329</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-295357</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29548</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29718</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29718</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29718</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29718</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29718</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29718</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29718</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29718</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29718</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29718</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29718</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-29718</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-305056</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-430827518</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-430827518</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-148034</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-148039</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-148131</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-364026</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-364026</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-383580</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-383580</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-383600</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-383690</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-383780</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-383780</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-550815</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-570051</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-570059</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-570137</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-570170</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-570296</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-570296</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-844881</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-845037</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-845037</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628918</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628922</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628922</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628922</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628922</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628922</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628922</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628926</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628926</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628926</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628954</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628954</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628954</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628954</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628955</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628963</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628963</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628963</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-628964</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-629008</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-629008</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-629016</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-629065</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-629098</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-629102</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-629106</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-629106</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-638783</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-638873</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-639147</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857271</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857283</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857283</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857283</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857300</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857308</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857322</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857322</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857324</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857334</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857334</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857345</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857345</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857358</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857358</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857362</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857365</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857365</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857366</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857385</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857385</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857385</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857385</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216741</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216741</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216748</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216749</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216753</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216755</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216758</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216770</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216775</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216775</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216790</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216790</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216791</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216811</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216846</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216869</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216869</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216896</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216896</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216924</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216932</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216937</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216939</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216943</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216962</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216965</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216978</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216982</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216996</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216997</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-217003</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-217003</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-217004</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-217007</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-217021</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-217023</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-217025</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-217033</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-217038</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-217039</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-222192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-226562</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-226748</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-236339</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-236339</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-691963965</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-314849</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-314849</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-314932</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-315193</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-315207</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334522083</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-749202987</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-678315</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-678315</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-678368</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-678368</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-678368</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-678423</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-678423</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-678447</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-678448</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-687864</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-687884</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-687884</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-687916</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-687949</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-687949</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-687961</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-687961</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-687976</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-688023</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-688023</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-688031</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-69564</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697625</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697625</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697629</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697629</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697639</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697643</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697646</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697646</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697647</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697666</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697695</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697700</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697729</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697755</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-697769</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-727192</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-737050</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-746715</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-746716</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-746721</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-746721</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-746721</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-746796</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-756583</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-756605</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-756625</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-756625</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-756660</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-756660</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-589917</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-59687</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-59687</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-59922</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-59922</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-59922</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-442733</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-442733</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-975410331</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540636</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540674</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540674</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540687</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540756</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540848</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540849</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540849</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540853</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540870</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540875</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540904</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540904</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540925</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540926</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540926</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540926</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540931</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-540954</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-541055</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-541086</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-541096</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-541111</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-541127</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-541137</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-541140</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-541147</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-541148</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-550512</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857018</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857018</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857018</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857018</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857018</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857018</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857036</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857056</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857058</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857066</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857085</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857100</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857104</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857105</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857105</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857137</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857137</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857178</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857179</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857191</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857215</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-857215</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-462500</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-462506</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-462506</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-648559</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-708926627</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-658461</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-658493</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-452349</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-452436</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-462082</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-766375</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-766408</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-766411</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-785971</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-785971</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-785976</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-785977</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786003</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786005</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786015</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786015</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786024</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786040</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786042</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786051</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786054</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786054</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786064</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786064</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786076</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786095</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786119</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-786142</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79287</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79293</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79293</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79293</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79346</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79347</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79352</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79353</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79360</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79371</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79389</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79399</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79399</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79399</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79412</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79420</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79439</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79475</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79475</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79484</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79542</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79542</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79542</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79553</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79556</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79561</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79578</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-795791</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-795795</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-795796</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-795797</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-795819</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79590</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79605</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79607</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79616</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79631</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79645</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79646</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79647</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79647</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79654</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79656</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79656</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79664</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79678</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79706</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79706</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79706</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79710</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79730</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79732</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79734</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79777</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79777</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-79777</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-805597</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-609295</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-609295</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-609295</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-609296</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-609431</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-609564</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-609564</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334593</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334599</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334599</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334636</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334636</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344283</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344303</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344315</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344315</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344334</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344334</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344377</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344377</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344377</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344377</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344453</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344508</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344511</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344511</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344516</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344516</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344520</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344520</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-344520</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-570479</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-570479</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-570753</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-579883</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-579896</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-580011</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-580039</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-580053</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-580062</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-580062</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-580062</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-580062</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-580062</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-580079</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-283602441</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-462191</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-462204</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-462204</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-481721</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-256058</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-256083</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-265808</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-265853</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-521158</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-521158</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-530895</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-481782</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-481782</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-483977</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-167787</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-167813</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-167813</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-491705</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-501347</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-501357</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-501387</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-501387</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334474</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334498</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334500</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334500</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334501</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334507</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334508</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334518</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334527</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334528</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334553</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334570</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-334570</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-324665</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-249960</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-167938</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187249</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187288</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187294</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187301</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187308</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187326</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187339</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187343</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187354</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187369</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187382</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187422</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187467</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187489</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187501</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187528</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187531</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187550</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187582</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-187609</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197062</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197067</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197073</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197074</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197077</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197085</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197086</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197103</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197109</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197110</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197118</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197131</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197155</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197187</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197187</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197191</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197191</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197199</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197208</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197220</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197222</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197227</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197232</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197251</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197276</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197276</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197283</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197283</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197299</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197317</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197317</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197323</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197323</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197327</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197337</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197360</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197360</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197362</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197372</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197452</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197463</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197519</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197551</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197552</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197556</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197564</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197564</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197564</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-197585</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-206874</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-206875</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-206880</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-206890</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-206891</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-206891</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-206892</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-206909</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-206927</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-206927</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-206933</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-206938</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-206963</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207001</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207008</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207016</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207017</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-863745</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-863745</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-863772</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-863772</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-863772</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-863822</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874304</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874306</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874306</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874306</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874306</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874306</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874306</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874306</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874306</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874306</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874306</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874306</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874309</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874329</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874329</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874347</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874357</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874360</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874360</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874372</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874383</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874383</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874386</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874391</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874391</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874400</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874400</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874402</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874402</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874403</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874403</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874403</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874414</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874421</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874430</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874430</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874441</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874462</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874462</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874462</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874475</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874475</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874507</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874507</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874513</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874513</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874517</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874556</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874575</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874575</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874588</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874588</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874588</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874588</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874588</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874588</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874588</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874588</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874588</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874588</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874588</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874588</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874588</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874595</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874595</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874600</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874603</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874604</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874636</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874646</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874663</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874664</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874664</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874664</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874664</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874675</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874678</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874678</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874679</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874680</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874680</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874680</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874683</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874684</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874686</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874695</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874701</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-92179</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-92179</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-92179</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-922693</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-922693</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-922693</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-942284</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-942284</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-98908</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-98932</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-98933</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-98934</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-98956</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-98967</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-98976</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-98997</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-98998</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-99003</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-99006</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-99008</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-99014</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-99014</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-99021</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-99021</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-99046</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-99046</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668177</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668178</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668183</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668197</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668197</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668228</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668233</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668235</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668259</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668259</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668260</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668322</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668323</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668323</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668323</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668323</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668385</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668394</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668396</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-668396</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-678076</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-678160</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118919</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118945</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118968</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118986</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-119020</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-119026</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-123119</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-128353</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-128354</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-128375</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-128385</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-128399</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-128442</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-128488</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-138230</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-138230</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-138256</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-138256</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-138377</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-138398</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-138438</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-138463</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-138465</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-138582</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207024</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207025</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207045</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207058</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207060</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207061</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207077</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207077</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207093</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207107</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207129</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207130</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207234</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207237</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207261</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207286</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207322</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207310</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207319</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207320</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207336</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207342</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207345</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207345</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207356</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207356</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207359</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207376</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207385</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207392</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207408</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207408</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207419</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207485</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207488</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207495</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207501</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207508</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207515</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-207529</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216691</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216694</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216698</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216700</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216703</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216707</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216707</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216710</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216712</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216713</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216713</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216715</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216719</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216722</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-216730</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-138661</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-413076</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-422885</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-236437</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-236438</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-236512</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-236512</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-236598</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-246313</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-246364</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-246375</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874735</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874735</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874735</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874735</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874735</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874735</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874771</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874801</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874801</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874806</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874806</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874806</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-874806</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-884109</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-884109</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-884109</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-884124</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-884166</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-884191</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89092</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89092</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89096</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89096</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89099</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89102</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89102</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89109</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89109</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89112</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89123</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89123</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89123</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89123</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89123</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89125</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89125</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89125</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89127</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89127</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89128</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89128</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89133</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89133</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89142</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89142</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89148</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89148</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89150</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89150</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89151</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89151</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89151</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89151</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89151</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89166</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89173</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89176</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89176</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89176</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89181</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89181</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89181</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89181</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89189</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89189</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89191</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89193</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89193</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89196</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89196</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89201</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89201</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89201</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89205</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89206</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89215</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89215</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89224</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89226</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89230</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89230</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89234</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89236</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89236</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89236</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89237</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89237</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89238</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89238</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89238</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89239</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89239</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89239</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89243</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89243</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89260</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89260</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89260</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89260</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89297</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89304</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89309</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89309</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89312</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89312</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89313</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89314</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89314</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89315</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89315</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89315</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89317</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89317</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89317</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89318</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-89318</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-893994</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-893994</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-894070</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108735</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108754</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108762</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108817</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108818</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108837</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108838</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108849</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108863</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108864</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108864</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108867</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108867</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108875</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108875</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108939</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108941</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108958</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-108980</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-109002</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-109002</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-109029</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-109174</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-109174</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-109223</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-109235</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-109266</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-109281</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-109426</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-109426</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118541</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118542</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118543</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118571</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118571</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118577</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118581</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118600</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118606</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118606</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118622</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118628</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118632</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118673</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118673</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118697</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118706</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118758</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118761</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118802</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118802</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118803</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118803</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118811</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118811</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118811</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118815</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118840</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118903</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-118905</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#PlaceFunction-PLE-496316189</uri>
+			</binding>
+		</result>
+	</results>
+</sparql>
+

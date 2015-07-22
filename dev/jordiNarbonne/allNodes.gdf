@@ -1,0 +1,186 @@
+nodedef>name VARCHAR, latitude DOUBLE, longitude DOUBLE
+"Guadajoz",37.581745,-5.669186
+"La Catria",37.648779,-5.506146
+"Peñaflor",37.70557,-5.348518
+"Villar de Brenes",37.536615,-5.900952
+"Lora la Vieja",37.623647,-5.604665
+"Malpica Sur",37.67842,-5.21428
+"Alcolea del Río",37.615812,-5.668155
+"Las Delicias",37.585951,-5.088429
+"Villaseca",37.795339,-5.033158
+"Barranco del Picacho",37.769188,-5.112333
+"Sevilla",37.389076,-5.984443
+"La Graja",37.678539,-5.224417
+"Malpica",37.671559,-5.20847
+"Azanaque-Castillejo",37.617631,-5.556263
+"La María",37.674854,-5.451432
+"Cortijo del Romero",37.72246,-5.245671
+"La Catria",37.617172,-5.565544
+"El Tejarillo",37.61618,-5.644928
+"huerta del río",37.660348,-5.507948
+"Casa de Mingaobez (Este)",37.80185,-5.072722
+"Huerta de Belén",37.720746,-5.292363
+"Las Sesenta",37.66096,-5.413805
+"La Umbría de Moratalla",37.785936,-5.185289
+"Cerro de los Pesebres",37.752937,-5.211861
+"Casa del Guarda o Llano",37.782333,-5.167007
+"Las Ánimas",37.635572,-5.153187
+"Mejía",37.588861,-5.626636
+"Casa del Encinarejo Bajo",37.781637,-5.183766
+"Álamo Alto",37.635985,-5.511535
+"Haza del Olivo",37.661787,-5.486442
+"Alcotrista",37.614189,-5.115609
+"La Ramblilla",37.655914,-5.422922
+"Dehesa de Arriba",37.806796,-5.084004
+"El Judío",37.625211,-5.550114
+"Barranco del Picacho",37.766491,-5.125061
+"El Temple",37.809123,-4.967047
+"El Marchante",37.630921,-5.452824
+"La Corregidora",37.772275,-5.162394
+"La Mallena",37.667482,-5.472436
+"El Sotillo",37.807868,-4.955052
+"Berro II",37.673121,-5.430593
+"La Rambla y El Acebuchal",37.674801,-5.377155
+"El Mohino",37.723211,-5.246417
+"Álamo Alto",37.642799,-5.497951
+"Manuel Nieto",37.657511,-5.480342
+"El Tesoro",37.702621,-5.365906
+"La Catria Alta",37.647033,-5.499099
+"La Estacada",37.650911,-5.543898
+"Tarancón",37.649374,-5.197134
+"Tierras del Judío",37.67122,-5.222501
+"Itálica",37.441422,-6.044948
+"El Pinzón",37.688935,-5.281541
+"Tarancón",37.65358,-5.184784
+"Adelfa",37.585268,-5.64988
+"huerta del río",37.660348,-5.507975
+"huerta del río",37.660348,-5.50797
+"Cruz Verde",37.526641,-5.914275
+"Isla de la Jurada",37.736864,-5.23998
+"Avenches",46.880888,7.041042
+"Genève",46.195602,6.148113
+"Agde",43.310991,3.47534
+"Aix-en-Provence",43.5,5.333333
+"Andance",45.240456,4.797976
+"Annecy",45.906206,6.126699
+"Antibes",43.562407,7.127766
+"Aoste",45.586794,5.610142
+"Ardèche",44.264945,4.64761
+"Ardèche (Alba)",44.264945,4.64761
+"Arles",43.681659,4.636331
+"Aude",43.238045,3.119522
+"Avignon",43.945404,4.810226
+"Baie de la Ciotat",43.166668,5.65
+"Béziers",43.345287,3.222374
+"Boulouris",43.417337,6.808165
+"Boutenac",43.147715,2.790875
+"Bouzigues",43.448097,3.657805
+"Cap de Drammont",43.415007,6.854715
+"Capestang",43.327907,3.044469
+"Carcassonne",43.213513,2.351625
+"Carpentras",44.054413,5.047716
+"Cases-de-Pène",42.778229,2.786426
+"Castelnau-le-Lez",43.633331,3.9
+"Cavalaire",43.174029,6.52715
+"Cazedarnes",43.422521,3.024767
+"Céret",42.487902,2.75075
+"Chateau Rousillon",42.710403,2.946711
+"Château Roussillon",42.710403,2.946711
+"Clermont-l'Hérault",43.628947,3.432619
+"Cruzy",47.856427,4.212382
+"Draguignan",43.536545,6.463455
+"Elne",42.600308,2.971462
+"Espondeilhan",43.441365,3.26399
+"Florensac",43.38301,3.466383
+"Fos-Sur-Mer",43.438569,4.945717
+"Fox-Amphoux",43.586756,6.101655
+"Fréjus",43.432858,6.735237
+"Frontignan",43.448478,3.753997
+"Garrissou",44.113042,2.560887
+"Gaujac",44.08114,4.577901
+"Golfe de Fos",43.383543,4.942851
+"Gigean",43.027765,2.979157
+"La Daubinèle",43.345287,3.222374
+"Grand Loou",43.315395,5.980524
+"Grenoble",45.171546,5.722387
+"Gruissan",43.105257,3.087818
+"Hérault",43.280977,3.443291
+"Hyères",43.119539,6.13897
+"Ile de Jarre",43.197505,5.364254
+"Île Tiboulen de Maire ",43.214059,5.326915
+"Iles de Lerins (baie de Cannes)",43.549744,6.9943
+"Isère",45.166667,5.833333
+"La Buisse",45.335402,5.62282
+"La Croix-Valmer",43.20795,6.566962
+"La Franqui",42.931788,3.03573
+"Lansargues",43.651572,4.074948
+"Lattes",43.567522,3.904604
+"Laudun",44.105406,4.655542
+"Le Caylar",43.862848,3.319274
+"LLupia",42.620738,2.769237
+"Loupian",43.448859,3.613812
+"Lunel - Viel",43.675768,4.092185
+"Lyon",45.748457,4.846711
+"Lyon?",45.748457,4.846711
+"Magalas",43.47095,3.223377
+"Mailhac",43.302462,2.827551
+"Maraussan",43.368953,3.156425
+"Marseillan",43.356182,3.527953
+"Marseille",43.285413,5.37606
+"Mèze",43.425044,3.605901
+"Mireval",43.507424,3.802665
+"Montagnac",43.480871,3.483119
+"Montans",43.864006,1.8838
+"Montbazin",43.515382,3.695076
+"Montélimar",44.558379,4.750937
+"Montouliers",43.338258,2.906853
+"Murviel-les-Montpellier",43.606282,3.73858
+"Narbonne",43.184417,3.008816
+"Nimes",43.833778,4.359623
+"Nissan",43.289615,3.127051
+"Nuits-Saint-Georges",47.136829,4.949001
+"Olonzac",43.282942,2.730977
+"Orange",44.139195,4.807906
+"Perpignan",42.696172,2.897098
+"Peyrestortes",42.754795,2.85232
+"Pézenas",43.459531,3.423841
+"Pinet",43.405355,3.50885
+"Pomérols",43.390793,3.498501
+"Port-Vendres",42.517594,3.104371
+"Portiragnes",43.304603,3.333654
+"Puisserguier",43.367668,3.040471
+"Quarante",43.347107,2.962277
+"Roujan",43.504888,3.310708
+"Ruoms",44.453507,4.342648
+"Saint-Genest",44.847922,4.424095
+"Saint-Romain-de-Jalionas",45.756966,5.215267
+"Saint-Romain-en-Gal",45.531592,4.860743
+"Saint-Romain-en-Gall",45.531592,4.860743
+"Saint-Roman-en-Gal",45.531592,4.860743
+"Saint-Thibéry",43.396575,3.417738
+"Sainte-Colombe",45.524737,4.861363
+"Sainte-Colombe-Lès-Vienne",45.524737,4.861363
+"Saintes-Maries-de-la-Mer",43.453998,4.433999
+"Sallèles",43.259528,2.946145
+"Sauvian",43.292932,3.260242
+"Savoy",45.4,6.5
+"Servian",43.427161,3.300321
+"Sète",43.406283,3.693041
+"St.Genies",43.467809,3.178479
+"Thonon-les-Bains",46.25,6.5
+"Thonon-les-Bains",46.372465,6.487007
+"Toulon",43.117705,5.941712
+"Toulouse",43.599516,1.433188
+"Tourbes",43.446146,3.378515
+"Vaison-la-Romaine",44.24287,5.071761
+"Valras",43.247002,3.290159
+"Vaucluse",44,5.166667
+"Vendres",43.269772,3.223413
+"Vidauban",43.427804,6.432905
+"Sainte-Colombe",45.524785,4.873453
+"Sainte-Colombe?",45.524785,4.873453
+"Vienne",45.524785,4.873453
+"Vienne?",45.524785,4.873453
+"Villeneuve-lès-Béziers",43.315167,3.280587
+"Villetelle",43.731049,4.13658
+"Villevieille ",44.35,5.816667

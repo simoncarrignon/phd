@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+	<head>
+		<variable name='x'/>
+		<variable name='pl'/>
+	</head>
+	<results>
+		<result>
+			<binding name='x'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Amphora-12738</uri>
+			</binding>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Place-2975</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='x'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Amphora-12760</uri>
+			</binding>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Place-2975</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='x'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Amphora-13971</uri>
+			</binding>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Place-2975</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='x'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Amphora-14093</uri>
+			</binding>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Place-2975</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='x'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Amphora-20529</uri>
+			</binding>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Place-2975</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='x'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Amphora-24960</uri>
+			</binding>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Place-2975</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='x'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Amphora-25336</uri>
+			</binding>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Place-2975</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='x'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#InformationCarrier-EDH-HD047747</uri>
+			</binding>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Place-2975</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='x'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#InformationCarrier-EDH-HD003280</uri>
+			</binding>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Place-2975</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='x'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#InformationCarrier-EDH-HD068181</uri>
+			</binding>
+			<binding name='pl'>
+				<uri>http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontology#Place-2975</uri>
+			</binding>
+		</result>
+	</results>
+</sparql>
