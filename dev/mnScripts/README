@@ -1,0 +1,6 @@
+To create and lauchn experimen: 
+1-first create a folder prepared by cassandra.
+2- use link.sh to create link to the current executable.
+3 -Create a task file with all task  using makeTask (ie cd /expedir & launch exp)
+4 - create the job file with makeJobs.sh dir/ time
+launch je jobs withs bsub
