@@ -1,6 +1,0 @@
-Abstract:
-Assigning a biological function to phenomenal consciousness appears to be needed to explain its evolutionary origin. For evolution by natural selection operates on organisms’ traits based on the functions they fulfill. And yet identifying the function(s) of phenomenal consciousness has proven difficult. Some have proposed that the function of phenomenal consciousness is facilitating mental processes such as learning or reasoning. But mental processes such as learning and reasoning seem to be possible in the absence of phenomenal consciousness. It is difficult to pinpoint in what way phenomenal consciousness enhances such processes. In this paper, we explore a possibility that has been neglected to date. Perhaps phenomenal consciousness is a spandrel, that is, a byproduct of other traits that has no functions of its own. If so, then phenomenal consciousness has an evolutionary explanation even though it fulfills no biological function.
-
-References: 
-S. J. Gould and R. C. Lewontin (1979), “The Spandrels of San Marco and the Panglossian Paradigm: A Critique of the Adaptationist Programme,” Proc. R. Soc. Lond. B 205, 581-598.
-http://rspb.royalsocietypublishing.org/content/205/1161/581.short

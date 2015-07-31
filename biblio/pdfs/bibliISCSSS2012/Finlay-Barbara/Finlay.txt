@@ -1,8 +1,0 @@
-Abstract:
-Comparing the evolution of consciousness and its contents to the structural evolution of the brain often runs aground on basic misunderstandings about brain scaling.  Because the neocortex appears “oversize” in humans, for example, the presumption that the cortex must be the structure critical to multiple aspects of human cognition and consciousness is ubiquitous.  Demonstration that humans have exactly the relative volume of cortex expected for a primate of our brain size demands explicit discussion of when discontinuities in awareness should be proposed when no structural discontinuities exist.  When developmental homologies between vertebrate brain parts are established, and the allometries of neurons and networks are well described, true “discontinuities” in brain structure prove to be very rare.  Yet, there are occasional substantial reorganizations of brain connectivity that may shed light on the contents of consciousness.  The reorganization of viscerosensory representation in insular cortex in large primates may enable basic changes in the perception and communication of pain and distress, a phenomenon I will term “the pain of altruism”.
-
-References:
-Syal, S. and Finlay, B.L. (2011) Thinking outside the cortex: Social motivation in the evolution and development of language. Developmental Science  14:  417-430 DOI: 10.1111/j.1467-7687.2010.00997.x
-http://people.psych.cornell.edu/~blf2/pdfs/SyalDS11.pdf
-
-Charvet, C.J. and Finlay B.L. (2011) Embracing covariation in brain evolution: Large brains, extended development and flexible primate social systems.  In Evolution of the Primate Brain: From Neuron to Behavior, in M.A.Hofman & D. Falk, eds., Progress in Brain Research  195: 71-87.

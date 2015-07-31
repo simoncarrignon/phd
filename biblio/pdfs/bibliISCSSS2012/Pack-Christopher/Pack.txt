@@ -1,8 +1,0 @@
-Abstract:
-Visual perception is closely associated with consciousness, and an important part of visual perception is the ability to infer the properties of objects from time-varying changes in retinal stimulation. Two key properties that are of obvious behavioral relevance are their identity and their velocity relative to the observer. In this presentation I will review old results that show how certain kinds of anesthetics impair the ability of individual neurons in the visual cortex to extract important physical quantities from retinal input. I will then present more recent work that provides a computational account of how these neurons integrate their inputs so as to become selective for important stimulus properties. Finally, I will show how the same computations appear to be at work in visual cortical regions that are responsible for different functions, including the estimation of object identity and velocity.
-
-References:
-
-Mineault, P.J., Khawaja, F.A., Butts, D.A., and Pack, C.C. (2012) Hierarchical processing of complex motion along the primate dorsal visual pathway. Proceedings of the National Academy of Sciences of the USA, 109, E972-980.  http://packlab.mcgill.ca/mineaultetal2012.pdf
- 
-Pack, C.C., Berezovskii, V.K., and Born, R.T. (2001) Dynamic properties of neurons in cortical area MT in alert and anaesthetized macaque monkeys. Nature, 414, 905-908. http://packlab.mcgill.ca/packetal2001.pdf

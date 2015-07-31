@@ -1,6 +1,0 @@
-Abstract:
-Pain is a sensory and emotional experience that in humans also has a strong cognitive component. We can identify the elementary neurobiological mechanisms at cellular and molecular level that mediate injury-related responses of the nervous system, yet the link between these mechanisms and the conscious perception of pain remains elusive. The challenge is precisely to identify this link.
-
-References:
-Fernando Cervero, "Understanding Pain", MIT Press, 2012
-http://mitpress.mit.edu/catalog/item/default.asp?ttype=2&tid=13007
