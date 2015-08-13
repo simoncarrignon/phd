@@ -235,3 +235,6 @@ printRedCity<-function(cities,lhlp){
 
 
 }
+
+
+plot(1:100,1:100,type="l")
