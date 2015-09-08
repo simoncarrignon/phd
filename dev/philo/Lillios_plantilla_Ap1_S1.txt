@@ -1,0 +1,84 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=20;
+	taxlabels
+9Evo
+10Evo
+12Evo
+21Evo
+39Evo
+44Evo
+60Evo
+102Far
+132Lis
+138Lis
+155Evo
+214Evo
+280Bad
+328Bad
+396Evo
+442Port
+449Port
+499Evo
+513Evo
+621Evo
+;
+end;
+
+begin characters;
+	dimensions nchar=6;
+	CharLabels DM NR ST TT NK H;
+	charstatelabels
+		1 DM/ 1 2 3 4 5 6
+		2 NR/ 1 2 3 4 5 6 7 8
+		3 ST/ 0 1 2
+		4 TT/ 0 1 2 3 4
+		5 NK/ 0 1 2
+		6 H/  0 1 2 3;
+	format datatype = standard;
+	format symbols = "012345678" ;
+	matrix
+
+9Evo	252201
+10Evo	232201
+12Evo	282012
+21Evo	482201
+39Evo	242301
+44Evo	582111
+60Evo	452201
+102Far	280001
+132Lis	272201
+138Lis	322000
+155Evo	251101
+214Evo	382201
+280Bad	532001
+328Bad	381011
+396Evo	282111
+442Port	281012
+449Port	222000
+499Evo	352111
+513Evo	532201
+621Evo	212201
+;
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

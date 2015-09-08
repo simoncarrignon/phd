@@ -1,0 +1,78 @@
+dist.hamming             package:phangorn              R Documentation
+
+_P_a_i_r_w_i_s_e _D_i_s_t_a_n_c_e_s _f_r_o_m _S_e_q_u_e_n_c_e_s
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     ‘dist.hamming’ and ‘dist.logDet’ compute pairwise distances for an
+     object of class ‘phyDat’. ‘dist.ml’ fits distances for nucleotide
+     and amino acid models.
+
+_U_s_a_g_e:
+
+     dist.hamming(x, ratio = TRUE, exclude="none")
+     dist.logDet(x)
+     dist.ml(x, model="JC69", exclude="none", bf=NULL, Q=NULL, ...)
+     readDist(file)
+     writeDist(dm, file="")
+     
+_A_r_g_u_m_e_n_t_s:
+
+       x: An object of class ‘phyDat’
+
+   ratio: Compute uncorrected ('p') distance or character difference.
+
+   model: One of "JC69" or one of 17 amino acid models see details.
+
+ exclude: One of "none", "all", "pairwise" indicating whether to delete
+          the sites with missing data (or ambigious states). The
+          default is handle missing data as in pml.
+
+      bf: A vector of base frequencies.
+
+       Q: A vector containing the lower triangular part of the rate
+          matrix.
+
+     ...: Further arguments passed to or from other methods.
+
+    file: A file name.
+
+      dm: A ‘dist’ object.
+
+_D_e_t_a_i_l_s:
+
+     So far 17 amino acid models are supported ("WAG", "JTT", "LG",
+     "Dayhoff", "cpREV", "mtmam", "mtArt", "MtZoa", "mtREV24",
+     "VT","RtREV", "HIVw", "HIVb", "FLU", "Blossum62", "Dayhoff_DCMut"
+     and "JTT_DCMut") and additional rate matrices and frequences can
+     be supplied.
+
+_V_a_l_u_e:
+
+     an object of class ‘dist’
+
+_A_u_t_h_o_r(_s):
+
+     Klaus Schliep <email: klaus.schliep@gmail.com>
+
+_R_e_f_e_r_e_n_c_e_s:
+
+     Lockhart, P. J., Steel, M. A., Hendy, M. D. and Penny, D. (1994)
+     Recovering evolutionary trees under a more realistic model of
+     sequence evolution. _Molecular Biology and Evolution_, *11*,
+     605-602.
+
+_S_e_e _A_l_s_o:
+
+     For more distance methods for nucleotide data see ‘dist.dna’
+
+_E_x_a_m_p_l_e_s:
+
+     data(Laurasiatherian)
+     dm1 <- dist.hamming(Laurasiatherian)
+     tree1 <- NJ(dm1)
+     dm2 <- dist.logDet(Laurasiatherian)
+     tree2 <- NJ(dm2)
+     treedist(tree1,tree2)
+     
+
