@@ -23,5 +23,8 @@ for i in range(10):
     response = urllib2.urlopen(request)
     soup = BeautifulSoup(response.read(), 'html.parser')
     for t in  soup.body.find_all('td', attrs={'class':'dets'}):
-        print t.find('a').text
+        att_name = t.find('a')
+        att_type = t.find('span', attrs={'class':'bbi'})
+        att_desc = t.text 
+        if att_type : print(att_type.text + ':' + att_name.text + att_desc)
     
