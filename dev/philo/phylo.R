@@ -1,3 +1,7 @@
+require(circlize)
+require(jpeg)
+require(dendextend)
+
 fun <- function(){
 library(ape)
 library(phangorn)
@@ -166,9 +170,10 @@ phylDist <- function(a,b,data){
     neck_type[ei$neck_type,ej$neck_type]+
     handle_section[ei$handle_section,ej$handle_section]+
     handles_profile[ei$handles_profile,ej$handles_profile]+
-    body_type[ei$body_type,ej$body_type] +
-    abs(ei$height_mean-ej$height_mean)
-#    print((ei$height_mean-ej$height_mean))
+    body_type[ei$body_type,ej$body_type] #+
+    #abs(ei$height_mean-ej$height_mean)
+  #+    max(ei$height_mean,ej$height_mean)/min(ei$height_mean,ej$height_mean)
+#   print((ei$height_mean-ej$height_mean))
     return(res)
 }
 
@@ -188,15 +193,136 @@ clusDendro=as.dendrogram(hclust(as.dist(rese)))
 clusDendro<-dendrapply(clusDendro, colLab)
 
 
+resWithRap = computeDist(allData[allData$height_mean > 0,])
+resWithMul = computeDist(allData[allData$height_mean > 0,])
+
+
+resWithMul2=resWithMul
+writeCircleTree(resWithMul,2)
+
+writeCircleTree <- function(matDist,n=0){
+    filname=paste(deparse(substitute(matDist)),".pdf",sep="")
+    if(class(matDist) != "dendrogram")
+	matDist = as.dendrogram(hclust(as.dist(matDist)))
+    pdf(filname,height=20,width=20)
+    par(mar=rep(0,4))
+    if(n>0)
+	circlize_dendrogram(matDist[[n]],labels_track_height=.4  )
+    else
+	circlize_dendrogram(matDist,labels_track_height=.4  )
+    dev.off()
+    print(paste("Dendrogram written in:",filname))
+	
+}
+
 plot(1,1,ylim=c(1,res[1]),xlim=c(1,res[2]),asp=1,type='n',xaxs='i',yaxs='i',xaxt='n',yaxt='n',xlab='',ylab='',bty='n')
 
 
 pdf("circle.pdf",height=20,width=20)
 u=circlize_dendrogram(mymat,labels_track_height=.4)
-scale=2000
+scale=4000
 rasterImage(jpg,0,.8,res[2]/scale,.8+res[1]/scale)
-
 
 dev.off()
 
 u
+circos.track(ylim = c(0, max_height), panel.fun = function(x, y) {
+	        circos.dendrogram(u, max_height = max_height)
+}, track.height = 0.5, bg.border = NA)
+
+
+
+myCircle <- function(dend,datas){
+    nlab=nleaves(dend)
+    rownames(datas)=datas$a_name
+    labelToId=as.character(datas[labels(dend),]$id)
+    oilCol=type[labelToId,"oil"]
+    oilCol[oilCol>0]="#00FF0020"
+    oilCol[oilCol==0]="white"
+    wineCol=type[labelToId,"wine"]
+    wineCol[wineCol>0]="#FF000020"
+    wineCol[wineCol==0]="white"
+
+    circos.initialize("dendrogram", xlim = c(0,nlab ))
+    max_h=attr(dend,'height')
+    circos.track(ylim = c(0, 1), panel.fun = function(x, y) {
+		 circos.text(1:nlab-.5, rep(0.2, nlab), labels(dend),facing = "clockwise", niceFacing = TRUE, adj = c(0, 0.5))
+}, bg.border = NA, track.height = .3,track.margin=c(0,0.2),track.index=1)#,bg.col="white")
+    circos.track(ylim = c(0, 1), panel.fun = function(x, y) {
+		 circos.rect(1:nlab, rep(0, nlab), 1:nlab-1, rep(1,nlab), col = oilCol, border = NA)
+}, bg.border = NA,cell.padding=c(0,0),track.margin=c(0,0),track.height=.02)
+
+    circos.track(ylim = c(0, 1), panel.fun = function(x, y) {
+		 circos.rect(1:nlab, rep(0, nlab), 1:nlab-1, rep(1,nlab), col = wineCol, border = NA)
+}, bg.border = NA,track.margin=c(0,0),cell.padding=c(0,0),track.height=.02)
+    circos.track(ylim = c(0, max_h), panel.fun = function(x, y) {
+		 circos.dendrogram(dend, facing="outside",max_height=max_h) 
+}, bg.border = NA,track.margin=c(0,0),cell.padding=c(0,0))
+
+
+    scales=6000
+   
+    coordinates=polar2Cartesian(circlize(1:(length(labelToId))-.5,rep(0.05,length(labelToId)),track.index=1))
+    
+    for( i in 1:length(labelToId)){
+	jfile=readJPEG(paste("img/",labelToId[i],".jpg",sep=""))
+	res=attr(jfile,'dim')
+	coor=coordinates[i,]
+	xmin=coor[1]-(res[2]/scales)/2
+	ymin=coor[2]-(res[1]/scales)/2
+	xmax=coor[1]+(res[2]/scales)/2
+	ymax=coor[2]+(res[1]/scales)/2
+	strait=polar2Cartesian(circlize(rep(i-.5,2),c(-.2,.5),track.index=1))
+#	points(strait,type="l",lty=2,col="#EEEEEE",lwd=2)
+	rasterImage(jfile,xmin,ymin,xmax,ymax)
+    }
+
+
+
+}
+
+p=" "
+myCircle(mymat[[2]][[1]],datatest)
+
+
+
+
+plotImage <- function(){
+
+
+    p=""
+
+
+}
+
+
+type=read.csv("typeId.csv",header=F)
+colnames(type)=c("id","oil","wine")
+polar2Cartesian = function(d) {
+        theta = as.radian(d[, 1])
+    rou = d[, 2]
+        x = rou * cos(theta)
+        y = rou * sin(theta)
+	    return(cbind(x, y))
+}
+
+as.radian = function(degree) {
+    	return(degree/180*pi)
+}
+
+as.degree = function(radian) {
+    	return(radian/pi*180)
+}
+
+
+datatest=allData[allData$height_mean>0,]
+mymatNoDist = as.dendrogram(hclust(as.dist(computeDist(allData))))
+
+
+mymatDistance=mymatSin
+pdf("circle-img-h-WithoutG.pdf",height=20,width=20)
+myCircle(mymatDistance[[2]],datatest)
+dev.off()
+pdf("circle-all.pdf",height=20,width=20)
+myCircle(mymatNoDist,allData)
+dev.off()
