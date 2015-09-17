@@ -164,15 +164,15 @@ phylDist <- function(a,b,data){
     ei=data[data$a_name == a,]
     ej=data[data$a_name == b,]
     res =
-    2*base_type[ei$base_type,ej$base_type]+
+    base_type[ei$base_type,ej$base_type]+
     shoulder_type[ei$shoulder_type,ej$shoulder_type]+
     rim_type[ei$rim_type,ej$rim_type]+
     neck_type[ei$neck_type,ej$neck_type]+
     handle_section[ei$handle_section,ej$handle_section]+
-    2*handles_profile[ei$handles_profile,ej$handles_profile]+
-    body_type[ei$body_type,ej$body_type]  
-  #+    max(ei$height_mean,ej$height_mean)/min(ei$height_mean,ej$height_mean)
+    handles_profile[ei$handles_profile,ej$handles_profile]+
+    body_type[ei$body_type,ej$body_type] #+
     #abs(ei$height_mean-ej$height_mean)
+  #+    max(ei$height_mean,ej$height_mean)/min(ei$height_mean,ej$height_mean)
 #   print((ei$height_mean-ej$height_mean))
     return(res)
 }
@@ -246,8 +246,8 @@ myCircle <- function(dend,datas){
     circos.initialize("dendrogram", xlim = c(0,nlab ))
     max_h=attr(dend,'height')
     circos.track(ylim = c(0, 1), panel.fun = function(x, y) {
-		 circos.text(1:nlab-.5, rep(0, nlab), labels(dend),col="white",facing = "clockwise", niceFacing = TRUE, adj = c(0, 0.5))
-}, bg.border = NA, track.height = 0.3,track.margin=c(0,.2))
+		 circos.text(1:nlab-.5, rep(0.2, nlab), labels(dend),facing = "clockwise", niceFacing = TRUE, adj = c(0, 0.5))
+}, bg.border = NA, track.height = .3,track.margin=c(0,0.2),track.index=1)#,bg.col="white")
     circos.track(ylim = c(0, 1), panel.fun = function(x, y) {
 		 circos.rect(1:nlab, rep(0, nlab), 1:nlab-1, rep(1,nlab), col = oilCol, border = NA)
 }, bg.border = NA,cell.padding=c(0,0),track.margin=c(0,0),track.height=.02)
@@ -277,11 +277,7 @@ myCircle <- function(dend,datas){
 	rasterImage(jfile,xmin,ymin,xmax,ymax)
     }
 
-    circos.track(ylim = c(0, 1), panel.fun = function(x, y) {
-		 circos.text(1:nlab-.5, rep(0.2, nlab), labels(dend),facing = "clockwise", niceFacing = TRUE, adj = c(0, 0.5))
-}, bg.border = NA, track.height = .1,track.margin=c(0,0),track.index=1)#,bg.col="white")
 
-    circos.clear()
 
 }
 
@@ -319,8 +315,14 @@ as.degree = function(radian) {
 }
 
 
-datatest=allData[,]
-mymat = as.dendrogram(hclust(as.dist(computeDist(datatest))))
+datatest=allData[allData$height_mean>0,]
+mymatNoDist = as.dendrogram(hclust(as.dist(computeDist(allData))))
 
 
-myCircle(mymat,datatest)
+mymatDistance=mymatSin
+pdf("circle-img-h-WithoutG.pdf",height=20,width=20)
+myCircle(mymatDistance[[2]],datatest)
+dev.off()
+pdf("circle-all.pdf",height=20,width=20)
+myCircle(mymatNoDist,allData)
+dev.off()
