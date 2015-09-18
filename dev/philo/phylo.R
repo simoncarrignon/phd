@@ -1,5 +1,6 @@
 require(circlize)
 require(jpeg)
+require(png)
 require(dendextend)
 
 ############################################
@@ -17,8 +18,6 @@ fun <- function(){
     o <- MPR(x, tr, "f")
     dev.off()
     plot(tr)
-
-
 
     nodelabels(paste("[", o[, 1], ",", o[, 2], "]", sep = ""))
     tiplabels(x[tr$tip.label], adj = -2)
@@ -65,8 +64,9 @@ phangorntest <- function(){
 #TODO create a real function to do that knowing that A should be
 #	the maximum dataset available
 
-a$ri
-
+allData = read.csv("saveDb.csv")
+allData$height_mean = (allData$height_min+allData$height_max)/2
+a=allData
 rim_type=matrix(nrow=length(unique(a$rim_type)),data=c(0,1,1,1,1,1,1,1,1,1,
 						       1,0,1,1,1,1,1,1,1,1,
 						       1,1,0,1,1,1,1,1,1,1,
@@ -208,16 +208,16 @@ colLab <- function(n){
 
 #div variable intialisation
 div=function(){
-clusDendro=as.dendrogram(hclust(as.dist(rese)))
-clusDendro<-dendrapply(clusDendro, colLab)
+    clusDendro=as.dendrogram(hclust(as.dist(rese)))
+    clusDendro<-dendrapply(clusDendro, colLab)
 
 
-resWithRap = computeDist(allData[allData$height_mean > 0,])
-resWithMul = computeDist(allData[allData$height_mean > 0,])
+    resWithRap = computeDist(allData[allData$height_mean > 0,])
+    resWithMul = computeDist(allData[allData$height_mean > 0,])
 
 
-resWithMul2=resWithMul
-writeCircleTree(resWithMul,2)
+    resWithMul2=resWithMul
+    writeCircleTree(resWithMul,2)
 }
 
 
@@ -240,7 +240,7 @@ writeCircleTree <- function(matDist,n=0){
 
 
 
-imageTrain-function(){
+imageTrain<-function(){
     #some training on raster
     pdf("circle.pdf",height=20,width=20)
     u=circlize_dendrogram(mymat,labels_track_height=.4)
@@ -270,8 +270,8 @@ myCircle <- function(dend,datas){
     circos.initialize("dendrogram", xlim = c(0,nlab ))
     max_h=attr(dend,'height')
     circos.track(ylim = c(0, 1), panel.fun = function(x, y) {
-		 circos.text(1:nlab-.5, rep(0.2, nlab), labels(dend),facing = "clockwise", niceFacing = TRUE, adj = c(0, 0.5))
-     }, bg.border = NA, track.height = .3,track.margin=c(0,0.2),track.index=1)#,bg.col="white")
+		 circos.text(1:nlab-.5, rep(0.5, nlab), labels(dend),facing = "clockwise", niceFacing = TRUE, adj = c(0, 0.5))
+     }, bg.border = NA, track.height = .1,track.margin=c(0,0.2),track.index=1)#,bg.col="white")
     circos.track(ylim = c(0, 1), panel.fun = function(x, y) {
 		 circos.rect(1:nlab, rep(0, nlab), 1:nlab-1, rep(1,nlab), col = oilCol, border = NA)
      }, bg.border = NA,cell.padding=c(0,0),track.margin=c(0,0),track.height=.02)
@@ -284,34 +284,51 @@ myCircle <- function(dend,datas){
      }, bg.border = NA,track.margin=c(0,0),cell.padding=c(0,0))
 
 
-    scales=6000
+    scales=8000
 
-    coordinates=polar2Cartesian(circlize(1:(length(labelToId))-.5,rep(0.05,length(labelToId)),track.index=1))
+    coordinates=polar2Cartesian(circlize(1:(length(labelToId))-.5,rep(0.1,length(labelToId)),track.index=1))
 
+    	circos.clear()
+
+	legend("topleft",legend=c("probably wine","probably oil"),fill=c("#FF000020","#00FF0020"),title="Amphora Contains:")
+	points(0,0,col="black")
     for( i in 1:length(labelToId)){
-	jfile=readJPEG(paste("img/",labelToId[i],".jpg",sep=""))
+	jfile=readPNG(paste("img/",labelToId[i],".jpg.png",sep=""),FALSE)
 	res=attr(jfile,'dim')
 	coor=coordinates[i,]
 	xmin=coor[1]-(res[2]/scales)/2
 	ymin=coor[2]-(res[1]/scales)/2
 	xmax=coor[1]+(res[2]/scales)/2
 	ymax=coor[2]+(res[1]/scales)/2
-	strait=polar2Cartesian(circlize(rep(i-.5,2),c(-.2,.5),track.index=1))
+#	strait=polar2Cartesian(circlize(rep(i-.5,2),c(-.2,.5),track.index=1))
 	#	points(strait,type="l",lty=2,col="#EEEEEE",lwd=2)
+	#jfile[jfile>.9]=1
+	#jfile=as.raster(jfile,is.na=F)
+	#jfile[jfile==1]="NA"
+#	jle[is.na(jle)]="#00000000"
+#	jle[is.na(jle)]="#00000000"
+#	jle[is.na(jle)]="#00000000"
 	rasterImage(jfile,xmin,ymin,xmax,ymax)
     }
 
 
+    
 
 }
 
-p=" "
-myCircle(mymat[[2]][[1]],datatest)
 
-
+fun<-function(){
+	source("phylo.R")
+    pdf("circle-all.pdf",height=20,width=20)
+    myCircle(mymatNoDist[[2]],allData)
+    dev.off()
+}
 
 
 plotImage <- function(){
+p=" "
+myCircle(mymat[[2]][[1]],datatest)
+
 
 
     p=""
@@ -354,10 +371,10 @@ graphPrinting<-function(){
 
     mymatDistance=mymatSin
     pdf("circle-img-h-WithoutG.pdf",height=20,width=20)
-    myCircle(mymatDistance[[2]],datatest)
+    myCircle(mymatNoDist[[2]],allData)
     dev.off()
     pdf("circle-all.pdf",height=20,width=20)
-    myCircle(mymatNoDist,allData)
+    myCircle(mymatNoDist[[2]],allData)
     dev.off()
 
     dress=allData[grep( "[Dd]ressel", allData$a_name),]
@@ -379,5 +396,6 @@ graphPrinting<-function(){
     pdf("wineAmphora.pdf",height=10,width=10)
     myCircle(wineDist,wine[])
     dev.off()
+	source("phylo.R")
 
 }
