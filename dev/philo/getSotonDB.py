@@ -22,7 +22,12 @@ for i in range(380):
     if(a_name):
         elt=[str(i)]
         elt.append('"'+a_name.string.encode("utf-8").strip()+'"')
-        for t in  soup.body.find_all('td', attrs={'class':'dets'}):
+        alltd=soup.body.find_all('td', attrs={'class':'dets'})
+        if(len(alltd) == 0):
+            print("problem with: "+a_name.string+", id: "+str(i))
+        for t in  alltd:
+            print(elt)
+            print(t)
             if(len(t.contents) == 4):
                 elt.append('"'+t.contents[3].string.encode("utf-8").strip()+'"')
             if(len(t.contents) == 2):
