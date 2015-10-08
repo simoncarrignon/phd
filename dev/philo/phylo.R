@@ -284,14 +284,13 @@ myCircle <- function(dend,datas){
      }, bg.border = NA,track.margin=c(0,0),cell.padding=c(0,0))
 
 
-    scales=8000
+    scales=6000
 
     coordinates=polar2Cartesian(circlize(1:(length(labelToId))-.5,rep(0.1,length(labelToId)),track.index=1))
 
     	circos.clear()
 
-	legend("topleft",legend=c("probably wine","probably oil"),fill=c("#FF000020","#00FF0020"),title="Amphora Contains:")
-	points(0,0,col="black")
+	legend("center",legend=c("probably wine","probably oil"),fill=c("#FF000020","#00FF0020"),title="Amphora Contains:")
     for( i in 1:length(labelToId)){
 	jfile=readPNG(paste("img/",labelToId[i],".jpg.png",sep=""),FALSE)
 	res=attr(jfile,'dim')
@@ -380,7 +379,7 @@ graphPrinting<-function(){
     dress=allData[grep( "[Dd]ressel", allData$a_name),]
     dresselDist = as.dendrogram(hclust(as.dist(computeDist(dress[dress$height_mean>0,]))))
     pdf("dressel-allSize.pdf",height=7,width=7)
-    myCircle(dresselDist,dress[dress$height_mean>0,])
+   myCircle(dresselDist,dress[dress$height_mean>0,])
     dev.off()
     oilI=match(type$id[type$oil > 0], allData$id)
     oilI=oilI[!is.na(oilI)]
