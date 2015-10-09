@@ -1,0 +1,66 @@
+#NEXUS
+begin taxa;
+	 dimensions ntax=40;
+	 taxlabels
+Dressel8
+Dressel10
+Dressel11
+Dressel12
+Dressel14
+Dressel16
+Dressel17
+Dressel1BsimilisLyon
+Dressel20
+Dressel2122
+Dressel23
+Dressel24
+Dressel24LoireBasin
+Dressel24Almadrava
+Dressel24Baetican
+Dressel24Catalan
+Dressel24Cos
+Dressel24Egyptian
+Dressel24Lyon2
+Dressel24Italian
+Dressel25
+Dressel28
+Dressel28similisLyon
+Dressel30Keay1A
+Dressel35
+Dressel43
+Dressel5
+Dressel6A
+Dressel6B
+Dressel7
+Dressel9
+Dressel910similisLyon
+Dressel20similisOliva3
+Dressel1
+Dressel24African
+Dressel24Cilician
+Dressel24Flatbased
+Dressel24inVerulamiumRegionWhiteWare
+Dressel30Keay1B
+Dressel30TunisianVariants
+;
+end;
+begin characters;
+	 dimensions nchar=7;
+	 CharLabels shoulder_type ;
+	 CharLabels handle_section ;
+	 CharLabels body_type ;
+	 CharLabels rim_type ;
+	 CharLabels handles_profile ;
+	 CharLabels neck_type ;
+	 CharLabels base_type ;
+	 charstatelabels
+		 1 shoulder_type/ 1 2 3
+		 2 handle_section/ 1 2 3 4 5 6
+		 3 body_type/ 1 2 3 4 5
+		 4 rim_type/ 1 2 3 4 5 6 7
+		 5 handles_profile/ 1 2 3 4 5 6 7 8
+		 6 neck_type/ 1 2 3 4 5 6
+		 7 base_type/ 1 2 3 4 5 6 7 8 9 10
+;
+format datatype="standard";
+matrix
