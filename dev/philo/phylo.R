@@ -407,15 +407,15 @@ graphPrinting<-function(){
 
 
 #a=function(){
-#nex=cbind.data.frame(dress$id,
-#dress$a_name,
-#dress$shoulder_type,
-#dress$handle_section,
-#dress$body_type,
-#dress$rim_type,
-#dress$handles_profile,
-#dress$neck_type,
-#dress$base_type)
+nex=cbind.data.frame(dress$id,
+dress$a_name,
+dress$shoulder_type,
+dress$handle_section,
+dress$body_type,
+dress$rim_type,
+dress$handles_profile,
+dress$neck_type,
+dress$base_type)
 #dress$rim_diameter_max,
 #dress$rim_diameter_min,
 #dress$width_min,
@@ -426,17 +426,17 @@ graphPrinting<-function(){
 #dress$fabric,
 #dress$capacity)
 #
-#cx=
-#c(
-#"id",
-#"a_name",
-#"shoulder_type",
-#"handle_section",
-#"body_type",
-#"rim_type",
-#"handles_profile",
-#"neck_type",
-#"base_type")
+cx=
+c(
+"id",
+"a_name",
+"shoulder_type",
+"handle_section",
+"body_type",
+"rim_type",
+"handles_profile",
+"neck_type",
+"base_type")
 #"rim_diameter_min",
 #"rim_diameter_max",
 #"width_min",
@@ -452,9 +452,12 @@ graphPrinting<-function(){
 #nex should be a dataframe with rowname as taxa id and colname as character idea
 toNexus<-function(nex,f){
 	#case of char problem
-    nex=droplevels(nex)
-    	#nex=apply(nex,2,function(x)gsub("[^[:alnum:]]","",x))
+	nex=droplevels(nex)
+	rownames(nex)=nex$a_name
 	rownames(nex)=gsub("[^[:alnum:]]","",rownames(nex))
+	for( a in colnames(nex)){nex[,a]=as.numeric(nex[,a])-1}
+    	#nex=apply(nex,2,function(x)gsub("[^[:alnum:]]","",x))
+    #	nex=apply(nex,2,function(x)as.numeric(x))
 
 	write(file=f,"#NEXUS")
 	write(file=f,"begin taxa;",append=T)
@@ -483,7 +486,7 @@ toNexus<-function(nex,f){
 	    "matrix"
 	    )
 	write(file=f,t,append=T)
-	write(t(as.numeric(nex)),file=f,ncolumns=ncol(nex),sep="\t",append=T)
+	write(t((nex)),file=f,ncolumns=ncol(nex),sep="\t",append=T)
 	t=c(
 	    ";",
 	    "end;"
@@ -545,4 +548,3 @@ OltoNexus<-function(nex,f){
 	write(file=f,t,append=T)
 }
 
-}
