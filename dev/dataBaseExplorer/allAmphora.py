@@ -14,7 +14,7 @@ prefix='PREFIX : <http://www.semanticweb.org/ontologies/2015/1/EPNet-ONTOP_Ontol
 #sparql = 'select ?t_name ?pl_name ?lon ?lat where { ?x rdf:type :Amphora . ?x :hasAmphoricType ?t . ?t dcterms:title ?t_name . ?x :hasFindingPlace ?fp . ?fp :fallsWithin ?pl . ?pl dcterms:title ?pl_name. ?pl :hasLongitude ?lon . ?pl :hasLatitude ?lat}'
 
 for i in range(0,10000):
-    sparql= 'select  ?pl_name ?t ?lon ?lat where {?x rdf:type :Amphora . ?x :hasFindingPlace ?y . ?y :fallsWithin ?fw . ?fw dcterms:title ?pl_name . ?fw :hasLongitude ?lon . ?fw :hasLatitude ?lat . ?x :carries ?z . ?z :isTranscribedBy ?u . ?u :hasTranscription ?t .} limit 100 offset ' + str(i*100)
+    sparql= 'select  distinct ?t_name ?pl_name ?t ?lon ?lat where {?x rdf:type :Amphora . ?x :hasFindingPlace ?y . ?y :fallsWithin ?fw . ?fw dcterms:title ?pl_name . ?fw :hasLongitude ?lon . ?fw :hasLatitude ?lat . ?x :carries ?z . ?z :isTranscribedBy ?u . ?u :hasTranscription ?t . ?x :hasAmphoricType ?ty . ?ty dcterms:title ?t_name } limit 100 offset ' + str(i*100)
     #  
     query=urllib.quote(prefix+sparql)
     
@@ -30,12 +30,16 @@ for i in range(0,10000):
             n=0
             res=""
             for amphora in fort_pars.getElementsByTagName("literal"):
-                amph_style = amphora.childNodes[0].data
-                if n <= 1:
+                if amphora.childNodes[0]:
+                    amph_style = amphora.childNodes[0].data
+                else:
+                    print "error"
+                    print amphora
+                if n <= 2:
                     res= res +"\""+urllib.unquote(amph_style).encode('utf-8')+ "\"," 
                 else:
                     res=res+urllib.unquote(amph_style).encode('utf-8')+","
-                if n<3:
+                if n<4:
                     n=n+1
                 else : 
                     n = 0
