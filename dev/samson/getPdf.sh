@@ -13,6 +13,5 @@ do
 	if [ ! -f pdf/$jtype/$dir/`basename $i` ]; then
 
 		wget $i -O pdf/$jtype/$dir/`basename $i` -o log$jtype
-		#	pdftotext pdf/$jtype/$dir/`basename $i`
 	fi
 done

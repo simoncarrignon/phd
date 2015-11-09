@@ -7,11 +7,11 @@ use HTML::Tree;
 use HTML::Entities;
 
 
-#print "\"Label\",\"Type\",\"Année\",\"Auteur\",\"Journal\",\"Pays du Journal\",\"Série\",\"Numéro\",\"pp\",\"Année orginal\",\"Auteur Original\",\"Fichier\"\n";
+print "\"Label\",\"Type\",\"Année\",\"Auteur\",\"Journal\",\"Pays du Journal\",\"Série\",\"Numéro\",\"pp\",\"Année orginal\",\"Auteur Original\",\"Fichier\"\n";
 
 my $jtype = $ARGV[0];
 my $amsurl = "http://www.ams.org/journals/";
-foreach my $filename (<$jtype/*>){
+foreach my $filename (<html/*>){
 	my $p = HTML::Tree->new_from_file($filename);
 
 	my ($volume) = ( $p->as_HTML() =~ m@Volume (.*), Number .*</title>@);
@@ -60,7 +60,7 @@ foreach my $filename (<$jtype/*>){
 
 		$pdfurl=$amsurl.$filename."/".$pdf.".pdf";
 
-		print $pdfurl,"\n";
+		#print $pdfurl,"\n";
 
 		if($review){
 			($pp) = ( $article->as_HTML() =~ m@.*<strong>.*</strong> \(.*\), (.*)<br /><a .*>Review information</a>@);
@@ -80,7 +80,7 @@ foreach my $filename (<$jtype/*>){
 		}
 
 		if($year ne ""){
-			#print "\"",$title,"\",\"",$type,"\",",$year,",\"",join(" and ",@allAuthors[1 .. $#allAuthors]),"\",\"",$journal,"\",\"Etats-Unis\",",$volume,",",$number,",\"",$pp=~s/-/--/r,"\",,\"",join(" and ",@allReviewer[1 .. $#allReviewer]),"\",\"",$pdftitle,"\"","\n";
+			print "\"",$title,"\",\"",$type,"\",",$year,",\"",join(" and ",@allAuthors[1 .. $#allAuthors]),"\",\"",$journal,"\",\"Etats-Unis\",",$volume,",",$number,",\"",$pp=~s/-/--/r,"\",,\"",join(" and ",@allReviewer[1 .. $#allReviewer]),"\",\"",$pdftitle,"\"","\n";
 		}
 	}
 }

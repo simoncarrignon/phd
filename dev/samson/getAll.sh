@@ -1,11 +1,9 @@
 #!/bin/bash
+#Script qui recuperer toutes les pages html de ams
 
-jtype=$1
-num=0
-for i in `cat all$jtype.html` 
+for i in `cat amsAllIssues.csv` 
 do
-	dir=`dirname $i`
-
-
-	wget $i -O $jtype/`basename $dir` -o log
+    echo $i
+    dir=`dirname $i`
+    wget $i -O html/`basename $dir` -o log
 done
