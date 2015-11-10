@@ -1,0 +1,90 @@
+%        File: 20150216ModelDescription.tex
+%     Created: lun. févr. 16 11:00  2015 C
+% Last Change: lun. févr. 16 11:00  2015 C
+%
+\documentclass[a4paper]{article}
+
+
+%%%%lualatex on
+\usepackage{fontspec}
+
+\usepackage{natbib}
+
+\title{Draft Model}
+\author{Simon}
+\begin{document}
+\maketitle
+
+
+\section{Introduction}
+In this article our aim is to present a model suitable to test various hypothesis on economic and cultural exchange networks during the Roman Empire. Among the question we want to address is the traditional debate in history of economy on the type of economic market in early empire (a detailed resume can be found in the first article of \cite{polanyi1957tradeandmarketintheearlyempireseconomiesinhistoryandtheory}). Following \cite{epstein1996growingartificialsocietiessocialsciencefromthebottomup,lake2014trendsinarchaeologicalsimulation,kohler2000dynamicsinhumanandprimatesocietiesagentbasedmodelingofsocialandspatialprocesses,tesfatsion2003agentbasedcomputationaleconomicsmodelingeconomiesascomplexadaptivesystems} we think that agent based modeling is one of the best way to understand complex social mechanism in a wide range of fields of research, from economical market mechanisms to the understanding of cultural goods production and exchange.
+
+Here we present such a model, showing that it reproduces well known economical and cultural mechanism and that, given the appropriate archaeological and historical data, it can be used to test hypothesis on those mechanisms.
+
+\section{General Description} 
+\begin{itemize}
+	\item Resources :\\
+		There is $n$ kind of resources, each one is produced by one or more Agents. Agents can exchange those resources and consume it following their need.
+	\item  Agents :\\
+		M agents with properties:
+		\begin{itemize}
+			\item Price $(p_1,\cdots,p_n)$ : an amount of money that could be use when in exchange of a good.
+			\item Quantity $(q_1,\cdots,q_n)$ : the quantity of each food owned by each agent.
+			\item Subjective value $(u_1,\cdots,u_n)$ : the values that each agent associates with each resource.
+			\item Need $(b_1, \cdots, b_n)$ :  the quantity of each resource that each agent need to ``survive''. In the first experiments it only says the amount of resource that the agent will consume. It can be seen as the ``intrinsic'' value of the good.
+		\end{itemize}
+\end{itemize}
+\section{Good Production}
+%%%%%
+%%TODO: Find refs
+%%
+\label{production}
+
+
+In the simulation agents produce goods that they will barter (cf section \ref{trade}) and consume (cf section \ref{consumption}). This goods production should reflect the historical good production of the period studied and agent could produce various good in order to barter or sell them using the trade network.
+
+Those production could change during the simulation based on meteorological data or historical knowledge and reflect some complex economical specialisation mechanisms \cite{bentley2005specialisationandwealthinequalityinamodelofaclusteredeconomicnetwork}.
+
+But before integrating historical and meteorological data, and in order to validate the accuracy of the model, we will follow \cite{gintis2006theemergenceofapricesystemfromdecentralizedbilateralexchange}. In its model each agent produces one kind of good in a given and finished quantity which is $n$, the number of different resource available in a simulation, thus allowing him to be able to trade every other goods that it does not produce.
+
+\section{Good Consumption}
+\label{consumption}
+
+
+%%%%%
+%%TODO: Find refs
+%%
+
+During the simulation the agents ``consume'' the good. This consumption could be vital (if agent do consume certain good they die) or not (as in \cite{macmillan2008anagentbasedsimulationmodelofaprimitiveagriculturalsociety}), it could be set as fixed, environmental constraint shared by everyone (the ``intrinsic'' value of things) or could be subject to historical or geographical cultural ``taste'' and variations. Depending on the kind of good agents consume (if they are ``vital'' or not\ldots) it allow us to test a wide range of hypothesis, from purely economical one to cultural consumption assumptions.  In an evolutionary perspective this consumption function could change trough time and is a good way to score the agent fitness and to know which strategies (the list of prices) are the best.
+
+In the current version of the model, and following \cite{gintis2006theemergenceofapricesystemfromdecentralizedbilateralexchange} to be sure that we could reproduce the expected mechanism, all the goods are consumed in the same proportion by all the agents during all the simulation. A fixed-for-everyone proportion $b_1,\cdots,b_n$ of each resource $(1, \cdots, n)$ is given at the beginning of the simulation.
+
+\section{Cultural Evolution}
+In our model the ``cultural change'' is seen as the variation during time of the space of belief of all the agents. Pragmatically it's represented by variation in distribution of subjective value vector.
+
+This subjective value is the value that agents ``put'' on each resources. It could be learn using any mechanism of ``social learning'' (as defined by \cite{lycett2015}) known in the literature (teaching, different kind of copying mechanisms,\ldots) and/or integrate any cognitive/environmental bias that could be studied (see again \cite{lycett2015} for some kind of bias that could be implemented).
+
+In the first experiment we will try simple random copying and frequency-dependent copying as \cite{mesoudi2009randomcopyingfrequencydependencopyingandulturechange} to show the usefulness of the method to study cultural change. 
+
+
+\section{Economical Trading}
+\label{trade}
+
+Using the network, the agents are able to barter/trade/exchange resources altogether. Here again, the idea is to propose a model in which several different bargaining/trading mechanisms can be tested. But to begin, we will implement a bargain mechanism already implemented in an Agent Based Model which is the one done by \cite{gintis2006theemergenceofapricesystemfromdecentralizedbilateralexchange} in order to be quickly able to compare our results and validate ability of the model to recreate economical behaviors. 
+
+Later it could be used to study other model such as those developed by \cite{rubinstein1985equilibriuminamarketwithsequentialbargaining} and to test more general proposal, as those done by \cite{polanyi1957tradeandmarketintheearlyempireseconomiesinhistoryandtheory,polanyi1977thelivelihoodofman} about the early economical mechanisms.
+
+Moreover, and in order to be more realistic, and consistently with the cognitive and agent based approach of the project, we will also test assumptions made by people from \emph{Prospect Theory} as proposed by \cite{kahneman1979prospecttheoryananalysisofdecisionunderrisk}, see also \cite{camerer2004prospecttheoryinthewildevidencefromthefield}. The idea here is that traditional economical studies use formal mathematical models that suppose people acting as rational agent, which is a presumption that is far from being valid  in every day life. 
+
+Top palliate this problem, Prospect Theory put the focus on the study of the human cognitive abilities and the impact those abilities brings on economics issues. Among various aspect on which prospect theory shed light one can look at how cognitive abilities modify the decisions-making process of human under risk \cite{weber1998thedispositioneffectinsecuritiestradinganexperimentalanalysis}.
+
+Moreover, we think that this approach fit perfectly with our agent based modeling approach (also called Agent based Computational Economy, ACE, when dealing with economical problems, see \cite{tesfatsion2001introductiontothespecialissueonagentbasedcomputationaleconomics}).
+
+In the Ginti's model that we are following here, the goal is only to see if a market equilibrium can be reach in a bartering decentralized economy model. So the cognitive trading abilities of the agents are set at their minimum. 
+
+During the barter process, all agents meet all the producers of all goods and choose to exchange a certain amount of the good it produce with a certain amount of the other good depending on their own stock and the value they assign respectively to the resource it produce and the resources needed, in a totally rational way, without any cognitive bias.
+
+\bibliographystyle{apalike}
+\bibliography{/home/scarrign/Documents/biblio/bib/phd.bib}  
+\end{document}
+
