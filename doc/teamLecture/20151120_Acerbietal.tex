@@ -2,6 +2,10 @@
 \usetheme{Dresden}
 \usecolortheme{beaver}
 \usepackage{fontspec}
+\usepackage{amsmath}
+\setbeamerfont{caption}{size=\scriptsize}
+
+
 
 \title{EpNet Day lectures\\
     Acerbi et al : The Logic of Fashion Cycles
@@ -37,6 +41,7 @@
 	\end{itemize}
     \end{block}
 \end{frame}
+\subsection{Model 1}
 \begin{frame}{One cultural trait}
     They first create a model with one cultural trait and a preference for that traits, so 4 types of individuals :
     \begin{enumerate}
@@ -64,6 +69,62 @@
     %    \item[v]if the observer
     %    \item[u]else
     
+\end{frame}
+
+\begin{frame}{Dynamic of the model}
+
+
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=5cm]{dynamics.png}
+		\end{center}
+		\caption{ from acerbi et al 2012, p 3}
+	\end{figure}
+\end{frame}
+
+\subsection{Generalisation to $n$ traits}
+\begin{frame}{Generalisatin of the model to $n$ traits and preferences for that traits}
+	\begin{columns}
+		\begin{column}{.75\textwidth}
+			$q_i$ the possession of the $i$th traits ($q_i \in \{0,1\}$)\\
+			$p_i$ the preference for the $i$th traits ($q_i \in [-1,1]$)
+		\end{column}
+		\begin{column}{.4\textwidth}
+			\begin{figure}[h]
+				\begin{center}
+					\includegraphics[width=3.7cm]{proba.pdf}
+				\end{center}
+				\caption{ $x=\sum\limits_{i=1}^{n}p_{oi}q_{mi}$ where $o$ is the observer and $m$ the model and $y$ the proba of $o$ to adop $m$}
+			\end{figure}
+		\end{column}
+	\end{columns}
+	
+\end{frame}
+
+\section{Experiment}
+\begin{frame}{Simulation \& comparison of the 3 models }
+
+	\begin{figure}
+		\includegraphics[width=.60\textwidth]{3model.png}
+	\end{figure}
+	
+\end{frame}
+\section{Result}
+\begin{frame}{Comparison and result}
+
+	\begin{columns}
+		\begin{column}{.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=5cm]{realdata.png}
+			\end{figure}
+		\end{column}
+		\begin{column}{.6\textwidth}
+			\begin{figure}
+				\includegraphics[width=4cm]{3modelcomp.png}
+			\end{figure}
+		\end{column}
+	\end{columns}
+	
 \end{frame}
 \end{document}
 
