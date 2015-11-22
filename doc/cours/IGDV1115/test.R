@@ -1,0 +1,16 @@
+
+m=read.csv("gintpib.csv")
+pop=read.csv("~/Downloads/sp.pop.totl_Indicator_en_csv_v2.csv",skip=4)
+ec=read.csv("eco.csv")
+mec=merge(ec,m,by="Country")
+mec=merge(pop,mec,by="Country")
+plot(mec$Gini,mec$X2014,cex=mec$Economy/max(mec$Economy)*2)
+plot(mec$Gini,mec$Rank)#cex=mec$Economy/max(mec$Economy)*2)
+png("gini.png")
+plot(mec$Gini,log(mec$Economy),cex=log(mec$X2014.x)/2,xlab="Gini index",ylab="PIB (2014)",type="n")
+#points(mec$Gini[115],log(mec$Economy[115]),cex=log(mec$X2014.x[115])/2,xlab="Gini index",ylab="PIB (2014)",type="n")
+
+points(mec$Gini[115],log(mec$Economy[115]),pch=21,cex=log(mec$X2014.x[115])/2,bg="red",col="red")
+points(mec$Gini,log(mec$Economy),cex=log(mec$X2014.x)/2)
+text(mec$Gini,log(mec$Economy),label=mec$Country,cex=.7)
+dev.off()

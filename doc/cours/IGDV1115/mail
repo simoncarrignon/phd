@@ -1,0 +1,21 @@
+My "Last moment" participation!
+
+
+If the main goal of the graphic was to show us that the US are lost somewhere at the bottom of the list it's done. But after that nothing more, for a really interesting data.
+
+First, what is the Gini coeffecient? There is no explaination about it, not even a link to the wikipedia's page. 
+After that what is the question the authors are trying to answer? as told before "to see where are the US?" but isn't it a pour usage of the data?
+One could expect to see what is the link between this gini's coefficient and other well known economic indicator such as the PIB, or the size of the country, the geogrphic situation of the country, its global economy... 
+The simple list doesnt allow that, and make it difficult just compare differents country together.
+
+When reading the first word in the graphic saying that it's " a statistical mesure off inequality" I directly thought "nice! so maybe they will show that inequality in a country is not linked with how 'developped' this country is" or that this idea of "developpement" or this separation of the world between "developped" country and country "under-developped" could be thought in other terms and that will not stand when changing the criterion of what is development. What if one say "a developped country is a country where people are equal" ? At the end, what reveal this gintis coefficient and what ze cqn leqrn from it.
+
+I think that we could keep the initial question of "find the US" but we could use it as an excuse to navigate among world economies and in-equality.
+
+The list could be kept as an introduction to say "hey? you expect the us be at the top fo the list, no! So now let's look further why, and what's all about" (although I would remove the round shape in the middl as I find it counfusing as one expect that it will carry meanings but at the end no).
+
+After the list, the exploration start: I quickly create the kind of graphic one could do (although something with bar could be better to visualize and compare "quantity" as Alberto advice in is book). In that graphic the size of the point represent the population size of the country (find here:http://data.worldbank.org/indicator/SP.POP.TOTL) and the GDP (http://databank.worldbank.org/data/download/GDP.pdf). With that we can see that the gini's coefficient is not about "who has the more powerfull economy" or "the richest country are the more equal countries". This seems just false.  Other comparaisons could be done and may reveal informations. Maybe crossing it with the size of the army, the population's size and so on. As Alberto said in is book when he speaks about the decrease of birth rate, the knowledge here comes from crossing data that already exists, and use Data Visualiwation as a tool to extract this knoledge.
+
+At least, I think that this infographic could no go without a map to see how this equality/inequality is distributed throughout the world (north/south - est/west ...). But that would take more time and I let it for another exploration!
+
+Caution : my graphic as to be taken carefully as a "draft" to explore to certains question (here :is gini correlated to GDP and population size). BUT it is DRAMATICALLY misleading as, for visibility reason, all data are logarithmically normalized!!!
