@@ -8,7 +8,7 @@ import re
 
 
 
-baseurl = "http://genius.com/artists/Pnl" #the base url : we look only the tab "characteristic" of each amphora web page
+baseurl = "http://genius.com/albums/Pnl/Le-monde-chico" #the base url : we look only the tab "characteristic" of each amphora web page
 
 #####
 url = baseurl
@@ -20,6 +20,7 @@ response = urllib2.urlopen(request)
 
 
 soup = BeautifulSoup(response.read(), 'html.parser') # beautifulsoup is the htmlparser used to dig in the html page.
+#primarylist=soup.body.find('ul',attrs={'class':'primary_list'},href=True)
 
 allSong=soup.body.find_all('a',attrs={'class':'song_name'},href=True)
 
