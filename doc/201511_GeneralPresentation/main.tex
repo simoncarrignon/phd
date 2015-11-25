@@ -1,0 +1,438 @@
+\documentclass[8pt, handout=show,notes=show]{beamer}
+
+\usetheme[width=2cm]{Goettingen}
+\usecolortheme{rose}
+
+\usepackage{arydshln}
+
+%%%%lualatex on
+%\usepackage{luatextra}
+\usepackage{fontspec}
+\usepackage{amsmath}
+%Ligatures={Contextual, Common, Historical, Rare, Discretionary}
+%\setmainfont[Mapping=tex-text]{Linux Libertine O}
+
+\usepackage{natbib}
+\usepackage{mathptmx}
+\usepackage{latexsym}
+\usepackage{mathtools}
+\usepackage{multirow}
+
+
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+
+
+\makeatletter
+\let\oldabs\abs
+\def\abs{\@ifstar{\oldabs}{\oldabs*}}
+\let\oldnorm\norm
+\def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
+\makeatother
+
+\title{
+    General Presentation
+}
+
+\date{Barcelona, November 26th, 2015}
+
+\author{Simon Carrignon}
+\begin{document}
+\begin{frame}
+	\maketitle
+
+\end{frame}
+
+\section{Introduction}
+\begin{frame}{Introduction}
+    \begin{enumerate}
+	\item What brings me here\\ \hspace{1cm} (Background and Motiviations).
+	    \vfill
+	\item What I am doing and will do here\\ \hspace{1cm} (Current work and PhD goals)
+    \end{enumerate}
+
+    %How I started from the will to understand \emph{computer} and \emph{cells}, ending to study \emph{history} using a \emph{church} powered by \emph{complex system} in a school of \emph{biomedecine}
+\end{frame}
+
+\section{Computer and Living Systems}
+
+\begin{frame}{Computer and Living Systems}
+    \begin{figure}
+	\includegraphics[width=.6\textwidth]{images/creatures.jpg}\\
+	\includegraphics[width=.6\textwidth]{images/war2.png}
+    \end{figure}
+
+
+    
+\end{frame}
+
+\subsection{Biology and Informatics}
+\begin{frame} {Biology and computers}
+
+    \begin{figure}
+	\includegraphics[height=3.5cm]{images/mitosis.png}\hspace{.8cm}
+	\includegraphics[width=2cm]{images/Rule22rand.png} 
+    \end{figure}
+
+    \vfill
+
+    \begin{center}
+	\emph{Why sometime, Computer and Living 'stuff' show similar properties? }
+    \end{center}
+
+\end{frame}
+
+\begin{frame}{Biology and computer}
+
+    Simple rules, simple modifications, complex mechanism\\
+    \begin{figure}
+	\includegraphics[width=3cm]{images/hybrid.png}\hspace{.3cm}
+	\includegraphics[width=3cm]{images/maize.png} \\
+	\includegraphics[width=3cm]{images/tsp.png}
+    \end{figure}
+    
+\end{frame}
+
+\begin{frame}{Biology and computer}
+    \begin{alertblock}	{ A remaining frustration\ldots} 
+	\vfill
+	Feeling like :
+	\vfill
+	\begin{table}
+	    \centering
+	    \begin{tabular}{c|cl}
+		\textbf{Tool} & \textbf{Interest} & \\\cline{1-2}
+		Informatic & Biology &  $\rightarrow$ Biologist using Informatics  \\
+		Biology & Informatic& $\rightarrow$ Computer Scientist using Biology\\
+	    \end{tabular}
+	\end{table}
+    \end{alertblock}
+\end{frame}
+
+\subsection{Cognitive sciences}
+
+\begin{frame}{Neurosciences \& Artificial Intelligence}
+
+    ``Simple'' rules, ``simple'' modifications, more ``complex'' mechanism:\\
+    \begin{figure}
+	\includegraphics[width=6cm]{images/cogscience.jpg}\\
+	\includegraphics[width=4cm]{images/ai.jpg}
+    \end{figure}
+    
+\end{frame}
+
+\begin{frame}{Cognitive Sciences \& Complex Systems}
+    \begin{figure}
+	\includegraphics[width=3.5cm]{images/kauffman.jpg}
+    \end{figure}
+
+    \begin{alertblock}	{'Unification'} 
+	\begin{table}
+	    \centering
+	    \begin{tabular}{c|cl}
+		\textbf{Tool} & \textbf{Interest}  \\\cline{1-2}
+		Informatic & Biology &  $\rightarrow$ Biologist using Informatics  \\
+		Biology & Informatic& $\rightarrow$ Computer Scientist using Biology\\
+	    \end{tabular}
+	\end{table}
+    \end{alertblock}
+\end{frame}
+
+\begin{frame}{Cognitive Sciences \& Complex Systems}
+    \begin{figure}
+	\includegraphics[width=3.5cm]{images/kauffman.jpg}
+    \end{figure}
+    \begin{alertblock}{'Unification' } 
+	\begin{table}
+	    \centering
+	    \begin{tabular}{c:cl}
+		\textbf{Tool} & \textbf{Interest}  \\\cline{1-2}
+		Informatic & Biology &\multirow{2}{*}{{ \LARGE \}} \hspace{.308cm} $\rightarrow$ Complex Systems Scientist}  \\
+		Biology & Informatic& \\
+	    \end{tabular}
+	\end{table}
+    \end{alertblock}
+
+\end{frame}
+
+
+\subsection{Evolutionary Theory}
+
+\begin{frame}{Evolutionary studies}
+    \begin{columns}
+	\begin{column}{.7\textwidth}
+	    \begin{exampleblock}{But on what focus to understand all that?}
+		Simple rule, simple mechanism, complex dynamics\ldots\\
+		\begin{itemize}
+		    \item The Theory of Evolution!
+		\end{itemize}
+
+	    \end{exampleblock}
+	\end{column}
+    \end{columns}
+
+    \begin{table}
+	\centering
+	\begin{tabular}{ccccc}
+	    \includegraphics[width=2cm]{images/braitenberg.jpeg}&&&&\includegraphics[height=2cm]{images/mitosis.png}\\
+	    &\includegraphics[width=2cm]{images/braitenberg.jpeg}&&\includegraphics[height=2cm]{images/mitosis.png}&
+	    
+	\end{tabular}
+    \end{table}
+    
+    
+\end{frame}
+
+\begin{frame}{Philosophy of Biology}
+	A set of tools, knowledge theories\ldots to study Evolutionary Theory
+    \begin{itemize}
+	\item But\ldots what is the Evolutionary Theory?
+	\item How can I study it?
+	\item What are the tools I used and how/why they can help me?
+    \end{itemize}
+    \vfill
+    
+    \begin{block}{How to use artificial model to study Evolutionary Biologie}
+	 What is a model? What is a theory? an explanation ? What is the Theory of Evolution? Lamarck? Darwin? Spencer? The Biometricians? Mendelism? The Modern Synthesis? Dawkin? Gould? \ldots 
+    \end{block}
+
+    \begin{figure}
+	\includegraphics[width=3.5cm]{images/darwinianspace.png}
+	\caption{From Godfrey-Smith 2009}
+    \end{figure}
+
+    
+\end{frame}
+
+
+\begin{frame}{And with all that?}
+
+    \begin{center}
+	\huge
+	A huge mess, a lot of knowledge, but\ldots\\  \textbf{no MBA}!
+    \end{center}
+
+
+    
+\end{frame}
+\begin{frame}
+    An ERC grant, 2 dynamics research center, 4 years of PhD, an amzing case study :
+    \vfill
+
+    \begin{center}
+	\huge
+	The evolution of Economy and Culture in the Roman Empire.\\
+	\vfill
+	\small
+	(ERC advanced grant : Production and Distribution of Food during the Roman Empire: Economic and Political Dynamics)
+    \end{center}
+\end{frame}
+
+\section{Roman History}
+\subsection*{Context}
+
+\begin{frame}{The Monte Testaccio}
+
+	An amphora garbage in Roma.\\
+
+	\begin{center}
+		\includegraphics[height=0.3\textwidth]{images/Mount-Testaccio.jpg}
+		\hfil \includegraphics[height=0.3\textwidth]{images/Mount-Testaccio2.jpg}\\
+		\vfill
+		\includegraphics[height=0.3\textwidth]{images/titulus.png}
+
+	\end{center}
+
+\end{frame}
+\begin{frame}{Data}
+
+	About 47000 amphora from CEIPAC database and other data in other databases (places in Pleiade, Greek names in Oxford...)
+
+	\begin{center}
+		\includegraphics[width=.9\textwidth]{images/fortGreekPlaceAndAmphora.png}
+	\end{center}
+	
+\end{frame}
+
+\begin{frame}{Historical question}
+	\begin{center}
+		\Huge
+		What was the nature of the Roman Economy?\\
+	\end{center}
+	\vfill
+	\begin{block}
+		{The primitivism/modern debate}
+		\begin{center}
+		    \em
+		    ``The Roman Economy was already a free-market similar as today'' \\
+		    \emph{vs}\\
+		    ``All price were fixed by the state, no free market, use of slave.''
+		\end{center}
+	\end{block}
+\end{frame}
+\subsection*{Theoretical Side}
+\begin{frame}{Starting Point: A Simple Model}
+
+	An Agent Based Model mixing two main aspects (WSC -- 2015):
+
+	\vfil
+	\begin{enumerate}
+		\item a	simple bargain mechanism,
+		\item and (cultural) evolutionary dynamics.
+	\end{enumerate}
+
+	\vfill
+	\begin{alertblock}{Goal}
+	    Implement a ``simple'' theoretical abstract model where economy is seen as a particular cultural attribut co-evolving with other cultural traits:
+	    \begin{itemize}
+		\item theoretical study interaction of those mechanism (evolution-culture-economics) and the dynamics of such interactions.
+		\item test historical hypothesis
+	    \end{itemize}
+	\end{alertblock}
+
+\end{frame}
+
+
+
+	
+\begin{frame}{The Model}
+    More details about the model : 
+    \vfill
+	\begin{block}{1. Bargain Mechanism}
+	    \begin{itemize}
+		\item Agent 
+		    $\left\{
+			\begin{tabular}{@{}l@{}}
+			    Goods \\
+			    Value attributed to each goods\\
+			\end{tabular}
+			\right.$
+		    \item Each Agent \emph{produces} one good and \emph{exchange} it with the other goods given their respecting value.
+		    \item After the exchange, the agents \emph{consume} the goods and are \emph{ranked} given a shared utility function.
+		\end{itemize}
+
+	\end{block}
+\end{frame}
+
+\begin{frame}{The Model}
+    More details about the model : 
+    \vfill
+	\begin{block}{2. Evolutionary Dynamics}
+		After 10 steps of exchange :
+		\begin{itemize}
+			\item  The less successful (in term of utility) agents copy the set of value of the most successful agent (Biased-Copy/selection).
+			\item Given a probability $\mu$ the value attributed to some goods are modified (Innovation/Mutation)
+		\end{itemize}
+
+	\end{block}
+\end{frame}
+
+%	\begin{center}
+%		\includegraphics[width=1.5\textwidth]{imagesimsoc-stage1-small}
+%	\end{center}
+
+
+%\begin{frame}{Parameter Exploration \&  Epistemic Opacity}
+%	Illustrate the opacity :
+%		\begin{itemize}
+%			\item 	\alert{One simulation : 57min}
+%			\item	100 simulations (statistical need) : 5700min $\approx$ 4 days
+%		\end{itemize}
+%
+%	Lets try with :
+%	\begin{itemize}
+%		\item 	10 different probability exchange right. (0.001 to 0.20)
+%		\item 	3 size of population (250 , 500 , 1000)
+%		\item 	And different number of goods : (3, 6 , 9)
+%	\end{itemize}
+%
+%	\begin{center}
+%		$= 10 \times 3 \times 3 = 90 $ ``environments'' (experimental setups).\\
+%		\vfill
+%		$\rightarrow$ \alert{360 days of continuous simulations.}
+%
+%
+%	\end{center}
+%
+%\end{frame}
+
+
+\begin{frame}{Dynamic of the Model}
+
+
+	\begin{block}{Result for 3 goods and 500 agents}
+		Without surprise, the system evolves toward an equilibrium where all agents adopt optimal prices (clearing-market prices). 
+	\end{block}
+	\begin{columns}
+		\column{.5\textwidth}
+		\includegraphics[height=\textwidth]{images/ClearingPriceDistanceEvolutionForTrade-G3N500.pdf}
+		\column{.35\textwidth}
+		\includegraphics[width=\textwidth]{images/scoreEx1.png}\\
+		 \includegraphics[width=\textwidth]{images/scoreEx2.png}
+	\end{columns}
+	
+\end{frame}
+
+\begin{frame}{Further Development}
+    Network topologies (ongoing)
+
+    Multilevel dynamics (Province vs Economical Agents\ldots)
+    
+    Evolution of specialisation 
+
+    Economy as a Complex Adaptative System\ldots
+\end{frame}
+
+
+\subsection{Empirical Side}
+
+\begin{frame}{Data Analysis}
+    \begin{columns}
+	\begin{column}{.6\textwidth}
+    	A model itself doesn't have any Historical meaning, it needs to always interact with the data:  
+	    \begin{itemize}
+		\item Phylogenetics analyse (using archeometry,amphora typology\ldots),
+		\item Network Analysis (using stamps and titulii pictii\ldots),
+		\item Hypothese generation,
+		\item Model testing\ldots
+	    \end{itemize}
+	\end{column}
+	\begin{column}{.4\textwidth}
+	    \includegraphics[width=\textwidth]{images/dressel-all.png}\\
+	    \includegraphics[width=\textwidth]{images/networkBicouche.pdf}
+	    
+	\end{column}
+    \end{columns}
+
+    
+    \begin{alertblock}
+	{Some problems that slow us:}
+	\begin{itemize}
+	    \item Archaeological \& Historical Data
+	    \item Transdisciplinarity between Humanities and Sciences.
+	\end{itemize}
+    \end{alertblock}
+
+\end{frame}
+\begin{frame}{Along The way}
+
+    Questions that will remain in the background all that time :
+
+    \begin{itemize}
+	\item Is it possible to study History with quantitatives methods?
+	\item What is the link between cultural and Biological Evolution?
+	\item Evolution, an ``Historical Science''? or History a branch o Evolutionary Studies? 
+	\item How computer model and simulation can bring knowledge and why?
+	\item \ldots
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}
+    \Huge
+    Thank for you attention!
+\end{frame}
+
+\end{document}
+
+
