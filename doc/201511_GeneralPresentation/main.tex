@@ -31,7 +31,7 @@
 \makeatother
 
 \title{
-    General Presentation
+    Computers, Evolution and Roman Economy
 }
 
 \date{Barcelona, November 26th, 2015}
@@ -58,12 +58,10 @@
 
 \begin{frame}{Computer and Living Systems}
     \begin{figure}
-	\includegraphics[width=.6\textwidth]{images/creatures.jpg}\\
-	\includegraphics[width=.6\textwidth]{images/war2.png}
+	    \includegraphics[width=.45\textwidth]{images/creatures.jpg}\hspace{.5cm}
+	\includegraphics[width=.45\textwidth]{images/war2.png}
     \end{figure}
-
-
-    
+    Find the good ``rules'' and ``something unexpected'' will happen.
 \end{frame}
 
 \subsection{Biology and Informatics}
@@ -159,40 +157,68 @@
 \subsection{Evolutionary Theory}
 
 \begin{frame}{Evolutionary studies}
+	\begin{center}
+		
+	\end{center}
     \begin{columns}
-	\begin{column}{.7\textwidth}
-	    \begin{exampleblock}{But on what focus to understand all that?}
-		Simple rule, simple mechanism, complex dynamics\ldots\\
-		\begin{itemize}
-		    \item The Theory of Evolution!
-		\end{itemize}
-
-	    \end{exampleblock}
-	\end{column}
+	    \begin{column}{.2\textwidth}
+		    \includegraphics[width=.9\textwidth]{images/tsp.png}
+	    \end{column}
+	    \begin{column}{.6\textwidth}
+		    \begin{center}
+			    \includegraphics[width=.4\textwidth]{images/cogscience.jpg}
+		    \end{center}
+		    \begin{exampleblock}{A common way to approach all that?}
+			    Simple rule, simple mechanism, complex dynamics\ldots\\
+			    \begin{itemize}
+				    \item The Theory of Evolution?
+			    \end{itemize}
+		    \end{exampleblock}
+	    \end{column}
+	    \begin{column}{.2\textwidth}
+		    \includegraphics[width=.9\textwidth]{images/hybrid.png}
+	    \end{column}
     \end{columns}
 
-    \begin{table}
-	\centering
-	\begin{tabular}{ccccc}
-	    \includegraphics[width=2cm]{images/braitenberg.jpeg}&&&&\includegraphics[height=2cm]{images/mitosis.png}\\
-	    &\includegraphics[width=2cm]{images/braitenberg.jpeg}&&\includegraphics[height=2cm]{images/mitosis.png}&
-	    
-	\end{tabular}
-    \end{table}
+    \begin{columns}
+	    \begin{column}{.2\textwidth}
+		    \includegraphics[width=.9\textwidth]{images/symbrion-gc1b.png}
+		    
+	    \end{column}
+	    \begin{column}{.2\textwidth}
+		    \includegraphics[width=.9\textwidth]{images/medea-RealRobots.png}
+		    
+	    \end{column}
+	    \begin{column}{.2\textwidth}
+		    \includegraphics[width=.4\textwidth]{images/mitosis.png}
+		    
+	    \end{column}
+    \end{columns}
     
     
 \end{frame}
 
+\begin{frame}{Evolutionary Robotics}
+
+	\begin{center}
+		\huge Study of speciation \& specialisation by artificially evolve swarm of robots.\\
+
+		\dots
+	\end{center}
+
+	
+\end{frame}
+
 \begin{frame}{Philosophy of Biology}
-	A set of tools, knowledge theories\ldots to study Evolutionary Theory
+	What am I \emph{really} learning with that? Who will I convince?
     \begin{itemize}
-	\item But\ldots what is the Evolutionary Theory?
+	\item What is the Evolutionary Theory?
 	\item How can I study it?
 	\item What are the tools I used and how/why they can help me?
     \end{itemize}
     \vfill
     
-    \begin{block}{How to use artificial model to study Evolutionary Biologie}
+    \begin{block}{How to use artificial model to study Evolutionary Biology}
 	 What is a model? What is a theory? an explanation ? What is the Theory of Evolution? Lamarck? Darwin? Spencer? The Biometricians? Mendelism? The Modern Synthesis? Dawkin? Gould? \ldots 
     \end{block}
 
@@ -216,7 +242,7 @@
     
 \end{frame}
 \begin{frame}
-    An ERC grant, 2 dynamics research center, 4 years of PhD, an amzing case study :
+    An ERC grant, 2 dynamics research center, 4 years of PhD, an amazing case study :
     \vfill
 
     \begin{center}
@@ -224,12 +250,12 @@
 	The evolution of Economy and Culture in the Roman Empire.\\
 	\vfill
 	\small
-	(ERC advanced grant : Production and Distribution of Food during the Roman Empire: Economic and Political Dynamics)
+	(ERC advanced grant : Production and Distribution of Food during the Roman Empire: Economic and Political Dynamics EPNET)
     \end{center}
 \end{frame}
 
 \section{Roman History}
-\subsection*{Context}
+\subsection{Context}
 
 \begin{frame}{The Monte Testaccio}
 
@@ -252,6 +278,7 @@
 		\includegraphics[width=.9\textwidth]{images/fortGreekPlaceAndAmphora.png}
 	\end{center}
 	
+	Achaeologists and historians are collecting and storing those data and lot of others since years\dots
 \end{frame}
 
 \begin{frame}{Historical question}
@@ -270,20 +297,33 @@
 		\end{center}
 	\end{block}
 \end{frame}
-\subsection*{Theoretical Side}
+\begin{frame}{How to do this?}
+	EPNET:	A transdisciplinary project to shed new lights and bring quantitative arguments to the historians' debate :
+	\begin{itemize}
+		\item Historical and Archaeological investigation
+		\item Sparql Ontologie
+		\item Network analysis
+		\item Simulation
+	\end{itemize}
+	\begin{center}
+		\includegraphics[height=2.5cm]{images/epnetLogo.png}
+	\end{center}
+	
+\end{frame}
+\subsection{Theoretical Side}
 \begin{frame}{Starting Point: A Simple Model}
 
 	An Agent Based Model mixing two main aspects (WSC -- 2015):
 
 	\vfil
 	\begin{enumerate}
-		\item a	simple bargain mechanism,
+		\item a	simple bartering mechanism,
 		\item and (cultural) evolutionary dynamics.
 	\end{enumerate}
 
 	\vfill
 	\begin{alertblock}{Goal}
-	    Implement a ``simple'' theoretical abstract model where economy is seen as a particular cultural attribut co-evolving with other cultural traits:
+	    Implement a ``simple'' theoretical abstract model where economy is seen as a particular cultural attribute co-evolving with other cultural traits:
 	    \begin{itemize}
 		\item theoretical study interaction of those mechanism (evolution-culture-economics) and the dynamics of such interactions.
 		\item test historical hypothesis
@@ -298,7 +338,7 @@
 \begin{frame}{The Model}
     More details about the model : 
     \vfill
-	\begin{block}{1. Bargain Mechanism}
+	\begin{block}{1. Barter Mechanism}
 	    \begin{itemize}
 		\item Agent 
 		    $\left\{
@@ -374,13 +414,15 @@
 \end{frame}
 
 \begin{frame}{Further Development}
-    Network topologies (ongoing)
-
-    Multilevel dynamics (Province vs Economical Agents\ldots)
-    
-    Evolution of specialisation 
-
-    Economy as a Complex Adaptative System\ldots
+	\begin{itemize}
+		\item Network topologies (ongoing)
+			\vfil
+		\item	Multilevel dynamics (Province vs Economical Agents\ldots)
+			\vfil
+		\item	Evolution of specialisation 
+			\vfil
+		\item	Economy as a Complex Adaptive System\ldots
+	\end{itemize}
 \end{frame}
 
 
