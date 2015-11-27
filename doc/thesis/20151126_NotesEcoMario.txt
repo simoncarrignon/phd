@@ -1,8 +1,3 @@
-pouvoir d'achat : faire des proportion 
-
-
-quelles tyes de réseaux de faiblesse
-
 specialisation economies scales / de scopes
 
 
@@ -22,3 +17,33 @@ normaliser avec les frequence = 1
 
 la monnaie
 		
+
+
+MAIL : 
+
+"Compte rendu" de hier
+
+
+Discussion sur le modèle dans son états actuel :
+agents avec un portefeuille et des "preferences" ("poids")  associé a chaque actif du portefeuille (par sur de la terminologie mais je coirs que c'est comme ça que tu les a decrits)
+
+
+chaque agents echange avec le autres (sans monnaie)
+
+les agens ont une probabilité de copier le vecteur de poids proportionnel a la reussite des autres agents (la reussite etant calculé en fonction d'une utilité global) ET peuvent aussi de façon aleatoire modifier les elements de leur vecteur de poids
+
+Resultats : au bout d'un certain nombre d'itérations, les agents aprennent poids optimaux, simplement via les deux mechanisme devolution de copie des agents successufl/mutation aleatoire.
+
+
+Problèmes soulevé : 
+	Pas de monnaie.
+	Fonction d'utilité qui pourrait etre simplifié en definissant les poids comme des proportion a trouver ensuite l 'utilité linéaire jusqu'a la valeur optimal puis "chapeau" 
+	Quelle(s) question(s)/ quel(s) parametre(s) tester en fonction de quels autres? 
+		piste : comment impact la topologie du reseau sur l'apprentissage des proportion optimale. L'dée : les agents par simple copie des poids des agents les plus successfuls finissent par apprendre les poids optimaux. Dans quels cas cette apprentissage ne peux pas fonctionner ? hypothese : la topologie du reseaux les empeche d'acceder et partager l'information necessaire à l'apprentissage des poids optimaux.
+
+autres reflexions plus generales:
+	- Economie de scope ecomonie d'echelle et strategies d'investissement/ de production (plus pour jean marc)
+	- Expliquer des phenomenes economiques complexes (commes les effets d'echelle et de scope precedemment cités) par des mechanismes en amont plus simple (mechanismes cogitifs/evolutifs...). L'idées derrière et de dire que le probleme est pris dans le mauvais sens : en voulant voulant decrire des phenomenes complexe en utilisant des modeles mathematique il est necessaire de developper des modèles tres complexes qui s'averent souvent inexact. Une autre approche serait de comprendre les causes à l'origine de ces phenomènes. Ces causes (interaction d'etre vivant avec capacité cognitive limité acquise via evolution naturel) pourrait en etre simple. La complexité du phénomène observé ne faisant que découler de dynamics d'interactions de tres grands nombres d'individus, boucle de retroaction, coevolution de phenomènes... (je sites des exemple pelle mele un peux bidon mais c'est juste pour garde une idée general)
+	
+
+
