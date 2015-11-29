@@ -47,3 +47,17 @@ autres reflexions plus generales:
 	
 
 
+
+Aversion aux risques
+Apetit des gens pour certains actifs
+
+Chute d'une preference tout le monde reste mauvais : donc on reste a l'equilibre
+==> partir avec tous les portefeuille optimaux
+
+1/Combien d'agent doivent changer pour que ça fonctionne:
+2/Quelques type de reseau permets de se propager l'info:
+3/valeur de l'actif descend (le gars en veut moins) :
+	est-il possible que certians agents en veulent encore moins (emballement)
+
+
+
