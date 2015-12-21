@@ -1,0 +1,52 @@
+G:Donc simn tu est édutiant en doctora et ton objectif c'est d'utuliser des models informatic pour étudier l'economie de l'empire romain, c'est ça?
+
+S:Exactment, utiliser l'informatque pour comprendre l'economie du passé, Comment les gens acheté vendait, y avait -il un genre de marché libre? ou l'empire conquiere tout et  impose sa lois? 
+
+G:Mais pourquoi utiliser des modeles pour etudier l'histoire? ça semble pas tres orthodoxe eet un peu etrange/contradictoire non?
+
+S: Bonne question. pas le temps d'y repondre entierement. Integre de nombreuse question tres complexe comme : comment on peut etudier l'histoire et comme utiliser les ordinateur pour le faire?
+
+Mais un des elements central dans cette demarche, et une premiere etape pour repondre a cette question c'est de se constrer sur cette idée de construire un "model" un pour comprendre un phenomene "complexe"  (ici donc la façon dont les gens, les marchant, les entreprise et l'état, achetaient et vendaient les produits de consomamtion)
+
+Enfaite qu'est-ce que c'est un model?
+
+Un representation "plus ou moins abstraite" du monde reel, d'un phenome. Un maquette qui te permet de tester des choses sur la "cible".  qui peuvent etre de types tres tres different mais qui ont plus ouu mons le meme obectif : teste une hypothese sur le fonctionnement de la cible
+
+
+differents exempls :   
+
+        model mathematique: models proie predateur  une populat1ion poule :  
+
+    un rapport entre naissance deces = +5 tout les 3 jours et - 2 tout les 5 jours  un taux de croissance par jour moyen de 5/3 - 2/5 = 1.26/jours 
+
+    des renards qui doivent manger des poules pour surivre : leur taux depend du nombre de poule, on peu modeliser ça  et analyser en fonction des connaisses
+
+    (reresentation = des equations et des nombres).
+
+    experience de pensés (on imagine comme ça pourait se passer). Moins precis que les equations mais plus de liberté
+
+    des modeles plus ou moins physique par exemple
+
+     le coach de basket qui dessine rapidement les joueurs, le terrain et on essaye d'imaginer ce que peuvent faire les adversaire et comment reagire.
+
+    les militaires qui créaient un maquette de l'endorit ou il debarque et utilise des figurine pour "simuler" l'attaquer  
+
+    des models do'rganismes vivant qui sont des modeles "physique" mais encore plus proche du phenomene cible
+
+    modeles murins, etc. On utilise n organisme proche d'un autre pour comprendre des phenome biologiqua complexe qu'on ne peux pas tester en laboratoire
+
+    des modeles par ordinateur : pour oublier ENCORE moins de choses et construire des choses encore plus complex
+
+    comme un jeu video, on creer un faux monde et on en teste different
+
+
+
+Mais de nombreux probleme en modelisation : on ne sait pas a priori ce qui est important ou non pusique l'objectif c'est justement de mieux COMPRENDRE la cible.  on introduit souvent des biais de façon inconsciente, on elimite des elements sans le savoir.  Necessité de travailler avec des gesnq ui connaissent parfaitement le  phenomene cible pour savoir ce qui pourrait etr eimportant de ce qui ne l'ai pas ou d'ou et comment interpreter les ecarts obtenus.
+
+Comme en histoire il es tres difcile de savoir exactement comment quelles était les condtions exacts et le system étudé est tres complexe, les ordinateur nous donne l apossibilité de tester different cas tres vites et etnre tres grand nombre.  On peut ensuite comparer les reusltats obtenu avec les quelques elements disponible (amphores, ecrit, vaisselles, vetemens...)
+
+
+
+
+
+k
