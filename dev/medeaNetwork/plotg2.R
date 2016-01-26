@@ -1,6 +1,7 @@
 if(require("lattice")){library(lattice)}
 if(require("scales")){library(scales)}
 if(require("plyr")){library(plyr)}
+if(require("ggplot2")){library(ggplot2)}
 
 ######
 #Colors definitions
@@ -637,7 +638,7 @@ meanOn2 <- function(dataz,mod,l){
     bmax=max(as.numeric(colnames(dataz)))
     len=(bmax-bmin)/mod
     res=c()
-    newElt=seq(binf,bsup,mod)
+    newElt=seq(bmin,bmax,mod)
     for( i in 1:(length(newElt)-1)){
 	print(paste(i,newElt[i],newElt[i+1]))
 	subd=dataz[,as.numeric(colnames(dataz)) >= newElt[i] & as.numeric(colnames(dataz)) < newElt[i+1] ]
@@ -1153,13 +1154,22 @@ void<-function(){
     b=read.csv("../500B/logs_actives.csv")
     bt=read.csv("../test//logs_actives.csv")
     all=read.csv("../resultTounrment800-980/logs_actives.csv")
+    mn3res=read.csv("~/RoboroMn3Exp/roboExp/perso/simon/lineage/test/logs_actives.csv")
+    mn3res=rbind(read.csv("~/RoboroMn3Exp/roboExp/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp1/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp2/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp3/perso/simon/lineage/res/logs_actives.csv"))
+
+
+    plot(lastAll$alive ~ lastAll$av_short_path)
+
     lastAll=getLastIt(mn3res)
-    splitd=createHeatMat("Sparsity","alive",lastAll)
+    table(lastAll$Sparsity)
+    splitd=createHeatMat("meanbc","alive",lastAll)
+    meanspli=meanOn(splitd,mod=.01,l=2)
+
     splitb=createHeatMat("t_size","alive",b)
     lsp= b[b$Sparsity %% 100==80,]
     lsp=b[b$Sparsity==945,]
     interaction.plot(lsp$Iteration,lsp$t_size,lsp$alive,fun=mean)
-    printASlice(splitd,ylab="#active agents",xlab="rep",ylim=c(0,101.05),xlim=c(940,980))
+    printASlice(meanspli,ylab="#active agents",xlab="rep",ylim=c(0,101.05),xlim=c(0,1))
 
     #To create a matrix used to plot a 3D plot :
     hm3dgridEllitist=makeGrid(ellitiste,"alive",median,normalize=F)

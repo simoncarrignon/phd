@@ -1,0 +1,12 @@
+#!/bin/bash
+# usage ./getProp DATAFILE GPROP
+# return the value of a given gPropertie from a given datalog file
+
+if [ "$1" == "" ]
+then
+	echo 'getProp.sh :  return the value of a given gPropertie from a given datalog file'
+	echo -e './getProp DATAFILE GRPROP \n\t - DATAFILE a datalog_file \n\t - GPROP a gPropertie which is in a propertie file'
+	echo 'ex : ./getProp.sh logs/datalog_20110922-14h31m21s067974us.txt gMaxIt #Will return the lenght of the run' 
+else
+	echo -e `cat  ${1/datalog/properties} | grep $2 | awk 'BEGIN{FS="="}{print $2}'`
+fi
