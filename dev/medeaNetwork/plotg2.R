@@ -1154,26 +1154,44 @@ void<-function(){
     b=read.csv("../500B/logs_actives.csv")
     bt=read.csv("../test//logs_actives.csv")
     all=read.csv("../resultTounrment800-980/logs_actives.csv")
-    mn3res=read.csv("~/RoboroMn3Exp/roboExp/perso/simon/lineage/test/logs_actives.csv")
+    mn3res=read.csv("~/RoboroMn3Exp/roboExp/perso/simon/lineage/res/logs_actives.csv")
+    mn3res=read.csv("~/projects/PhD/dev/RoboroboOld/Roborobo/perso/simon/lineage/verb/logs_actives.csv")
+
+    
     mn3res=rbind(read.csv("~/RoboroMn3Exp/roboExp/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp1/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp2/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp3/perso/simon/lineage/res/logs_actives.csv"))
 
+smallbc=lastAll[ lastAll$maxbc>.2,]
+    plot(smallbc$alive ~ smallbc$maxbc)
+    plot(smallbc$maxbc ~ smallbc$Sparsity)
+    plot(smallbc$estrada_index ~ smallbc$Sparsity)
+    plot(smallbc$alive ~ smallbc$estrada_index)
+    plot(lastAll$alive ~ lastAll$maxbc)
+    plot(lastAll$maxbc ~ lastAll$Sparsity)
+    plot(lastAll$estrada_index ~ lastAll$Sparsity)
+    plot(lastAll$alive ~ lastAll$Sparsity)
+    cor(lastAll$alive,lastAll$Sparsity)
+    cor(lastAll$alive,lastAll$estrada_index)
+    var(lastAll$maxbc,lastAll$alive)
+    var(lastAll$Sparsity,lastAll$alive)
 
-    plot(lastAll$alive ~ lastAll$av_short_path)
+
+
 
     lastAll=getLastIt(mn3res)
     table(lastAll$Sparsity)
-    splitd=createHeatMat("meanbc","alive",lastAll)
-    meanspli=meanOn(splitd,mod=.01,l=2)
+    splitd=createHeatMat("av_short_path","alive",lastAll)
+    meanspli=meanOn(splitd,mod=.1,l=2)
 
     splitb=createHeatMat("t_size","alive",b)
     lsp= b[b$Sparsity %% 100==80,]
-    lsp=b[b$Sparsity==945,]
+    lsp=mn3res[mn3res$Sparsity==980,]
+    boxplot(lsp$alive ~ lsp$Iteration)
     interaction.plot(lsp$Iteration,lsp$t_size,lsp$alive,fun=mean)
-    printASlice(meanspli,ylab="#active agents",xlab="rep",ylim=c(0,101.05),xlim=c(0,1))
+    printASlice(meanspli,ylab="#active agents",xlab="rep",ylim=c(0,101.05),xlim=c(2.5,8))
 
     #To create a matrix used to plot a 3D plot :
     hm3dgridEllitist=makeGrid(ellitiste,"alive",median,normalize=F)
-    tournament3dGrid=makeGrid2(last,"Sparsity", "t_size", "alive",median,normalize=F)
+    tournament3dGrid=makeGrid2(last,"av_short_path", "rep", "alive",median,normalize=F)
 
     #To plot the 3D:
     for(yu in -120:-20){
