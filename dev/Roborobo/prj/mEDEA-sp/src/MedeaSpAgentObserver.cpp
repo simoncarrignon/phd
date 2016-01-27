@@ -197,9 +197,9 @@ void MedeaSpAgentObserver::checkGenomeList()
 		_wm->setActiveStatus(true);
 		// 		_wm->setRobotLED_status(true);
 		//Print the new genome on the logFile
-		gLogFile << gWorld->getIterations() <<" : "<< _wm->_agentId << " use "<<_wm->getAbilityToForage();
+		//gLogFile << gWorld->getIterations() <<" : "<< _wm->_agentId << " use "<<_wm->getAbilityToForage();
 
-		gLogFile << " at "<<_wm->getXReal()<< std::endl;
+		//gLogFile << " at "<<_wm->getXReal()<< std::endl;
 	}
 	else
 	{
@@ -241,7 +241,7 @@ void MedeaSpAgentObserver::pickRandomGenome()
 		_wm->setNewGenomeStatus(true); 
 		_wm->setFatherId((*it).first);
 
-		gLogFile << gWorld->getIterations() << " : " << _wm->_agentId + 1000 * _wm->getDateOfBirth()  << " take " << _wm->getFatherId()<<std::endl;
+		//gLogFile << gWorld->getIterations() << " : " << _wm->_agentId + 1000 * _wm->getDateOfBirth()  << " take " << _wm->getFatherId()<<std::endl;
 		if (_wm->_agentId == 1 && gVerbose) // debug
 			std::cout << "  Sigma is " << _wm->_sigmaList[(*it).first] << "." << std::endl;
 
