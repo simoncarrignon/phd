@@ -1155,31 +1155,35 @@ void<-function(){
     bt=read.csv("../test//logs_actives.csv")
     all=read.csv("../resultTounrment800-980/logs_actives.csv")
     mn3res=read.csv("~/RoboroMn3Exp/roboExp/perso/simon/lineage/res/logs_actives.csv")
-    mn3res=read.csv("~/projects/PhD/dev/RoboroboOld/Roborobo/perso/simon/lineage/verb/logs_actives.csv")
+    mn3res=read.csv("~/projects/PhD/dev/Roborobo/perso/simon/lineage/verb/logs_actives.csv")
+    test=read.csv("~/projects/PhD/dev/Roborobo/res/logs_actives.csv")
+    dev.off()
+    plot(test$alive ~ test$Iteration,ylim=c(0,max(test$alive)))
 
     
-    mn3res=rbind(read.csv("~/RoboroMn3Exp/roboExp/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp1/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp2/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp3/perso/simon/lineage/res/logs_actives.csv"))
 
 smallbc=lastAll[ lastAll$maxbc>.2,]
     plot(smallbc$alive ~ smallbc$maxbc)
     plot(smallbc$maxbc ~ smallbc$Sparsity)
     plot(smallbc$estrada_index ~ smallbc$Sparsity)
     plot(smallbc$alive ~ smallbc$estrada_index)
+
+
+
+
+    mn3res=rbind(read.csv("~/RoboroMn3Exp/roboExp/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp1/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp2/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp3/perso/simon/lineage/res/logs_actives.csv"))
+    lastAll=getLastIt(mn3res)
+    table(lastAll$Sparsity)
     plot(lastAll$alive ~ lastAll$maxbc)
     plot(lastAll$maxbc ~ lastAll$Sparsity)
+    plot(lastAll$av_short_path ~ lastAll$Sparsity)
     plot(lastAll$estrada_index ~ lastAll$Sparsity)
     plot(lastAll$alive ~ lastAll$Sparsity)
     cor(lastAll$alive,lastAll$Sparsity)
     cor(lastAll$alive,lastAll$estrada_index)
     var(lastAll$maxbc,lastAll$alive)
     var(lastAll$Sparsity,lastAll$alive)
-
-
-
-
-    lastAll=getLastIt(mn3res)
-    table(lastAll$Sparsity)
-    splitd=createHeatMat("av_short_path","alive",lastAll)
+    splitd=createHeatMat("Sparsity","alive",lastAll)
     meanspli=meanOn(splitd,mod=.1,l=2)
 
     splitb=createHeatMat("t_size","alive",b)
@@ -1187,7 +1191,7 @@ smallbc=lastAll[ lastAll$maxbc>.2,]
     lsp=mn3res[mn3res$Sparsity==980,]
     boxplot(lsp$alive ~ lsp$Iteration)
     interaction.plot(lsp$Iteration,lsp$t_size,lsp$alive,fun=mean)
-    printASlice(meanspli,ylab="#active agents",xlab="rep",ylim=c(0,101.05),xlim=c(2.5,8))
+    printASlice(splitd,ylab="#active agents",xlab="rep",ylim=c(0,101.05),xlim=c(940,980))
 
     #To create a matrix used to plot a 3D plot :
     hm3dgridEllitist=makeGrid(ellitiste,"alive",median,normalize=F)

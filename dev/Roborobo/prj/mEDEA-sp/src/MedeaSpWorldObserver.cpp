@@ -148,11 +148,9 @@ void MedeaSpWorldObserver::reset()
 {
 	if(!gRadioNetwork){
 	    
-		gLogFile<<"netgen"<<std::endl;
 		MedeaSpNetworkGenerator  ng= MedeaSpNetworkGenerator(MedeaSpSharedData::gSparsity);
 		ng.buildRandomNetwork();
-		gLogFile<<"endnetgen"<<std::endl;
-		//ng.writeGraphFile();
+		ng.writeGraphFile();
 	}
 }
 
@@ -292,6 +290,8 @@ void MedeaSpWorldObserver::step()
 						if(L>=10){L=0;}
 						break;
 					case 1:
+						_wm->_xReal=50; //I change in 2016 like that all agent are on the same point. BECAUSE I DONT CARRRE!
+						break;
 					case 2:
 						_wm->_xReal=i*int(radius)+510-(radius*99)/2;//5+(1000/2-((100/2-1)*5+100/2*5));
 						break;
@@ -570,7 +570,7 @@ void MedeaSpWorldObserver::updateEnvironmentResources()
 		if((*it)->getType()==1)
 			(*it)->setQ_E(MedeaSpSharedData::gNbAllowedRobotsBySun);
 		else
-			(*it)->setQ_E(100-MedeaSpSharedData::gNbAllowedRobotsBySun);
+			(*it)->setQ_E(gAgentCounter-MedeaSpSharedData::gNbAllowedRobotsBySun);
 	}
 }
 

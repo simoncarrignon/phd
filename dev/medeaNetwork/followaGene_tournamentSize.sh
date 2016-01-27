@@ -7,9 +7,7 @@ end=$2
 dir=$3
 destdir=$4
 sim=0
-tot=`ls -1 $dir/data* | wc -l` 
-
-medeaTools="$HOME/projects/PhD/dev/medeaNetwork/"
+tot=`ls -1 $dir/ |grep data | wc -l` 
 
 pref=`basename $dir`
 if [ "$1" == "" ] 
@@ -22,12 +20,10 @@ if [ "$1" == "" ]
 	exit 0
 fi
 
-echo "$medeaTools"getProp
-
-if [ ! -f "$medeaTools"getProp ] 
+if [ ! -f ../getProp ] 
 then
-	echo "the folder $medeaTools is unreachable"
-	exit 1;
+	echo "the script have to be run in its original folder : Roborobo/perso/simon/lineage/ !"
+	exit 0;
 fi	
 
 if [ ! -d $destdir ] 
@@ -35,25 +31,33 @@ then
 	mkdir $destdir
 fi
 
-echo "Iteration,alive,both,r0,r1,Sim,Sparsity,rep,fitness,t_size,av_short_path,maxbc,minbc,meanbc,estrada_index" > $destdir/$pref'_actives.csv'
+echo "Iteration,alive,both,r0,r1,Sim,Sparsity,rep,fitness,t_size" > $destdir/$pref'_actives.csv'
+#echo "Iteration,GValue,At,Sim,rID,Sparsity,rep" > $destdir/$pref"_genometracking.csv"
+#echo "Iteration,Father,Son,Sim" > $destdir/$pref"_ancestors.csv"
 
 
 
-for i in $( ls $dir/datalog_* ); do
-	gSpars=`"$medeaTools"/getProp $i gSparsity`
-	gRep=`"$medeaTools"/getProp $i gNbAllow`
-	graphName="${i/datalog/graph}"
-	graphName="${graphName/txt/dot}"
-	graphProp=`python "$medeaTools"/getNetworkProp.py $graphName`
-	gTsize=`"$medeaTools"/getProp $i gTournamentSize`
-	echo "extracting data from: $i"
-	cat $i | grep active | awk  -v start=$start -v e=$end -v s=$sim  -v sp=$gSpars -v rep=$gRep -v gp=$graphProp -v ts=$gTsize '
+for i in $( ls $dir/ | grep datalog ); do
+	gSpars=`../getProp $dir/$i gSparsity`
+	gRep=`../getProp $dir/$i gNbAllow`
+	gTsize=`../getProp $dir/$i gTournamentSize`
+#	cat $i | grep "use" | awk -v start=$start -v sp=$gSpars -v rep=$gRep -v s=$sim -v col=$(($column + 4)) -v e=$end '
+#		{
+#			if($1 < e && $1 > start && $col != "")
+#			{	
+#				print $1","$col","$NF","s","$3","sp","rep
+#			}
+#		}
+#		 ' >> $destdir/$pref"_genometracking.csv"
+	cat $dir/$i | grep active | awk  -v start=$start -v e=$end -v s=$sim  -v sp=$gSpars -v rep=$gRep -v ts=$gTsize '
 	{
 		if($1 < e && $1 > start )
 		{
-			print $1","$4","$5","$6","$7","s","sp","rep","$8","ts","gp
+			print $1","$4","$5","$6","$7","s","sp","rep","$8","ts
 		}
 	}' >> $destdir/$pref'_actives.csv'
+	
+#	cat $i | grep take | awk -v s=$sim 'BEGIN{FS=" "}{print $1","$3","$5","s}' >> $destdir/$pref'_ancestors.csv'
 	sim=$(($sim + 1))
 	echo    $sim  / $tot 
 done
