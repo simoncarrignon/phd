@@ -1,3 +1,6 @@
 [submodule "dev/pedestrian"]
 	path = dev/pedestrian
 	url = git@github.com:simoncarrignon/pedestrian.git
+[submodule "dev/HETCASave2015_NORTHREAD"]
+	path = dev/HETCASave2015_NORTHREAD
+	url = git@github.com:Xilrian/HETCASave2015_NORTHREAD.git
