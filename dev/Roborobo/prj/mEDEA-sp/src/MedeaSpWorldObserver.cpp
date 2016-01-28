@@ -568,9 +568,9 @@ void MedeaSpWorldObserver::updateEnvironmentResources()
 	for(std::vector<MedeaSpEnergyPoint*>::iterator it = coopEnergyPoints->begin(); it<coopEnergyPoints->end(); it++) 
 	{
 		if((*it)->getType()==1)
-			(*it)->setQ_E(MedeaSpSharedData::gNbAllowedRobotsBySun);
+			(*it)->setQ_E((double(MedeaSpSharedData::gNbAllowedRobotsBySun)/100.0 * gAgentCounter));
 		else
-			(*it)->setQ_E(gAgentCounter-MedeaSpSharedData::gNbAllowedRobotsBySun);
+			(*it)->setQ_E(gAgentCounter-(double(MedeaSpSharedData::gNbAllowedRobotsBySun/100.0) * gAgentCounter));
 	}
 }
 
