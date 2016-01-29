@@ -7,3 +7,6 @@
 [submodule "doc/HETCA-2016"]
 	path = doc/HETCA-2016
 	url = git@github.com:Xilrian/HETCA-2016.git
+[submodule "dev/stats"]
+	path = dev/stats
+	url = git@github.com:xrubio/stats.git
