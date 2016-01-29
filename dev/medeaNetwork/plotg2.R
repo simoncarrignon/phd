@@ -1156,9 +1156,11 @@ void<-function(){
     all=read.csv("../resultTounrment800-980/logs_actives.csv")
     mn3res=read.csv("~/RoboroMn3Exp/roboExp/perso/simon/lineage/res/logs_actives.csv")
     mn3res=read.csv("~/projects/PhD/dev/Roborobo/perso/simon/lineage/verb/logs_actives.csv")
-    test=read.csv("~/projects/PhD/dev/Roborobo/res/logs_actives.csv")
+    test=read.csv("~/projects/PhD/dev/Roborobo/fixTime/logs_actives.csv")
     dev.off()
-    plot(test$alive ~ test$Iteration,ylim=c(0,max(test$alive)))
+   boxplot(test$alive ~ test$Iteration,ylim=c(0,max(test$alive)),col="red")
+    points(test$r0 ~ test$Iteration,type="l",col="green")
+    points(test$r1 ~ test$Iteration,type="l",col="blue")
 
     
 
@@ -1171,11 +1173,12 @@ smallbc=lastAll[ lastAll$maxbc>.2,]
 
 
 
-    mn3res=rbind(read.csv("~/RoboroMn3Exp/roboExp/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp1/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp2/perso/simon/lineage/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/roboExp3/perso/simon/lineage/res/logs_actives.csv"))
+    mn3res=rbind(read.csv("~/RoboroMn3Exp/SigmaHigh/500/roboExp/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/SigmaHigh/500/roboExp1/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/SigmaHigh/500/roboExp2/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/SigmaHigh/500/roboExp3/res/logs_actives.csv"))
     lastAll=getLastIt(mn3res)
     table(lastAll$Sparsity)
     plot(lastAll$alive ~ lastAll$maxbc)
-    plot(lastAll$maxbc ~ lastAll$Sparsity)
+    plot(lastAll$estrada_inde ~ lastAll$Sparsity,col="red",log="y")
+    points(resHighSigh100Agents$estrada_inde ~ resHighSigh100Agents$Sparsity,log= "y")
     plot(lastAll$av_short_path ~ lastAll$Sparsity)
     plot(lastAll$estrada_index ~ lastAll$Sparsity)
     plot(lastAll$alive ~ lastAll$Sparsity)
@@ -1191,7 +1194,15 @@ smallbc=lastAll[ lastAll$maxbc>.2,]
     lsp=mn3res[mn3res$Sparsity==980,]
     boxplot(lsp$alive ~ lsp$Iteration)
     interaction.plot(lsp$Iteration,lsp$t_size,lsp$alive,fun=mean)
-    printASlice(splitd,ylab="#active agents",xlab="rep",ylim=c(0,101.05),xlim=c(940,980))
+    printASlice(splitd,ylab="#active agents",xlab="rep",ylim=c(0,501.05),xlim=c(550,999))
+
+    ##a ne pas toucher
+    resHighSigh100Agents
+    plitHighSigma
+    dev.off()
+    printASlice(plitHighSigma,ylab="#active agents",xlab="rep",ylim=c(0,101.05),xlim=c(620,990))
+    resNormSigma500Agentdensity560980 #BCP DE TROU AU NIVEAU DES DENSITE DANS CE SETUP 
+
 
     #To create a matrix used to plot a 3D plot :
     hm3dgridEllitist=makeGrid(ellitiste,"alive",median,normalize=F)

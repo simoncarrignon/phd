@@ -22,7 +22,6 @@ if [ "$1" == "" ]
 	exit 0
 fi
 
-echo "$medeaTools"getProp
 
 if [ ! -f "$medeaTools"getProp ] 
 then
@@ -44,6 +43,7 @@ for i in $( ls $dir/datalog_* ); do
 	gRep=`"$medeaTools"/getProp $i gNbAllow`
 	graphName="${i/datalog/graph}"
 	graphName="${graphName/txt/dot}"
+	echo "$graphName"
 	graphProp=`python "$medeaTools"/getNetworkProp.py $graphName`
 	gTsize=`"$medeaTools"/getProp $i gTournamentSize`
 	echo "extracting data from: $i"
