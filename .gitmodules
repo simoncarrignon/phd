@@ -4,3 +4,6 @@
 [submodule "dev/HETCASave2015_NORTHREAD"]
 	path = dev/HETCASave2015_NORTHREAD
 	url = git@github.com:Xilrian/HETCASave2015_NORTHREAD.git
+[submodule "doc/HETCA-2016"]
+	path = doc/HETCA-2016
+	url = git@github.com:Xilrian/HETCA-2016.git
