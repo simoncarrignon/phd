@@ -1151,14 +1151,15 @@ void<-function(){
     #To make the slice :
 
     u=read.csv("../resultTournament1230/logs_actives.csv")
-    b=read.csv("../500B/logs_actives.csv")
+    b=read.csv("~/projects/PhD/dev/Roborobo/perso/simon/lineage//500B/logs_actives.csv")
     bt=read.csv("../test//logs_actives.csv")
     all=read.csv("../resultTounrment800-980/logs_actives.csv")
     mn3res=read.csv("~/RoboroMn3Exp/roboExp/perso/simon/lineage/res/logs_actives.csv")
     mn3res=read.csv("~/projects/PhD/dev/Roborobo/perso/simon/lineage/verb/logs_actives.csv")
     test=read.csv("~/projects/PhD/dev/Roborobo/fixTime/logs_actives.csv")
+    test=read.csv("~/projects/PhD/dev/Roborobo/res/logs_actives.csv")
     dev.off()
-   boxplot(test$alive ~ test$Iteration,ylim=c(0,max(test$alive)),col="red")
+   plot(test$alive ~ test$Iteration,ylim=c(0,max(test$alive)),type="l",col="black")
     points(test$r0 ~ test$Iteration,type="l",col="green")
     points(test$r1 ~ test$Iteration,type="l",col="blue")
 
@@ -1313,9 +1314,10 @@ smallbc=lastAll[ lastAll$maxbc>.2,]
     dev.off()
     
     ############################Data turnament
-    d800900=read.csv("../resultTounrment800-980/logs_actives.csv")
-    d900980=read.csv("../resultTournament900980d/logs_actives.csv")
-    d500800=read.csv("../resultTounrment500-800/logs_actives.csv")
+    doc="/home/scarrign/projects/PhD/dev/Roborobo/perso/simon/lineage/"
+    d800900=read.csv("/home/scarrign/projects/PhD/dev/Roborobo/perso/simon/lineage/resultTounrment800-980/logs_actives.csv")
+    d900980=read.csv("/home/scarrign/projects/PhD/dev/Roborobo/perso/simon/lineage/resultTournament900980d/logs_actives.csv")
+    d500800=read.csv("/home/scarrign/projects/PhD/dev/Roborobo/perso/simon/lineage/resultTounrment500-800/logs_actives.csv")
     d500980=rbind(d800900,d500800)
     lastAll=getLastIt(d900980)
 
