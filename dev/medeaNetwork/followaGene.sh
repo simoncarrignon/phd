@@ -9,7 +9,7 @@ destdir=$4
 sim=0
 tot=`ls -1 $dir/data* | wc -l` 
 
-medeaTools="$HOME/projects/PhD/dev/medeaNetwork/"
+medeaTools="$HOME/$PHD/dev/medeaNetwork/"
 
 pref=`basename $dir`
 if [ "$1" == "" ] 
