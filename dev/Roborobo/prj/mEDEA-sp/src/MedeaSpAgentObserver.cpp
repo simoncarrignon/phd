@@ -299,7 +299,7 @@ void MedeaSpAgentObserver::elitSelection()
 		_wm->setNewGenomeStatus(true); 
 		_wm->setFatherId(idBest);
 
-		gLogFile << gWorld->getIterations() << " : " << _wm->_agentId + 1000 * _wm->getDateOfBirth()  << " take " << _wm->getFatherId()<<std::endl;
+		//gLogFile << gWorld->getIterations() << " : " << _wm->_agentId + 1000 * _wm->getDateOfBirth()  << " take " << _wm->getFatherId()<<std::endl;
 		if (_wm->_agentId == 1 && gVerbose) // debug
 			std::cout << "  Sigma is " << _wm->_sigmaList[idBest] << "." << std::endl;
 

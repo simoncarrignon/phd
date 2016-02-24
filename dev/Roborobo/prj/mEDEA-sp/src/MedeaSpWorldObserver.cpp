@@ -15,6 +15,8 @@
 
 #include "World/World.h"
 #include <math.h>
+#include <algorithm>    
+
 
 MedeaSpWorldObserver::MedeaSpWorldObserver( World* __world ) : WorldObserver( __world )
 {
@@ -565,13 +567,27 @@ void MedeaSpWorldObserver::updateEnvironmentResources()
 	}
 	
 	//update number of token available on the ressources
+	//std::cerr << "____________________"<<std::endl;
 	for(std::vector<MedeaSpEnergyPoint*>::iterator it = coopEnergyPoints->begin(); it<coopEnergyPoints->end(); it++) 
 	{
+		//std::cerr <<(*it)->getType() << std::endl;
 		if((*it)->getType()==1)
 			(*it)->setQ_E((double(MedeaSpSharedData::gNbAllowedRobotsBySun)/100.0 * gAgentCounter));
 		else
 			(*it)->setQ_E(gAgentCounter-(double(MedeaSpSharedData::gNbAllowedRobotsBySun/100.0) * gAgentCounter));
 	}
+	//std::cerr << "------------------"<<std::endl;
+
+	//std::cerr << "____________________"<<std::endl;
+	//for (unsigned i = coopEnergyPoints->size(); i-- > 0; ){
+	//{
+	//	std::cerr <<(coopEnergyPoints->at(i))->getType() << std::endl;
+	//	if((coopEnergyPoints->at(i))->getType()==1)
+	//		(coopEnergyPoints->at(i))->setQ_E((double(MedeaSpSharedData::gNbAllowedRobotsBySun)/100.0 * gAgentCounter));
+	//	else
+	//		(coopEnergyPoints->at(i))->setQ_E(gAgentCounter-(double(MedeaSpSharedData::gNbAllowedRobotsBySun/100.0) * gAgentCounter));
+	//}
+	//std::cerr << "------------------"<<std::endl;
 }
 
 
@@ -615,6 +631,8 @@ void MedeaSpWorldObserver::updateAllAgentsEnergyLevel()
 				// * update agent energy (if needed) - agent should be on an active energy point location to get energy
 				
 				Point2d posRobot(currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
+				std::random_shuffle ( coopEnergyPoints->begin(), coopEnergyPoints->end() );
+
 				for(std::vector<MedeaSpEnergyPoint*>::iterator it = coopEnergyPoints->begin(); it<coopEnergyPoints->end(); it++) 
 				{
 					if( (getEuclidianDistance (posRobot,(*it)->getPosition()) < gEnergyPointRadius) && (*it)->getActiveStatus())
