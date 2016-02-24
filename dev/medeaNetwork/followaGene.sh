@@ -44,7 +44,7 @@ for i in $( ls $dir/datalog_* ); do
 	graphName="${i/datalog/graph}"
 	graphName="${graphName/txt/dot}"
 	echo "$graphName"
-	graphProp=`python "$medeaTools"/getNetworkProp.py $graphName`
+	graphProp="" #`python "$medeaTools"/getNetworkProp.py $graphName`
 	gTsize=`"$medeaTools"/getProp $i gTournamentSize`
 	echo "extracting data from: $i"
 	cat $i | grep active | awk  -v start=$start -v e=$end -v s=$sim  -v sp=$gSpars -v rep=$gRep -v gp=$graphProp -v ts=$gTsize '

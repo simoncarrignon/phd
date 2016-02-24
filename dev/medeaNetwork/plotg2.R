@@ -1159,9 +1159,11 @@ void<-function(){
     test=read.csv("~/projects/PhD/dev/Roborobo/fixTime/logs_actives.csv")
     test=read.csv("~/projects/PhD/dev/Roborobo/res/logs_actives.csv")
     dev.off()
-   plot(test$alive ~ test$Iteration,ylim=c(0,max(test$alive)),type="l",col="black")
+    png("testN500D010K2.png")
+    plot(test$alive ~ test$Iteration,ylim=c(0,max(test$alive)),type="l",col="black")
     points(test$r0 ~ test$Iteration,type="l",col="green")
     points(test$r1 ~ test$Iteration,type="l",col="blue")
+    dev.off()
 
     
 
@@ -1204,16 +1206,55 @@ smallbc=lastAll[ lastAll$maxbc>.2,]
     printASlice(plitHighSigma,ylab="#active agents",xlab="rep",ylim=c(0,101.05),xlim=c(620,990))
     resNormSigma500Agentdensity560980 #BCP DE TROU AU NIVEAU DES DENSITE DANS CE SETUP 
 
+    res100=rbind(read.csv("~/RoboroMn3Exp/100D002-020_T1-64/roboExp/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/100D002-020_T1-64/roboExp1/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/100D002-020_T1-64/roboExp2/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/100D002-020_T1-64/roboExp3/res/logs_actives.csv"))
 
+    interaction.plot(res100$Iteration,res100$t_size,res100$alive,fun=mean)
+    table(lastAll[,c("Sparsity","t_size")])
+    lastAll=getLastIt(res100)
+    last5All=getLastIt(res500T50)
+    table(last5All[,c("Sparsity","t_size")])
     #To create a matrix used to plot a 3D plot :
     hm3dgridEllitist=makeGrid(ellitiste,"alive",median,normalize=F)
-    tournament3dGrid=makeGrid2(last,"av_short_path", "rep", "alive",median,normalize=F)
+    tournament3dGrid=makeGrid2(lastAll,"Sparsity", "t_size", "alive",median,normalize=F)
 
+    res500=rbind(
+		 read.csv("~/RoboroMn3Exp/500D070-099_T001-100/roboExp/res/logs_actives.csv"),
+		 read.csv("~/RoboroMn3Exp/500D070-099_T001-100/roboExp1/res/logs_actives.csv"),
+		 read.csv("~/RoboroMn3Exp/500D070-099_T001-100/roboExp2/res/logs_actives.csv"),
+		 read.csv("~/RoboroMn3Exp/500D070-099_T001-100/roboExp3/res/logs_actives.csv"))
+    res500T50=rbind(
+		 read.csv("~/RoboroMn3Exp/newTest//roboExpT50/res/logs_actives.csv"),
+		 read.csv("~/RoboroMn3Exp/newTest//roboExp1T50/res/logs_actives.csv"),
+		 read.csv("~/RoboroMn3Exp/newTest//roboExp2T50/res/logs_actives.csv"),
+		 read.csv("~/RoboroMn3Exp/newTest//roboExp3T50/res/logs_actives.csv"))
+
+    res500T100=rbind(
+		 read.csv("~/RoboroMn3Exp/newTest/roboExpT100/res/logs_actives.csv"),
+		 read.csv("~/RoboroMn3Exp/newTest/roboExp1T100/res/logs_actives.csv"),
+		 read.csv("~/RoboroMn3Exp/newTest/roboExp2T100/res/logs_actives.csv"),
+		 read.csv("~/RoboroMn3Exp/newTest/roboExp3T100/res/logs_actives.csv"))
+
+    res500T0=rbind(
+		 #read.csv("~/RoboroMn3Exp/newTest/roboExp/res/logs_actives.csv"),
+		 read.csv("~/RoboroMn3Exp/newTest/roboExp1/res/logs_actives.csv"),
+		 read.csv("~/RoboroMn3Exp/newTest/roboExp2/res/logs_actives.csv"),
+		 read.csv("~/RoboroMn3Exp/newTest/roboExp3/res/logs_actives.csv"))
+
+		 res500T50=read.csv("~/RoboroMn3Exp/500D070-099_T001-100/roboExp1T50/res/logs_actives.csv")#,read.csv("~/RoboroMn3Exp/500D070-099_T001-100/roboExp2/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/500D070-099_T001-100/roboExp3/res/logs_actives.csv"))
+    res500T15=rbind(res500T50,res500T100,res500T0)
+    interaction.plot(res500T15$Iteration,res500T15$t_size,res500T15$alive,fun=mean)
+    table(res500T15[,c("Sparsity","t_size")])
+    lastAll15=getLastIt(res500T15)
+    table(lastAll15[,c("Sparsity","t_size")])
+    #To create a matrix used to plot a 3D plot :
+    hm3dgridEllitist=makeGrid(ellitiste,"alive",median,normalize=F)
+    tournament3dGrid=makeGrid2(lastAll15,"Sparsity", "t_size", "alive",median,normalize=F)
     #To plot the 3D:
     for(yu in -120:-20){
 	tournament3dGrid$Sparsity=spar2Dens(tournament3dGrid$Sparsity)
 	pdf("active_median-tournament.pdf",width=12,height=12,pointsize=17)
-	plot3dHm2(tournament3dGrid,y=-140,x=-100,scpos=list(x=9,y=5,z=2),zlab=list(paste("#active agents",sep=""),rot=86,cex=2.8),ylab=list("tournament size",rot=-30,cex=2.8))
+    png("active_median-tournament0-100.png",width=900,height=900)
+	plot3dHm2(tournament3dGrid,y=-140,x=-100,scpos=list(x=9,y=5,z=2),zlab=list(paste("#active agents",sep=""),rot=86,cex=2.8),ylab=list("tournament size",rot=-30,cex=2.8),zlim=c(0,500))
 	dev.off()
     }
 
@@ -1328,13 +1369,19 @@ smallbc=lastAll[ lastAll$maxbc>.2,]
     tournament3dGrid$Sparsity=spar2Dens(tournament3dGrid$Sparsity)
 
     #To plot the 3D:
-    pdf("active_median-tournament.pdf",width=12,height=12,pointsize=17)
-    plot3dHm2(tournament3dGrid,,y=35,z=0,x=-80,zlim=c(0,100),lwd=.2,zlab=list(paste("#active agents",sep=""),rot=86,cex=2.8),ylab=list("tournament size",rot=-30,cex=2.8))
+    png("active_median-tournament1-6.png",width=900,height=900)
+    plot3dHm2(tournament3dGrid,y=-13,z=0,x=-80,zlim=c(0,100),lwd=.2,zlab=list(paste("#active agents",sep=""),rot=92,cex=2.8),ylab=list("tournament size",rot=80,cex=2.8),xlab=list("density",rot=3,cex=2.8))
     dev.off()
     lsp= b[b$Sparsity %% 100==80,]
     lsp=b[b$Sparsity==945,]
 
     interaction.plot(t_comp$Iteration,t_comp$t_size,t_comp$alive,fun=mean)
+    for(i in unique(res500T15$Sparsity)){
+	png(paste("agentwrttimeD-",i,".png",sep=""),width=800,height=800)
+	t_comp=res500T15[res500T15$Sparsity ==i,]
+	interaction.plot(t_comp$Iteration,t_comp$t_size,t_comp$alive,fun=mean,main=paste("Evolution of #agents for different tournament size\n and density of ",i,sep=""),pch=0:9,,type="b",leg.bty="l",col=colorRampPalette(c("blue","red"))(10),fixed=T,ylim=c(0,500))
+	dev.off()
+    }
 
     ######les differents plot itereaction en fonction de la taille du tournoi
     for(i in seq(100,500,100)){
