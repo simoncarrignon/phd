@@ -10,3 +10,6 @@
 [submodule "dev/stats"]
 	path = dev/stats
 	url = git@github.com:xrubio/stats.git
+[submodule "doc/conferences/20160323_CompleNet"]
+	path = doc/conferences/20160323_CompleNet
+	url = git@github.com:simoncarrignon/20160323_CompleNet.git
