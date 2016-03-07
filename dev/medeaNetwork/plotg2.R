@@ -1425,3 +1425,25 @@ getLastIt <- function(d){
     return( d[d$Iteration == max(d$Iteration),])
 }
 
+lastExp=function(){
+
+    lastA
+    alld=c()
+     sapply(
+	   for( i in sapply( list.files("~/RoboroMn3Exp/PLOSONEMEDEA2/",pattern= "D.*",full.names=T) ,paste,"/res/logs_actives.csv",sep="")){
+	       	alld=rbind(alld,read.csv(i))
+	   }
+	   table(alld[,c("Sparsity","t_size")])
+	    
+	    ,function(x) alld=rbind(alld,read.csv(x)))
+
+	interaction.plot(alld$Iteration,alld$t_size,alld$r0,fun=mean,main=paste("Evolution of #agents for different tournament size\n and density of ",sep=""),pch=0:9,,type="b",leg.bty="l",col=colorRampPalette(c("blue","red"))(10),fixed=T,ylim=c(0,500),trace.label="jeanejan")
+
+    sapply(unique(alld$Sparsity),function(i){
+	png(paste("agentwrttimeD-",formatC(1000-i,width=4,format="d",flag="0"),".png",sep=""),width=801,height=800)
+	t_comp=alld[alld$Sparsity ==i,]
+	interaction.plot(t_comp$Iteration,t_comp$t_size,t_comp$alive,fun=mean,main=paste("Evolution of #agents for different tournament size\n and density of ",(1000-i)/1000 ,sep=""),pch=0:9,,type="b",leg.bty="l",col=colorRampPalette(c("blue","red"))(10),fixed=T,ylim=c(0,500),trace.label="Tournament size")
+	dev.off()
+    })
+}
+
