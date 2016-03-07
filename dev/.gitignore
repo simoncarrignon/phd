@@ -30,6 +30,8 @@ RoboroboOld/*
 *.app
 
 
+#svn
+.svm/*
 
 .sconsign.dblite
 province
