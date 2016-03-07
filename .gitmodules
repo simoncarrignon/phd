@@ -13,3 +13,6 @@
 [submodule "doc/conferences/20160323_CompleNet"]
 	path = doc/conferences/20160323_CompleNet
 	url = git@github.com:simoncarrignon/20160323_CompleNet.git
+[submodule "doc/instrumenta"]
+	path = doc/instrumenta
+	url = git@github.com:simoncarrignon/instrumenta.git
