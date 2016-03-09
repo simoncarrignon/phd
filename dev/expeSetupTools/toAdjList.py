@@ -14,8 +14,9 @@ def adj_list_to_file(G,file_name):
             f.write(str(neighbor) + ' ')
         f.write('\n')
 
-for i in range(1,7):
-    inname= "G"+str(i)+".txt"
-    onname= "g"+str(i)+".txt"
-    G=nx.read_adjlist(inname)
-    adj_list_to_file(G.to_undirected(),onname)
+for i in range(0,5):
+    for j in range(0,2):
+        inname= "G"+str(i)+str(j)+".txt"
+        onname= "g"+str(i)+str(j)+".txt"
+        G=nx.read_adjlist(inname)
+        adj_list_to_file(G.to_undirected(),onname)
