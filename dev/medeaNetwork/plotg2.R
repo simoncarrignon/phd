@@ -2,6 +2,7 @@ if(require("lattice")){library(lattice)}
 if(require("scales")){library(scales)}
 if(require("plyr")){library(plyr)}
 if(require("ggplot2")){library(ggplot2)}
+if(require("vioplot")){library(vioplot)}
 
 ######
 #Colors definitions
@@ -1243,6 +1244,7 @@ smallbc=lastAll[ lastAll$maxbc>.2,]
 		 res500T50=read.csv("~/RoboroMn3Exp/500D070-099_T001-100/roboExp1T50/res/logs_actives.csv")#,read.csv("~/RoboroMn3Exp/500D070-099_T001-100/roboExp2/res/logs_actives.csv"),read.csv("~/RoboroMn3Exp/500D070-099_T001-100/roboExp3/res/logs_actives.csv"))
     res500T15=rbind(res500T50,res500T100,res500T0)
     interaction.plot(res500T15$Iteration,res500T15$t_size,res500T15$alive,fun=mean)
+    interaction.plot(res500T0$Iteration,res500T15$t_size,res500T15$alive,fun=mean)
     table(res500T15[,c("Sparsity","t_size")])
     lastAll15=getLastIt(res500T15)
     table(lastAll15[,c("Sparsity","t_size")])
@@ -1264,7 +1266,7 @@ smallbc=lastAll[ lastAll$maxbc>.2,]
 
     ellitiste = read.csv("/home/scarrign/projects/PhD/dev/Roborobo/perso/simon/lineage/vanilla-eeDens002to004LastIt.csv",header=T)
     ellitiste = read.csv("/home/scarrign/projects/PhD/dev/Roborobo/perso/simon/lineage/vanilla-eeDens002to004LastIt.csv002to004LastIt.csv",header=T)
-    test = read.csv("/home/scarrign/projects/PhD/dev/RoboroboPure/Roborobo/perso/simon/lineage/largeGde/logs_actives.csv")
+    allT = read.csv("/home/scarrign/projects/PhD/dev/backup_persoRoborobo/simon/lineage/allResult.csv")
     #ellitiste = read.csv("/home/scarrign/projects/PhD/dev/Roborobo/perso/simon/lineage/vanilla-eeDens002to004LastIt.csv",header=F)
     ellitiste$Sparsity = 1 - ellitiste$Sparsity/1000
 
@@ -1317,9 +1319,10 @@ smallbc=lastAll[ lastAll$maxbc>.2,]
 
     #Slice rep=50
     sliceMedea=createHeatMat("Sparsity","alive",allT[ allT$rep < 51,])
+    sliceMedea=makeAMAtrix(allT[ allT$rep < 51,])
     pdf("slice_alive_rep-50.pdf",pointsize=14);
     par(mar=c(5,5,4,2))
-    printASlice(sliceMedea,ylab="#active agents",xlab="density",ylim=c(-2.5,101.5),xlim=c(0.018,0.198),cex.lab=1.8,cex.axis=1.2)
+    printASlice(cols=c( "red", "blue"),sliceMedea,ylab="#active agents",xlab="density",ylim=c(-2.5,101.5),xlim=c(0.018,0.108),cex.lab=1.8,cex.axis=1.2)
     dev.off()
 
     sliceMedeaRp50=createHeatMat("Sparsity","rap",allT[ allT$rep < 51,])
@@ -1348,10 +1351,36 @@ smallbc=lastAll[ lastAll$maxbc>.2,]
 
     #####GRAPH data apres 15000 iterations
     longersim=read.csv("dens002-01_15000it.csv")
+    longersim=read.csv("/home/scarrign/projects/PhD/dev/Roborobo/perso/simon/lineage/Rscript/dens002-01_15000it.csv-01_15000it.csv")
     hm15000=createHeatMat("Sparsity","alive",longersim)
+    
+
+    makeAMAtrix<-function(indata,maxA=100){
+	res<-matrix(nrow=length(sort(unique(indata$Sparsity))),ncol=maxA+1,dimnames=list(Sparsity=sort(unique(indata$Sparsity)),alive=c(0:maxA)))
+
+	for( na in 0:maxA){
+	    for (sp in as.character(unique(indata$Sparsity))){
+		#print(paste("sp: ",sp))
+		print(paste( "NA:",as.character(na)))
+		#cheval[sp,as.character(na)]= nrow(indata[ as.character(indata$Sparsity) == sp & indata$alive == na,])
+		maxA=apply(indata[as.character(indata$Sparsity) == sp & indata$alive == na,c("r1","r0")],1,max)
+		minA=apply(indata[as.character(indata$Sparsity) == sp & indata$alive == na,c("r1","r0")],1,min)
+		res[sp,as.character(na)]= mean(minA/maxA)
+		#print(nrow(indata[ as.character(indata$Sparsity) == sp & indata$alive == na,]) )
+		#print(res[sp,as.character(na)])
+	    }
+	    print("--------------")
+	}
+	return(res)
+    }
+
     par(mar=c(5,5,4,2))
-    pdf("slice_alive_rep-50-15000it.pdf",pointsize=14);
+    pdf("is_species.pdf",pointsize=14);
     printASlice(hm15000,ylab="#active agents",xlab="density",ylim=c(-2.5,101.5),xlim=c(0.018,0.102),cex.lab=1.8,cex.axis=1.2)
+    dev.off()
+    pdf("slice_R1_rep-90.pdf",pointsize=14);
+    par(mar=c(5,6.5,4,2))
+    printASlice(cheval23,cols=c("blue","red"),ylab=expression(frac("min({H(R_1),H(R_2)})","max({H(R_1),H(R_2)})")),xlab="density",ylim=c(-2.5,101.5),xlim=c(0.018,0.102),cex.lab=1.8,cex.axis=1.2)
     dev.off()
     
     ############################Data turnament
@@ -1425,25 +1454,4 @@ getLastIt <- function(d){
     return( d[d$Iteration == max(d$Iteration),])
 }
 
-lastExp=function(){
-
-    lastA
-    alld=c()
-     sapply(
-	   for( i in sapply( list.files("~/RoboroMn3Exp/PLOSONEMEDEA2/",pattern= "D.*",full.names=T) ,paste,"/res/logs_actives.csv",sep="")){
-	       	alld=rbind(alld,read.csv(i))
-	   }
-	   table(alld[,c("Sparsity","t_size")])
-	    
-	    ,function(x) alld=rbind(alld,read.csv(x)))
-
-	interaction.plot(alld$Iteration,alld$t_size,alld$r0,fun=mean,main=paste("Evolution of #agents for different tournament size\n and density of ",sep=""),pch=0:9,,type="b",leg.bty="l",col=colorRampPalette(c("blue","red"))(10),fixed=T,ylim=c(0,500),trace.label="jeanejan")
-
-    sapply(unique(alld$Sparsity),function(i){
-	png(paste("agentwrttimeD-",formatC(1000-i,width=4,format="d",flag="0"),".png",sep=""),width=801,height=800)
-	t_comp=alld[alld$Sparsity ==i,]
-	interaction.plot(t_comp$Iteration,t_comp$t_size,t_comp$alive,fun=mean,main=paste("Evolution of #agents for different tournament size\n and density of ",(1000-i)/1000 ,sep=""),pch=0:9,,type="b",leg.bty="l",col=colorRampPalette(c("blue","red"))(10),fixed=T,ylim=c(0,500),trace.label="Tournament size")
-	dev.off()
-    })
-}
 
