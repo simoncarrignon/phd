@@ -43,12 +43,12 @@
 \makeatother
 
 \title{
-	Co-evolution of trade and culture:\\
-	Impact of cultural network topology on economic dynamics.\\
-	CAA2016
+	CAA2016\\
+	Co-evolution of trade and culture\\
+	Impact of cultural network topology on economic dynamics.
 }
 
-\institute{8th December 2016}
+\institute{31 March 2016}
 
 \author{Simon Carrignon, Jean-Marc Montanier, Jérôme Michaud \& Xavier Rubio-Campillo}
 
@@ -236,10 +236,46 @@
 	\end{block}
 \end{frame}
 
+\begin{frame}{The Model }
+	\begin{figure}
+	    \caption{Example for 3 goods and 500 agents}
+	    \begin{columns}
+		\column{.5\textwidth}
+		\includegraphics[height=\textwidth]{images/ScoreEvolutionForD-G3N500.pdf}\\
+	    \end{columns}
+		@~Equilibrium: mean of score  $\rightarrow$ score max.
+	\end{figure}
+	
+\end{frame}
+
 \section{Experimental Setup \& Results}
 \begin{frame}{Experiments}
+	\textbf{Impact of the topologie of the cultural network }
+	$\rightarrow$ Average Length Path vs Density:\\
+	\begin{center}
+	    ``What properties of the cultural network influe on the economic dynamics? '' 
+	\end{center}
+
+
+
+
+\end{frame}
+
+\begin{frame}{Experiments}
+	Creation of set of network with combinaison of the properties we want to test:
+
+    \begin{table}
+
 	\centering
-	\textbf{Average Length Path vs Density}
+	\begin{tabular}{l|cc}
+	    &Density: \\
+	    AVLP: 	& $D_1$	 	& $D_2$\\\hline
+	    $A_1$	& $Net_{11}$	& $Net_{12}$\\	
+	    $A_2$	& $Net_{21}$	& $Net_{22}$\\	
+	\end{tabular}
+	\label{tab:net}
+    \end{table}
+\end{frame}
 %	\\Trade Mechanism + Success Biased Copy\\
 %	\vfill
 %	vs\\
@@ -247,27 +283,20 @@
 %	\textbf{Neutral Model}\\ Trade Mechanism + Random Copy\\
 	 
 
-\end{frame}
-
 
 
 \begin{frame}{Results: }
-    Evolution of Score
+    \begin{figure}[h]
+	\begin{center}
+	    \includegraphics[height=.9\textheight]{images/meanCurveAndFit.pdf}
+	\end{center}
+	\label{fig:meancurve}
+    \end{figure}
+
 \end{frame}
     
 
 
-\begin{frame}{Results: }
-	\begin{figure}
-	    \caption{Example for 3 goods and 500 agents}
-	    \begin{columns}
-		\column{.5\textwidth}
-		\includegraphics[height=\textwidth]{images/ClearingPriceDistanceEvolutionForTrade-G3N500.pdf}\\
-	    \end{columns}
-		@~Equilibrium: personal values  $\rightarrow$ optimal (shared) values.
-	\end{figure}
-	
-\end{frame}
 
 \begin{frame}{Summary}
 \begin{itemize}
