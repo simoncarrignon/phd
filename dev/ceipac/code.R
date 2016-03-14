@@ -305,16 +305,25 @@ num
 eqspace=function(mn,mx,d)seq(mn,mx,(mx-mn)/(length(d)-1))
 
 simpleCode<-function(){
-	dat=read.csv("DATOS SIMON.csv",sep= ";")
-	maxlat=max(dat$lat)
-	maxlong=max(dat$long)
-	minlat=min(dat$lat)
-	minlong=min(dat$long)
-	#get some open street map
-	map = openmap(c(lat=maxlat+0.02,long=minlong-0.04 ) ,
-			c(lat=minlat-0.02,long=maxlong+.04) ,
-								minNumTiles=8,type="osm")
-	longlat=openproj(map) #Change coordinate projection
-	plot(longlat)
-	points(long[names(num)],lat[names(num)],cex=1+log(num),col=alpha("dark green",.40),pch=20)
+    dat=read.csv("DATOS SIMON.csv",sep= ";")
+    maxlat=max(dat$lat)
+    maxlong=max(dat$long)
+    minlat=min(dat$lat)
+    minlong=min(dat$long)
+    long=dat$long
+    lat=dat$lat
+    names(long)=dat$citie
+    names(lat)=dat$citie
+    num=tapply(dat$num,dat$citie,sum)
+    #get some open street map
+    map = openmap(c(lat=maxlat+0.02,long=minlong-0.04 ) ,
+		  c(lat=minlat-0.02,long=maxlong+.04) ,
+		  minNumTiles=8,type="osm")
+    longlat=openproj(map) #Change coordinate projection
+    plot(longlat)
+    points(long[names(num)],lat[names(num)],cex=1+log(num),col=alpha("dark green",.40),pch=20)
+    long=dat$long
+    lat=dat$lat
+    names(long)=dat$citie
+    names(lat)=dat$citie
 }
