@@ -2,7 +2,7 @@ lastExp=function(){
     ##TOURNAMENT PART
     tsize=c(1,2,3,5,10,50)
 
-    lastA
+    #lastA
     #sapply(
     alld=c()
     for( i in sapply( list.files("~/RoboroMn3Exp/PLOSONEMEDEA2/",pattern= "D.*",full.names=T) ,paste,"/res/logs_actives.csv",sep="")){
@@ -10,12 +10,12 @@ lastExp=function(){
     }
 
     #100
-    #alld100=read.csv("alld100.csv")
+   alld100=read.csv("alld100.csv")
     #write.csv(alld100,"alld100.csv")
     sparsities=c(0,900,940,980)
     sapply(sparsities,function(i){
-	   pdf(paste("100/agentwrtK_D-",formatC(1000-i,width=4,format="d",flag="0"),".pdf",sep=""),pointsize=14)
-	   t_comp=getLastIt(alld100[alld100$Sparsity ==i,])
+	   pdf(paste("tmp/100/agentwrtK_D-",formatC(1000-i,width=4,format="d",flag="0"),".pdf",sep=""),pointsize=14)
+	   t_comp=getLastIt(alld100WOUT[alld100WOUT$Sparsity ==i,])
 	   plot(1,1,xlim=c(.5,6.5),ylim=c(0,100),type="n",xaxt="n",ylab="number of active agents",xlab="tournament size",main=paste("Evolution of #agents for different tournament size\n and density of ",(1000-i)/1000 ,sep=""))
 	   axis(1,at=seq_along(tsize),labels=sort(tsize))
 	   sapply(seq_along(tsize),function(k){
@@ -23,19 +23,21 @@ lastExp=function(){
 	   dev.off()
 	})
 
+    alld100WOUT=alld100[! alld100$Sim %in% c(107,27,98),]
 
     #500
-    #alld500=read.csv("alld500.csv")
+    alld500=read.csv("alld500.csv")
     #write.csv(alld500100,"alld500500.csv")
     sparsities=c(0,900,990,996)
     sapply(sparsities,function(i){
-	   pdf(paste("500/agentwrtK_D-",formatC(1000-i,width=4,format="d",flag="0"),".pdf",sep=""),pointsize=14)
+	   pdf(paste("tmp/500/agentwrtK_D-",formatC(1000-i,width=4,format="d",flag="0"),".pdf",sep=""),pointsize=14)
 	   t_comp=getLastIt(alld500[alld500$Sparsity ==i,])
 	   plot(1,1,xlim=c(.5,6.5),ylim=c(0,500),type="n",xaxt="n",ylab="number of active agents",xlab="tournament size",main=paste("Evolution of #agents for different tournament size\n and density of ",(1000-i)/1000 ,sep=""))
 	   axis(1,at=seq_along(tsize),labels=sort(tsize))
 	   sapply(seq_along(tsize),function(k){
 		  vioplot(t_comp$alive[t_comp$t_size == sort(tsize)[k]],at=k,add=T,col="white")})
 	   dev.off()
+
 	})
 
 
@@ -48,11 +50,11 @@ lastExp=function(){
     sliceMedea=createHeatMat("Sparsity","alive",allT[ allT$rep < 51,])
     speciation=makeAMAtrix(allT[ allT$rep < 51  ,])
 
-    pdf("slice_spec_rep-50.pdf",pointsize=14);
+    pdf("tmp/slice_spec_rep-50.pdf",pointsize=14);
     par(mar=c(5,5,4,2))
     printASlice(cols=c( "blue", "red"),speciation[ 1:80,],ylab="number of active agents",xlab="density",ylim=c(-2.5,101.5),xlim=c(0.018,0.102),cex.lab=1.8,cex.axis=1.2)
     dev.off()
-    pdf("slice_alive_rep-50.pdf",pointsize=14);
+    pdf("tmp/slice_alive_rep-50.pdf",pointsize=14);
     par(mar=c(5,5,4,2))
     printASlice(sliceMedea[ 1:80,],ylab="number of active agents",xlab="density",ylim=c(-2.5,101.5),xlim=c(0.018,0.102),cex.lab=1.8,cex.axis=1.2)
     dev.off()
@@ -62,11 +64,11 @@ lastExp=function(){
 
     raptest=allT[ allT$rep < 91 & allT$rep > 89,]
     raptest=raptest[raptest$Sparsity == .02 & raptest$alive == 90,]
-    pdf("slice_spec_rep-90.pdf",pointsize=14);
+    pdf("tmp/slice_spec_rep-90.pdf",pointsize=14);
     par(mar=c(5,5,4,2))
     printASlice(cols=c( "blue", "red"),speciation90[ 1:80,],ylab="number of active agents",xlab="density",ylim=c(-2.5,101.5),xlim=c(0.018,0.102),cex.lab=1.8,cex.axis=1.2)
     dev.off()
-    pdf("slice_alive_rep-90.pdf",pointsize=14);
+    pdf("tmp/slice_alive_rep-90.pdf",pointsize=14);
     par(mar=c(5,5,4,2))
     printASlice(sliceMedea90[ 1:80,],ylab="number of active agents",xlab="density",ylim=c(-2.5,101.5),xlim=c(0.018,0.102),cex.lab=1.8,cex.axis=1.2)
     dev.off()
@@ -74,23 +76,23 @@ lastExp=function(){
     sliceMedea75=createHeatMat("Sparsity","alive",allT[ allT$rep < 76 & allT$rep > 74,])
     speciation75=makeAMAtrix(allT[ allT$rep < 76 & allT$rep > 74,])
 
-    pdf("slice_spec_rep-75.pdf",pointsize=14);
+    pdf("tmp/slice_spec_rep-75.pdf",pointsize=14);
     par(mar=c(5,5,4,2))
     printASlice(cols=c( "blue", "red"),speciation75[ 1:80,],ylab="number of active agents",xlab="density",ylim=c(-2.5,101.5),xlim=c(0.018,0.102),cex.lab=1.8,cex.axis=1.2)
     dev.off()
-    pdf("slice_alive_rep-75.pdf",pointsize=14);
+    pdf("tmp/slice_alive_rep-75.pdf",pointsize=14);
     par(mar=c(5,5,4,2))
     printASlice(sliceMedea75[ 1:80,],ylab="number of active agents",xlab="density",ylim=c(-2.5,101.5),xlim=c(0.018,0.102),cex.lab=1.8,cex.axis=1.2)
     dev.off()
 
-    pdf("legNum.pdf",pointsize=14,height=7,width=2)
+    pdf("tmp/legNum.pdf",pointsize=14,height=7,width=2)
     par(mar=c(5,0,4,5))
     image(t(as.matrix(2:1000)),col=colorRampPalette(c("white","black"))(1000),axes=F) 
     axis(4,labels=seq(0,100,20),at=seq(0,1,.2),cex=1.4)
     mtext(4,text="Percentage of Simulation",line=3,cex=1.8)
     dev.off()
 
-    pdf("legLofS.pdf",pointsize=14,height=7,width=2)
+    pdf("tmp/legLofS.pdf",pointsize=14,height=7,width=2)
     par(mar=c(5,0,4,5))
     image(t(as.matrix(2:1000)),col=colorRampPalette(c("blue","red"))(1000),axes=F) 
     axis(4,labels=seq(0,1,.2),at=seq(0,1,.2),cex=1.4)
@@ -99,15 +101,26 @@ lastExp=function(){
 
     rep100=allT
 
+    sapply(c(50,75,90),function(x){
+	   repX=makeAMAtrixN(rep100b[ rep100b$rep < x+1 & rep100b$rep > x-1,],maxA=100,stA=5,stR=10)
+	   pdf(paste("img/100/slice_spec_rep-",x,".pdf",sep= ""),pointsize=14)
+	   printASlice(repX,ylab="number of active agents",xlab="density",ylim=c(-0.5,108.5),xlim=c(0.010,0.110),cex.lab=1.8,cex.axis=1.2,cols=c( "blue", "red"))
+		  abline(h=100*x/100,col="red")
+	   dev.off()
+})
+
     ####
     sapply(c(50,75,90),function(i){
-	   pdf(paste("100/agentwrtD-REP",i,".pdf",sep=""),pointsize=14)
+	   pdf(paste("tmp/100/agentwrtD-REP",i,".pdf",sep=""),pointsize=14)
 	   t_comp=getLastIt(rep100[rep100$rep ==i,])
 	   plot(1,1,xlim=c(0.5,5.5),ylim=c(0,100),type="n",xaxt="n",ylab="number of active agents",xlab="density",main=paste("Evolution of #agents for different density\n in environement S(",i,",",100-i,")",sep=""))
 	   densities=seq(0.02,0.1,.02)
 	   axis(1,at=densities*50,labels=densities,cex=1.7)
 	   sapply(densities,function(k){
-		  vioplot(t_comp$alive[t_comp$Sparsity > k-.001 & t_comp$Sparsity < k+0.001],at=k*50,add=T,col="white")})
+		  vioplot(t_comp$alive[t_comp$Sparsity > k-.001 & t_comp$Sparsity < k+0.001],at=k*50,add=T,col="white")
+		  abline(h=100*i/100,col="red")
+		  })
+	   
 	   dev.off()
 })
 
@@ -118,26 +131,41 @@ lastExp=function(){
 	rep500=rbind(rep500,read.csv(i))
     }
     ####
-    #rep500$Sparsity=spar2Dens(rep500$Sparsity)
+
+    #write.csv(rep500,"rep500.csv")
+   rep500=read.csv("rep500.csv")
+    rep500$Sparsity=spar2Dens(rep500$Sparsity)
     sapply(c(50,75,90),function(i){
-	   pdf(paste("500/agentwrtD-REP",i,".pdf",sep=""),pointsize=14)
+	   pdf(paste("tmp/500/agentwrtD-REP",i,".pdf",sep=""),pointsize=14)
 	   t_comp=getLastIt(rep500[rep500$rep ==i,])
 	   plot(1,1,xlim=c(0.5,5.5),ylim=c(0,500),type="n",xaxt="n",ylab="number of active agents",xlab="density",main=paste("Evolution of #agents for different density\n in environement S(",i,",",100-i,")",sep=""))
 	   densities=seq(0.02,0.1,.02)
 	   axis(1,at=densities*50,labels=densities,cex=1.7)
 	   sapply(densities,function(k){
-		  vioplot(t_comp$alive[t_comp$Sparsity > k-.001 & t_comp$Sparsity < k+0.001],at=k*50,add=T,col="white")})
+		  vioplot(t_comp$alive[t_comp$Sparsity > k-.001 & t_comp$Sparsity < k+0.001],at=k*50,add=T,col="white")
+		  abline(h=500*i/100,col="red")
+		  })
 	   dev.off()
 })
 
 
-    #rep500L=getLastIt(rep500)
+    rep500L=getLastIt(rep500)
     #sliceMedea50075=createHeatMat("Sparsity","alive",rep500L[ rep500L$rep < 76 & rep500L$rep > 74,])
-    #speciation50075=makeAMAtrix(rep500L[ rep500L$rep < 76 & rep500L$rep > 74,],maxA=500)
+    speciation50075=makeAMAtrix(rep500L[ rep500L$rep < 76 & rep500L$rep > 74,],maxA=500,st=25)
+    speciation50075=makeColAMAtrix(rep500L[ rep500L$rep < 76 & rep500L$rep > 74,],maxA=500,st=30,cols=c("blue","red"))
+    speciation50050=makeAMAtrix(rep500L[ rep500L$rep < 51 & rep500L$rep > 49,],maxA=500,st=25)
+
+    sapply(c(50,75,90),function(x){
+	   repX=makeAMAtrix(rep500L[ rep500L$rep < x+1 & rep500L$rep > x-1,],maxA=500,st=25)
+	   pdf(paste("img/500/slice_spec_rep-",x,".pdf",sep= ""),pointsize=14)
+	   printASlice(cols=c( "blue", "red"),repX,ylab="number of active agents",xlab="density",ylim=c(-0.5,530.5),xlim=c(0.010,0.110),cex.lab=1.8,cex.axis=1.2)
+		  abline(h=500*x/100,col="red")
+	   dev.off()
+})
 
     #pdf("slice_spec_rep-75.pdf",pointsize=14);
     #par(mar=c(5,5,4,2))
-    #printASlice(cols=c( "blue", "red"),speciation50075,ylab="number of active agents",xlab="density",ylim=c(-2.5,501.5),xlim=c(0.018,0.102),cex.lab=1.8,cex.axis=1.2)
+    printASlice(cols=c( "blue", "red"),speciation5005,ylab="number of active agents",xlab="density",ylim=c(-0.5,520.5),xlim=c(0.010,0.110),cex.lab=1.8,cex.axis=1.2)
     #dev.off()
     #pdf("slice_alive_rep-75.pdf",pointsize=14);
     #par(mar=c(5,5,4,2))
@@ -160,4 +188,22 @@ lastExp=function(){
 
 }
 
+
+##test stat
+
+res=c()
+for ( rep in c("50","75","90")){
+       for (den in unique(rep500$Sparsity)){
+	      print(rep)
+	      print(den)
+	      lb=getAlive(getLastIt(rep100),rep,den)
+	      la=getAlive(getLastIt(rep500),rep,den)
+	      t=t.test(la/500,lb/100)
+	      res=rbind(res,c(rep,den,median(la/500),median(lb/100),t[["p.value"]]))
+       }
+}
+
+getAlive=function(x,r,d){
+	      return(x$alive[x$rep == as.character(r) & x$Sparsity == as.character(d)])
+}
 

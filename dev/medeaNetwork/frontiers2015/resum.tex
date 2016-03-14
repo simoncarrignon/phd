@@ -29,18 +29,17 @@
 %\section{Resource repartition}
 \begin{figure}
     \begin{tabular}[H]{cccl}
-	S(50,50) & S(25,75) & S S(90,10)\\
-	\includegraphics[height=4cm]{img/slice_alive_rep-50.pdf} &
-	\includegraphics[height=4cm]{img/slice_alive_rep-75.pdf} &
-	\includegraphics[height=4cm]{img/slice_alive_rep-90.pdf} &
-	\includegraphics[height=4cm]{img/legNum.pdf} \\
-	\includegraphics[height=4cm]{img/slice_spec_rep-50.pdf} &
-	\includegraphics[height=4cm]{img/slice_spec_rep-75.pdf} &
-	\includegraphics[height=4cm]{img/slice_spec_rep-90.pdf} &
+	S(50,50) & S(75,25) &  S(90,10)\\
+	\includegraphics[height=4cm]{img/100/slice_spec_rep-50.pdf} &
+	\includegraphics[height=4cm]{img/100/slice_spec_rep-75.pdf} &
+	\includegraphics[height=4cm]{img/100/slice_spec_rep-90.pdf} &
+	\includegraphics[height=4cm]{img/legLofS.pdf} \\
+	\includegraphics[height=4cm]{img/500/slice_spec_rep-50.pdf} &
+	\includegraphics[height=4cm]{img/500/slice_spec_rep-75.pdf} &
+	\includegraphics[height=4cm]{img/500/slice_spec_rep-90.pdf} &
 	\includegraphics[height=4cm]{img/legLofS.pdf} \\
     \end{tabular}
-    \caption{All result for popsize=100. Percentage of Simulation(first line) means: ``the percentage of simulation reaching this number of agents alive at the end of the simulation'',	Mean level of specialisation (2nd line) correspond to the mean between all simulation of : $\frac{min(H(R_1),H(R_2))}{max(H(R_1),H(R_2))}$, \emph{ie} when blue : only one type ; when red:perfect specialisation.
-Donc l'idée ici ce serait de mixer les deux lignes, mais ce n'est pas si simple de manipuler les couleurs sur toutes ces dimensions de sorte à ce que ce soit clair et dans sortir une image. Pour l'instant je suis encore entrain de chercher, et je prends toute suggestion.
+    \caption{First Line : $posize=100$; seconde line $popsize=500$. Graph showing the mean level of specialisation at the end of the simulation between all simulation. This is calculated as : $\frac{min(H(R_1),H(R_2))}{max(H(R_1),H(R_2))}$, \emph{ie} when blue : only one type ; when red:perfect specialisation.
 }
     \label{table:heatmaps}
 \end{figure}

@@ -596,6 +596,80 @@ plotSomeExemple<-function(dataz,dataz_active,number,env){
     }
 }
 
+    makeAMAtrix<-function(indata,maxA=100,st=1){
+	lna=seq(0,maxA,st)
+	minR=0 #min(unique(indata$Sparsity))
+	maxR=.1 #max(unique(indata$Sparsity))
+	defR=(maxR-minR)/(length(unique(indata$Sparsity))*2)
+	print(seq(minR,maxR,defR))
+	print (length(sort(unique(indata$Sparsity)))*2)
+	res<-matrix(nrow=length(sort(unique(indata$Sparsity)))*2+1,ncol=length(lna),dimnames=list(Sparsity=seq(minR,maxR,defR),alive=lna))
+	print(res)
+
+	for( na in 2:length(lna)){
+	    for (sp in as.character(unique(indata$Sparsity))){
+		print(paste("sp: ",sp))
+		print(paste( "NA:",as.character(lna[na])))
+		#cheval[sp,as.character(na)]= nrow(indata[ as.character(indata$Sparsity) == sp & indata$alive == na,])
+		maxA=apply(indata[as.character(indata$Sparsity) == sp & indata$alive < lna[na] & indata$alive >= lna[na-1],c("r1","r0")],1,max)
+		minA=apply(indata[as.character(indata$Sparsity) == sp & indata$alive < lna[na] & indata$alive >= lna[na-1],c("r1","r0")],1,min)
+		res[as.character(round(as.numeric(sp),4)),as.character(lna[na])]= mean(minA/maxA)
+		#print(nrow(indata[ as.character(indata$Sparsity) == sp & indata$alive == na,]) )
+		#print(res[sp,as.character(na)])
+	    }
+	    print("--------------")
+	}
+	return(res)
+    }
+
+    makeAMAtrixN<-function(indata,maxA=100,maxR=.1,stA=1,stR=5){
+	lna=seq(0,maxA,stA)
+	minR=0 #min(unique(indata$Sparsity))
+	defR=(maxR-minR)/stR
+	R=seq(minR,maxR,defR)
+	print (length(sort(unique(indata$Sparsity)))*2)
+	res<-matrix(nrow=length(R),ncol=length(lna),dimnames=list(Sparsity=R,alive=lna))
+	print(res)
+
+	for( na in 2:length(lna)){
+	    for (sp in R ){
+		print(paste("sp: ",sp))
+		print(paste( "NA:",as.character(lna[na])))
+		#cheval[sp,as.character(na)]= nrow(indata[ as.character(indata$Sparsity) == sp & indata$alive == na,])
+		maxA=apply(indata[round(indata$Sparsity,4) == sp & indata$alive < lna[na] & indata$alive >= lna[na-1],c("r1","r0")],1,max)
+		minA=apply(indata[round(indata$Sparsity,4) == sp & indata$alive < lna[na] & indata$alive >= lna[na-1],c("r1","r0")],1,min)
+		res[as.character(round(as.numeric(sp),4)),as.character(lna[na])]= mean(minA/maxA)
+		#print(nrow(indata[ as.character(indata$Sparsity) == sp & indata$alive == na,]) )
+		#print(res[sp,as.character(na)])
+	    }
+	    print("--------------")
+	}
+	return(res)
+    }
+
+
+    makeColAMAtrix<-function(indata,maxAg=100,st=1,cols=c("white","black")){
+    ramp=colorRampPalette(cols)(100)
+	lna=seq(0,maxAg,st)
+	res<-matrix(nrow=length(sort(unique(indata$Sparsity))),ncol=length(lna),dimnames=list(Sparsity=sort(unique(indata$Sparsity)),alive=lna))
+
+	for( na in 2:length(lna)){
+	    for (sp in as.character(unique(indata$Sparsity))){
+		#print(paste("sp: ",sp))
+		print(paste( "NA:",as.character(lna[na])))
+		#cheval[sp,as.character(na)]= nrow(indata[ as.character(indata$Sparsity) == sp & indata$alive == na,])
+		maxA=apply(indata[as.character(indata$Sparsity) == sp & indata$alive < lna[na] & indata$alive >= lna[na-1],c("r1","r0")],1,max)
+		minA=apply(indata[as.character(indata$Sparsity) == sp & indata$alive < lna[na] & indata$alive >= lna[na-1],c("r1","r0")],1,min)
+		len=nrow(indata[as.character(indata$Sparsity) == sp & indata$alive < lna[na] & indata$alive >= lna[na-1],c("r1","r0")])
+		res[sp,as.character(lna[na])]= alpha(ramp[mean(minA/maxA)*1000],len/maxAg*8)
+		print(len/maxAg)
+		#print(nrow(indata[ as.character(indata$Sparsity) == sp & indata$alive == na,]) )
+		#print(res[sp,as.character(na)])
+	    }
+	    print("--------------")
+	}
+	return(res)
+    }
 
 #Return a normalized matrix
 createHeatMat<-function(x,y,data){
@@ -1355,24 +1429,6 @@ smallbc=lastAll[ lastAll$maxbc>.2,]
     hm15000=createHeatMat("Sparsity","alive",longersim)
     
 
-    makeAMAtrix<-function(indata,maxA=100){
-	res<-matrix(nrow=length(sort(unique(indata$Sparsity))),ncol=maxA+1,dimnames=list(Sparsity=sort(unique(indata$Sparsity)),alive=c(0:maxA)))
-
-	for( na in 0:maxA){
-	    for (sp in as.character(unique(indata$Sparsity))){
-		#print(paste("sp: ",sp))
-		print(paste( "NA:",as.character(na)))
-		#cheval[sp,as.character(na)]= nrow(indata[ as.character(indata$Sparsity) == sp & indata$alive == na,])
-		maxA=apply(indata[as.character(indata$Sparsity) == sp & indata$alive == na,c("r1","r0")],1,max)
-		minA=apply(indata[as.character(indata$Sparsity) == sp & indata$alive == na,c("r1","r0")],1,min)
-		res[sp,as.character(na)]= mean(minA/maxA)
-		#print(nrow(indata[ as.character(indata$Sparsity) == sp & indata$alive == na,]) )
-		#print(res[sp,as.character(na)])
-	    }
-	    print("--------------")
-	}
-	return(res)
-    }
 
     par(mar=c(5,5,4,2))
     pdf("is_species.pdf",pointsize=14);
