@@ -1,3 +1,4 @@
-Repertoir avec les travaux effectuer depuis fevrier 2015.
-Contient sous repertoires vide pointant en réalité vers d'autre repertoir GIt (JM ou Xavier en particulier) l'idéal serait que la configuration git de ces repertoir sois elle meme suivie..
+Repertoir avec les travaux effectuer depuis fevrier 2015.\\
+
+Contient des sous repertoires vides vers d'autre repertoir GIt (JM ou Xavier en particulier) qui devrait être géré via des submodules git mais pour le moemnt c'est tres`mal fait 
 
