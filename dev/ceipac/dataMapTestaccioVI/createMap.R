@@ -10,8 +10,8 @@ install.packages ("rgdal" )
 
 mapMtestatccioVI <- function(){
 
-    	d2000=read.csv("2000.csv")
-    	d2005=read.csv("2005.csv")
+    	d2000=read.csv("../../ceipac/dataMapTestaccioVI/2000.csv")
+    	d2005=read.csv("../../ceipac/dataMapTestaccioVI/2005.csv")
 	maxx=max(d2000$lat,d2005$lat)
 	minx=min(d2000$lat,d2005$lat)
 	maxy=max(d2000$long,d2005$long)
