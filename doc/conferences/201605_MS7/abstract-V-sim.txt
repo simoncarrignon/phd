@@ -1,0 +1,102 @@
+1
+
+Introducion
+
+To understand political and economical mechanisms behind the archaeological
+and historical evidences we use historical sources and archaeological sites excavations. The incompleteness and uncertainty of the historical and archaeological
+record generates biased and sparse hints, and most of the historical interpretation has to be inferred from indirect data sometime very far from the original
+social or cognitive process that originated it (Madella et al., 2014).Refo
+In this paper, we argue that formal modelling and computer simulation are
+valuable tools to overcome such limitations. To sustain our argument, we show
+that most of the problems encountered in historical and archaeological research
+are close to the ones that evolutionary biologists encompass. We show how
+biologists faced that by embracing mathematical and computer modelling, and
+we argue that, at the informal level, the inferences they do are not very different
+to the narrative descriptions usually made by historians.
+We defend how the use of computer modelling has impacted as heuristic tool
+in life science in general and we introduce our experience in a interdisciplinary
+research setting (with historians, computer scientists and physicists) aiming at
+setting up an innovative framework to investigate the political and economical
+mechanisms that characterized the dynamics of the commercial trade system
+during the Roman Empire.
+
+2
+
+Model and Evolutionary Biology
+
+The goal of evolutionary biologists is to understand the mechanisms at the origin
+of the living world as we can see it today. Assuming the theory of evolution as it
+was described by Darwin and as it is actually developed, they try to characterise
+the succession of past events (genetics, biologics, due to specific ecological and
+environmental contexts) that constitute this history.
+Starting with Gould (1989), several biologists and philosophers have argued
+that the research activity of evolutionary biologist is closer to the activity of
+Historian than Physicist (Ereshefsky, 1992, Beatty, 1995) : the actual biological
+world does not depend only on biological rules, but on the uniqueness of the
+succession of events.
+To encompass the issues raised by such historicity, people studying population genetic, phylogenetic,. . . use formal models, such as maximum likelihood,
+Bayesian inference, and other to figure out different possible successions of events
+and the likelihood of possible historical paths and to test it against the few data
+available.
+This suggest that (i) the problems encountered by evolutionary biologists are
+similar to those archaeologists and historians have to face (ii) the way inferences
+are made about the history of living beings fall into a similar epistemological
+framework that the one used by historians and archaeologists when they explain
+history of human societies and (iii) mathematical and computer models are a
+way to make some of such inferences explicit in their premises and conditions of
+application, if not quantifiable: this can offer the possibility to infer, in a statistically plausible and transparent way, data that are missing, in evolutionary
+biology as well as in human history.
+
+1
+
+3
+
+Computer Simulation: a heuristic tool
+
+The use of computer simulation and modelling is not restricted to phylogenetic
+and evolutionary biology. Indeed it is now widely use in all branches of Science. People in Artificial Life (Bedau et al. 1998, 2000, Paolo et al. 2000,
+. . . ) argued that computer simulation are powerful heuristic tool that combine
+the exploratory power of thought experiment and the logical strength of mathematic. They allow to test quickly a lot of possible “opaque though experiment”
+that would be impossible to try mentally.
+We thus think that computer model and simulation are one of the best way
+to investigate social science and history research questions, as heuristic tool to
+test hypotheses made on very complex systems such as high scale economics
+activity in past society, where the interactions between every component of the
+system make the predictability of it very difficult to solve analytically.
+Moreover, as said by Winsberg (2003) who follows Hacking, Cartwright and
+other, Computer Simulation gives us a semi-autonomy from theory that allow
+us to test theory-independent assumption. This epistemological freedom is a
+mandatory in such fields as economy and history, that hardly fit in traditional
+view of theories.
+
+4
+
+Interdisciplinarity and the EPNet project
+
+The idea of building computational models in such a way that it allows us to
+extract valuable knowledge from it, still remains a difficult task. Computer scientists have to be really careful about every assumption they implicitly made
+and historians are invited to formulate their hypotheses in a different epistemological framework which still has to be clearly specified and investigated,
+and whose boundaries stay quite far away from the one they have been used to
+now. The communication between both side of the research is thus primordial:
+knowledge in such a challenging journey does not lie in the mathematical models neither in the historical data, but emerges from the well articulation of both
+side (Winsberg 2009).
+In this paper, we will provide examples and concrete experiences from the
+EPNet project, where the emphasis is on providing historians with computational tools for understanding the political and economical implications behind
+food production and distribution along the Roman Empire.
+The computational infrastructure of the EPNet project takes the form of
+a “Virtual Research Environment” offering: (i) a conceptual layer (ontology)
+driving the access to datasets stored into fragmented, heterogeneous and distributed digital repositories; (ii) a platform for sharing of expert knowledge on
+characterisation, typology and dating of Roman Empire epigraphies/artefacts;
+(iii) dedicated data visualisations and analytics tools, such as statistical inference and computer-based simulation. By taking into consideration the design
+and development of such a computational infrastructure, the EPNet epistemological framework is aiming to address three main problems: (i) structuring and
+making accessible large collections of data through the Web, (ii) providing a
+formally defined, unambiguous, framework for analysing the data and exporting them in a way that can be further manipulated by computer simulation
+algorithms, and complex network analysis, and (iii) making each collection of
+
+2
+
+data integrable with other complementary data sources.
+
+3
+
+
