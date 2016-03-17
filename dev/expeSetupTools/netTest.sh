@@ -1,6 +1,6 @@
 #Create 100 fodler with expe for testing the same network 
 
-for o in $1/g?.txt ; do 
+for o in $1/g*.txt ; do 
     fn=`basename "$o"` ; 
     g="${fn%.*}" ; 
     mkdir  $g
