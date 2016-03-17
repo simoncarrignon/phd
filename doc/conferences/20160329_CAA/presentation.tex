@@ -149,6 +149,26 @@
 \section{Context}
 
 
+
+\begin{frame}{Trade and Cultural Network}
+    Traded Cultural Artificat : 
+    \begin{columns}
+	\begin{column}{.5\textwidth}
+	    \includegraphics[width=\textwidth]{images/obsidianFlint.jpg}	
+	\end{column}
+	\begin{column}{.4\textwidth}
+	    \small
+	    Non-neutral value (utility): 
+	    \begin{itemize}
+		\item ``Usefulness''
+		\item popularity
+		\item availability
+		\item \dots
+	    \end{itemize}
+	\end{column}
+    \end{columns}
+\end{frame}
+
 \begin{frame}
 	\begin{center}
 		What happen when such mechanisms act on traits impacting economy?
@@ -171,7 +191,7 @@
 
 	\begin{alertblock}{Interaction between Culture and Economy}
 	    \begin{center}
-		Cultural mechanisms transom Economy \\
+		Cultural mechanisms transform Economy \\
 		\begin{center}
 		    $  \scalebox{3}{\circlearrowright}$
 		\end{center}
@@ -261,17 +281,21 @@
 
 \end{frame}
 
-\begin{frame}{Experiments}
-	Creation of set of network with combinaison of the properties we want to test:
+\begin{frame}{Experimental Setup}
+	Set of networks with combinaison of properties:
+	\begin{itemize}
+	    \item Density of the network (D)
+	    \item Average Length Path (A)
+	\end{itemize}
 
     \begin{table}
 
 	\centering
-	\begin{tabular}{l|cc}
-	    &Density: \\
-	    AVLP: 	& $D_1$	 	& $D_2$\\\hline
-	    $A_1$	& $Net_{11}$	& $Net_{12}$\\	
-	    $A_2$	& $Net_{21}$	& $Net_{22}$\\	
+	\begin{tabular}{l|ccc}
+	    	 	& $D_1$	 	& \dots & $D_n$		\\\hline
+	    $A_1$	& $Net_{11}$	& 	& $Net_{1n}$	\\	
+	    \dots	&		&\dots	&		\\
+	    $A_m$	& $Net_{m1}$	& 	& $Net_{mn}$	\\	
 	\end{tabular}
 	\label{tab:net}
     \end{table}
@@ -282,13 +306,28 @@
 %	\vfill
 %	\textbf{Neutral Model}\\ Trade Mechanism + Random Copy\\
 	 
+\begin{frame}{Experimental Setup}
+    \begin{table}
+	\centering
+	\begin{tabular}{lccc}
+	    	&$D=0.02$ & $D=0.04$\\
+		$A\approx17$&
+		\includegraphics[width=2.5cm]{images//g02.pdf}&
+		\includegraphics[width=2.5cm]{images//g00.pdf}\\
+		$A\approx4$&
+		\includegraphics[width=2.5cm]{images/g42.pdf}&
+		\includegraphics[width=2.5cm]{images/g40.pdf}\\
+	\end{tabular}
+    \end{table}
+\end{frame}
 
 
 
 \begin{frame}{Results: }
     \begin{figure}[h]
 	\begin{center}
-	    \includegraphics[height=.9\textheight]{images/meanCurveAndFit.pdf}
+	    \includegraphics[height=.4\textheight]{images/densRes.pdf}\\
+	    \includegraphics[height=.4\textheight]{images/distRes.pdf}
 	\end{center}
 	\label{fig:meancurve}
     \end{figure}
@@ -326,11 +365,11 @@
 %	\item Different Cultural Mechanisms
 %	\end{itemize}
 %\end{frame}
-\begin{frame}{Case Study}
-	\begin{center}
-		\Large
-		What was the nature of Roman economy?\\
-		\includegraphics[width=2cm]{images/LOGO-ERC.jpg} \hfil	\includegraphics[width=3cm]{images/epnetLogo.png}\\
+\begin{frame}{}
+    \begin{center}
+	\huge
+	Thank for you attention!\\\vfill
+	\includegraphics[width=2cm]{images/LOGO-ERC.jpg} \hfil	\includegraphics[width=3cm]{images/epnetLogo.png}\\
 		\vspace{1cm}
 		\scriptsize
 			http://www.roman-ep.net/\\
@@ -342,10 +381,6 @@
 
 \end{frame}
 
-\begin{frame}
-    \Huge
-    Thank for you attention!
-\end{frame}
 \end{document}
 
 
