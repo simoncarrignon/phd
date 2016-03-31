@@ -52,7 +52,7 @@
 
 \institute{31 March 2016}
 
-\author{Simon Carrignon, Jean-Marc Montanier, Jérôme Michaud \& Xavier Rubio-Campillo}
+\author{Simon Carrignon, Jean-Marc Montanier, Jérôme Michaud, Xavier Rubio-Campillo \& Ignacio Morer }
 
 \date{
 	\scriptsize
@@ -243,20 +243,16 @@
 				\item Agents \emph{produce} one good and \emph{exchange} it to obtain the other goods.
 				\item After the exchange, the agents \emph{consume} all goods 
 			\end{itemize}
-
+			Agent perform this 10 times and a scores is given to each of them.
 		\end{block}
 	\end{frame}
 
 	\begin{frame}{The Model}
 		\begin{block}{2. Cultural Mechanisms}
-			Every step:
 			\begin{itemize}
-				\item Economic activity (cf. previous slide).
-				\item A \emph{score} is given following $f(q_n)$  a shared \& fixed ``utility function''.
-			\end{itemize}
-			After 10 steps:
-			\begin{itemize}
+					\vfill
 				\item Less successful agents \emph{copy} the most successful (Biased-Copy).
+					\vfill
 				\item Given a probability $\mu$ the value attributed to some goods is modified (Innovation/Mutation)
 			\end{itemize}
 		\end{block}
@@ -301,6 +297,25 @@
 
 	\begin{frame}{Degree}
 		\begin{center}
+			\includegraphics<1>[height=.9\textheight]{images/hmA.png} 	
+			\includegraphics<2>[height=.9\textheight]{images/hmAneighbours} 	
+			\includegraphics<3>[height=.9\textheight]{images/hmAk4.png} 	
+			\includegraphics<4>[height=.9\textheight]{images/hmB.png} 	
+			\includegraphics<5>[height=.9\textheight]{images/hmBneighbours} 	
+			\includegraphics<6>[height=.9\textheight]{images/hmBk4.png} 	
+		\end{center}
+	\end{frame}
+	\begin{frame}{Shortest Path Length}
+		\begin{center}
+			\includegraphics<1>[height=.9\textheight]{images/hmA.png} 	
+			\includegraphics<2>[height=.9\textheight]{images/hmAB.png} 	
+			\includegraphics<3>[height=.9\textheight]{images/hmABlinked.png} 	
+			\includegraphics<4>[height=.9\textheight]{images/hmABlinkedL25.png} 	
+			\includegraphics<5>[height=.9\textheight]{images/hmCDL6.png} 	
+		\end{center}
+	\end{frame}
+	\begin{frame}{Degree}
+		\begin{center}
 			\includegraphics<1>[height=.9\textheight]{images/smA.png} 	
 			\includegraphics<2>[height=.9\textheight]{images/smAneighbours} 	
 			\includegraphics<3>[height=.9\textheight]{images/smAk9.png} 	
@@ -312,21 +327,6 @@
 			\includegraphics<2>[height=.9\textheight]{images/smAB.png} 	
 			\includegraphics<3>[height=.9\textheight]{images/smABlinked.png} 	
 			\includegraphics<4>[height=.9\textheight]{images/smABlinkedL4.png} 	
-		\end{center}
-	\end{frame}
-	\begin{frame}{Degree}
-		\begin{center}
-			\includegraphics<1>[height=.9\textheight]{images/hmA.png} 	
-			\includegraphics<2>[height=.9\textheight]{images/hmAneighbours} 	
-			\includegraphics<3>[height=.9\textheight]{images/hmAk4.png} 	
-		\end{center}
-	\end{frame}
-	\begin{frame}{Shortest Path Length}
-		\begin{center}
-			\includegraphics<1>[height=.9\textheight]{images/hmA.png} 	
-			\includegraphics<2>[height=.9\textheight]{images/hmAB.png} 	
-			\includegraphics<3>[height=.9\textheight]{images/hmABlinked.png} 	
-			\includegraphics<4>[height=.9\textheight]{images/hmABlinkedL25.png} 	
 		\end{center}
 	\end{frame}
 %	\\Trade Mechanism + Success Biased Copy\\
@@ -392,12 +392,21 @@
 
 	\end{frame}
 
+	\begin{frame}{Results: }
+		\begin{itemize}
+				\vfill
+			\item Average Degree doesn't seem to have much impact
+				\vfill
+			\item Average Distance speed up the convergence
+		\end{itemize}
+
+	\end{frame}
 
 
 
 	\begin{frame}{Summary}
 		\begin{itemize}
-			\item Simple cultural mechanism can lead to efficient trade dynamics:\\
+			\item Simple cultural mechanism and simple trade can lead to efficient economic dynamics:\\
 				{$\rightarrow$ \small Both aspect should be studied together.}
 				\vfill
 			\item Properties of the cultural network impact thoses dynamics.\\
