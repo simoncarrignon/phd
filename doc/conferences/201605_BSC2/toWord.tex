@@ -1,0 +1,177 @@
+\documentclass{article}
+
+%%%%lualatex on
+%\usepackage{luatextra}
+%\usepackage{fontspec}
+%Ligatures={Contextual, Common, Historical, Rare, Discretionary}
+%\setmainfont[Mapping=tex-text]{Linux Libertine O}
+
+%%%lua off
+%\usepackage[utf8x]{inputenc}
+%\usepackage[T1]{fontenc} 
+%\usepackage{lmodern}
+
+\usepackage{enumerate}
+\usepackage[english]{babel}
+\usepackage{graphicx} %to insert pictures
+\usepackage{color} %to set colors
+%\usepackage{algorithm,algorithmicx,algpseudocode}
+\usepackage{mathtools}
+\usepackage{latexsym}
+\usepackage{caption}
+
+\usepackage{float}
+\usepackage{booktabs}
+%\algnewcommand\And{\textbf{and}}
+
+%\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+%\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+%
+%\newcommand{\specialcell}[2][c]{%
+%  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+%
+%
+%\makeatletter
+%\let\oldabs\abs
+%\def\abs{\@ifstar{\oldabs}{\oldabs*}}
+%\let\oldnorm\norm
+%\def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
+%\makeatother
+%
+
+%\usepackage[top=1.5cm,bottom=2cm,left=2.5cm,right=2.5cm]{geometry}
+%\linespread{1.5}\selectfont
+
+
+
+\author{Simon Carrignon}
+\definecolor{bordercol}{RGB}{255,255,255}
+
+\definecolor{headercol1}{RGB}{3,51,123}
+\definecolor{bscol}{RGB}{3,51,123}
+\definecolor{headercol2}{RGB}{255,255,255}
+\definecolor{headerfontcol}{RGB}{255,255,255}
+\definecolor{boxcolor}{RGB}{255,255,255}
+\definecolor{emphcol}{RGB}{106,105,180}
+
+%%% Save space in lists. Use this after the opening of the list %%%%%%%%%%%%%%%%
+\newcommand{\compresslist}{
+	\setlength{\itemsep}{1pt}
+	\setlength{\parskip}{0pt}
+	\setlength{\parsep}{0pt}
+}
+\newcommand{\coloremph}[1]{
+	\textcolor{emphcol}{\bf#1}
+}
+
+
+\begin{document}
+
+	Modelling the Co-evolution of Trade and Culture 
+
+\section{Introduction}
+Cultural change comprises  processes that modify spread of information by social interaction within a population~\cite{boyd_origin_2005}  and numerous social scientists are using an evolutionary framework to model this~\cite{henrich_evolution_2003}.
+
+Here we use this framework to study economics, a social activity that depends on particular cultural traits: the value attributed to goods used to trade during the economic activity. Multiple cultural processes could influence the way those values evolve through space and time leading to different trade dynamics.
+
+We focus on the way those values are transmitted and vary form individual to individual, and on the bias that affect this transmission. We propose a framework that allow us to implement and test hypotheses and claims made about the nature of such transmission processes and bias and study how those claims and hypotheses affects a given economy.
+
+\section{Framework}
+
+To explore the co-evolution between trade and cultural change we developed a framework where the different agents produce and trade goods. The model is composed of a population $Pop$ of $m$ agents. Each agent $i$ is defined by 2 vectors $Q^i$ and $V^i$ of size $n$. $Q^i$ store the quantity of each good owned by $i$ and $V^i$ represents the price estimated by $i$ for each of the $n$ good.
+%\begin{algorithm}[H]
+%\caption{Model}
+%\label{algo:complete}
+%	\begin{algorithmic}[1]
+%	\scriptsize
+%	\State INITIALIZATION: 
+%		\For{$i \in \#Pop$} \Comment{Initialize the agent with no goods and a random value vector}
+%				\State $Q^i = (0, \cdots, 0)$
+%				\State $V^i = (v^i_0, \cdots, v^i_n)$ \Comment{The values of $v^i_j$ are selected randomly}
+%		\EndFor
+%
+%	\State SIMULATION:
+%		\Loop{$~step \in TimeSteps$}
+%			\For{$i \in Pop$}
+%				\State $Production(Q^i)$
+%			\EndFor
+%			\For{$i \in Pop$}
+%				\For{$j \in Pop$}
+%					\State $TradeProcess(V^i,Q^i,V^j,Q^j)$
+%				\EndFor		
+%			\EndFor
+%			\For{$i \in Pop$}
+%				\State $ConsumeGoods(Q^i)$ \Comment{All goods are consumed}
+%				\If{$ (step \mod CulturalStep) = 0$}	
+%					\State $CulturalTransmission(V)$
+%					\State $Innovation(V^i)$
+%				\EndIf
+%			\EndFor
+%		\EndLoop
+%\end{algorithmic}
+%\end{algorithm}
+Given the prices attributed by the agents for each goods ($V^i$), trade are done or not (l.13). Given the quantities ($Q^i$) gathered, a score reflecting the ``economic success'' of each agent is attributed (l.17). Finally the value attributed to each good $V^i$ is modified (l.19-20).
+
+We propose two different ways to implement this modification: 
+\vspace{-.15cm}
+\begin{enumerate}
+		\compresslist
+	\item \textbf{Neutral Model}: agent randomly copy a $V^i$ among the population.
+	\item \textbf{Trade Model}: agent tends to copy more often the $V^i$ of the most successful agents (i.e. with high score).
+\end{enumerate}
+
+
+\section{Results}
+\subsection*{Distribution of Cultural Variants}
+We first compare the impact of different $CulturalTransmission$ mechanism on the distribution of frequencies of traits (the belief about the price of each goods). 
+\begin{figure}[H]
+	\centering
+		\caption{Comparaison of the distribution of frequencies between the neutral and the trade model.}
+		\label{fig:2setDi}
+\end{figure}
+The figure~\ref{fig:2setDi} shows that when $CulturalTransmission$ is neutral (agents randomly copy prices) the distribution follow the well know power law \cite{bentley_random_2004} but when transmission is not neutral but biased by the economical success of the agents, the power law disappear.
+
+\subsection*{Economic Dynamics \& Equilibrium}
+
+
+
+\begin{figure}[H]
+	\centering
+	\begin{tabular}{ c c}
+		 Neutral Model & Trading Model \\
+
+	\end{tabular}
+	\caption{Evolution of the score within the two different models for two typical run with 500 agents and 3 goods evolving during 10000 timesteps.}%%
+	\label{fig:scoreEvol}
+\end{figure}
+
+As expected when $CulturalTransmission$ is random (i.e., agents modify their belief about the prices randomly), the scores evolve randomly (fig~\ref{fig:scoreEvol}, left) whereas when a non random copy mechanism is used (i.e. agents tend to copy score of successful agents), scores increased toward the maximum score.
+\vfil
+As shown by the figure~\ref{fig:ratioEvol}, the raise of the score of the agents comes from the fact that the mechanism of $CulturalTransmission$ biased by the economic success of the agents allows them to quickly estimates prices that converge toward their optimal value . Thus it allows them to make more efficient trade and increase their economic success (see also \cite{gintis_emergence_2006}).
+\vspace{-.3cm}
+\begin{figure}[H]
+	\begin{center}
+	\end{center}
+	\caption{
+	    \small
+	    Evolution of prices toward optimum prices. The figure represents the mean of the difference between a given price for one good $g$ ($v^i_g$) and the optimal value of this price ($\tilde{v}^i_g$), computed at each timestep for each goods and for 100 runs in a setup with 500 agents where 3 goods are trade.
+	}
+	\label{fig:ratioEvol}
+\end{figure}
+
+
+
+\section{Conclusion}
+	Integrating cultural and economic dynamics into an evolutionary framework is a good candidate to study such systems. It allows one to study precise mechanisms and to easily test and compare different model of such mechanisms.
+	
+	In future works we hope to fruitfully apply that tool to validate, interpret and propose hypotheses about economics and cultural dynamics at work during the Roman Empire.
+
+
+\section{References}
+	\scriptsize
+	\renewcommand{\refname}{\vspace{-0.5em}}
+	\bibliographystyle{unsrt}
+	\bibliography{biblio}
+
+\end{document}
+
