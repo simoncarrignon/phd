@@ -1,0 +1,283 @@
+Description of the MERCURY Netlogo model following the ODD (Overview, Design concepts, Details) protocol (Grimm et al. 2006; 2010). 
+Brughmans, T., & Poblome, J. (2015). MERCURY: an ABM of tableware trade in the Roman East. Retrieved from https://www.openabm.org/model/4347/version/2/view
+
+1. Purpose
+
+The purpose of this model is to represent and explore the aspects concerning the integration of markets and social networks of two descriptive models of the functioning of the Roman trade system (Bang 2008; Temin 2013), and whether these can give rise to the empirically observed strong differences in the wideness of distributions of Roman tableware products (types of ceramics produced in different workshops). A further purpose is to illustrate that two descriptive models of the Roman economy which are presented as being contradictory, can be formally compared by using a common conceptualisation of the past phenomena they try to explain.
+
+2. Entities, state variables, and scales
+
+A) ENTITIES
+
+There are three kinds of entities in the model: traders, sites, and social network edges between pairs of traders.
+
+These entities are characterized by the following state variables:
+
+Traders: max-demand (the maximum demand it aims to satisfy); local-knowledge (the proportion of traders it is connected to it receives commercial information from)
+
+Sites: production-site (true/false); producer-A (true/false); producer-B (true/false); producer-C (true/false); producer-D (true/false)
+
+B) ENVIRONMENT
+
+The environment is characterized by the following state variables:
+
+num-traders (total number of traders)
+num-sites (total number of sites)
+equal-traders-production-site (true/false. Does each production site have the same number of traders?)
+traders-distribution (uniform/exponential. How are traders distributed among sites?)
+traders-production-site (the number of traders at production sites if equal-traders-production-site = true)
+network-structure (hypothesis/random. Does the setup procedure of the social network reflect the hypothesis tested or a random process?)
+maximum-degree (the maximum number of edges each trader can have in the network)
+proportion-inter-site-links (proportion of all pairs of traders that are connected in step two of the network creation procedure by inter-site links)
+proporiton-intra-site-links (proportion of all pairs of traders that are considered for becoming connected in step three of the network creation procedure by intra-site links)
+proportion-mutual-neighbors (proportion of all pairs of traders with a mutual-neighbor that are considered for becoming connected in step four of the network creation procedure by intra-site-links)
+
+C) SPATIAL UNITS
+
+The model is not spatially explicit. The only use of space is that sites are assumed to be located in different places, and that traders are located at sites (i.e. the same patch on which the site is located). Distances in patches between site locations do not reflect geographical distances.
+
+D) TIME
+
+Since the accuracy of dating how long ceramics stay in use is highly speculative, we decided to use a relative 'transaction time' rather than an absolute timeframe: the time of each time step is the time it takes for all tableware available for trade to be considered in a transaction, and the demand to increase by one item per trader if it is not at its maximum.
+In the published experiments the model was run for 20,000 time steps where the initial 5,000 time steps were considered a 'warm-up' period, and the measurements presented were only taken after 20,000 time steps.
+
+3. Process overview and scheduling
+
+Time is modelled in steps. After initialization, the following happens in each step of a model run:
+
+A) Traders determine demand: Each trader increases its demand by one (as long as it is lower than the max-demand variable).
+
+B) Traders discard part of stock: A fixed proportion of each trader's stock (14% rounded) from last time step is deposited on its site, the rest can be traded again this time step.
+
+C) Traders at production sites produce: each trader at a production site obtains newly produced items of the locally produced product if its total number of items of all products is less or equal than its demand, in which case its number of the locally produced product increases by however much the total sum of all its products differs from its demand.
+
+D) Traders trade and consume: each trader obtains commercial information from a proporition of traders it is connected to, and estimates the price for one item and sets its maximum stock size as the rounded difference between the average-demand he is aware of and his own demand. Each item in all traders' possessions will then be considered in turn in a random order. For each item the following schedule is follwed in turn:
+
+IF there are traders with product
+	select a seller (a trader with at least 1 item of a product) at random
+
+	IF there are no potential buyers (traders with a positive demand or maximum stock size) connected to the seller
+		Seller places all items of product in stock
+		Seller decreases its maximum stock size by the amount added to its stock
+
+	ELSE if there are potential buyers connected to the seller
+		Select the potential buyer that offers the highest profit
+
+		IF the seller can make a profit or break-even
+			decrease the seller's amount of the product by 1
+
+			IF the buyer's demand = 0
+				store the recently acquired item in the buyer's stock
+				decrease the buyer's maximum stock size by 1
+
+			ELSE if the buyer's demand is not 0
+				decrease the buyer's demand by 1
+				add 1 to the volume of the product deposited at the site the buyer is located at (i.e. the product is consumed and deposited)
+
+		ELSE if the seller cannot make a profit or break-even
+			seller places all items of product in stock
+			Seller decreases its maximum stock size by the amount added to its stock
+
+4. Design concepts
+
+4.1. Basic principles
+
+A) Which general concepts, theories, hypotheses, or modeling approaches are underlying the model’s design?
+
+The model design derives from the desire to represent the hypothesis by Peter Bang (2008) that different circuits for the flows of tableware could emerge as the result of different circuits for the flow of information. Bang argues that the flow of information is structured by social networks focused on communities with little sharing of commercial information between communities within markets and on different markets, which he argues gives rise to limited market integration. This statement led us to select Peter Temin's (2013) work on the Roman Market Economy as a contradictory hypothesis: he argues that the markets in Roman imperial times were more integrated than presented by Bang.
+
+These hypotheses were abstracted using concepts from network science (Brandes et al. 2013). In particular, the concept of the small-world network (Watts and Strogatz 1998) with a high clustering coefficient and low average shortest path length was used as a basis for the representation of the structures of social networks hypothesised by Bang and Temin. The social theory of transitivity as implemented in the model for network growth by Jin et al. (2001) was used as a mechanism for initialising the social network, and the variables of the implementation by Jin et al. (2001) were used as a basis for varrying the social network structure in experiments. The theory of supply and demand without market clearing was used to design the trade procedures.
+
+B) Are they used at the level of submodels, or is their scope the system level?
+
+The theory of supply and demand is used at the level of submodels in the trade-and-consume procedure. All other hypotheses, theories and concepts are used at the system level.
+
+C) Will the model provide insights about the basic principles themselves, i.e., their scope, their usefulness in real-world scenarios, validation, or modification?
+
+The model provides insight into a number of factors considered important in Bang's and Temin's hypotheses, and aims to illustrate the ability to falsify factors in giving rise to empirically observed tableware distributions and a scope for validating aspects of the many descriptive models that exist in the study of the Roman economy. It does not falsify or validate either Bang's or Temin's models. It does not provide new insights into the network science concepts used.
+
+4.2. Emergence
+
+A) What key results or outputs of the model are modeled as emerging from the adaptive traits, or behaviors, of individuals?
+
+None were identified that varied in unpredictable ways.
+
+B) Are there other results that are more tightly imposed by model rules and hence less dependent on what individuals do, and hence ‘built in’ rather than emergent results?
+
+The distribution of goods by traders connected in a social network is extremely dependent on the structure of the social network, and hence, after 5,000 time steps, less so on the decisions made by traders.
+
+4.3. Adaptation
+
+A) What adaptive traits do the individuals have? What rules do they have for making decisions or changing behavior in response to changes in themselves or their environment?
+
+Traders have the ability to stock products if their knowledge of the average demand in their part of the network suggests this holds the promise of higher profit in future time steps. This trait explicitly seeks to increase the number of items sold by a trader.
+
+4.4. Objectives
+
+A) If adaptive traits explicitly act to increase some measure of the individual’s success at meeting some objective, what exactly is that objective and how is it measured?
+
+The objective of the trader is to sell as much as possible, which is measured by the trader's demand plus the average demand it is aware of in each time step. Crucially, it is not the aim of the model to study the success of traders, but merely to observe the differences in the diversity and number of products deposited at sites as a result of trade.
+
+B) When individuals make decisions by ranking alternatives, what criteria do they use?
+
+Traders selected to sell an item of a product rank potential buyers based on profit-maximization. 
+
+4.5. Learning
+
+No learning is implemented.
+
+4.6. Prediction
+
+A) if an agent’s adaptive traits or learning procedures are based on estimating future consequences of decisions, how do agents predict the future conditions they will experience?
+
+Traders collect commercial information from a proportion of traders they are connected to and use this to determine the average demand current in its local subnetwork (defined as that trader and all of the traders it is connected to, and the edges between them). The trader predicts the potential for higher sales in future time steps by setting its maximum stock size before any trade happens in each time step to this estimated average demand minus its own demand.
+
+4.7. Sensing
+
+A) What internal and environmental state variables are individuals assumed to sense and consider in their decisions? What state variables of which other individuals and entities can an individual perceive?
+
+In each time step before any trade takes place, each trader obtains the values of the following variables from a proportion (determined by the variable 'local-knowledge') of traders it is connected to: 'demand', 'product-A', 'product-B', 'product-C', 'product-D'.
+When a trader tries to sell an item of a product it is able to obtain the price each of the traders it is connected to believes an item of a product is worth in that time step.
+
+B) If agents sense each other through social networks, is the structure of the network imposed or emergent?
+
+The structure of the social network is imposed at the initialization of each experiment run.
+
+C) Are the mechanisms by which agents obtain information modeled explicitly, or are individuals simply assumed to know these variables?
+
+These mechanisms are modeled explicitly in the procedure 'trade-and-consume'.
+
+4.8. Interaction
+
+A) What kinds of interactions among agents are assumed?
+
+Only pairs of traders connected by an edge in the social network are able to interact. An edge between a trader pair enables the flow of commercial information (amount of each product, and demand) and units of tableware products.
+
+B) Are there direct interactions in which individuals encounter and affect others, or are interactions indirect, e.g., via competition for amediating resource?
+
+The above are direct interactions.
+
+C) If the interactions involve communication, how are such communications represented?
+Flow of information: a trader obtains
+ commercial information from a proportion of the traders it is connected to. In transactions, a seller obtains the price value of all of the traders it is connected to.
+Flow of items of products: in a successful transaction a seller subtracts 1 from the amount of the product being traded it has, and either the buyer adds 1 to its stock of that product or the site that buyer is located at increases its volume of that product by 1 (i.e. the item is deposited at a site).
+
+4.9. Stochasticity
+
+A) What processes are modeled by assuming they are random or partly random?
+
+Stochasticity is introduced in the initialization when distributing traders among production sites and when creating the social network structure, and in the trade procedures when identifying the traders who share commercial information with a trader and when determining the order of items to be sold in a time step.
+
+'select-production-sites' procedure: n traders who have not been moved to a production site yet are selected at random, where n is determined by the initialization of the experiment.
+'connect-random-network' procedure: trader pairs are selected at random in turn and connected by an edge.
+'connect-traders-adjacent-sites' procedure: trader pairs on adjacent sites in a circular layout are selected at random and connected by an edge.
+'connect-random-traders' procedure: trader pairs on different sites and with less than the maximum number of connections are selected at random and connected.
+'connect-to-av-degree' procedure: in step three, trader pairs on the same site and with less than the maximum number of connections are selected at random and connected. In step four, traders are selected randomly with probability proportional to Zi (Zi - 1) where Zi = the number of traders this trader is connected to. A trader pair on the same site connected to the selected trader but not connected to each other and not having the maximum number of connections is selected at random and connected.
+'single-connected-component' procedure: a trader pair on the same site but not in the same network connected component is selected at random and connected.
+'identify-known-traders' procedure: a proportion of traders a particular trader is connected to, rounded up, is selected at random and their commercial information is shared with that particular trader.
+'trade-and-consume' procedure: at the start of each transaction, one of four products is selected at random, and an item of the selected producted owned by a randomly selected trader (the seller) is considered for sale. When the seller is confronted with multiple potential buyers offering an equally high price, one of these potential buyers is selected at random.
+
+B) Is stochasticity used, for example, to reproduce variability in processes for which it is unimportant to model the actual causes of the variability?
+
+Yes, for all of the above.
+
+C) Is it used to cause model events or behaviors to occur with a specified frequency?
+
+No.
+
+4.10. Collectives
+
+A) Do the individuals form or belong to aggregations that affect, and are affected by, the individuals?
+
+The clusters in the social network within sites are assumed to represent communities of traders. Although such communities are not explicitly modeled by identifying them and giving them specific variables, the ability to share information and sell goods  of traders in clusters is structured by their position on the social network, but the traders do not in turn affect the structure of the social network. This because this model aims to represent the impact of specific social network structures on the distribution of goods, rather than change in the social network structure of traders.
+
+4.11. Observation
+
+A) What data are collected from the ABM for testing, understanding, and analyzing it, and how and when are they collected?
+
+Data is collected after 20,000 time steps after each run of an experiment (through the 'get-ending-stats' procedure in the model). The values of all variables at the end of the run are saved in .csv format, as well as an image of the interface and the state of all plots. The data collected of particular interest for the aims of this model are: the number of sites on which each product is deposited after a run; a list of all sites with the average closeness and betweenness centrality of the traders on each site, the total number of links on a site, and the total volume of each product on each site; a list of all traders, their ID, the Id of the site they are located on, the number of traders at that site, and the trader's closeness and betweenness centrality scores.
+
+5. Initialization
+
+At the initialization of each run, the following values were tested (the motivation for these values are given in brackets):
+
+num-traders: 1000 (This is the minimum number that can give rise to ‘small-world’ network structures at each site when exponentially or uniformly distributed and close to the maximum in terms of the computing power and time available to the project)
+num-sites: 100 (This is an approximation of the maximum distribution of ESA for this period in the database (146 sites), and close to the maximum in terms of the computing power and time available to the project)
+equal-traders-production-site: true/false
+traders-distribution: exponential/uniform
+traders-production-site: 1, 10, 20, 30
+network-structure: hypothesis, random
+maximum-degree: 5 (Adopted from the Jin et al. (2001) model from which this variable was derived, because these default values give rise to a small world network structure)
+proportion-inter-site-links: 0, 0.0001, 0.0006, 0.001, 0.002, 0.003
+proportion-intra-site-links: 0.0005 (Adopted from the Jin et al. (2001) model from which this variable was derived, because these default values give rise to a small world network structure)
+proportion-mutual-neighbors: 2 (Adopted from the Jin et al. (2001) model from which this variable was derived, because these default values give rise to a small world network structure)
+production-site: true/false
+producer-A: true/false
+producer-B: true/false
+producer-C: true/false
+producer-D: true/false
+max-demand: 1, 10, 20, 30
+local-knowledge: 0.1, 0.5,  1
+
+6. Input data
+
+None.
+
+7. Submodels
+
+A) Submodels 'select-production-sites' and 'distribute-traders-on-sites':
+When equal-traders-production-site is set to ‘true’, an equal number of traders (determined by the variable traders-production-site) is moved to each production site. The remaining traders are then distributed on the other sites following a uniform or exponential frequency distribution, depending on the setting of the variable traders-distribution. When equal-traders-production-site is set to ‘false’, all traders are distributed among all sites following a uniform or exponential frequency distribution, depending on the setting of the variable traders distribution. The mean of the exponential frequency distribution is the number of traders that have not yet been moved to a site divided by the number of sites.
+
+B) Submodel 'connect-traders':
+If the experiments representing the hypotheses are compared with a random network with the same density then do the 'connect-random-network' procedure is used. In this procedure, the model first counts the number of links that would have been created in an initialization of the model with a hypothesized network structure and the independent variable settings of that experiment. It then creates that same number of edges by randomly selecting that number of trader pairs who are not yet connected and connecting them.
+
+If the experiments represent the hypothesized social network structure, then the following five steps are performed.
+
+Firstly, between each pair of neighbouring sites on the circular layout, one pair of randomly selected traders located on neighbouring sites is connected. This ensures a minimum of connectivity between sites that allows for goods to still be distributed to all sites. In scenarios where no other inter-site links are added, information and goods will therefore need to travel from site to site along the circular layout.
+
+Secondly, a number of inter-site links is created. A proportion (determined by the variable proportion-inter-site-links) of all trader pairs are connected if a pair is not located on the same site and is not connected yet. The total number of trader pairs is calculated as:
+	1/2 N (N - 1)
+where N is the total number of traders. This step therefore allows us to test different degrees of market integration, by increasing or decreasing in experiments the proportion of edges between traders on different sites.
+
+Steps three and four will result in a ‘small-world’ network structure within sites, where clusters exist that have few connections between clusters. These steps are adopted from the model by Jin et al. (2001).
+
+Thirdly, randomly selected pairs of traders on the same site are connected. More formally, a proportion of all trader pairs determined by the variable proportion-intra-site-links are connected if they meet the following requirements: both are located at the same site, the pair is not connected yet, and neither of the traders has the maximum-degree.
+
+Fourthly, pairs of traders on the same site with a mutual neighbour in the network will be connected. This step is responsible for the high level of clustering and is a process common in social networks called transitivity, which stands for the idea that a pair of individuals who have a mutual friend have a high probability of becoming friends themselves in the future. The step is implemented as follows: a number of traders are selected uniformly at random; the number of selected traders is a proportion of all trader pairs with a mutual neighbour (the proportion is determined by the variable proportion-mutual-neighbors, and the number of trader pairs with a mutual neighbour is calculated as the equation below; if these randomly selected traders are connected to a pair of traders on the same site that are not connected yet and do not have the maximum-degree, then such a pair of traders of whom the randomly selected trader is a mutual neighbour will be connected. This equation shows the calculation of all trader pairs with a mutual neighbour:
+	1/2 SUMi Zi (Zi - 1)
+where Zi is the degree of the ith trader.
+
+Steps three and four of this network creation procedure are repeated while the average degree of the network is lower than maximum-degree minus 10%, a point at which those traders who do not have a maximum degree cannot create any further links without violating the rules of steps three and four (our implementation of the requirement in Jin et al. (2001, 7) for “all or most” traders to have a degree close to the maximum). The default values for the variables in steps three and four were adopted from Jin et al. (2001) and, within each site, result in a ‘small-world’ network structure of traders.
+
+Fifthly, at this stage the network can still consist of multiple components, i.e. there exist subsets of nodes, where nodes within subsets can be connected but there are no edges between the subsets. This would prohibit tableware produced in one area of the network to reach traders in another. Therefore, a minimum number of edges are added between pairs of traders on the same site which are not in the same component, to ensure all traders become part of a single component. This generally results in very few extra links being created (between 2 and 19 in the experiments presented here) and has a minimal impact on the ‘small-world’ structure of the networks within sites.
+
+C) Traders determine demand:
+The demand of each trader is 0 at the start of the simulation. At each time step, a traders’ demand is increased by 1 if his demand is lower than the trader’s maximum demand determined by the independent variable max-demand. 
+
+D) Traders discard part of stock:
+A fixed proportion of each trader's stock (14% rounded) from last time step is deposited on its site, the rest can be traded again this time step.
+
+C) Traders at production sites produce:
+Traders located on sites that were selected in the setup procedures as the production sites will obtain newly produced items each time step, only if their total current possession of all four products is less than their demand. If this is the case then they obtain items of the product being produced at that site equal to their demand minus the sum of the products they already possess.
+
+D) Traders obtain commercial information and estimate a price:
+Once every time step, and before trade happens, a proportion of a trader’s neighbours in the social network will be randomly selected as the trader’s informant. From this proportion of neighbours the trader will know the demand and the sum of all items of all products they own (i.e. their supply). This proportion is determined by the independent variable local-knowledge and is used in the experiments to test scenarios with differing availability of information (together with the proportion-inter-site-links variable). The trader then calculates the average demand and average supply of this proportion of neighbours, including his own supply and demand. Using this commercial information available to him he then determines what he believes is the price of one item of any product as follows:
+	price = average demand / (average supply + average demand)
+
+E) Traders determine maximum stock:
+For each trader the maximum-stock-size dependent variable is calculated as the average of the demand of the other traders he knows commercial information of, minus his own demand, rounded. The maximum stock is only higher than 0 when the average demand is higher than his own demand, i.e. when the trader believes there is a high demand which promises higher profits (because his own demand is lower) he will be willing to store the number of items necessary to supply for the average demand.
+
+D) Traders trade and consume:
+Each item of every product is considered for trade once per time step. At the start of each transaction, one of four products is selected at random, and an item of the selected producted owned by a randomly selected trader (the seller) is considered for sale. An item is put in the trader’s stock if he cannot make a profit or if none of his neighbours in the network require an item (i.e. their demand equals 0). An item is sold to a buyer if the buyer’s price offers a profit or break-even for the seller. The buyer either places the obtained item in stock for redistribution if the average demand is higher than his demand (i.e. redistribution holds the promise of a higher profit), or if this is not the case he deposits it on his site (this action represents the trader selling the item to a consumer and the item leaving the trade cycle). In the latter case the buyer’s demand is decreased by 1 because some of the local consumers’ demand is satisfied; the item is taken out of the trade system because the consumer does not redistribute it; and it is deposited on the buyer’s site (the site’s dependent variable for that product (volume-A, -B, -C, or -D, is increased by 1).
+
+8. References
+
+Bang, P. F. (2008). The Roman bazaar, a comparative study of trade and markets in a tributary empire. Cambridge: Cambridge university press.
+
+Brandes, U., Robins, G., McCranie, A., & Wasserman, S. (2013). What is network science? Network Science, 1(01), 1–15. doi:10.1017/nws.2013.2
+
+Jin, E. M., Girvan, M., & Newman, M. E. (2001). Structure of growing social networks. Physical Review. E, Statistical, Nonlinear, and Soft Matter Physics, 64(4 Pt 2), 046132.
+
+Temin, P. (2013). The Roman Market Economy. Princeton: Princeton University Press.
+
+Watts, D. J., & Strogatz, S. H. (1998). Collective dynamics of “small-world” networks. Nature, 393(6684), 440–2. doi:10.1038/30918

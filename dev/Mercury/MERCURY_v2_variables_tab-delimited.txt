@@ -1,0 +1,66 @@
+Independent variables		
+Variable	Description	Tested values
+Global variables		
+num-traders	The total number of traders to be distributed among all sites	1000
+num-sites	The total number of sites	100
+equal-traders-production-site	Determines whether the number of traders at production sites will be equal and determined by the variable 'traders-production-site' or whether it will follow the same frequency distribution as all other sites determined by the variable 'traders-distribution'	"true, false"
+traders-distribution	"Determines how the traders are distributed among the sites, this can be either “uniform”, or “exponential” frequency distributions"	"exponential, uniform"
+traders-production-site	Determines the number of traders located at production sites.	"10, 0"
+network-structure	When set to “hypothesis” this connects traders to create a small-world structure that represents the hypothesised social network structure; when set to “random” this connects traders to create a random structure with the same number of nodes and edges as would be expected in a “hypothesis” network with the same global variable settings. (not tested here)	"hypothesis, random"
+maximum-degree	The maximum number of connections any single trader can have	5
+proportion-inter-site-links	The proportion of all pairs of traders that are connected in step two of the network creation procedure by inter-site links	"0, 0.0001, 0.0006, 0.001, 0.002, 0.003"
+proportion-intra-site-links	The proportion of all pairs of traders that are considered for becoming connected in step three of the network creation procedure by intra-site links	0.0005
+proportion-mutual-neighbors	The proportion of all pairs of traders with a mutual-neighbor that are considered for becoming connected in step four of the network creation procedure by intra-site-links	2
+Site-specific variables		
+production-site	"Set to ""true"" if the site is a production centre of one of the products"	"true, false"
+producer-A	"Set to ""true"" if the site is the production centre of product-A"	"true, false"
+producer-B	"Set to ""true"" if the site is the production centre of product-B"	"true, false"
+producer-C	"Set to ""true"" if the site is the production centre of product-C"	"true, false"
+producer-D	"Set to ""true"" if the site is the production centre of product-D"	"true, false"
+Trader-specific variables		
+max-demand	The maximum demand each trader aims to satisfy	"1, 10, 20, 30"
+local-knowledge	The proportion of all traders a trader is connected to that he receives commercial information (supply and demand) of in each turn	"0.1, 0.5,  1"
+		
+Dependent variables		
+Variable	Description	
+Site-specific variables		
+volume-A	The number of items of product A deposited on this site as a result of a successful transaction	
+volume-B	The number of items of product B deposited on this site as a result of a successful transaction	
+volume-C	The number of items of product C deposited on this site as a result of a successful transaction	
+volume-D	The number of items of product D deposited on this site as a result of a successful transaction	
+Trader-specific variables		
+product-A	The number of items of product A a trader owns and can trade or store in this turn	
+product-B	The number of items of product B a trader owns and can trade or store in this turn	
+product-C	The number of items of product C a trader owns and can trade or store in this turn	
+product-D	The number of items of product D a trader owns and can trade or store in this turn	
+stock-A	The number of items of product A a trader puts in his stock in this turn as a result of an unsuccessful transaction or for redistribution in the next turn	
+stock-B	The number of items of product B a trader puts in his stock in this turn as a result of an unsuccessful transaction or for redistribution in the next turn	
+stock-C	The number of items of product C a trader puts in his stock in this turn as a result of an unsuccessful transaction or for redistribution in the next turn	
+stock-D	The number of items of product D a trader puts in his stock in this turn as a result of an unsuccessful transaction or for redistribution in the next turn	
+maximum-stock-size	The number of items a trader is willing to obtain through trade this turn in addition to his own demand if the average demand is higher than his demand	
+price	The price a trader believes an item is worth based on his knowledge of supply and demand on the market	
+demand	The proportion of the demand at the market the trader is located at that he aims to satisfy by obtaining products through trade	Constant increase of 1 per turn; maximum = max-demand
+		
+Reporter and counter variables		
+Variable	Description	
+trader-list	a list used in step 4 of the connect-traders procedure to select traders with a probability proportional to Zi (Zi - 1)	
+node-pairs	parameter used to calculate and report the number of node pairs	
+av-degree	parameter used to calculate and report the average degree of the network during the setup procedure	
+clustering-coefficient	parameter used for calculating and reporting the clustering coefficient in the setup procedure	
+neighbor-site-links	"parameter used for reporting the number of links between neighboring sites in the circular layout, step 1 of the connect-traders procedure"	
+random-inter-site-links	"parameter used for reporting the number of random inter site links in a setup of the model, step 2 of the connect-traders procedure"	
+random-intra-site-links	"parameter used for reporting the number of random intra site links in a setup of the model, step 3 of the connect-traders procedure"	
+mutual-neighbors-intra-site-links	"parameter used for reporting the number of mutual neighbors linked within sites in a setup of the model, step 4 of the connect-traders procedure"	
+random-component-links	"parameter used for reporting the number of random links added to join components, step 5 of the connect-traders procedure"	
+counter-trade	parameter used in the trade procedures to keep track of how many transactions have already been attempted	
+counter-transaction	parameter used in the trade procedures to count the number of successful transactions	
+counter-stock-redist	parameter used in the trade procedures to count the number of items put in stock with redistribution in mind per tick	
+counter-no-transaction	parameter used in the trade procedures to count the number of failed transactions per tick	
+target-distribution	counter parameter used in the setup procedure to identify the number of traders that need to be present at a site under the selection distribution hypothesis	
+comp	parameter used to identify which connected component a trader is part of. Used when creating the initial trade network in the setup procedure	
+trader-clustering-coefficient	parameter used for calculating the clustering coefficient of traders	
+moved?	parameter used to keep track of the traders who have already moved to a site in the setup phase	
+average-demand	parameter used to calculate the average demand of a trader's link neighbors	
+site-number	"parameter used to keep track of what site this trader is located at, used to reposition traders after layout"	
+known-traders	parameter used to store the agentset a trader receives commercial information from in each tick	
+maximum-stock-size	parameter used to calculate and store in each tick the number of items a trader is willing to obtain over his own demand for redistribution in the next tick	
