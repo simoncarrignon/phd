@@ -28,6 +28,7 @@ class MedeaSpAgentObserver : public AgentObserver
 		void pickRandomGenome();
 		void elitSelection();
 		void selectFitnessProp();
+		void selectRankProp();
 		void mutateWithBouncingBounds(float sigma);
 	public:
 		MedeaSpAgentObserver( RobotAgentWorldModel *__wm );

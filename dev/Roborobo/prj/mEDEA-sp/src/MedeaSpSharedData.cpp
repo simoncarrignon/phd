@@ -66,6 +66,8 @@ int MedeaSpSharedData::gNoDenPenTime;
 int MedeaSpSharedData::gNbAllowedRobotsBySun;
 int MedeaSpSharedData::gTournamentSize;
 int MedeaSpSharedData::gSelectionMethod=0; //used to select what type of selection will be used
+double MedeaSpSharedData::gMinimumExpectedValue = 1.0; // default: 1
+double MedeaSpSharedData::gMaximumExpectedValue = 2.0; // default: 1
 
 
 bool MedeaSpSharedData::gDynamicRespawn;

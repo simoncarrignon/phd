@@ -230,9 +230,9 @@ void MedeaSpAgentObserver::checkGenomeList()
 				case 2:
 					selectFitnessProp();
 					break;
-				//case 5:
-				//	selectRankProp();
-				//	break;
+				case 3:
+					selectRankProp();
+					break;
 				default:
 					std::cerr << "[ERROR] unknown selection method (gSelectionMethod = " << MedeaSpSharedData::gSelectionMethod << ")\n";
 					exit(-1);
@@ -422,99 +422,84 @@ void MedeaSpAgentObserver::selectFitnessProp()
 	}
 }
 
-//void VanillaEESpecializationController::selectRankProp()
-//{
-//	if(_genomesList.size() != 0)
-//	{
-//		int idBest = 0;
-//		if(_genomesList.size() == 1)
-//		{
-//			idBest = (*_genomesList.begin()).first;
-//		}
-//		else
-//		{
-//			double minimumExpected = MedeaSpSharedData::gMinimumExpectedValue;
-//			double maximumExpected = MedeaSpSharedData::gMaximumExpectedValue;
-//
-//			//reverse the map to sort by fitness. Will put lowest first
-//			std::multimap<double,int> sortedFitness = flip_map(_fitnessesList);
-//
-//			std::map<int, double> f;
-//			int rank = 0;
-//			for (std::multimap<double, int >::iterator it = sortedFitness.begin(); it != sortedFitness.end() ; it++)
-//			{
-//				f[(*it).second] = ( maximumExpected  - (maximumExpected - minimumExpected) * (rank / ( (double)_fitnessesList.size() - 1.0) )) / (double)_fitnessesList.size() ;
-//				rank ++;
-//			}
-//
-//			double sum1 = 0.0;
-//			for( std::map<int, double>::iterator it = f.begin() ; it != f.end() ; it ++)
-//			{
-//				sum1 += f[(*it).first];
-//			}
-//
-//			double sum2 = 0.0;
-//			std::map<int, double> p;
-//
-//			for( std::map<int, double>::iterator it = f.begin() ; it != f.end() ; it ++)
-//			{
-//				if (f[(*it).first] > 0.0)
-//				{
-//					sum2 += f[(*it).first];
-//					p[(*it).first] = sum2/sum1;
-//				}
-//			}
-//
-//			double r = ranf();
-//			//Proportional selection
-//			std::map<int, double >::iterator it = p.begin() ;
-//			while( (r > p[(*it).first]) && (it != p.end())) 
-//			{
-//				it ++;
-//			}
-//			idBest = (*it).first ;
-//
-//			_currentGenome = _genomesList[idBest];
-//
-//			// ## mutation scheme :: start
-//
-//			// modified medea
-//			if ( VanillaEESpecializationSharedData::gIndividualMutationRate > rand()/RAND_MAX )
-//			{
-//				switch ( VanillaEESpecializationSharedData::gMutationOperator )
-//				{
-//					case 0:
-//						mutateUniform();
-//						break;
-//					case 1:
-//						mutate(_sigmaList[idBest]); // vanilla MEDEA, used before year 2015
-//						break;
-//					case 2:
-//						mutate(VanillaEESpecializationSharedData::gSigma);
-//						break;
-//				}
-//			}
-//			else
-//				_sigmaList[idBest];
-//
-//			// ## mutation scheme :: end
-//
-//			setNewGenomeStatus(true);
-//
-//			_birthdate = gWorld->getIterations();
-//
-//			// Logging: track descendance
-//			std::string sLog = std::string("");
-//			sLog += "" + std::to_string(gWorld->getIterations()) + "," + std::to_string(_wm->getId()) + "::" + std::to_string(_birthdate) + ",descendsFrom," + std::to_string(idBest) + "::" + std::to_string(_birthdateList[idBest]) + "\n";
-//			gLogManager->write(sLog);
-//			gLogManager->flush();
-//
-//			_genomesList.clear();
-//			_fitnessesList.clear();
-//		}
-//	}
-//}
-//
+void MedeaSpAgentObserver::selectRankProp()
+{
+	if(_wm->_genomesList.size() != 0)
+	{
+		int idBest = 0;
+		if(_wm->_genomesList.size() == 1)
+		{
+			idBest = (*_wm->_genomesList.begin()).first;
+		}
+		else
+		{
+			double minimumExpected = MedeaSpSharedData::gMinimumExpectedValue;
+			double maximumExpected = MedeaSpSharedData::gMaximumExpectedValue;
+
+			//reverse the map to sort by fitness. Will put lowest first
+			std::multimap<double,int> sortedFitness = flip_map(_wm->_fitnessList);
+
+			std::map<int, double> f;
+			int rank = 0;
+			for (std::multimap<double, int >::iterator it = sortedFitness.begin(); it != sortedFitness.end() ; it++)
+			{
+				f[(*it).second] = ( maximumExpected  - (maximumExpected - minimumExpected) * (rank / ( (double)_wm->_fitnessList.size() - 1.0) )) / (double)_wm->_fitnessList.size() ;
+				rank ++;
+			}
+
+			double sum1 = 0.0;
+			for( std::map<int, double>::iterator it = f.begin() ; it != f.end() ; it ++)
+			{
+				sum1 += f[(*it).first];
+			}
+
+			double sum2 = 0.0;
+			std::map<int, double> p;
+
+			for( std::map<int, double>::iterator it = f.begin() ; it != f.end() ; it ++)
+			{
+				if (f[(*it).first] > 0.0)
+				{
+					sum2 += f[(*it).first];
+					p[(*it).first] = sum2/sum1;
+				}
+			}
+
+			double r = ranf();
+			//Proportional selection
+			std::map<int, double >::iterator it = p.begin() ;
+			while( (r > p[(*it).first]) && (it != p.end())) 
+			{
+				it ++;
+			}
+			idBest = (*it).first ;
+
+
+		_wm->_currentGenome =_wm->_genomesList[idBest];
+
+		if ( MedeaSpSharedData::gDynamicSigma == true )
+		{
+			mutateWithBouncingBounds(_wm->_sigmaList[idBest]);
+		}
+		else
+		{
+			mutateWithBouncingBounds(-1.00);
+		}
+
+		_wm->setNewGenomeStatus(true); 
+		_wm->setFatherId(idBest);
+
+		//gLogFile << gWorld->getIterations() << " : " << _wm->_agentId + 1000 * _wm->getDateOfBirth()  << " take " << _wm->getFatherId()<<std::endl;
+		if (_wm->_agentId == 1 && gVerbose) // debug
+			std::cout << "  Sigma is " << _wm->_sigmaList[idBest] << "." << std::endl;
+
+
+		_wm->_genomesList.clear();
+		_wm->_fitnessList.clear();
+		}
+	}
+}
+
 
 void MedeaSpAgentObserver::writeGenome(std::vector<double> genome, int senderId, float sigma, float fitness)
 {

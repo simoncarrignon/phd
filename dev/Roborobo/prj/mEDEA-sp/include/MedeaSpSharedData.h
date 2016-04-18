@@ -78,6 +78,8 @@ class MedeaSpSharedData {
 	static int gSparsity;		//Used to build and select the radio network topology
 	static int gTournamentSize;
 	static int gSelectionMethod ; //used to select what type of selection will be used
+	static double gMinimumExpectedValue ; // default: 1
+	static double gMaximumExpectedValue; // default: 1
 };
 
 
