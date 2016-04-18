@@ -142,7 +142,7 @@ void MedeaSpNetworkGenerator::buildRandomNetwork(){
 		
 		nEdgeToConnectThemAll=updateNbEdgeToConnectThemAll();
 		
-		std::cerr<<"currenSpars:"<<nEdgeToSparsity(currentNbEdge)<<" needed: "<<sparsity<<std::endl;
+		//std::cerr<<"currenSpars:"<<nEdgeToSparsity(currentNbEdge)<<" needed: "<<sparsity<<std::endl;
 		if(nEdgeToSparsity(currentNbEdge+nEdgeToConnectThemAll)<= sparsity  ){
 			int oldNEdgeToConnect=nEdgeToConnectThemAll;
 			theNewEdge= connectTwoSubGraph();

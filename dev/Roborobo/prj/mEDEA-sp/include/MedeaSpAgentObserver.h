@@ -27,6 +27,7 @@ class MedeaSpAgentObserver : public AgentObserver
 // 		int _fatherId; 				//use to store the id of the robot there the current used genome comes from
 		void pickRandomGenome();
 		void elitSelection();
+		void selectFitnessProp();
 		void mutateWithBouncingBounds(float sigma);
 	public:
 		MedeaSpAgentObserver( RobotAgentWorldModel *__wm );

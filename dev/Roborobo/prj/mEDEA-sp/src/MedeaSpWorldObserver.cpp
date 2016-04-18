@@ -87,6 +87,7 @@ MedeaSpWorldObserver::MedeaSpWorldObserver( World* __world ) : WorldObserver( __
 	gProperties.checkAndGetPropertyValue("gNoDenPenTime",&MedeaSpSharedData::gNoDenPenTime,true);
 	
 	gProperties.checkAndGetPropertyValue("gTournamentSize",&MedeaSpSharedData::gTournamentSize,true);
+	gProperties.checkAndGetPropertyValue("gSelectionMethod",&MedeaSpSharedData::gSelectionMethod,true);
 	gProperties.checkAndGetPropertyValue("gExperimentNoMovements",&MedeaSpSharedData::gExperimentNoMovements,true);
 // 	MedeaSpSharedData::gSparsity;
 	

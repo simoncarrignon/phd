@@ -77,6 +77,7 @@ class MedeaSpSharedData {
 	static int gNoDenPenTime; //Time during wich no penality is set
 	static int gSparsity;		//Used to build and select the radio network topology
 	static int gTournamentSize;
+	static int gSelectionMethod ; //used to select what type of selection will be used
 };
 
 
