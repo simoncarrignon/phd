@@ -1,0 +1,41 @@
+This title is to give you hints about what I am going to talk about :
+How we can use Computer to understand history, and in this framework, a particular interaction I want to focus.
+
+Concerning the historical parti,I am working in a project with historians, and archaeologist that are study:
+
+
+testaccio. Basically, it is a gargbage of amphora that were thrown after theire transport to Rome.
+From this, historians try to understand how How the Roman Emprie was working.
+
+
+How they do that?
+
+Imagine that in 1000 years you find one of hour nowadays garbage, what you will do? the idea is simple.
+
+You sort and count the different element.
+
+From that and other historical and archaeological sources, historians draw hypothesis and theories about the social and economical activity that lead to the distribution we observed in the gargbage.
+
+This is the traditional way.
+
+Starting from that we build model, to test the assumption and hyopthesis made by the historian, in a quantitative and reproducible way.
+
+The advantage is that we can test different assumption at different level of our model, comming from different sources of knolwdge (archaeology, psychologye, hsitrocal sources..)
+
+Once we do that, we simulate our model in computer, puting some incertaintity, and wee look if the output of our model fit with what other known historical and archaelogical observation and we try to understand the difference we observe. It could come frome our assumption, or problem in the data etc...
+
+This is the general framework to study historical question
+
+But if we look back to our model we see we have a cultural activity (wine, the one you like, with who you will drink it) with an important economic wight.
+You can generalise that to lot of different cultural product
+
+The tool you use to hunt, but also they way you buy, or sell action in the market, all such things that impact deeply the economic activity.
+
+You can resume such system like taht, with the cultural activity modifying things that will modify your economy, modification in your economy that will in turn, modify the cultural activity.
+
+What are the important properties of suuch system, how they impact economy and the evolution of our culture? this is the kind of question I want to explore, by comparing theorietical model and what we know from the Roman Empire.
+
+
+
+
+
