@@ -1,3 +1,5 @@
+source("~/projects/PhD/dev/medeaNetwork/plotg2.R")
+
 lastExp=function(){
     ##TOURNAMENT PART
     tsize=c(1,2,3,5,10,50)
@@ -191,19 +193,114 @@ lastExp=function(){
 
 ##test stat
 
-res=c()
-for ( rep in c("50","75","90")){
-       for (den in unique(rep500$Sparsity)){
-	      print(rep)
-	      print(den)
-	      lb=getAlive(getLastIt(rep100),rep,den)
-	      la=getAlive(getLastIt(rep500),rep,den)
-	      t=t.test(la/500,lb/100)
-	      res=rbind(res,c(rep,den,median(la/500),median(lb/100),t[["p.value"]]))
-       }
-}
-
+##res=c()
+##for ( rep in c("50","75","90")){
+##       for (den in unique(rep500$Sparsity)){
+##	      print(rep)
+##	      print(den)
+##	      lb=getAlive(getLastIt(rep100),rep,den)
+##	      la=getAlive(getLastIt(rep500),rep,den)
+##	      t=t.test(la/500,lb/100)
+##	      res=rbind(res,c(rep,den,median(la/500),median(lb/100),t[["p.value"]]))
+##       }
+##}
+##
 getAlive=function(x,r,d){
 	      return(x$alive[x$rep == as.character(r) & x$Sparsity == as.character(d)])
+}
+
+supleMat<-function(){
+    u=read.csv("~/RoboroMn3Exp/FRONTIERS/FITPROP_P100_D000K1/res/logs_actives.csv")
+    b=read.csv("~/RoboroMn3Exp/FRONTIERS/MEDEA_P100_D000K1/res/logs_actives.csv")
+
+    uc=read.csv("~/RoboroMn3Exp/FRONTIERS/FITPROP_P100_D980K1/res/logs_actives.csv")
+    bc=read.csv("~/RoboroMn3Exp/FRONTIERS/MEDEA_P500_D000K1/100_D980K1/res/logs_actives.csv")
+    FITPROP100=c()
+    for( i in sapply( list.files("~/RoboroMn3Exp/FRONTIERS/",pattern= "FITPROP_P100_*",full.names=T) ,paste,"/res/logs_actives.csv",sep="")){
+	FITPROP100=rbind(FITPROP100,read.csv(i))
+    }
+	   t_comp=getLastIt(FITPROP100)
+	   t_comp=getLastIt(MEDEA_P100)
+	   t_comp$Sparsity=spar2Dens(t_comp$Sparsity)
+	   densities=unique(t_comp$Sparsity)
+	   #plot(1,1,xlim=c(0.5,5.5),ylim=c(0,100),type="n",xaxt="n",ylab="number of active agents",xlab="density",main=paste("Evolution of #agents for different density"))
+	   axis(1,at=densities*50,labels=densities,cex=1.7)
+	   sapply(densities,function(k){
+		  vioplot(t_comp$alive[t_comp$Sparsity > k-.001 & t_comp$Sparsity < k+0.001],at=k*50,add=T,col="white")
+		  })
+
+    RANKPROP_P100=c()
+    for( i in sapply( list.files("~/RoboroMn3Exp/FRONTIERS/",pattern= "RANKPROP_P100_*",full.names=T) ,paste,"/res/logs_actives.csv",sep="")){
+	RANKPROP_P100=rbind(MEDEA_P100,read.csv(i))
+    }
+    MEDEA_P100=c()
+    for( i in sapply( list.files("~/RoboroMn3Exp/FRONTIERS/",pattern= "MEDEA_P100_*",full.names=T) ,paste,"/res/logs_actives.csv",sep="")){
+	MEDEA_P100=rbind(MEDEA_P100,read.csv(i))
+    }
+    FITPROP100=c()
+    for( i in sapply( list.files("~/RoboroMn3Exp/FRONTIERS/",pattern= "FITPROP_P100_*",full.names=T) ,paste,"/res/logs_actives.csv",sep="")){
+	FITPROP100=rbind(FITPROP100,read.csv(i))
+    }
+    TOURRANKPROP_P100=c()
+    for( i in sapply( list.files("~/RoboroMn3Exp/FRONTIERS/",pattern= "TOURRANKPROP_P100_*",full.names=T) ,paste,"/res/logs_actives.csv",sep="")){
+	TOURRANKPROP_P100=rbind(TOURRANKPROP_P100,read.csv(i))
+    }
+    RANKPROP_P500=c()
+    for( i in sapply( list.files("~/RoboroMn3Exp/FRONTIERS/",pattern= "RANKPROP_P500_*",full.names=T) ,paste,"/res/logs_actives.csv",sep="")){
+	RANKPROP_P500=rbind(RANKPROP_P500,read.csv(i))
+    }
+    TOURRANKPROP_P500=c()
+    for( i in sapply( list.files("~/RoboroMn3Exp/FRONTIERS/",pattern= "TOURRANKPROP_P500_*",full.names=T) ,paste,"/res/logs_actives.csv",sep="")){
+	TOURRANKPROP_P500=rbind(TOURRANKPROP_P500,read.csv(i))
+    }
+    MEDEA_P500=c()
+    for( i in sapply( list.files("~/RoboroMn3Exp/FRONTIERS/",pattern= "MEDEA_P500_*",full.names=T) ,paste,"/res/logs_actives.csv",sep="")){
+	MEDEA_P500=rbind(MEDEA_P500,read.csv(i))
+    }
+    FITPROP500=c()
+    for( i in sapply( list.files("~/RoboroMn3Exp/FRONTIERS/",pattern= "FITPROP_P500_*",full.names=T) ,paste,"/res/logs_actives.csv",sep="")){
+	FITPROP500=rbind(FITPROP500,read.csv(i))
+    }
+	   t_comp=getLastIt(FITPROP500)
+	   t_comp$Sparsity=spar2Dens(t_comp$Sparsity)
+	   densities=unique(t_comp$Sparsity)
+	   #plot(1,1,xlim=c(0.5,5.5),ylim=c(0,500),type="n",xaxt="n",ylab="number of active agents",xlab="density",main=paste("Evolution of #agents for different density"))
+	   axis(1,at=densities*50,labels=densities,cex=1.7)
+	   sapply(densities,function(k){
+		  vioplot(t_comp$alive[t_comp$Sparsity > k-.001 & t_comp$Sparsity < k+0.001],at=k*50,add=T,col="white")
+		  })
+
+	   dev.off()
+	   #par(mfrow=c(2,2))
+	   allAlg=list(FITPROP500,RANKPROP_P500,MEDEA_P500,TOURRANKPROP_P500)
+	   densities=c(0.004,0.01,0.04,.1)
+	   sapply(densities,function(dens){
+	   pdf(paste("tmp/500/agentwrtALG-D",dens,".pdf",sep=""),pointsize=14)
+	   plot(1,1,xlim=c(0.5,4.5),ylim=c(0,500),type="n",xaxt="n",ylab="#Active",xlab="",main=paste("Density=",dens))
+	   axis(1,at=1:4,labels=c("FITPROP","RANKPROP","MEDEA","TOUR-10"),cex=1.7)
+	   sapply(1:4,function(k){
+		  t_comp=getLastIt(allAlg[[k]])
+		  t_comp$Sparsity=spar2Dens(t_comp$Sparsity)
+		  vioplot(t_comp$alive[t_comp$Sparsity > dens -.001 & t_comp$Sparsity < dens +0.001],at=k,add=T,col="white")
+		  })
+	   dev.off()
+		  })
+
+	   dev.off()
+	   #par(mfrow=c(2,2))
+
+	   allAlg=list(FITPROP100,RANKPROP_P100,MEDEA_P100,TOURRANKPROP_P100)
+	   densities=c(0.02,0.04,0.06,.1)
+	   sapply(densities,function(dens){
+	   pdf(paste("tmp/100/agentwrtALG-D",formatC(1000-dens,width=4,format="d",flag="0"),".pdf",sep=""),pointsize=14)
+	   plot(1,1,xlim=c(0.5,4.5),ylim=c(0,100),type="n",xaxt="n",ylab="#Active",main=paste("Density=",dens),xlab="")
+	   axis(1,at=1:4,labels=c("FITPROP","RANKPROP","MEDEA","TOUR-10"),cex=1.7)
+	   sapply(1:4,function(k){
+		  t_comp=getLastIt(allAlg[[k]])
+		  t_comp$Sparsity=spar2Dens(t_comp$Sparsity)
+		  vioplot(t_comp$alive[t_comp$Sparsity > dens -.001 & t_comp$Sparsity < dens +0.001],at=k,add=T,col="white")
+		  })
+	   dev.off()
+		  })
 }
 
