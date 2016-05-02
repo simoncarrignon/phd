@@ -1,0 +1,40 @@
+#une petite suite des commande a execture pour analyser des fichier avec mallet
+#il faut un dossier allFiles avec tout les fichiers text et mallet dans bin/mallet
+
+
+./scriptMoveGeom.sh tableau_Syka_02_05_16_VERSION_3.csv  #Script qui permet d'extraire les labels (geom non geom) d'une table de samson et qui dans la foulé deplace les fichier dans les bon sous dossier folder to label everything: ATTENTION SI IL Y A DES ";" suplementaire il faut les enlever sinon ça va louper des articles.
+
+##Pour entrainer le classificateur:
+bin/mallet train-classifier --input trainingset.mallet --output-classifier geom.class  --trainer MaxEnt --num-trials 10 ##Avec algo maximum entropy
+bin/mallet train-classifier --input trainingset.mallet --output-classifier geom.class  --num-trials 10 ##Avec naive bayes
+bin/mallet train-classifier --input trainingset.mallet --output-classifier geom.class  --training-portion 0.9 --num-trials 10 ##Avec naive bayes et en testant sur un sous-partie du dataset.
+
+#Pour le moment le trainer qui semble donner le plus de resultats c'est maximum entropy : 
+
+bin/mallet train-classifier --input trainingset.mallet --output-classifier geom.class  --trainer MaxEnt 
+
+##une fois entrainé le classificateur on le test sur le jeu de donné
+bin/mallet  classify-dir --input unlabdir/ --output res.out --classifier geom.class
+
+
+
+#pour compter le nombre d'article classé dans geom avec plus de 90% de confidence
+cat res.out | awk '{if($3>.9)print $3}' | wc -l
+
+
+
+
+#to get the id of the file
+cat res.out | awk '{if($3>.0)print $1}' | sed 's/.*\/\(S.*\)\.txt/\1/' > fileid
+cat res.out | awk '{if($3>.0)print $3}' > score.csv
+
+
+
+for i in `cat fileid` ; do grep $i tableau_Syka_02_05_16_VERSION_2.csv ; done  > filtredAll.csv
+
+paste -d ";" filtredAll.csv score.csv  > filtredAllWithscore.csv
+
+
+
+
+
