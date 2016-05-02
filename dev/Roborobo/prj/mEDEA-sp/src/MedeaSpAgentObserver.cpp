@@ -382,6 +382,7 @@ void MedeaSpAgentObserver::selectFitnessProp()
 				it ++;
 			}
 			selected = (*it).first ;
+			std::cerr<<"okok"<<std::endl;
 		}
 		else
 		{

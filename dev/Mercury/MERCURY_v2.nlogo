@@ -803,12 +803,12 @@ end
 to get-ending-stats
   
   ; export values for all variables, a screenshot of the interface and all plots
-  export-world (word "C:/XYZ/stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD_" seed"_world.csv")
-  export-interface (word "C:/XYZ/stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD_" seed"_interface.png")
-  export-all-plots (word "C:/XYZ/stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD_" seed"_plots.csv")
+  export-world (word "stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD_" seed"_world.csv")
+  export-interface (word "stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD_" seed"_interface.png")
+  export-all-plots (word "stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD_" seed"_plots.csv")
   
   ; export the independent variable settings and the number of sites on which each product is deposited, in .csv format
-  file-open (word "C:/XYZ/ending-stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD.csv")
+  file-open (word "ending-stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD.csv")
   file-type seed file-type "," 
   file-type num-traders file-type "," 
   file-type num-sites file-type "," 
@@ -824,7 +824,7 @@ to get-ending-stats
   file-close
   
   ; export a list of all sites with the average closeness and betweenness centrality of the traders on each site, the total number of links on a site, and the total volume of each product on each site. In .csv format
-  file-open (word "C:/XYZ/stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD_" seed"_allsites.csv")
+  file-open (word "stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD_" seed"_allsites.csv")
   file-print "SiteID,AverageCloseness,MaxCloseness,AverageBetweenness,MaxBetweenness,InterSiteLinks,TradersHere,A,B,C,D,TotalVolume"
   ask sites
   [
@@ -844,7 +844,7 @@ to get-ending-stats
   file-close
   
   ; export a list of all sites, excluding the production sites, with the average closeness and betweenness centrality of the traders on each site, the total number of links on a site, and the total volume of each product on each site. In .csv format
-  file-open (word "C:/XYZ/stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD_" seed"_noprodsites.csv")
+  file-open (word "stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD_" seed"_noprodsites.csv")
   file-print "SiteID,AverageCloseness,MaxCloseness,AverageBetweenness,MaxBetweenness,InterSiteLinks,TradersHere,A,B,C,D,TotalVolume"
   ask sites with [production-site != true]
   [
@@ -864,7 +864,7 @@ to get-ending-stats
   file-close
   
   ; export a list of all production sites only, with the average closeness and betweenness centrality of the traders on each site, the total number of links on a site, and the total volume of each product on each site. In .csv format
-  file-open (word "C:/XYZ/stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD_" seed"_prodsites.csv")
+  file-open (word "stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD_" seed"_prodsites.csv")
   file-print "SiteID,AverageCloseness,MaxCloseness,AverageBetweenness,MaxBetweenness,InterSiteLinks,TradersHere,A,B,C,D,TotalVolume"
   ask sites with [production-site = true]
   [
@@ -884,7 +884,7 @@ to get-ending-stats
   file-close
   
   ; export a list of all traders, their ID, the Id of the site they are located on, the number of traders at that site, and the trader's closeness and betweenness centrality scores. In .csv format
-  file-open (word "C:/XYZ/stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD_" seed"_traders.csv")
+  file-open (word "stats_" proportion-inter-site-links"L_" local-knowledge "K_" traders-production-site "TPS_" max-demand "MD_" seed"_traders.csv")
   file-print "AgentID,SiteNumber,ClosenessCentrality,BetweennessCentrality,TradersHere"
   ask traders
   [
@@ -1068,7 +1068,7 @@ proportion-inter-site-links
 proportion-inter-site-links
 0
 0.0048
-0.0010
+0.001
 0.0001
 1
 NIL
@@ -1908,7 +1908,7 @@ Polygon -7500403 true true 270 75 225 30 30 225 75 270
 Polygon -7500403 true true 30 75 75 30 270 225 225 270
 
 @#$#@#$#@
-NetLogo 5.1.0
+NetLogo 5.2.0
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
@@ -1970,7 +1970,7 @@ NetLogo 5.1.0
       <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="proportion-inter-site-links">
-      <value value="0.0010"/>
+      <value value="0.001"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="transport-cost">
       <value value="0.05"/>
