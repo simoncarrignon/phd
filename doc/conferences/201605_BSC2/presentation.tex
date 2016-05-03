@@ -1,3 +1,6 @@
+%% May 2016, 
+%presentation inspired by the presentation made in CAA, the presentation made at the Winter Simulation Conference, and some ideas tooks from #RIN4 at the UPF
+
 \documentclass[12pt, handout=show,notes=show]{beamer}
 \usetheme[width=0cm]{Goettingen}
 \usecolortheme{rose}
@@ -77,7 +80,6 @@
 	\begin{center}
 		\includegraphics[width=.4\textwidth]{images/beardevo.jpg} 
 	\end{center}
-	How Cultural Traits Evolve?
 \end{frame}
 
 \begin{frame}{Cultural Evolution}
@@ -87,6 +89,7 @@
 		\vspace{1cm}
 		\includegraphics[width=4cm]{images/name.jpg}
 	\end{center}
+	How Social Traits Evolve?
 \end{frame}
 
 \begin{frame}{What Generate Those Cultural changes?}
@@ -121,6 +124,7 @@
 		\begin{column}{.3\textwidth}
 			\includegraphics[width=\textwidth]{images/bordeaux.jpg}	
 		\end{column}
+
 		\begin{column}{.2\textwidth}
 		\end{column}
 		\begin{column}{.3\textwidth}
@@ -166,7 +170,7 @@
      Two main components:
      \vfill
     \begin{enumerate}
-	\item Economic side: Bartering Economy (Gintis 2009),
+	\item Trade side: Bartering Economy (Gintis 2009),
 	\item Cultural side: ``copy the most successful'' (Bentley 2006).
     \end{enumerate}
     \begin{center}
@@ -174,39 +178,35 @@
     \end{center}
 \end{frame}
 	
+
 \begin{frame}{The Model}
 	\begin{block}{1. The Economy \& the Barter Mechanism}
-	    \begin{itemize}
-		    \item $N$ goods
-		\item $M$ Agent 
-		    $\left\{
-			\begin{tabular}{@{}l@{}}
-			    a quantity of each Goods \\
-			    $N$ values attributed to each goods\\
-			\end{tabular}
-			\right.$
-		    \item Agents \emph{produce} one good and \emph{exchange} it to obtain the other goods.
-		    \item After the exchange, the agents \emph{consume} all goods 
-		\end{itemize}
-
-	\end{block}
-\end{frame}
-
-\begin{frame}{The Model}
-	\begin{block}{2. Cultural Mechanisms}
-	    Every step:
-	    \begin{itemize}
-		    \item Economic activity (cf. previous slide).
-		    \item A \emph{score} is given following $f(q_n)$  a shared \& fixed ``utility function''.
-	    \end{itemize}
-		After 10 steps:
 		\begin{itemize}
-		    \item Less successful agents \emph{copy} the most successful (Biased-Copy).
-		    \item Given a probability $\mu$ the value attributed to some goods is modified (Innovation/Mutation)
-		\end{itemize}
-	\end{block}
-\end{frame}
+			\item $N$ goods
+			\item $M$ Agent 
+				$\left\{
+					\begin{tabular}{@{}l@{}}
+						a quantity of each Goods \\
+						$N$ values attributed to each goods\\
+					\end{tabular}
+					\right.$
+				\item Agents \emph{produce} one good and \emph{exchange} it to obtain the other goods.
+				\item After the exchange, the agents \emph{consume} all goods 
+			\end{itemize}
+			Agent perform this 10 times and a scores is given to each of them.
+		\end{block}
+	\end{frame}
 
+	\begin{frame}{The Model}
+		\begin{block}{2. Cultural Mechanisms}
+			\begin{itemize}
+					\vfill
+				\item Less successful agents \emph{copy} the most successful (Biased-Copy).
+					\vfill
+				\item Given a probability $\mu$ the value attributed to some goods is modified (Innovation/Mutation)
+			\end{itemize}
+		\end{block}
+	\end{frame}
 \begin{frame}{Experiments}
 	\centering
 	\textbf{Trade Model} \\Trade Mechanism + Success Biased Copy\\
@@ -221,13 +221,26 @@
 
 \section{Results}
 
-\begin{frame}{Results: Random copy vs Success Biased Copy :}
-    Evolution of Score
+\begin{frame}{Results: Frequency Distribution}
+    \subsection*{Distribution of variant:}
+    \begin{figure}[!h]
+	\begin{center}
+	    \begin{tabular}{ccc}
+		\includegraphics[width=5cm]{images/2SetupDistribA.pdf}\\
+	    \end{tabular}
+
+	\end{center}
+	%\caption{Frequencies distribution, where each points represent the mean for 100 runs, for: a) the neutral and the trading models.  b) the neutral model and the trading model without the trading innovation process. c) the trade model and the trade model without the trading innovation process.}
+    \end{figure}
+\end{frame}
+
+
+\begin{frame}{Results: Economic Dynamic}
     \begin{figure}[!h]
 	\centering
 	\begin{tabular}{ c c}
 	    Neutral Model & Trading Model \\
-	    \includegraphics[width=4cm]{images/ScoreEvolutionForRandom-G3N500.pdf}
+	    \includegraphics[width=5cm]{images/ScoreEvolutionForRandom-G3N500.pdf}
 	    & \includegraphics[width=5cm]{images/ScoreEvolutionForTrade-G3N500.pdf}
 
 	\end{tabular}
@@ -250,19 +263,6 @@
 	
 \end{frame}
 
-\begin{frame}{Results: Frequency Distribution}
-    \subsection*{Distribution of variant:}
-    \begin{figure}[!h]
-	\begin{center}
-	    \begin{tabular}{ccc}
-		\includegraphics[width=5cm]{images/2SetupDistribA.pdf}\\
-	    \end{tabular}
-
-	\end{center}
-	%\caption{Frequencies distribution, where each points represent the mean for 100 runs, for: a) the neutral and the trading models.  b) the neutral model and the trading model without the trading innovation process. c) the trade model and the trade model without the trading innovation process.}
-    \end{figure}
-\end{frame}
-
 \begin{frame}{Summary}
 \begin{itemize}
 	\item A local copy mechanism alone is enough to bring the global economy to an optimal equilibrium.
@@ -274,9 +274,27 @@
 \end{itemize}
 
 \end{frame}
-
 \section{Application}
+\begin{frame}{Next Objectives}
+    \vfill
+    Understand general dynamics and properties of such systems:
+    \vfill
+	\begin{itemize}
+	\item Network Constraints
+    \vfill
+	\item Temporal Constraints
+    \vfill
+	\item Different Cultural Mechanisms
+    \vfill
+	\item Different Trade Assumption
+    \vfill
+	\end{itemize}
+\end{frame}
+
 \begin{frame}{Case Study}
+
+	Simulation as a tool to implement and test hypothesis made on Historical questions.
+
 	Roman Empire Economy: \\
 	Tight link between economy and culture, trace of it. \\
 	\begin{figure}
@@ -285,18 +303,12 @@
 	
 \end{frame}
 
-\begin{frame}{Case Study}
-	Simulation as a tool to implement and test Historical Hypothesis.
-	\begin{itemize}
-	\item Network Constraints
-	\item Temporal Constraints
-	\item Different Cultural Mechanisms
-	\end{itemize}
-\end{frame}
-\begin{frame}{Case Study}
+\begin{frame}
+    %{Case Study}
 	\begin{center}
 		\Large
-		What was the nature of Roman economy?\\
+    Thank for you attention!\\
+%		What was the nature of Roman economy?\\
 		\includegraphics[width=2cm]{images/LOGO-ERC.jpg} \hfil	\includegraphics[width=3cm]{images/epnetLogo.png}\\
 		\vspace{1cm}
 		\scriptsize
@@ -309,10 +321,10 @@
 
 \end{frame}
 
-\begin{frame}
-    \Huge
-    Thank for you attention!
-\end{frame}
+%\begin{frame}
+%    \Huge
+%    Thank for you attention!
+%\end{frame}
 \end{document}
 
 
