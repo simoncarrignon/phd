@@ -1,11 +1,12 @@
 %% May 2016, 
 %presentation inspired by the presentation made in CAA, the presentation made at the Winter Simulation Conference, and some ideas tooks from #RIN4 at the UPF
 
-\documentclass[12pt, handout=show,notes=show]{beamer}
+\documentclass[12pt, notes=show]{beamer}
 \usetheme[width=0cm]{Goettingen}
 \usecolortheme{rose}
 \useoutertheme{default}
 \setbeamerfont{caption}{size=\scriptsize}
+\setbeamertemplate{navigation symbols}{}
 
 \addtobeamertemplate{navigation symbols}{}{%
 	\usebeamerfont{footline}%
@@ -63,43 +64,76 @@
 
 \end{frame}
 
-\begin{frame}{Plan of the presentation}
-	\begin{enumerate}
-		\item Introduction
-			\vfill
-		\item Model Description
-			\vfill
-		\item Case Study: Rome
-			\vfill
-	\end{enumerate}
-	
-\end{frame}
+%\begin{frame}{Plan of the presentation}
+%	\begin{enumerate}
+%		\item Introduction
+%			\vfill
+%		\item Model Description \& Tests
+%			\vfill
+%		\item Future Works
+%			\vfill
+%	\end{enumerate}
+%	
+%\end{frame}
 
 \section{Introduction}
-\begin{frame}{Cultural Evolution}
-	\begin{center}
-		\includegraphics[width=.4\textwidth]{images/beardevo.jpg} 
-	\end{center}
-\end{frame}
 
 \begin{frame}{Cultural Evolution}
+    \begin{center}
+	\begin{table}
+	    \center
+	    \begin{tabular}{ccc}
+		\uncover<1->{\includegraphics[height=3cm]{images/m80}} &
+		\uncover<2->{\includegraphics[height=3cm]{images/m90}} &
+		\uncover<3->{\includegraphics[height=3cm]{images/m10}} \\
+		\uncover<1->{80's} & \uncover<2->{90's} & \uncover<3->{now}
+	    \end{tabular}
+	\end{table}
+    \end{center}
+    \uncover<4->{How Social Traits Evolve?}\uncover<5>{ Cultural Evolution }
+\end{frame}
+
+%\begin{frame}
+%
+%    \invisible<2>{This text will be invisible on slide 2, but not on others slides}\\
+%    This text is always visible\\
+%    \uncover<1->{Beamer} \uncover<2->{is}  \uncover<3->{super} \uncover<4->{powerful} 
+%
+%\end{frame}
+%\begin{frame}
+%
+%    \begin{itemize}
+%	\item em Language used by Beamer: L\uncover<2->{A}TEX
+%	\item em Language used by Beamer: L\only<2->{A}TEX
+%    \end{itemize}
+%
+%\end{frame}
+
+\begin{frame}{Cultural Evolution}
+    \uncover<1->{Social traits:}
+    \begin{itemize}
+	\item<5->{ culturally transmitted, socially learnt}
+	\item<6->{ similar patterns}
+    \end{itemize}
 	\begin{center}
-		\includegraphics[width=4cm]{images/dalmatian.jpg} \hspace{2cm}
-		\includegraphics[width=2cm]{images/pottery.jpg}\\
-		\vspace{1cm}
-		\includegraphics[width=4cm]{images/name.jpg}
+		\uncover<2->{\includegraphics[width=3cm]{images/cutdog}}\\
+		\vspace{.5cm}
+		\uncover<4->{\includegraphics[width=2.5cm]{images/cutbaby}}
+	    \hspace{1cm}
+	    \uncover<3->{ \includegraphics[width=2cm]{images/pottery}}
 	\end{center}
-	How Social Traits Evolve?
+    \uncover<7>{$\rightarrow$ What mechanism drive the evolution of such traits?\\
+    \invisible<1->{$\rightarrow$ What mechanism }generate such pattern?}
 \end{frame}
 
 \begin{frame}{What Generate Those Cultural changes?}
 	Simple mechanisms (Bentley et al, 2004):
 	\begin{itemize}
-		\item Random Copy 
-		\item Frequency biased (conformist/anti-conformist\dots)
-		\item \dots	
+		\item<2->Random Copy 
+		\item<3-> Frequency biased (conformist/anti-conformist\dots)
+		\item<4->\dots	
 	\end{itemize}
-	\begin{figure}
+	\uncover<2>{\begin{figure}
 		\begin{columns}
 			\begin{column}{.8\textwidth}
 				\centering
@@ -113,39 +147,52 @@
 			From Bentley et al,~2004.
 			\end{column}
 		\end{columns}
-	\end{figure}
+	    \end{figure}}
 \end{frame}
 
 \section{Context}
 
 
 \begin{frame}
-	\begin{columns}
-		\begin{column}{.3\textwidth}
-			\includegraphics[width=\textwidth]{images/bordeaux.jpg}	
-		\end{column}
-
-		\begin{column}{.2\textwidth}
-		\end{column}
-		\begin{column}{.3\textwidth}
-			\includegraphics[width=3cm]{images/napa}	
-		\end{column}
-	\end{columns}
 	\begin{center}
-		What happen when such mechanisms act on traits impacting economy?
+	    What if such mechanisms act on traits linked to economics?
 	\end{center}
-	\begin{columns}
-		\begin{column}{.3\textwidth}
-			\includegraphics[width=\textwidth]{images/tools}	
-		\end{column}
-		\begin{column}{.2\textwidth}
-		\end{column}
-		\begin{column}{.3\textwidth}
-			\includegraphics[width=3cm]{images/stockoption}	
-		\end{column}
-	\end{columns}
+	\begin{center}
+	    \only<2>{\vspace{1cm}\includegraphics[height=3cm]{images/bordeaux.jpg}\hspace{2cm}
+	    \includegraphics[height=3cm]{images/napa}}
+	    \only<3>{\includegraphics[height=4cm]{images/tools}}
+	    \only<4>{\includegraphics[height=4cm]{images/stockoption}}
+	\end{center}
 \end{frame}
 
+%Next slide was bad
+%\begin{frame}
+%	\begin{columns}
+%		\begin{column}{.3\textwidth}
+%			\includegraphics[width=\textwidth]{images/bordeaux.jpg}	
+%		\end{column}
+%
+%		\begin{column}{.2\textwidth}
+%		\end{column}
+%		\begin{column}{.3\textwidth}
+%			\includegraphics[width=3cm]{images/napa}	
+%		\end{column}
+%	\end{columns}
+%	\begin{center}
+%		What happen when such mechanisms act on traits impacting economy?
+%	\end{center}
+%	\begin{columns}
+%		\begin{column}{.3\textwidth}
+%			\includegraphics[width=\textwidth]{images/tools}	
+%		\end{column}
+%		\begin{column}{.2\textwidth}
+%		\end{column}
+%		\begin{column}{.3\textwidth}
+%			\includegraphics[width=3cm]{images/stockoption}	
+%		\end{column}
+%	\end{columns}
+%\end{frame}
+%
 \begin{frame}{Co-evolution of Economy and Culture}
 
 %How Simple Cultural Dynamics influence Economy That in turn will influence cultural dynamics.
@@ -163,6 +210,14 @@
 %	\end{center}
 %\end{frame}
 
+%Slide xavi wanted me to put but I cannot make it fit
+%\begin{frame}{Material}
+%    Available database, twitter, photo\dots
+%
+%    $\rightarrow$ Comparison between cultures and across time need : Archaeology.
+%
+%    
+%\end{frame}
 
 
 \begin{frame}{A General Agent Based Framework }
@@ -265,12 +320,20 @@
 
 \begin{frame}{Summary}
 \begin{itemize}
+		\vfill
+	    \item Culture Mechanism $\rightarrow$ Economy : 
+		\begin{itemize}
+		    \item Random Mechanism: inefficient eco.
+		    \item Biased Mechanism: efficient eco.
+		\end{itemize}
+		\vfill
+	    \item Economic Dynamic $\rightarrow$ Culture :
+			\begin{itemize}
+			    \item Random social learning: scale-free distribution of trait. 
+			    \item Social learning biased toward economic attribute: non power-law distribution.
+			\end{itemize}
+		\vfill
 	\item A local copy mechanism alone is enough to bring the global economy to an optimal equilibrium.
-		\vfill
-	\item Need a Biased Copy mechanism, Random Copy cannot.
-		\vfill
-	\item Both mechanisms lead to different frequency distribution.
-		\vfill
 \end{itemize}
 
 \end{frame}
@@ -280,27 +343,38 @@
     Understand general dynamics and properties of such systems:
     \vfill
 	\begin{itemize}
-	\item Network Constraints
-    \vfill
-	\item Temporal Constraints
-    \vfill
 	\item Different Cultural Mechanisms
     \vfill
 	\item Different Trade Assumption
     \vfill
+	\item Network Constraints
+    \vfill
+	\item \dots
+    \vfill
 	\end{itemize}
+\end{frame}
+
+\begin{frame}{}
+
+    {\large Simulation as a tool to implement and test hypothesis made on Historical questions.}\\
+    \vspace{.5cm}
+	{\scriptsize( Carrignon et al., Model \& Simluation 7, May 2016, BCN )}
+	
 \end{frame}
 
 \begin{frame}{Case Study}
 
-	Simulation as a tool to implement and test hypothesis made on Historical questions.
-
-	Roman Empire Economy: \\
-	Tight link between economy and culture, trace of it. \\
+    \begin{columns}
+	\begin{column}{.35\textwidth}
+	The Economy of the Roman Empire \\
+	\end{column}
+	\begin{column}{.6\textwidth}
 	\begin{figure}
-		\includegraphics[width=.6\textwidth]{images/dressel-filiation.jpg}
+	    \includegraphics[width=\textwidth]{images/bevan.png}\\
+	\caption{\scriptsize Bevan 2014}
 	\end{figure}
-	
+	\end{column}
+    \end{columns}
 \end{frame}
 
 \begin{frame}
