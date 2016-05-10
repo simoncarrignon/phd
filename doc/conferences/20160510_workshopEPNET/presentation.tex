@@ -128,17 +128,25 @@
 
 \section{Context}
 
+\begin{frame}
+	\only<1->{\begin{center}
+	    What if such mechanisms act on traits linked to economics?
+    \end{center}}
+	\begin{center}
+	    \only<2>{\includegraphics[height=4cm]{images/tools}}
+	    \only<3>{\vspace{1cm}\includegraphics[height=3cm]{images/bordeaux.jpg}\hspace{2cm}
+	    \includegraphics[height=3cm]{images/napa}}
+	    \only<4-7>{
+		    \uncover<4->{\includegraphics<4-5>[height=4cm]{images/social1.png}\includegraphics<6->[height=4cm]{images/social2.png}}
+		    \uncover<5->{{  \Large \only<5>{$\rightarrow$} \only<6>{$\leftarrow$}\only<7>{$\leftrightarrow$}}}
+	    \uncover<5-7>{\includegraphics<5-6>[width=.4\textwidth]{images/eco.png} \includegraphics<7>[width=.4\textwidth]{images/eco2.png}}
 
-
+    		}
+	\end{center}
+\end{frame}
 \begin{frame}
 	\begin{center}
-	    What if such mechanisms act on traits linked to economics?
-	\end{center}
-	\begin{center}
-	    \only<2>{\vspace{1cm}\includegraphics[height=3cm]{images/bordeaux.jpg}\hspace{2cm}
-	    \includegraphics[height=3cm]{images/napa}}
-	    \only<3>{\includegraphics[height=4cm]{images/tools}}
-	    \only<4>{\includegraphics[height=4cm]{images/pascal1_wine.jpg}}
+		\includegraphics[height=\textwidth]{images/bevan.png}
 	\end{center}
 \end{frame}
 
@@ -154,13 +162,6 @@
 
 \section{ABM Framework}
 
-%\begin{frame}{A General Agent Based Framework }
-%	\begin{center}
-%		\includegraphics[width=.6\textwidth]{images/schema_model.png}
-%	\end{center}
-%\end{frame}
-
-
 
 \begin{frame}{A General Agent Based Framework }
 
@@ -171,10 +172,6 @@
 			\vspace{1cm}
 		\item Cultural side: ``copy the most successful'' (Bentley 2006).
 	\end{enumerate}
-
-	%How Simple Cultural Dynamics influence Economy That in turn will influence cultural dynamics.
-
-
 
 \end{frame}
 
@@ -208,6 +205,7 @@
 	\end{frame}
 
 	\begin{frame}{The Model }
+
 		\begin{figure}
 			\caption{Example for 3 goods and 600 agents}
 			\begin{columns}
@@ -215,7 +213,7 @@
 				\includegraphics[width=5cm]{images/full.pdf} 
 							%\caption{Evolution of the score of the agents in a setup with 600 agents and 3 goods trading and exchanging their strategies during 10000 timesteps.}%%
 			\end{columns}
-			@~Equilibrium: mean of score  $\rightarrow$ score max.
+			@~Equilibrium: mean of score  $\rightarrow$ score max (Carrignon et al. 2015)
 		\end{figure}
 
 	\end{frame}
@@ -227,10 +225,11 @@
 			``What properties of the cultural network influence the economic dynamics? '' 
 		\end{center}
 		\begin{center}
-			\includegraphics[trim={2cm 6cm 2cm 5cm},clip,width=6cm]{images//trade-cultural2.png}
+			\includegraphics<1>[trim={2cm 6cm 2cm 5cm},clip,width=6cm]{images//trade-cultural.png}
+			\includegraphics<2->[trim={2cm 6cm 2cm 5cm},clip,width=6cm]{images//trade-cultural2.png}
 		\end{center}
 		\vfil
-		$\rightarrow$ Average Distance vs Average Degree\\
+		\uncover<3>{$\rightarrow$ Average Distance vs Average Degree}
 
 
 
@@ -347,7 +346,7 @@
 
 
 
-	\begin{frame}{Summary}
+	\begin{frame}{Conclusion}
 		\begin{itemize}
 			\item Simple cultural mechanism and simple trade can lead to efficient economic dynamics:\\
 				{$\rightarrow$ \small Both aspect should be studied together.}
@@ -358,44 +357,10 @@
 		\end{itemize}
 
 	\end{frame}
-	\begin{frame}{Future Works}
-
-		\begin{enumerate}
-			\item \emph{Non-equilibrium} conditions,
-			\item Comparaison with ``real-world'' data,
-			\item \dots
-		\end{enumerate}
-	\end{frame}
-
-%\section{Application}
-%\begin{frame}{Case Study}
-%	Roman Empire Economy: \\
-%	Tight link between economy and culture, trace of it. \\
-%	\begin{figure}
-%		\includegraphics[width=.6\textwidth]{images/dressel-filiation.jpg}
-%	\end{figure}
-%	
-%\end{frame}
-%
-%\begin{frame}{Case Study}
-%	Simulation as a tool to implement and test Historical Hypothesis.
-%	\begin{itemize}
-%	\item Network Constraints
-%	\item Temporal Constraints
-%	\item Different Cultural Mechanisms
-%	\end{itemize}
-%\end{frame}
 	\begin{frame}{}
 		\begin{center}
 			\huge
-			Thank for you attention!\\\vfill
-			\includegraphics[width=2cm]{images/LOGO-ERC.jpg} \hfil	\includegraphics[width=3cm]{images/epnetLogo.png}\\
-			\vspace{1cm}
-			\scriptsize
-			http://www.roman-ep.net/\\
-			@epnetproject\\
-			fb.com/EPNetProject\\
-			@simoncarrignon
+			Thank for you attention!\\
 		\end{center}
 
 
