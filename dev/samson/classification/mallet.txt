@@ -4,6 +4,10 @@
 
 ./scriptMoveGeom.sh tableau_Syka_02_05_16_VERSION_3.csv  #Script qui permet d'extraire les labels (geom non geom) d'une table de samson et qui dans la foulé deplace les fichier dans les bon sous dossier folder to label everything: ATTENTION SI IL Y A DES ";" suplementaire il faut les enlever sinon ça va louper des articles.
 
+#Une fois préparé le training set, l'importer dans le format de mallet
+../Mallet/bin/mallet import-dir --input labdir/* --output trainingset.mallet --remove-stopwords
+
+
 ##Pour entrainer le classificateur:
 bin/mallet train-classifier --input trainingset.mallet --output-classifier geom.class  --trainer MaxEnt --num-trials 10 ##Avec algo maximum entropy
 bin/mallet train-classifier --input trainingset.mallet --output-classifier geom.class  --num-trials 10 ##Avec naive bayes
