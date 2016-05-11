@@ -22,3 +22,9 @@
 [submodule "dev/apemcc"]
 	path = dev/apemcc
 	url = git@github.com:simoncarrignon/apemcc.git
+[submodule "doc/apmecc-doc"]
+	path = doc/apmecc-doc
+	url = git@github.com:simoncarrignon/apmecc-doc.git
+[submodule "doc/201605-culture-conf"]
+	path = doc/201605-culture-conf
+	url = git@github.com:simoncarrignon/culture-conf-poster.git
