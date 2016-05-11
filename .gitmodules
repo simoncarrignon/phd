@@ -19,3 +19,6 @@
 [submodule "dev/acacia-coop"]
 	path = dev/acacia-coop
 	url = git@github.com:simoncarrignon/acacia-coop.git
+[submodule "dev/apemcc"]
+	path = dev/apemcc
+	url = git@github.com:simoncarrignon/apemcc.git
