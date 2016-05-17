@@ -18,7 +18,9 @@
 }
 
 \usepackage{color} 
+\usepackage{tikz} 
 \usepackage{fontspec} 
+\usepackage{array}
 \setsansfont{Futura LT}
 
 \definecolor{siris}{HTML}{1C0E66} 
@@ -138,49 +140,49 @@ Succession of events $\rightarrow$ Actual Biology?
 \end{frame}
 
 
-\begin{frame}
-    \centering\Huge
-    Computer Model \& Simulation
-\end{frame}
-\begin{frame}{Alife Classification}
-   Barandiaran~et~al.~2006 propose 4 class of epistemic models:
-	\begin{enumerate}
-    \vfill
-	    \item <2-> Generic:\\
-		\uncover<3->{\small \hspace{.5cm} General model equivalent to mathematical description (scale free network)}
-	    \vfill
-	    \item <4-> Conceptual: \\
-		\uncover<5->{\small \hspace{.5cm} To explore theoretical assumption and concepts (Baldwin effect) }
-	    \vfill
-	    \item <6-> Functional: \\
-		\uncover<7->{\small \hspace{.5cm} To understand (unknown) causal processes underlying emergent properties (ant foraging model)} 
-	    \vfill
-	    \item <8-> Mechanistic: \\
-		\uncover<9->{\small \hspace{.5cm} One to One correspond with natural system (Model of bacterial chemotaxis)}
-	\end{enumerate}
-	    \vfill
-\end{frame}
-
-\begin{frame}{General Advantages}
-
-    \vfill
-	Conceptual Models has Opaque Thought Experiment (Paolo~et~al.~2000)
-    \vfill
-	\begin{itemize}
-    \vfill
-	    \item <2-> Thought Experiment:\\
-		\uncover<3->{\small \hspace{.5cm} Higher degree of freedom than experimental methods ()}
-	    \vfill
-	    \item <4-> Experiment: \\
-		\uncover<5->{\small \hspace{.5cm} Higher degree of de-idealization than theory or though experiments}
-	    \vfill
-	    \item <6-> Opacity: \\
-		\uncover<7->{\small \hspace{.5cm}  Experiment \emph{per se}}
-	\end{itemize}
-	    \vfill
-%%This use of computer simulations and modelling is not restricted to evolutionary biology. It is now widely spread in all branches of Science. People in artificial life \cite{paolo00simulationmodelsasopaquethoughtexperiments} argue that computer simulation are powerful heuristic tools that combine the exploratory power of thought experiments and the logical strength of mathematics. They allow to test quickly a lot of possible ``opaque though experiments'' that would be impossible to execute mentally. Moreover, in complex systems where the interactions of every subcomponents are multiple, the global dynamics are difficult to predict analytically, which make simulation and modelling one of the best suitable tool to explore and study those mechanisms.
-\end{frame}
-
+%\begin{frame}
+%    \centering\Huge
+%    Computer Model \& Simulation
+%\end{frame}
+%\begin{frame}{Alife Classification}
+%   Barandiaran~et~al.~2006 propose 4 class of epistemic models:
+%	\begin{enumerate}
+%    \vfill
+%	    \item <2-> Generic:\\
+%		\uncover<3->{\small \hspace{.5cm} General model equivalent to mathematical description (scale free network)}
+%	    \vfill
+%	    \item <4-> Conceptual: \\
+%		\uncover<5->{\small \hspace{.5cm} To explore theoretical assumption and concepts (Baldwin effect) }
+%	    \vfill
+%	    \item <6-> Functional: \\
+%		\uncover<7->{\small \hspace{.5cm} To understand (unknown) causal processes underlying emergent properties (ant foraging model)} 
+%	    \vfill
+%	    \item <8-> Mechanistic: \\
+%		\uncover<9->{\small \hspace{.5cm} One to One correspond with natural system (Model of bacterial chemotaxis)}
+%	\end{enumerate}
+%	    \vfill
+%\end{frame}
+%
+%\begin{frame}{General Advantages}
+%
+%    \vfill
+%	Conceptual Models has Opaque Thought Experiment (Paolo~et~al.~2000)
+%    \vfill
+%	\begin{itemize}
+%    \vfill
+%	    \item <2-> Thought Experiment:\\
+%		\uncover<3->{\small \hspace{.5cm} Higher degree of freedom than experimental methods ()}
+%	    \vfill
+%	    \item <4-> Experiment: \\
+%		\uncover<5->{\small \hspace{.5cm} Higher degree of de-idealization than theory or though experiments}
+%	    \vfill
+%	    \item <6-> Opacity: \\
+%		\uncover<7->{\small \hspace{.5cm}  Experiment \emph{per se}}
+%	\end{itemize}
+%	    \vfill
+%%%This use of computer simulations and modelling is not restricted to evolutionary biology. It is now widely spread in all branches of Science. People in artificial life \cite{paolo00simulationmodelsasopaquethoughtexperiments} argue that computer simulation are powerful heuristic tools that combine the exploratory power of thought experiments and the logical strength of mathematics. They allow to test quickly a lot of possible ``opaque though experiments'' that would be impossible to execute mentally. Moreover, in complex systems where the interactions of every subcomponents are multiple, the global dynamics are difficult to predict analytically, which make simulation and modelling one of the best suitable tool to explore and study those mechanisms.
+%\end{frame}
+%
 
 \begin{frame}
     \begin{center}
@@ -344,7 +346,7 @@ Succession of events $\rightarrow$ Actual Biology?
     \end{table}
 \end{frame}
 
-\begin{frame}{formal description \& comparison}
+\begin{frame}{Quantitative analysis}
     \begin{columns}
 	\begin{column}{.6\textwidth}
 	    \begin{center}
@@ -352,20 +354,14 @@ Succession of events $\rightarrow$ Actual Biology?
 	    \end{center}
 	\end{column}
 	\begin{column}{.45\textwidth}
-	\small brughman \& poblome 2016: nature of the market
+	    Fatigue model outperform all
 	\end{column}
     \end{columns}
+    Computer Simulation
 	\begin{enumerate}
-	    \item<2-> loosely formalised or complex hypothesis
-	    \item<3-> heterogeneous data and knowledge
+	    \item<2-> Paliate lack of empirical data and difficulty to gather new
+	    \item<3-> Statistical validation of hypothesis
 	\end{enumerate}
-
-	\uncover<4->{model to:}
-	\begin{itemize}
-	    \item<5-> formally describe the hypotheses
-	    \item<6-> quantitatively compare it
-	\end{itemize}
-
 \end{frame}
 
 
@@ -449,28 +445,170 @@ Succession of events $\rightarrow$ Actual Biology?
 	\item Few Data
 	\item Few Hypothesis 
     \end{itemize}
-    Conceptual Model to generate and test hypotheses.
-    
 \end{frame}
+
+
+
 \begin{frame}{Hypothesis Generation}
-    Map of betica
-    
+    \includegraphics[height=6cm]{images/Beti.png}
 \end{frame}
-\begin{frame}{Hypothesis Generation}
-    Mesures and data :
+
+\begin{frame}{hypothesis generation}
+\includegraphics[height=6cm]{images/mesures.png}
     
 \end{frame}
 
+\begin{frame}{hypothesis generation}
+	\includegraphics[height=6cm]{images/pca.png}
+\end{frame}
+
+\begin{frame}{hypothesis generation}
+	\includegraphics[height=6cm]{images/mesures.png}
+    
+\end{frame}
+
+\begin{frame}{Hypothesis Generation}
+    
+    \begin{tikzpicture}[thick,scale=2]
+	\coordinate (WS0) at (0,0);
+	\coordinate (WS1) at (1,0);
+	\coordinate (WS2) at (2,0);
+	\coordinate (WS3) at (3,0);
+	\coordinate (WS4) at (4,0);
+	\coordinate (WS5) at (5,0);
+
+	\draw[thick,-] (0,0) -- (5,0) node[anchor=north west] {};   
+	\foreach \x in {0,1,2,3,4,5}
+	\draw (\x cm,2pt) -- (\x cm,-2pt) node[anchor=north] {$WS_\x$};
+
+
+	\uncover<2->{	\draw [black,shorten <= 0.25cm, shorten >= 0.25cm, <->] (WS1) to[out=80,in=100,distance=1cm] node[above,font=\scriptsize]{knowledge transmission} (WS4); }
+
+
+	\uncover<3->{\draw [black,shorten <= 0.7cm, shorten >= 0.7cm, <->] (WS0) to[out=-80,in=-100,distance=.75cm	]  node[font=\scriptsize,pos=.60	,above]{$T_{0 \rightarrow 1}$} (WS1);}
+	\uncover<4->{\draw [black,shorten <= 0.7cm, shorten >= 0.7cm, <->] (WS0) to[out=-80,in=-100,distance=1cm	]  node[font=\scriptsize,pos=.75	,above]{$T_{0 \rightarrow 2}$}(WS2);}
+	\uncover<5->{\draw [black,shorten <= 0.7cm, shorten >= 0.7cm, <->] (WS0) to[out=-80,in=-100,distance=1.25cm	]  node[font=\scriptsize,pos=.82		,above]{$T_{0 \rightarrow 3}$}(WS3);}
+	\uncover<6->{\draw [black,shorten <= 0.7cm, shorten >= 0.7cm, <->] (WS0) to[out=-80,in=-100,distance=1.5cm	]  node[font=\scriptsize,pos=.85	,above]{$T_{0 \rightarrow 4}$}(WS4);}
+	\uncover<7->{\draw [black,shorten <= 0.7cm, shorten >= 0.7cm, <->] (WS0) to[out=-80,in=-100,distance=1.75cm	]  node[font=\scriptsize,pos=.875	,above]{$T_{0 \rightarrow 5}$}(WS5);}
+
+    \end{tikzpicture}
+
+    \uncover<8->{
+
+	\begin{itemize}
+	    \item<8-> $T_{A\rightarrow B}$ the transmission of information between A \& B:
+	    \item<9-> $P(T_{A\rightarrow B})$ and $P(T_{A\rightarrow B})>P(T_{A\rightarrow C})$ if $|A-B|<|A-C|$
+	\end{itemize}
+    }
+
+\end{frame}
+
 \begin{frame}{Result}
-    \begin{tabular}{cc}
-	Lateral transmission on &
-	Lateral transmission off \\
-	distance on &
-	distance off \\ 
+    \begin{tabular}{m{5cm}m{5cm}}
+	    %&No Transmission & Transmission \\\hline
+
+	\resizebox{5cm}{!}{
+	    \begin{tikzpicture}[thick,scale=2]
+		\coordinate (WS0) at (0,0);
+		\coordinate (WS1) at (1,0);
+		\coordinate (WS2) at (2,0);
+		\coordinate (WS3) at (3,0);
+		\coordinate (WS4) at (4,0);
+		\coordinate (WS5) at (5,0);
+		\draw[thick,-] (0,0) -- (5,0) node[anchor=north west] {};   
+		\foreach \x in {0,1,2,3,4,5}
+		\draw (\x cm,2pt) -- (\x cm,-2pt) node[anchor=north] {$WS_\x$};
+
+	    \end{tikzpicture}
+	}
+	&
+
+	\resizebox{5cm}{!}{
+	    \begin{tikzpicture}[thick,scale=2]
+		\coordinate (WS0) at (0,0);
+		\coordinate (WS1) at (1,0);
+		\coordinate (WS2) at (2,0);
+		\coordinate (WS3) at (3,0);
+		\coordinate (WS4) at (4,0);
+		\coordinate (WS5) at (5,0);
+		\draw[thick,-] (0,0) -- (5,0) node[anchor=north west] {};   
+		\foreach \x in {0,1,2,3,4,5}
+		\draw (\x cm,2pt) -- (\x cm,-2pt) node[anchor=north] {$WS_\x$};
+
+		\draw [black,shorten <= 0.25cm, shorten >= 0.25cm, <->] (WS1) to[out=80,in=100,distance=1cm] (WS4); 
+		\draw [black,shorten <= 0.7cm, shorten >= 0.7cm, <->] (WS0) to[out=-80,in=-100,distance=.75cm	]  node[font=\scriptsize,pos=.60	,above]{$T_{0 \rightarrow 1}$}(WS1);
+		\draw [black,shorten <= 0.7cm, shorten >= 0.7cm, <->] (WS0) to[out=-80,in=-100,distance=1cm	]  node[font=\scriptsize,pos=.75	,above]{$T_{0 \rightarrow 2}$}(WS2);
+		\draw [black,shorten <= 0.7cm, shorten >= 0.7cm, <->] (WS0) to[out=-80,in=-100,distance=1.25cm	]  node[font=\scriptsize,pos=.82	,above]{$T_{0 \rightarrow 3}$}(WS3);
+		\draw [black,shorten <= 0.7cm, shorten >= 0.7cm, <->] (WS0) to[out=-80,in=-100,distance=1.5cm	]  node[font=\scriptsize,pos=.85	,above]{$T_{0 \rightarrow 4}$}(WS4);
+		\draw [black,shorten <= 0.7cm, shorten >= 0.7cm, <->] (WS0) to[out=-80,in=-100,distance=1.75cm	]  node[font=\scriptsize,pos=.875	,above]{$T_{0 \rightarrow 5}$}(WS5);
+	    \end{tikzpicture}
+	}
+	\\
+	\resizebox{5cm}{!}{
+	    \begin{tikzpicture}[thick,scale=.5]
+		\coordinate (WS0) at (0,0);
+		\coordinate (WS1) at (1,0);
+		\coordinate (WS2) at (4,0);
+		\coordinate (WS3) at (9,0);
+		\coordinate (WS4) at (16,0);
+		\coordinate (WS5) at (25,0);
+		\draw[thick,-] (0,0) -- (25,0) node[anchor=north west] {};   
+		\foreach \x in {0,1,4,9,16,25}
+		\draw (\x cm,4pt) -- (\x cm,-4pt) node[anchor=north] {};
+		\draw (WS0) node[anchor=north]{WS0};
+		\draw (WS1)node[anchor=north]{WS1};
+		\draw (WS2)node[anchor=north]{WS2};
+		\draw (WS3)node[anchor=north]{WS3};
+		\draw (WS4)node[anchor=north]{WS4};
+		\draw (WS5)node[anchor=north]{WS5};
+	    \end{tikzpicture}
+	}	&
+	\resizebox{5cm}{!}{
+	    \begin{tikzpicture}[thick,scale=.5]
+		\coordinate (WS0) at (0,0);
+		\coordinate (WS1) at (1,0);
+		\coordinate (WS2) at (4,0);
+		\coordinate (WS3) at (9,0);
+		\coordinate (WS4) at (16,0);
+		\coordinate (WS5) at (25,0);
+		\draw[thick,-] (0,0) -- (25,0) node[anchor=north west] {};   
+		\foreach \x in {0,1,4,9,16,25}
+		\draw (\x cm,4pt) -- (\x cm,-4pt) node[anchor=north] {};
+		\draw (WS0) node[anchor=north]{WS0};
+		\draw (WS1)node[anchor=north]{WS1};
+		\draw (WS2)node[anchor=north]{WS2};
+		\draw (WS3)node[anchor=north]{WS3};
+		\draw (WS4)node[anchor=north]{WS4};
+		\draw (WS5)node[anchor=north]{WS5};
+
+		\draw [black,shorten <= 0.25cm, shorten >= 0.25cm, <->] (WS1) to[out=80,in=100,distance=2cm] (WS4); 
+		\draw [black,shorten <= .35cm, shorten >= .35cm, <->] (WS0) to[out=-80,in=-100,distance=1.5cm	]  (WS1);
+		\draw [black,shorten <= .35cm, shorten >= .35cm, <->] (WS0) to[out=-80,in=-100,distance=2cm	]  (WS2);
+		\draw [black,shorten <= .35cm, shorten >= .35cm, <->] (WS0) to[out=-80,in=-100,distance=2.5cm	]  (WS3);
+		\draw [black,shorten <= .35cm, shorten >= .35cm, <->] (WS0) to[out=-80,in=-100,distance=3cm	]  (WS4);
+		\draw [black,shorten <= .35cm, shorten >= .35cm, <->] (WS0) to[out=-80,in=-100,distance=3.25cm	]  (WS5);
+	    \end{tikzpicture}
+	}	\\
+
     \end{tabular}
 
 \end{frame}
 
+\begin{frame}{Hypothesis Generation}
+    Conceptual Model (Barandian 2006) used as Opaque thought experiement (Di Paolo 2000):\\
+    \vfill
+    \begin{itemize}
+	\item <2-> Thought Experiment:\\
+	    \uncover<3->{\small \hspace{.5cm} Higher degree of freedom than experimental methods ()}
+	    \vfill
+	\item <4-> Experiment: \\
+	    \uncover<5->{\small \hspace{.5cm} Higher degree of de-idealization than theory or though experiments}
+	    \vfill
+	\item <6-> Opacity: \\
+	    \uncover<7->{\small \hspace{.5cm}  Need to be ``experimentally'' explored}
+    \end{itemize}
+
+\end{frame}
 
 \begin{frame}{Limitation}
     Assumptions made at every level, complex interpretation:\\
@@ -497,214 +635,21 @@ Succession of events $\rightarrow$ Actual Biology?
 \end{frame}
 
 
+\begin{frame}{Interdisciplinarity}
+    \begin{center}
+	\includegraphics<1>[width=.8\textwidth]{images/interdsiciplinarity0.png}
+	\includegraphics<2>[width=.8\textwidth]{images/interdsiciplinarity1.png}
+	\includegraphics<3>[width=.8\textwidth]{images/interdsiciplinarity2.png}
+	\includegraphics<4>[width=.8\textwidth]{images/interdsiciplinarity3.png}
+	\includegraphics<5>[width=.8\textwidth]{images/interdsiciplinarity4.png}
+	\includegraphics<6>[width=.8\textwidth]{images/interdsiciplinarity5.png}
+	\includegraphics<7>[width=.8\textwidth]{images/interdsiciplinarity6.png}
+	\includegraphics<8>[width=.8\textwidth]{images/interdsiciplinarity.png}
+    \end{center}
+\end{frame}
+
 \begin{frame}{EPNet Project}
-	Agent-based model as an ideal plateform to implement multidisciplinarity.
 \end{frame}
 
 \end{document}
 
-%\section{Introduction}
-%
-%\begin{frame}{Cultural Evolution}
-%	Social Traits:
-%	\begin{center}
-%		\begin{table}
-%			\center
-%			\begin{tabular}{ccc}
-%				\uncover<2->{\includegraphics[height=3cm]{images/m80}} &
-%				\uncover<3->{\includegraphics[height=3cm]{images/m90}} &
-%				\uncover<4->{\includegraphics[height=3cm]{images/m10}} \\
-%				\uncover<2->{80's} & \uncover<3->{90's} & \uncover<4->{now}
-%			\end{tabular}
-%		\end{table}
-%	\end{center}
-%	\uncover<5->{How they Evolve?}\uncover<6>{ Cultural Evolution }
-%\end{frame}
-%
-%
-%\begin{frame}{Cultural Evolution}
-%	\begin{itemize}
-%		\item<5->{ culturally transmitted, socially learnt}
-%		\item<6->{ similar patterns}
-%	\end{itemize}
-%	\begin{center}
-%		\uncover<4->{\includegraphics[width=3cm]{images/cutdog}}\\
-%		\vspace{.5cm}
-%		\uncover<2->{\includegraphics[width=2.5cm]{images/cutbaby}}
-%		\hspace{1cm}
-%		\uncover<3->{ \includegraphics[width=2cm]{images/pottery}}
-%	\end{center}
-%	\uncover<7>{$\rightarrow$ What mechanism drive the evolution of such traits?\\
-%		\invisible<1->{$\rightarrow$ What mechanism }generate such pattern?}
-%	\end{frame}
-%
-%	\begin{frame}{What Generate Those Cultural changes?}
-%		Simple mechanisms (Bentley et al, 2004):
-%		\begin{itemize}
-%			\item<2->Random Copy 
-%			\item<3-> Frequency biased (conformist/anti-conformist\dots)
-%			\item<4->\dots	
-%		\end{itemize}
-%		\uncover<2>{\begin{figure}
-%			\begin{columns}
-%				\begin{column}{.8\textwidth}
-%					\centering
-%					\includegraphics[width=.6\textwidth]{images/powerlawrepartition.jpg}
-%				\end{column}
-%				\begin{column}{.3\textwidth}
-%					\tiny
-%					Square: male names\\
-%					Circle: female names\\
-%					Dotted and plain lines: model result with different copy probabilities.\\
-%					From Bentley et al,~2004.
-%				\end{column}
-%			\end{columns}
-%		\end{figure}}
-%	\end{frame}
-%
-%	\section{Context}
-%
-%	\begin{frame}
-%		\only<1->{\begin{center}
-%			What if such mechanisms act on traits linked to economics?
-%		\end{center}}
-%		\begin{center}
-%			\only<2>{\includegraphics[height=4cm]{images/tools}}
-%			\only<3>{\vspace{1cm}\includegraphics[height=3cm]{images/bordeaux.jpg}\hspace{2cm}
-%			\includegraphics[height=3cm]{images/napa}}
-%			\only<4-7>{
-%				\uncover<4->{\includegraphics<4-5>[height=4cm]{images/social1.png}\includegraphics<6->[height=4cm]{images/social2.png}}
-%				\uncover<5->{{  \Large \only<5>{$\rightarrow$} \only<6>{$\leftarrow$}\only<7>{$\leftrightarrow$}}}
-%				\uncover<5-7>{\includegraphics<5-6>[width=.4\textwidth]{images/eco.png} \includegraphics<7>[width=.4\textwidth]{images/eco2.png}}
-%
-%			}
-%		\end{center}
-%	\end{frame}
-%	\begin{frame}
-%		\begin{center}
-%			\includegraphics[height=\textwidth]{images/bevan.png}
-%		\end{center}
-%	\end{frame}
-%
-%	\begin{frame}{Co-evolution of Economy and Culture}
-%
-%%How Simple Cultural Dynamics influence Economy That in turn will influence cultural dynamics.
-%		\begin{center}
-%			\includegraphics[width=\textwidth]{images/interaction}	
-%		\end{center}
-%
-%	\end{frame}
-%
-%
-%	\section{ABM Framework}
-%
-%
-%	\begin{frame}{A General Agent Based Framework }
-%
-%		Two main components:
-%		\vfill
-%		\begin{enumerate}
-%			\item Trade side: Bartering Economy (Gintis 2009),
-%				\vspace{1cm}
-%			\item Cultural side: ``copy the most successful'' (Bentley 2006).
-%		\end{enumerate}
-%
-%	\end{frame}
-%
-%	\begin{frame}{The Model}
-%		\begin{block}{1. The Economy \& the Barter Mechanism}
-%			\begin{itemize}
-%				\item $N$ goods
-%				\item $M$ Agent 
-%					$\left\{
-%						\begin{tabular}{@{}l@{}}
-%							a quantity of each Goods \\
-%							$N$ values attributed to each goods\\
-%						\end{tabular}
-%						\right.$
-%					\item Agents \emph{produce} one good and \emph{exchange} it to obtain the other goods.
-%					\item After the exchange, the agents \emph{consume} all goods 
-%				\end{itemize}
-%				Agent perform this 10 times and a scores is given to each of them.
-%			\end{block}
-%		\end{frame}
-%
-%		\begin{frame}{The Model}
-%			\begin{block}{2. Cultural Mechanisms}
-%				\begin{itemize}
-%						\vfill
-%					\item Less successful agents \emph{copy} the most successful (Biased-Copy).
-%						\vfill
-%					\item Given a probability $\mu$ the value attributed to some goods is modified (Innovation/Mutation)
-%				\end{itemize}
-%			\end{block}
-%		\end{frame}
-%
-%		\begin{frame}{The Model }
-%
-%			\begin{figure}
-%				\caption{Example for 3 goods and 600 agents}
-%				\begin{columns}
-%					\column{.5\textwidth}
-%					\includegraphics[width=5cm]{images/full.pdf} 
-%							%\caption{Evolution of the score of the agents in a setup with 600 agents and 3 goods trading and exchanging their strategies during 10000 timesteps.}%%
-%				\end{columns}
-%				@~Equilibrium: mean of score  $\rightarrow$ score max (Carrignon et al. 2015)
-%			\end{figure}
-%
-%		\end{frame}
-%
-%		\section{Experimental Setup \& Results}
-%		\begin{frame}{Experiments}
-%			\textbf{Impact of the topology of the cultural network }
-%			\begin{center}
-%				``What properties of the cultural network influence the economic dynamics? '' 
-%			\end{center}
-%			\begin{center}
-%				\includegraphics<1>[trim={2cm 6cm 2cm 5cm},clip,width=6cm]{images//trade-cultural.png}
-%				\includegraphics<2->[trim={2cm 6cm 2cm 5cm},clip,width=6cm]{images//trade-cultural2.png}
-%			\end{center}
-%			\vfil
-%			\uncover<3>{$\rightarrow$ Average Distance vs Average Degree}
-%
-%
-%
-%
-%		\end{frame}
-%
-%
-%		\begin{frame}{Degree}
-%			\begin{center}
-%				\includegraphics<1>[height=.9\textheight]{images/hmA.png} 	
-%				\includegraphics<2>[height=.9\textheight]{images/hmAneighbours} 	
-%				\includegraphics<3>[height=.9\textheight]{images/hmAk4.png} 	
-%				\includegraphics<4>[height=.9\textheight]{images/hmB.png} 	
-%				\includegraphics<5>[height=.9\textheight]{images/hmBneighbours} 	
-%				\includegraphics<6>[height=.9\textheight]{images/hmBk4.png} 	
-%			\end{center}
-%		\end{frame}
-%		\begin{frame}{Shortest Path Length}
-%			\begin{center}
-%				\includegraphics<1>[height=.9\textheight]{images/hmA.png} 	
-%				\includegraphics<2>[height=.9\textheight]{images/hmAB.png} 	
-%				\includegraphics<3>[height=.9\textheight]{images/hmABlinked.png} 	
-%				\includegraphics<4>[height=.9\textheight]{images/hmABlinkedL25.png} 	
-%				\includegraphics<5>[height=.9\textheight]{images/hmCDL6.png} 	
-%			\end{center}
-%		\end{frame}
-%		\begin{frame}{Degree}
-%			\begin{center}
-%				\includegraphics<1>[height=.9\textheight]{images/smA.png} 	
-%				\includegraphics<2>[height=.9\textheight]{images/smAneighbours} 	
-%				\includegraphics<3>[height=.9\textheight]{images/smAk9.png} 	
-%			\end{center}
-%		\end{frame}
-%		\begin{frame}{Shortest Path Length}
-%			\begin{center}
-%				\includegraphics<1>[height=.9\textheight]{images/smA.png} 	
-%				\includegraphics<2>[height=.9\textheight]{images/smAB.png} 	
-%				\includegraphics<3>[height=.9\textheight]{images/smABlinked.png} 	
-%				\includegraphics<4>[height=.9\textheight]{images/smABlinkedL4.png} 	
-%			\end{center}
-%		\end{frame}
-%
