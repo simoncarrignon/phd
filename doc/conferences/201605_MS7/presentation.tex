@@ -106,26 +106,42 @@ Succession of events $\rightarrow$ Actual Biology?
 
 
 \begin{frame}{Evolutionary biology toolkit} 
+    To overcome such problem:
 	\begin{itemize}
-		\item<1-> Since the biometricians:\\
+		\item<1->  Tools Since the biometricians:\\
+
 			Detecting Pattern\\
 			\uncover<2->{\begin{figure}
-				\includegraphics[width=.5\textwidth]{images/weldon.png}
+				\includegraphics[width=.45\textwidth]{images/weldon.png}
 				\caption{Weldon \& Pearson 1892}
 			\end{figure}
 		}
 			
 			
 		\item<3-> Mathematical models of idealized situation:\\
-		    {\small Hardy Weinberg, Fisher-Wrights models, Lotka-Volterra equations\ldots}
-		\item<4->Complexity $\uparrow$ quickly. 
+		    \hspace{2cm}{\tiny Hardy Weinberg, Fisher-Wrights models, Lotka-Volterra equations\ldots}
+		%\item<4->Complexity $\uparrow$ quickly. 
 	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Evolutionary biology toolkit}
+    Such models become quickly complex, useless or difficult to build:
+    \vfill
+    	\begin{itemize}
+	    \item Computer Simulation to study complex mathematical model
+    \vfill
+	    \item Computer Model (Agent Based, Cellular Automata\dots) to describe complex systems
+	\end{itemize}
+    \vfill
+
+    
 \end{frame}
 
 \begin{frame}{Computer Simulation}
     \begin{itemize}
-	\item<1-> Simulate mathematical model (Bayesian inference \& model selection)
-	\item<4-> Focus on complex interactions (Evolutionary Ecology, EvoDevo\dots)
+	\item<1->  To select competing models ( Bayesian inference \& model selection)
+	\item<4-> In systems that focus on interactions (Evolutionary Ecology, EvoDevo\dots)
 	\item<7-> \dots
     \end{itemize}
     
@@ -205,14 +221,11 @@ Succession of events $\rightarrow$ Actual Biology?
     \begin{itemize}
 	\item<5-> Hypothesis rarely formalized and quantifiable, 
 	\item<6-> Empirical experimentation less accessible,
-	\item<7-> Higher level of complexity:
+	\item<7-> Higher level of complexity
     \end{itemize}
 \end{frame}
 
-\begin{frame}{History}
 %This suggest that (i) the problems encountered by evolutionary biologists are close to those archaeologists and historians have to face (ii) the way inferences are made about the history of living beings and the history of human societies fall into a similar epistemological framework and (iii) mathematical and computer models are good candidates to infer, in a statistically plausible and transparent way, missing data and complex hypotheses in both enterprise.
-    Nonetheless:
-\end{frame}
 
 \begin{frame}{History}
     \begin{columns}
@@ -304,33 +317,45 @@ Succession of events $\rightarrow$ Actual Biology?
 \end{frame}
 
 
-\section{Computer sim to do model selection}
+\begin{frame}
+    \begin{center}
+	1.Compare model describing hypothesis.
+    \end{center}
+\end{frame}
 
-\begin{frame}{Historical Hypothesis: Quantitative analysis}
-    Rubio-Campillo 2015:  Model of War casualties
+\begin{frame}{Model Selection analysis}
     \begin{itemize}
-	\item<1-> Formalized hypothesis 
+	\item<1-> Hypothesis described with formal models
 	\item<2-> Available data
     \end{itemize}
-
-    \uncover<3->{Different hypothesis to explain historical patterns}
-    \begin{center}
-	\uncover<4->{\includegraphics[width=.8\textwidth]{images/armyCasualties.png} }
-    \end{center}
-
+    \uncover<3->{Computer Simulation}
+    \begin{enumerate}
+	\item<4-> Explore the models
+	\item<5-> Select the best one and the hypothesis behinds.
+    \end{enumerate}
 
 \end{frame}
 
-\begin{frame}{Quantitative analysis}
-    4 models to explain Battle Casualties
+
+\begin{frame}{Model Selection}
+    Rubio-Campillo 2015:  Model of War casualties
+    \begin{center}
+	\uncover{\includegraphics[width=.8\textwidth]{images/armyCasualties.png} }
+    \end{center}
+    \uncover<2->Four diff. models to explain Battle Casualties
+\end{frame}
+
+
+
+\begin{frame}{Model Selection}
     \begin{itemize}
 	\item<5->Compare and select the best Hypothesis.
     \end{itemize}
     \begin{enumerate}
-	\item<1->Linear 
-	\item<2->Squared 
-	\item<3->Logarithmic
-	\item<4->Fatigue
+	\item<1->Linear (one to one fights, size$++$)
+	\item<2->Squared (one to many fights techno$++$)
+	\item<3->Logarithmic (one to many fights techno$++$)
+	\item<4->Fatigue (\dots \& decrease in time)
     \end{enumerate}
     
 
@@ -340,7 +365,7 @@ Succession of events $\rightarrow$ Actual Biology?
 	    \uncover<2->{\includegraphics[width=2cm]{images/squEq}}&
 	    \uncover<3->{\includegraphics[width=2cm]{images/logEq}}&
 	    \uncover<4->{\includegraphics[width=2cm]{images/fatEq}}\\
-	    \uncover<5->{Let P ratio r/b = 1.5}\\
+	    \uncover<5->{\tiny let $P=  r/b = 1.5,B_0-15000,R_0=1000$}\\
 	    \uncover<6->{\includegraphics[width=2cm]{images/linGra}}&
 	    \uncover<7->{\includegraphics[width=2cm]{images/squGra}}&
 	    \uncover<8->{\includegraphics[width=2cm]{images/logGra}}&
@@ -349,31 +374,44 @@ Succession of events $\rightarrow$ Actual Biology?
     \end{table}
 \end{frame}
 
-\begin{frame}{Quantitative analysis}
-    \begin{columns}
-	\begin{column}{.6\textwidth}
+\begin{frame}{Result}
+    Approximate Baeysian Computation:
 	    \begin{center}
 		\includegraphics[width=\textwidth]{images/resultXavi.png} 
 	    \end{center}
-	\end{column}
-	\begin{column}{.45\textwidth}
-	    Fatigue model outperform all
-	\end{column}
-    \end{columns}
+	    The fatigue model outperform all other formalization.
+\end{frame}
+
+\begin{frame}{Model Selection}
     Computer Simulation
-	\begin{enumerate}
-	    \item<2-> Paliate lack of empirical data and difficulty to gather new
-	    \item<3-> Statistical validation of hypothesis
-	\end{enumerate}
+    \begin{enumerate}
+	\item<2-> Explore the models
+	\item<3-> Select the best one and the hypothesis behinds.
+    \end{enumerate}
 \end{frame}
 
-\begin{frame}{Hybrid Status}
+\begin{frame}{}
 	\begin{center}
-		2.Hybrid model
+		2.Hypothesis formalization
 	\end{center}
-	
 \end{frame}
 
+\begin{frame}{Formal Description \& Comparison}
+    More often in history:
+	\begin{enumerate}
+	    \item<1-> Loosely formalised or complex hypotheses, no laws.
+		\vfill
+	    \item<2-> Heterogeneous Data and Knowledge
+	\end{enumerate}
+		\vfill
+	 
+
+	\uncover<4->{Computer Simulation:}
+	\begin{itemize}
+	    \item<5-> Formally describe the hypotheses (computer model)
+	    \item<6-> Quantitatively compare it
+	\end{itemize}
+\end{frame}
 \begin{frame}{Formal Description \& Comparison}
     \begin{columns}
 	\begin{column}{.6\textwidth}
@@ -385,22 +423,12 @@ Succession of events $\rightarrow$ Actual Biology?
 	\small Brughman \& Poblome 2016: Nature of the Market
 	\end{column}
     \end{columns}
-	\begin{enumerate}
-	    \item<2-> Loosely formalised or complex Hypothesis
-	    \item<3-> Heterogeneous Data and Knowledge
-	\end{enumerate}
-
-	\uncover<4->{Model to:}
-	\begin{itemize}
-	    \item<5-> Formally describe the hypotheses
-	    \item<6-> Quantitatively compare it
-	\end{itemize}
 
 \end{frame}
 
 \begin{frame}{Formal Description \& Comparison}
 	\only<1>{
-	    Hypothesis:
+	    Two competing hypotheses:
 	    
 	    \begin{columns}
 		\begin{column}{.4\textwidth}
@@ -446,13 +474,31 @@ Succession of events $\rightarrow$ Actual Biology?
 
 \end{frame}
 
+\begin{frame}
+    
+	The Computer Simulation allows:
+	\begin{itemize}
+	    \item to formally describe the hypotheses \\
+		\hspace{1cm}\uncover<2->{and incorporate knowledge from different discipline (network theory, game theory\dots)}
+	    \item quantitatively compare it
+	\end{itemize}
+
+\end{frame}
+
+\begin{frame}{}
+    3.Hypothesis Generation
+\end{frame}
 
 \begin{frame}{Hypothesis Generation}
+    \begin{itemize}
+	\item<2-> Few Data
+	\item<3-> Few Hypothesis 
+    \end{itemize}
 \end{frame}
 
 
-
 \begin{frame}{Cultural Transmission}
+    Cultural transmission of manufacturings techniques:
     \begin{columns}
 	\begin{column}{.6\textwidth}
 	    \includegraphics[width=.9\textwidth]{images/Beti.png}
@@ -462,13 +508,6 @@ Succession of events $\rightarrow$ Actual Biology?
 	\end{column}
     \end{columns}
 
-    \uncover<3->{
-	Cultural transmission of manufacturings techniques:
-    \begin{itemize}
-	\item Few Data
-	\item Few Hypothesis 
-    \end{itemize}
-}
 \end{frame}
 
 
@@ -515,7 +554,7 @@ Succession of events $\rightarrow$ Actual Biology?
 
 \begin{frame}{Experimental Setup}
     \begin{tabular}{m{5cm}m{5cm}}
-	    %&No Transmission & Transmission \\\hline
+	{\tiny No Horizontal Transmission} & {\centering\tiny Horizontal Transmission }\\
 
 	\resizebox{5cm}{!}{
 	    \begin{tikzpicture}[thick,scale=2]
@@ -606,7 +645,23 @@ Succession of events $\rightarrow$ Actual Biology?
 
 \begin{frame}{Results}
 
+    \begin{center}
+	\begin{tabular}{m{3cm}m{3cm}}
 
+	    {\tiny \hspace{.3cm}No Horizontal Transmission} & {\centering\tiny Horizontal Transmission }\\
+	    \includegraphics[height=3cm]{images/CNDL.png}
+	    &
+	    \includegraphics[height=3cm]{images/CYDL.png}
+
+	    \\
+	    \includegraphics[height=3cm]{images/CNDS.png}
+	    &
+	    \includegraphics[height=3cm]{images/CYDS.png}
+	    \\
+
+	\end{tabular}
+
+    \end{center}
 	
 \end{frame}
 
@@ -628,7 +683,7 @@ Succession of events $\rightarrow$ Actual Biology?
 	\item Not fixed status
 	\item Help at different level
 	    \begin{enumerate}
-		\item Statistical Validation
+		\item Model and Hypothesis Selection
 		\item Qualitative Comparaison
 		\item Hypothesis generation and exploration
 	    \end{enumerate}
@@ -666,14 +721,14 @@ Succession of events $\rightarrow$ Actual Biology?
 
 \begin{frame}{Interdisciplinarity}
     \begin{center}
-	\includegraphics<1>[width=.8\textwidth]{images/interdsiciplinarity0.png}
-	\includegraphics<2>[width=.8\textwidth]{images/interdsiciplinarity1.png}
-	\includegraphics<3>[width=.8\textwidth]{images/interdsiciplinarity2.png}
-	\includegraphics<4>[width=.8\textwidth]{images/interdsiciplinarity3.png}
-	\includegraphics<5>[width=.8\textwidth]{images/interdsiciplinarity4.png}
-	\includegraphics<6>[width=.8\textwidth]{images/interdsiciplinarity5.png}
-	\includegraphics<7>[width=.8\textwidth]{images/interdsiciplinarity6.png}
-	\includegraphics<8>[width=.8\textwidth]{images/interdsiciplinarity.png}
+	\includegraphics<1>[width=.8\textwidth]{images/interdsiciplinarity.pdf}
+	%	\includegraphics<2>[width=.8\textwidth]{images/interdsiciplinarity1.png}
+	%	\includegraphics<3>[width=.8\textwidth]{images/interdsiciplinarity2.png}
+	%	\includegraphics<4>[width=.8\textwidth]{images/interdsiciplinarity3.png}
+	%	\includegraphics<5>[width=.8\textwidth]{images/interdsiciplinarity4.png}
+	%	\includegraphics<6>[width=.8\textwidth]{images/interdsiciplinarity5.png}
+	%	\includegraphics<7>[width=.8\textwidth]{images/interdsiciplinarity6.png}
+	%	\includegraphics<8>[width=.8\textwidth]{images/interdsiciplinarity.png}
     \end{center}
 \end{frame}
 
