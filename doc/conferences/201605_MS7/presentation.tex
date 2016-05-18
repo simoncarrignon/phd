@@ -3,7 +3,7 @@
 %% and addapted for the CAA2k16
 %% and then  for the EPNET workshop of the 3rd of may
 %% and then  for the SM7 workshop of the  of may
-\documentclass[12pt, notes=show,handout=no]{beamer}
+\documentclass[12pt, notes=show]{beamer}
 \usetheme[width=0cm]{Goettingen}
 \usecolortheme{rose}
 \useoutertheme{default}
@@ -129,9 +129,9 @@ Succession of events $\rightarrow$ Actual Biology?
     Such models become quickly complex, useless or difficult to build:
     \vfill
     	\begin{itemize}
-	    \item Computer Simulation to study complex mathematical model
+	    \item<2-> Computer Simulation to study complex mathematical model
     \vfill
-	    \item Computer Model (Agent Based, Cellular Automata\dots) to describe complex systems
+	    \item<3-> Computer Model (Agent Based, Cellular Automata\dots) to describe complex systems
 	\end{itemize}
     \vfill
 
@@ -328,10 +328,11 @@ Succession of events $\rightarrow$ Actual Biology?
 	\item<1-> Hypothesis described with formal models
 	\item<2-> Available data
     \end{itemize}
-    \uncover<3->{Computer Simulation}
+    \uncover<3->{Find the best hypothesis.\\}
+    \uncover<4->{Use of computer simulation to}
     \begin{enumerate}
-	\item<4-> Explore the models
-	\item<5-> Select the best one and the hypothesis behinds.
+	\item<5-> Explore the models
+	\item<6-> Quantitative comparaison 
     \end{enumerate}
 
 \end{frame}
@@ -342,44 +343,53 @@ Succession of events $\rightarrow$ Actual Biology?
     \begin{center}
 	\uncover{\includegraphics[width=.8\textwidth]{images/armyCasualties.png} }
     \end{center}
-    \uncover<2->Four diff. models to explain Battle Casualties
 \end{frame}
 
 
 
 \begin{frame}{Model Selection}
-    \begin{itemize}
-	\item<5->Compare and select the best Hypothesis.
-    \end{itemize}
+    \uncover<1->{ Four diff. models to explain Battle Casualties}
     \begin{enumerate}
-	\item<1->Linear (one to one fights, size$++$)
-	\item<2->Squared (one to many fights techno$++$)
-	\item<3->Logarithmic (one to many fights techno$++$)
-	\item<4->Fatigue (\dots \& decrease in time)
+	\item<2->Linear (one to one fights, size$++$)
+	\item<3->Squared (one to many fights techno$++$)
+	\item<4->Logarithmic (one to many fights techno$++$)
+	\item<5->Fatigue (\dots \& decrease in time)
     \end{enumerate}
     
 
     \begin{table}
 	\begin{tabular}{cccc}
-	    \uncover<1->{\includegraphics[width=2cm]{images/linEq}}&
-	    \uncover<2->{\includegraphics[width=2cm]{images/squEq}}&
-	    \uncover<3->{\includegraphics[width=2cm]{images/logEq}}&
-	    \uncover<4->{\includegraphics[width=2cm]{images/fatEq}}\\
-	    \uncover<5->{\tiny let $P=  r/b = 1.5,B_0-15000,R_0=1000$}\\
-	    \uncover<6->{\includegraphics[width=2cm]{images/linGra}}&
-	    \uncover<7->{\includegraphics[width=2cm]{images/squGra}}&
-	    \uncover<8->{\includegraphics[width=2cm]{images/logGra}}&
-	    \uncover<9->{\includegraphics[width=2cm]{images/fatGra}}\\
+	    \uncover<2->{\includegraphics[width=2cm]{images/linEq}}&
+	    \uncover<3->{\includegraphics[width=2cm]{images/squEq}}&
+	    \uncover<4->{\includegraphics[width=2cm]{images/logEq}}&
+	    \uncover<5->{\includegraphics[width=2cm]{images/fatEq}\\}
+	\end{tabular}
+    \end{table}
+	\uncover<6->{\tiny let $P=  r/b = 1.5, B_0=15000,R_0=1000$\\}
+    \begin{table}
+	\begin{tabular}{cccc}
+	    \uncover<7->{\includegraphics[width=2cm]{images/linGra}}&
+	    \uncover<8->{\includegraphics[width=2cm]{images/squGra}}&
+	    \uncover<9->{\includegraphics[width=2cm]{images/logGra}}&
+	    \uncover<10->{\includegraphics[width=2cm]{images/fatGra}}\\
 	\end{tabular}
     \end{table}
 \end{frame}
 
 \begin{frame}{Result}
     Approximate Baeysian Computation:
+    \uncover<2->{
+	\begin{itemize}
+	\item Simulate the models
+	\item Compare
+    \end{itemize}
+}
+\uncover<3->{
 	    \begin{center}
 		\includegraphics[width=\textwidth]{images/resultXavi.png} 
 	    \end{center}
 	    The fatigue model outperform all other formalization.
+	}
 \end{frame}
 
 \begin{frame}{Model Selection}
@@ -498,21 +508,23 @@ Succession of events $\rightarrow$ Actual Biology?
 
 
 \begin{frame}{Cultural Transmission}
-    Cultural transmission of manufacturings techniques:
     \begin{columns}
-	\begin{column}{.6\textwidth}
-	    \includegraphics[width=.9\textwidth]{images/Beti.png}
+	\begin{column}{.5\textwidth}
+	    \includegraphics[width=.9\textwidth]{images/Beti.png}\\
+	     \includegraphics<2->[width=.7\textwidth]{images/mesures.png}
 	\end{column}
-	\begin{column}{.3\textwidth}
-	     \includegraphics<2->[width=.9\textwidth]{images/mesures.png}
+	\begin{column}{.5\textwidth}
+	\uncover<3->{\includegraphics[height=6cm]{images/pca.png}}
 	\end{column}
     \end{columns}
-
+    \begin{center}
+    \end{center}
 \end{frame}
 
-
-\begin{frame}{Hypothesis Generation}
-	\includegraphics[height=6cm]{images/pca.png}
+\begin{frame}
+    \begin{center}
+	Is there some cultural transmission involved here? \\What kind of transmission?
+    \end{center}
 \end{frame}
 
 
@@ -546,7 +558,7 @@ Succession of events $\rightarrow$ Actual Biology?
 
 	\begin{itemize}
 	    \item<8-> $T_{A\rightarrow B}$ the transmission of information between A \& B:
-	    \item<9-> $P(T_{A\rightarrow B})$ and $P(T_{A\rightarrow B})>P(T_{A\rightarrow C})$ if $|A-B|<|A-C|$
+	    \item<9-> $P(T_{A\rightarrow B})>P(T_{A\rightarrow C})$ if $|A-B|<|A-C|$
 	\end{itemize}
     }
 
@@ -664,38 +676,57 @@ Succession of events $\rightarrow$ Actual Biology?
     \end{center}
 	
 \end{frame}
+\begin{frame}{Cultural Transmission}
+    Explore the model and generate new hypothesis:
+    \begin{center}
+	{\includegraphics[height=5cm]{images/pca.png}}
+	\includegraphics[width=.4\textwidth]{images/Beti.png}
+    \end{center}
+\end{frame}
+  
 
 
 \begin{frame}{Hypothesis Generation}
     
-    Explore hypothetics situation, generate and compare hypothesis :\\
+
+    \begin{itemize}
+	\item Generate hypothesis 
+	\item Formalize,
+	\item Explore,
+	\item Compare\dots
+    \end{itemize}
     \vfill
     \hspace{.5cm}Conceptual Model (Barandian 2006) as Opaque thought experiement (Di Paolo 2000).
     \vfill
 
 \end{frame}
 
-\begin{frame}{Model in History}
+\begin{frame}{Computer Simulation in History}
 
-    Computer Simulations Example:
+    Summary:
     \begin{itemize}
-	\item Not exhaustive list
-	\item Not fixed status
-	\item Help at different level
+	\item Different level
 	    \begin{enumerate}
 		\item Model and Hypothesis Selection
-		\item Qualitative Comparaison
+		\item Explicit formalization
 		\item Hypothesis generation and exploration
 	    \end{enumerate}
-
+	\item Not exhaustive classification
+	\item Non exclusive status
     \end{itemize}
     
 
 \end{frame}
 
-\begin{frame}{Limitation}
+\begin{frame}{Limitations}
     \begin{center}
-	Assumptions made at every level, very heterogenous data \& knowledge, complex interpretation\dots
+	\begin{itemize}
+	    \item Opacity,
+	    \item Conscious or inconscious assumptions at every level, 
+	    \item very heterogenous data \& knowledge, 
+	    \item complex interpretation\
+	    \item \dots
+	\end{itemize}
     \end{center}
 %However, building computational simulations that can provide valuable knowledge about the modelled object still remains a difficult task. Computer scientists have to be aware of every assumptions they could implicitly made and domain experts (as historians or biologists) have to formulate their hypotheses in an epistemological framework yet not clearly specified and far from the one they are used. The communication is thus primordial: knowledge here does not lie in the mathematical models neither in the historical data but emerges from the well articulation of both side \cite{winsberg09taletwomethods}.
 \end{frame}
