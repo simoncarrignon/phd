@@ -99,6 +99,8 @@ Succession of events $\rightarrow$ Actual Biology?
 	    \vfill
 	\item No absolute values (Statistics \& Probabilities)
 	    \vfill
+	\item Partial empirical evidences
+	    \vfill
 	\item  Highly path dependent (Gould Wonderful Life , Beatty Contingency thesis)
     \end{itemize}
     \vfill
@@ -128,23 +130,22 @@ Succession of events $\rightarrow$ Actual Biology?
 \begin{frame}{Evolutionary biology toolkit}
     Such models become quickly complex, useless or difficult to build:
     \vfill
-    	\begin{itemize}
-	    \item<2-> Computer Simulation to study complex mathematical model
+    	\begin{enumerate}
+	    \item<2-> Computer Simulation to study complex mathematical model (Numerical Model)
     \vfill
 	    \item<3-> Computer Model (Agent Based, Cellular Automata\dots) to describe complex systems
-	\end{itemize}
+	\end{enumerate}
     \vfill
 
     
 \end{frame}
 
 \begin{frame}{Computer Simulation}
+	Example:
     \begin{itemize}
-	\item<1->  To select competing models ( Bayesian inference \& model selection)
-	\item<4-> In systems that focus on interactions (Evolutionary Ecology, EvoDevo\dots)
-	\item<7-> \dots
+	\item<1->Numerical Simulation: To select competing models ( Bayesian inference \& model selection)
+	\item<4->Computer Model: In systems that focus on interactions (Evolutionary Ecology, EvoDevo\dots)
     \end{itemize}
-    
     \begin{table}
 	\centering
 	\begin{tabular}{ccc}
@@ -215,13 +216,13 @@ Succession of events $\rightarrow$ Actual Biology?
     \begin{itemize}
 	\item <3-> Highly Path Depend
 	\item <4-> Non absolute value
+	\item<5-> Empirical experimentation almost impossible
+	\item <6-> Data/datasets are sparse, non-homogeneous, highly incomplete \& biased
     \end{itemize}
     
-    Biologie-like. But, yet:
+    \uncover<7->{Biology-like yet: Hypothesis not formalized and/or not quantifiable}
     \begin{itemize}
-	\item<5-> Hypothesis rarely formalized and quantifiable, 
-	\item<6-> Empirical experimentation less accessible,
-	\item<7-> Higher level of complexity
+	\item<8-> Higher level of complexity
     \end{itemize}
 \end{frame}
 
@@ -310,16 +311,30 @@ Succession of events $\rightarrow$ Actual Biology?
 		\includegraphics[height=2cm]{images/simCityEnd.png} 
 	    }
 	    
-	    
 	\end{column}
     \end{columns}
 	
 \end{frame}
 
+\begin{frame}{3 Flavor of Computer simulation}
+	\begin{enumerate}
+		\item Compare model.
+			\vfill
+		\item Hypothesis Formalization
+			\vfill
+		\item Hypothesis Generation
+			\vfill
+	\end{enumerate}
+	
+\end{frame}
 
 \begin{frame}
     \begin{center}
-	1.Compare model describing hypothesis.
+	\begin{enumerate}
+		\item \textcolor{red}{Compare Model}
+		\item Hypothesis Formalization
+		\item Hypothesis Generation
+	\end{enumerate}
     \end{center}
 \end{frame}
 
@@ -328,12 +343,8 @@ Succession of events $\rightarrow$ Actual Biology?
 	\item<1-> Hypothesis described with formal models
 	\item<2-> Available data
     \end{itemize}
-    \uncover<3->{Find the best hypothesis.\\}
-    \uncover<4->{Use of computer simulation to}
-    \begin{enumerate}
-	\item<5-> Explore the models
-	\item<6-> Quantitative comparaison 
-    \end{enumerate}
+    \vfill
+    \uncover<3->{Which model (and the hypothesis it implements) best describe the data.\\}
 
 \end{frame}
 
@@ -377,11 +388,11 @@ Succession of events $\rightarrow$ Actual Biology?
 \end{frame}
 
 \begin{frame}{Result}
-    Approximate Baeysian Computation:
+    Approximate Bayesian Computation:
     \uncover<2->{
 	\begin{itemize}
-	\item Simulate the models
-	\item Compare
+	\item Simulate and explore the models
+	\item Compare them  
     \end{itemize}
 }
 \uncover<3->{
@@ -392,18 +403,23 @@ Succession of events $\rightarrow$ Actual Biology?
 	}
 \end{frame}
 
-\begin{frame}{Model Selection}
-    Computer Simulation
-    \begin{enumerate}
-	\item<2-> Explore the models
-	\item<3-> Select the best one and the hypothesis behinds.
-    \end{enumerate}
-\end{frame}
+%\begin{frame}{Model Selection}
+%    Computer Simulation
+%    \begin{enumerate}
+%	\item<2-> Explore the models
+%	\item<3-> Select the best one and the hypothesis behinds.
+%    \end{enumerate}
+%\end{frame}
 
 \begin{frame}{}
-	\begin{center}
-		2.Hypothesis formalization
-	\end{center}
+    \begin{center}
+	\begin{enumerate}
+		\item Compare Model
+		\item \textcolor{red}{Hypothesis Formalization}
+		\item Hypothesis Generation
+			\vfill
+	\end{enumerate}
+    \end{center}
 \end{frame}
 
 \begin{frame}{Formal Description \& Comparison}
@@ -422,7 +438,7 @@ Succession of events $\rightarrow$ Actual Biology?
 	    \item<6-> Quantitatively compare it
 	\end{itemize}
 \end{frame}
-\begin{frame}{Formal Description \& Comparison}
+\begin{frame}{Formal Description}
     \begin{columns}
 	\begin{column}{.6\textwidth}
 	    \begin{center}
@@ -430,13 +446,17 @@ Succession of events $\rightarrow$ Actual Biology?
 	    \end{center}
 	\end{column}
 	\begin{column}{.45\textwidth}
-	\small Brughman \& Poblome 2016: Nature of the Market
+		\includegraphics[width=.7\textwidth]{images/romantableware.jpeg} \\
+		{\tiny (Picture from: Uleners \& Poblome, 2014)}
 	\end{column}
     \end{columns}
+    \vspace{.8cm}
+	Brughman \& Poblome 2016: \\
+	What is the nature of the Market?
 
 \end{frame}
 
-\begin{frame}{Formal Description \& Comparison}
+\begin{frame}{Formal Description}
 	\only<1>{
 	    Two competing hypotheses:
 	    
@@ -474,11 +494,11 @@ Succession of events $\rightarrow$ Actual Biology?
     }
 
 \end{frame}
-\begin{frame}{Formal Description \& Comparison}
+\begin{frame}{Formal Description}
 	Result:\\
 	\begin{center}
 
-	    \only<1>{		    \includegraphics[height=6cm]{images/looselyMarket.png}\\ Independant Market}
+	    \only<1>{		    \includegraphics[height=6cm]{images/looselyMarket.png}\\ Independent Market}
 	    \only<2>{		    \includegraphics[height=6cm]{images/highMarket.png}\\ Integrated Market}
 	\end{center}
 
@@ -489,14 +509,20 @@ Succession of events $\rightarrow$ Actual Biology?
 	The Computer Simulation allows:
 	\begin{itemize}
 	    \item to formally describe the hypotheses \\
-		\hspace{1cm}\uncover<2->{and incorporate knowledge from different discipline (network theory, game theory\dots)}
-	    \item quantitatively compare it
+	    \item ``Quantitatively'' compare it\\
+		\hspace{.5cm}\uncover<2->{(less strongly than previous example, though they could do it)}
 	\end{itemize}
 
 \end{frame}
 
 \begin{frame}{}
-    3.Hypothesis Generation
+	\begin{center}
+	\begin{enumerate}
+		\item Compare Model
+		\item Hypothesis Formalization
+		\item \textcolor{red}{Hypothesis Generation}
+	\end{enumerate}
+	\end{center}
 \end{frame}
 
 \begin{frame}{Hypothesis Generation}
@@ -507,18 +533,17 @@ Succession of events $\rightarrow$ Actual Biology?
 \end{frame}
 
 
-\begin{frame}{Cultural Transmission}
-    \begin{columns}
-	\begin{column}{.5\textwidth}
-	    \includegraphics[width=.9\textwidth]{images/Beti.png}\\
-	     \includegraphics<2->[width=.7\textwidth]{images/mesures.png}
-	\end{column}
-	\begin{column}{.5\textwidth}
-	\uncover<3->{\includegraphics[height=6cm]{images/pca.png}}
-	\end{column}
-    \end{columns}
-    \begin{center}
-    \end{center}
+\begin{frame}{Hypothesis Generation}
+	Maria Coto
+	\begin{columns}
+		\begin{column}{.5\textwidth}
+			\includegraphics[width=.9\textwidth]{images/Beti.png}\\
+			\includegraphics<2->[width=.7\textwidth]{images/mesures.png}
+		\end{column}
+		\begin{column}{.5\textwidth}
+			\uncover<3->{\includegraphics[height=6cm]{images/pca.png}}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}
@@ -676,8 +701,8 @@ Succession of events $\rightarrow$ Actual Biology?
     \end{center}
 	
 \end{frame}
-\begin{frame}{Cultural Transmission}
-    Explore the model and generate new hypothesis:
+\begin{frame}{Hypotheses Generation}
+    Explore the model and generate new hypotheses.
     \begin{center}
 	{\includegraphics[height=5cm]{images/pca.png}}
 	\includegraphics[width=.4\textwidth]{images/Beti.png}
@@ -690,13 +715,14 @@ Succession of events $\rightarrow$ Actual Biology?
     
 
     \begin{itemize}
-	\item Generate hypothesis 
-	\item Formalize,
-	\item Explore,
-	\item Compare\dots
+	\item Generate hypotheses 
+	\item Formalize
+	\item Explore
+	\item Compare
+	\item \dots
     \end{itemize}
     \vfill
-    \hspace{.5cm}Conceptual Model (Barandian 2006) as Opaque thought experiement (Di Paolo 2000).
+    \uncover<2->{Conceptual Model (Barandian 2006) as Opaque thought experiment (Di Paolo 2000).}
     \vfill
 
 \end{frame}
@@ -721,10 +747,10 @@ Succession of events $\rightarrow$ Actual Biology?
 \begin{frame}{Limitations}
     \begin{center}
 	\begin{itemize}
-	    \item Opacity,
-	    \item Conscious or inconscious assumptions at every level, 
-	    \item very heterogenous data \& knowledge, 
-	    \item complex interpretation\
+	    \item Opacity
+	    \item Conscious or unconscious assumptions at every level
+	    \item Very heterogeneous data \& knowledge
+	    \item Complex interpretation
 	    \item \dots
 	\end{itemize}
     \end{center}
@@ -752,19 +778,45 @@ Succession of events $\rightarrow$ Actual Biology?
 
 \begin{frame}{Interdisciplinarity}
     \begin{center}
-	\includegraphics<1>[width=.8\textwidth]{images/interdsiciplinarity.pdf}
-	%	\includegraphics<2>[width=.8\textwidth]{images/interdsiciplinarity1.png}
-	%	\includegraphics<3>[width=.8\textwidth]{images/interdsiciplinarity2.png}
-	%	\includegraphics<4>[width=.8\textwidth]{images/interdsiciplinarity3.png}
-	%	\includegraphics<5>[width=.8\textwidth]{images/interdsiciplinarity4.png}
-	%	\includegraphics<6>[width=.8\textwidth]{images/interdsiciplinarity5.png}
-	%	\includegraphics<7>[width=.8\textwidth]{images/interdsiciplinarity6.png}
-	%	\includegraphics<8>[width=.8\textwidth]{images/interdsiciplinarity.png}
+	\includegraphics<1>[width=.95\textwidth]{images/pg_0006.pdf}
+	\includegraphics<2>[width=.95\textwidth]{images/pg_0005.pdf}
+	\includegraphics<3>[width=.95\textwidth]{images/pg_0004.pdf}
+	\includegraphics<4>[width=.95\textwidth]{images/pg_0003.pdf}
+	\includegraphics<5>[width=.95\textwidth]{images/pg_0002.pdf}
+	\includegraphics<6>[width=.95\textwidth]{images/pg_0001.pdf}
+	\includegraphics<7>[width=.95\textwidth]{images/pg_0000.pdf}
     \end{center}
 \end{frame}
 
-\begin{frame}
-	Thank you for your attention
+\begin{frame}{Conclusion}
+	\begin{itemize}
+		\item<1-> Complex situation with high degree of uncertainty 
+		\item<2-> Models and computer simulations help to encompass the difficulties
+		\item<3-> Computer Simulation interacting with model at multiple level
+		\item<4-> Opaque Thought Experiment as Transdisciplinar Lab
+	\end{itemize}
+	
+
 \end{frame}
+
+\begin{frame}
+	\begin{center}
+		\includegraphics[width=.95\textwidth]{images/howwrong.png}
+	\end{center}
+\end{frame}
+
+	\begin{frame}{}
+		\begin{center}
+			\huge
+			Thank for you attention!\\\vfill
+			\includegraphics[width=2cm]{images/LOGO-ERC.jpg} \hfil	\includegraphics[width=3cm]{images/epnetLogo.png}\\
+			\vspace{1cm}
+			\scriptsize
+			http://www.roman-ep.net/\\
+			@simoncarrignon
+		\end{center}
+
+
+	\end{frame}
 \end{document}
 
