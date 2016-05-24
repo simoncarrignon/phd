@@ -1,7 +1,7 @@
 %% May 2016, 
 %presentation inspired by the presentation made in CAA, the presentation made at the Winter Simulation Conference, and some ideas tooks from #RIN4 at the UPF
 
-\documentclass[12pt, notes=show,handout=no]{beamer}
+\documentclass[12pt, notes=show]{beamer}
 \usetheme[width=0cm]{Goettingen}
 \usecolortheme{rose}
 \useoutertheme{default}
@@ -209,8 +209,8 @@
 \end{frame}
 \begin{frame}{Plan}
     \begin{enumerate}
-	\item<1->Theoretical Exploration:\\ How economics value change the dynamics of Cultural Evolution
-	\item<2-> Empirical Study:\\  Characterize an economy through socio-economic artefacts distribution, a case study the Roman Empire.
+	\item<1->Theoretical Exploration:\\ How economics value change the dynamics of Cultural Evolution (Computer Model vs Neutral Model) 
+	\item<2-> Empirical Study:\\  Characterize an economy through socio-economic artefacts distribution, a case study the Roman Empire (Scaling Properties)
 	\item<3-> Articulate the Theoretical Exploration \& the Empirical Observations
     \end{enumerate}
 
@@ -346,16 +346,22 @@
 \end{frame}
 \begin{frame}{Empirical Studies}
 	Characterize an economy through socio-economic artefacts distribution:\\
-	\hspace{1cm} The need of strong proxy
-    \uncover<2->{Roman Empire:
+	\hspace{1cm} The need of strong proxy\\
+
+	\vspace{.5cm}
+    \uncover<2->{
+	    Within EPNet:
+	    
     \begin{itemize}
 	\item Olive Oil production
-	\item Wine production\ldots
+	\item Wine production
+	\item \ldots
     \end{itemize}}
-    \uncover<3->{Scaling properties of those indicators across cities as proxy of economic properties}
-\end{frame}
-
-\begin{frame}{Intuition}
+    \uncover<3->{
+	    \begin{alertblock}{Intuition}
+		    Scaling properties of those indicators across cities to infer economic properties
+	    \end{alertblock}
+    }
 \end{frame}
 
 \begin{frame}{Scaling properties}
