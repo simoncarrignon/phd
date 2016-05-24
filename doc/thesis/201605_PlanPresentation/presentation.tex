@@ -1,7 +1,7 @@
 %% May 2016, 
 %presentation inspired by the presentation made in CAA, the presentation made at the Winter Simulation Conference, and some ideas tooks from #RIN4 at the UPF
 
-\documentclass[12pt, notes=show]{beamer}
+\documentclass[12pt, notes=show,handout=no]{beamer}
 \usetheme[width=0cm]{Goettingen}
 \usecolortheme{rose}
 \useoutertheme{default}
@@ -52,6 +52,12 @@
 
 \end{frame}
 
+\section{Methods}
+\begin{frame}
+    \centering
+    \Large
+   Institutions 
+\end{frame}
 \begin{frame}{Context}
     \vfill
     \begin{description}
@@ -69,20 +75,13 @@
     \vfill
 \end{frame}
 
-%\begin{frame}{Plan of the presentation}
-%	\begin{enumerate}
-%		\item Introduction
-%			\vfill
-%		\item Model Description \& Tests
-%			\vfill
-%		\item Future Works
-%			\vfill
-%	\end{enumerate}
-%	
-%\end{frame}
-
 \section{Introduction}
 
+\begin{frame}
+    \centering
+    \Large
+    General Question
+\end{frame}
 \begin{frame}{Cultural Evolution}
     Social Traits:
     \begin{center}
@@ -98,22 +97,6 @@
     \end{center}
     \uncover<5->{How they Evolve?}\uncover<6>{ Cultural Evolution }
 \end{frame}
-
-%\begin{frame}
-%
-%    \invisible<2>{This text will be invisible on slide 2, but not on others slides}\\
-%    This text is always visible\\
-%    \uncover<1->{Beamer} \uncover<2->{is}  \uncover<3->{super} \uncover<4->{powerful} 
-%
-%\end{frame}
-%\begin{frame}
-%
-%    \begin{itemize}
-%	\item em Language used by Beamer: L\uncover<2->{A}TEX
-%	\item em Language used by Beamer: L\only<2->{A}TEX
-%    \end{itemize}
-%
-%\end{frame}
 
 \begin{frame}{Cultural Evolution}
     \begin{itemize}
@@ -155,8 +138,8 @@
 	    \end{figure}}
 \end{frame}
 
-\section{Context}
 
+\section{Scientific Context}
 
 \begin{frame}
 	\begin{center}
@@ -193,10 +176,10 @@
     \begin{itemize}
 	\item Archaeology
 	    \begin{itemize}
-		\item<2-> Compare culture across time (vs ``twitter studies'')
+		\item<3-> Compare culture across time (vs ``twitter studies'')
 	    \end{itemize}
 	    \vfill
-	\item<3-> Computer Simulation
+	\item<2-> Computer Simulation
 	    \begin{itemize}
 		\item<4-> Compare \& Select models
 		\item<5-> Explore \& Generate hypothesis
@@ -227,7 +210,7 @@
 \begin{frame}{Plan}
     \begin{enumerate}
 	\item<1->Theoretical Exploration:\\ How economics value change the dynamics of Cultural Evolution
-	\item<2-> Empirical Study:\\  Characterize an economy through socio-economic artefacts distribution, a case study, the Roman Empire.
+	\item<2-> Empirical Study:\\  Characterize an economy through socio-economic artefacts distribution, a case study the Roman Empire.
 	\item<3-> Articulate the Theoretical Exploration \& the Empirical Observations
     \end{enumerate}
 
@@ -364,14 +347,15 @@
 \begin{frame}{Empirical Studies}
 	Characterize an economy through socio-economic artefacts distribution:\\
 	\hspace{1cm} The need of strong proxy
+    \uncover<2->{Roman Empire:
+    \begin{itemize}
+	\item Olive Oil production
+	\item Wine production\ldots
+    \end{itemize}}
+    \uncover<3->{Scaling properties of those indicators across cities as proxy of economic properties}
 \end{frame}
 
-\begin{frame}{Scaling properties}
-    Roman Empire:
-    \begin{itemize}
-	\item Diversity of producer vs City Size 
-	\item Comparison between different markets (olive oil vs wine)
-    \end{itemize}
+\begin{frame}{Intuition}
 \end{frame}
 
 \begin{frame}{Scaling properties}

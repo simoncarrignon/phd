@@ -175,12 +175,23 @@ lastExp=function(){
     sapply(c(50,75,90),function(x){
 	   repX=makeAMAtrix(rep500L[ rep500L$rep < x+1 & rep500L$rep > x-1,],maxA=500,st=25)
 	   pdf(paste("tmp/500/slice_spec_rep-",x,".pdf",sep= ""),pointsize=20)
-	   par(mar=c(5,5,1,1),cex.axis=1.2)
+	   par(mar=c(6,5,1,1),cex.axis=1.2)
 	   printASlice(cols=c( "blue", "red"),repX,ylab="#Agents",yaxt="n",xlab="Density",ylim=c(200,530.5),xlim=c(0.010,0.110),cex.lab=1.8,cex.axis=1.2,zlim=c(0,(100-x)/x))
 		  abline(h=500*x/100,col="red")
 	   axis(2,at=c(200,300,400,500),labels=c(200,300,400,500))
 	   dev.off()
 })
+
+
+    	 x=90
+
+	   repX=rep500L[ rep500L$rep < x+1 & rep500L$rep > x-1,]
+	 min(repX$r0,repX$r1)
+	 indata=repX
+	 sp=.02
+		maxA=apply(indata[round(indata$Sparsity,4) == sp & indata$alive >= 400 & indata$alive < 460 ,c("r1","r0")],1,max)
+		minA=apply(indata[round(indata$Sparsity,4) == sp & indata$alive >= 400 & indata$alive < 460,c("r1","r0")],1,min)
+		 print(minA)
 
     #pdf("slice_spec_rep-75.pdf",pointsize=14);
     #par(mar=c(5,5,4,2))
