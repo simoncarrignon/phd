@@ -5,7 +5,7 @@
 	path = dev/HETCASave2015_NORTHREAD
 	url = git@github.com:Xilrian/HETCASave2015_NORTHREAD.git
 [submodule "doc/HETCA-2016"]
-	path = doc/HETCA-2016
+	path = doc/conferences/HETCA-2016
 	url = git@github.com:Xilrian/HETCA-2016.git
 [submodule "dev/stats"]
 	path = dev/stats
@@ -26,5 +26,5 @@
 	path = doc/apmecc-doc
 	url = git@github.com:simoncarrignon/apmecc-doc.git
 [submodule "doc/201605-culture-conf"]
-	path = doc/201605-culture-conf
+	path = doc/conferences/201605-culture-conf
 	url = git@github.com:simoncarrignon/culture-conf-poster.git
