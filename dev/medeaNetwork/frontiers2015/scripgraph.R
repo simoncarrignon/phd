@@ -190,7 +190,7 @@ lastExp=function(){
 	 indata=repX
 	 sp=.02
 		maxA=apply(indata[round(indata$Sparsity,4) == sp & indata$alive >= 400 & indata$alive < 460 ,c("r1","r0")],1,max)
-		minA=apply(indata[round(indata$Sparsity,4) == sp & indata$alive >= 400 & indata$alive < 460,c("r1","r0")],1,min)
+		minA=apply(indata[round(indata$Sparsity,4) == sp & indata$alive >= 400 & indata$alive <= 460,c("r1","r0")],1,min)
 		 print(minA)
 
     #pdf("slice_spec_rep-75.pdf",pointsize=14);
