@@ -28,3 +28,6 @@
 [submodule "doc/201605-culture-conf"]
 	path = doc/conferences/201605-culture-conf
 	url = git@github.com:simoncarrignon/culture-conf-poster.git
+[submodule "doc/cours/summerSchool/2016CSSS/tuto-data/jmotif-R"]
+	path = doc/cours/summerSchool/2016CSSS/tuto-data/jmotif-R
+	url = git@github.com:jMotif/jmotif-R.git
