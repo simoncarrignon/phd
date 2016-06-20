@@ -31,3 +31,12 @@
 [submodule "doc/cours/summerSchool/2016CSSS/tuto-data/jmotif-R"]
 	path = doc/cours/summerSchool/2016CSSS/tuto-data/jmotif-R
 	url = git@github.com:jMotif/jmotif-R.git
+[submodule "dev/trieste/tesseract"]
+	path = dev/trieste/tesseract
+	url = git@github.com:tesseract-ocr/tesseract.git
+[submodule "dev/trieste-lens"]
+	path = dev/trieste-lens
+	url = git@github.com:simoncarrignon/trieste-lens.git
+[submodule "dev/Lichen-s-project"]
+	path = dev/Lichen-s-project
+	url = git@github.com:ainaollevila/Lichen-s-project.git
