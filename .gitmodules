@@ -43,3 +43,6 @@
 [submodule "dev/ceeculture"]
 	path = dev/ceeculture
 	url = git@framagit.org:simoncarrignon/ceeculture.git
+[submodule "dev/csss-emerge"]
+	path = dev/csss-emerge
+	url = git@github.com:simoncarrignon/csss-emerge.git
