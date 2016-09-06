@@ -40,3 +40,6 @@
 [submodule "dev/Lichen-s-project"]
 	path = dev/Lichen-s-project
 	url = git@github.com:ainaollevila/Lichen-s-project.git
+[submodule "dev/ceeculture"]
+	path = dev/ceeculture
+	url = git@framagit.org:simoncarrignon/ceeculture.git

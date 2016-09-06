@@ -1,5 +1,7 @@
 # Compiled Object files
 Roborobo/*
+samson/classification/*
+samson/*.txt
 RoboroboOld/*
 *.slo
 *.lo
