@@ -1,0 +1,2600 @@
+
+
+_______EMBRYO 0_____________________________________
+Intracellular weights matrix:
+-1 1 
+1 -1 
+
+Intercellular weights matrix:
+-1 1 
+1 1 
+
+Thresholds vector:
+-1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 1_____________________________________
+Intracellular weights matrix:
+-1 -1 
+1 -1 
+
+Intercellular weights matrix:
+-1 -1 
+1 -1 
+
+Thresholds vector:
+-0.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.001000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 2_____________________________________
+Intracellular weights matrix:
+-1 1 
+1 1 
+
+Intercellular weights matrix:
+1 1 
+1 -1 
+
+Thresholds vector:
+-0.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 998
+)Which? -> 011 (998) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 011 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 3_____________________________________
+Intracellular weights matrix:
+1 -1 
+1 -1 
+
+Intercellular weights matrix:
+-1 1 
+-1 1 
+
+Thresholds vector:
+-1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 011 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 4_____________________________________
+Intracellular weights matrix:
+-1 1 
+-1 1 
+
+Intercellular weights matrix:
+1 1 
+1 -1 
+
+Thresholds vector:
+-1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 011 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 010 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 5_____________________________________
+Intracellular weights matrix:
+1 1 
+1 1 
+
+Intercellular weights matrix:
+1 -1 
+1 1 
+
+Thresholds vector:
+0.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 011 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 6_____________________________________
+Intracellular weights matrix:
+-1 1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 1 
+-1 -1 
+
+Thresholds vector:
+1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 7_____________________________________
+Intracellular weights matrix:
+-1 -1 
+1 -1 
+
+Intercellular weights matrix:
+1 -1 
+-1 -1 
+
+Thresholds vector:
+1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.001000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 8_____________________________________
+Intracellular weights matrix:
+-1 1 
+-1 1 
+
+Intercellular weights matrix:
+1 -1 
+-1 -1 
+
+Thresholds vector:
+1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 2 (Total = 996
+)Which? -> 000 (595) 001 (401) 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 000 001 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 9_____________________________________
+Intracellular weights matrix:
+1 -1 
+1 -1 
+
+Intercellular weights matrix:
+-1 1 
+-1 1 
+
+Thresholds vector:
+1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 2 (Total = 997
+)Which? -> 001 (519) 011 (478) 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 001 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 10_____________________________________
+Intracellular weights matrix:
+1 -1 
+-1 1 
+
+Intercellular weights matrix:
+-1 -1 
+-1 1 
+
+Thresholds vector:
+0.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 000 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 000 010 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 11_____________________________________
+Intracellular weights matrix:
+1 1 
+1 1 
+
+Intercellular weights matrix:
+1 -1 
+1 1 
+
+Thresholds vector:
+0.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 011 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 12_____________________________________
+Intracellular weights matrix:
+-1 -1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 -1 
+1 -1 
+
+Thresholds vector:
+-1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.001000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 13_____________________________________
+Intracellular weights matrix:
+-1 -1 
+1 1 
+
+Intercellular weights matrix:
+1 1 
+-1 1 
+
+Thresholds vector:
+-1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 14_____________________________________
+Intracellular weights matrix:
+1 -1 
+1 1 
+
+Intercellular weights matrix:
+-1 -1 
+1 1 
+
+Thresholds vector:
+-1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 998
+)Which? -> 001 (998) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 001 011 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 15_____________________________________
+Intracellular weights matrix:
+1 1 
+1 -1 
+
+Intercellular weights matrix:
+1 -1 
+1 1 
+
+Thresholds vector:
+-0.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 011 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 16_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 1 
+-1 1 
+
+Thresholds vector:
+-1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 2 (Total = 997
+)Which? -> 000 (476) 010 (521) 
+Unstable Cells (nº) = 3
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 000 010 
+
+Percentage of time with divisions: 0.999000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 17_____________________________________
+Intracellular weights matrix:
+-1 -1 
+1 1 
+
+Intercellular weights matrix:
+1 1 
+-1 1 
+
+Thresholds vector:
+-1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 18_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 -1 
+
+Intercellular weights matrix:
+1 -1 
+-1 1 
+
+Thresholds vector:
+1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 19_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 1 
+
+Intercellular weights matrix:
+1 1 
+-1 1 
+
+Thresholds vector:
+1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 998
+)Which? -> 011 (998) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 001 011 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 20_____________________________________
+Intracellular weights matrix:
+1 1 
+1 1 
+
+Intercellular weights matrix:
+1 -1 
+1 1 
+
+Thresholds vector:
+-1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 011 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 21_____________________________________
+Intracellular weights matrix:
+-1 -1 
+-1 -1 
+
+Intercellular weights matrix:
+1 -1 
+-1 -1 
+
+Thresholds vector:
+-1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 1000
+)Which? -> 010 (1000) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 010 
+
+Percentage of time with divisions: 0.999000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 22_____________________________________
+Intracellular weights matrix:
+-1 1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 1 
+1 1 
+
+Thresholds vector:
+-0.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 23_____________________________________
+Intracellular weights matrix:
+-1 1 
+1 1 
+
+Intercellular weights matrix:
+1 1 
+-1 -1 
+
+Thresholds vector:
+1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 2 (Total = 977
+)Which? -> 010 (938) 011 (39) 
+Unstable Cells (nº) = 21
+All Cells Appearing in the Lineage
+Total: 3
+Which? -> 001 010 011 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 24_____________________________________
+Intracellular weights matrix:
+-1 -1 
+1 -1 
+
+Intercellular weights matrix:
+-1 -1 
+-1 1 
+
+Thresholds vector:
+-0.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 25_____________________________________
+Intracellular weights matrix:
+1 -1 
+1 1 
+
+Intercellular weights matrix:
+1 1 
+-1 -1 
+
+Thresholds vector:
+0.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 997
+)Which? -> 000 (997) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 000 001 
+
+Percentage of time with divisions: 0.996000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 26_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 1 
+1 1 
+
+Thresholds vector:
+0.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 998
+)Which? -> 011 (998) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 010 011 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 27_____________________________________
+Intracellular weights matrix:
+-1 1 
+1 1 
+
+Intercellular weights matrix:
+-1 1 
+-1 1 
+
+Thresholds vector:
+-1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 011 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 28_____________________________________
+Intracellular weights matrix:
+1 -1 
+-1 -1 
+
+Intercellular weights matrix:
+1 1 
+1 1 
+
+Thresholds vector:
+-1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 985
+)Which? -> 011 (985) 
+Unstable Cells (nº) = 14
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 010 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 29_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 1 
+
+Intercellular weights matrix:
+-1 1 
+-1 -1 
+
+Thresholds vector:
+0.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.001000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 30_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 -1 
+1 -1 
+
+Thresholds vector:
+-0.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 2 (Total = 505
+)Which? -> 000 (3) 010 (502) 
+Unstable Cells (nº) = 495
+All Cells Appearing in the Lineage
+Total: 3
+Which? -> 000 001 010 
+
+Percentage of time with divisions: 0.999000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 31_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 -1 
+1 1 
+
+Thresholds vector:
+-1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 32_____________________________________
+Intracellular weights matrix:
+-1 1 
+-1 1 
+
+Intercellular weights matrix:
+1 1 
+1 1 
+
+Thresholds vector:
+1.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 000 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 000 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 33_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 -1 
+
+Intercellular weights matrix:
+1 -1 
+-1 1 
+
+Thresholds vector:
+0.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 34_____________________________________
+Intracellular weights matrix:
+-1 -1 
+-1 1 
+
+Intercellular weights matrix:
+-1 1 
+-1 -1 
+
+Thresholds vector:
+-0.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.001000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 35_____________________________________
+Intracellular weights matrix:
+-1 -1 
+-1 1 
+
+Intercellular weights matrix:
+-1 -1 
+1 1 
+
+Thresholds vector:
+-1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.001000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 36_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 1 
+
+Intercellular weights matrix:
+1 -1 
+-1 1 
+
+Thresholds vector:
+-1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 1000
+)Which? -> 010 (1000) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 010 
+
+Percentage of time with divisions: 0.999000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 37_____________________________________
+Intracellular weights matrix:
+1 -1 
+-1 -1 
+
+Intercellular weights matrix:
+1 1 
+-1 -1 
+
+Thresholds vector:
+0.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.001000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 38_____________________________________
+Intracellular weights matrix:
+-1 1 
+1 1 
+
+Intercellular weights matrix:
+-1 -1 
+1 -1 
+
+Thresholds vector:
+1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 998
+)Which? -> 000 (998) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 000 001 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 39_____________________________________
+Intracellular weights matrix:
+-1 1 
+-1 1 
+
+Intercellular weights matrix:
+-1 1 
+1 1 
+
+Thresholds vector:
+1.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 000 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 000 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 40_____________________________________
+Intracellular weights matrix:
+-1 1 
+1 -1 
+
+Intercellular weights matrix:
+1 1 
+1 1 
+
+Thresholds vector:
+1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 998
+)Which? -> 000 (998) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 000 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 41_____________________________________
+Intracellular weights matrix:
+1 -1 
+1 1 
+
+Intercellular weights matrix:
+-1 -1 
+-1 -1 
+
+Thresholds vector:
+0.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 2 (Total = 997
+)Which? -> 000 (476) 001 (521) 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 000 001 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 42_____________________________________
+Intracellular weights matrix:
+1 -1 
+1 -1 
+
+Intercellular weights matrix:
+1 1 
+-1 1 
+
+Thresholds vector:
+-1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 011 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 43_____________________________________
+Intracellular weights matrix:
+-1 1 
+1 -1 
+
+Intercellular weights matrix:
+-1 1 
+-1 1 
+
+Thresholds vector:
+-1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 44_____________________________________
+Intracellular weights matrix:
+-1 -1 
+1 1 
+
+Intercellular weights matrix:
+1 -1 
+-1 1 
+
+Thresholds vector:
+-0.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 45_____________________________________
+Intracellular weights matrix:
+-1 1 
+1 -1 
+
+Intercellular weights matrix:
+1 1 
+-1 -1 
+
+Thresholds vector:
+1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.001000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 46_____________________________________
+Intracellular weights matrix:
+-1 -1 
+1 -1 
+
+Intercellular weights matrix:
+-1 1 
+1 -1 
+
+Thresholds vector:
+1.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 000 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 000 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 47_____________________________________
+Intracellular weights matrix:
+1 1 
+1 -1 
+
+Intercellular weights matrix:
+-1 -1 
+1 -1 
+
+Thresholds vector:
+-1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 3 (Total = 430
+)Which? -> 000 (169) 001 (146) 011 (115) 
+Unstable Cells (nº) = 569
+All Cells Appearing in the Lineage
+Total: 3
+Which? -> 000 001 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 48_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 -1 
+
+Intercellular weights matrix:
+1 1 
+-1 -1 
+
+Thresholds vector:
+0.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 1000
+)Which? -> 010 (1000) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 010 
+
+Percentage of time with divisions: 0.999000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 49_____________________________________
+Intracellular weights matrix:
+1 -1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 1 
+-1 1 
+
+Thresholds vector:
+-1.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 2 (Total = 999
+)Which? -> 000 (474) 010 (525) 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 000 010 
+
+Percentage of time with divisions: 0.999000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 50_____________________________________
+Intracellular weights matrix:
+-1 1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 1 
+1 1 
+
+Thresholds vector:
+-1.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.001000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 51_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 1 
+
+Intercellular weights matrix:
+-1 1 
+-1 -1 
+
+Thresholds vector:
+0.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 000 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 000 010 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 52_____________________________________
+Intracellular weights matrix:
+1 -1 
+1 1 
+
+Intercellular weights matrix:
+1 1 
+1 1 
+
+Thresholds vector:
+1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 011 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 001 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 53_____________________________________
+Intracellular weights matrix:
+1 -1 
+-1 1 
+
+Intercellular weights matrix:
+1 1 
+1 1 
+
+Thresholds vector:
+-1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 011 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 54_____________________________________
+Intracellular weights matrix:
+-1 -1 
+1 1 
+
+Intercellular weights matrix:
+-1 1 
+-1 -1 
+
+Thresholds vector:
+-0.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.001000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 55_____________________________________
+Intracellular weights matrix:
+-1 1 
+-1 1 
+
+Intercellular weights matrix:
+1 1 
+-1 -1 
+
+Thresholds vector:
+1.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 000 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 000 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 56_____________________________________
+Intracellular weights matrix:
+-1 1 
+-1 -1 
+
+Intercellular weights matrix:
+1 -1 
+-1 1 
+
+Thresholds vector:
+-1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 1000
+)Which? -> 010 (1000) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 010 
+
+Percentage of time with divisions: 0.999000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 57_____________________________________
+Intracellular weights matrix:
+-1 1 
+1 -1 
+
+Intercellular weights matrix:
+1 1 
+1 -1 
+
+Thresholds vector:
+1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 998
+)Which? -> 000 (998) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 000 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 58_____________________________________
+Intracellular weights matrix:
+1 -1 
+-1 -1 
+
+Intercellular weights matrix:
+1 1 
+1 1 
+
+Thresholds vector:
+-1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 980
+)Which? -> 011 (980) 
+Unstable Cells (nº) = 19
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 010 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 59_____________________________________
+Intracellular weights matrix:
+-1 -1 
+1 1 
+
+Intercellular weights matrix:
+1 -1 
+-1 -1 
+
+Thresholds vector:
+-0.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 997
+)Which? -> 010 (997) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 001 010 
+
+Percentage of time with divisions: 0.996000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 60_____________________________________
+Intracellular weights matrix:
+-1 -1 
+1 1 
+
+Intercellular weights matrix:
+-1 1 
+-1 1 
+
+Thresholds vector:
+-1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 61_____________________________________
+Intracellular weights matrix:
+-1 1 
+-1 1 
+
+Intercellular weights matrix:
+-1 1 
+-1 -1 
+
+Thresholds vector:
+-0.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 62_____________________________________
+Intracellular weights matrix:
+-1 1 
+1 1 
+
+Intercellular weights matrix:
+1 -1 
+1 1 
+
+Thresholds vector:
+0.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 63_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 1 
+
+Intercellular weights matrix:
+1 -1 
+-1 -1 
+
+Thresholds vector:
+0.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 1000
+)Which? -> 010 (1000) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 010 
+
+Percentage of time with divisions: 0.999000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 64_____________________________________
+Intracellular weights matrix:
+1 -1 
+-1 -1 
+
+Intercellular weights matrix:
+1 1 
+1 1 
+
+Thresholds vector:
+0.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 983
+)Which? -> 011 (983) 
+Unstable Cells (nº) = 16
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 010 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 65_____________________________________
+Intracellular weights matrix:
+1 1 
+1 -1 
+
+Intercellular weights matrix:
+1 1 
+-1 1 
+
+Thresholds vector:
+-0.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 66_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 1 
+
+Intercellular weights matrix:
+-1 1 
+1 -1 
+
+Thresholds vector:
+0.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 998
+)Which? -> 011 (998) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 010 011 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 67_____________________________________
+Intracellular weights matrix:
+1 -1 
+1 -1 
+
+Intercellular weights matrix:
+-1 1 
+-1 -1 
+
+Thresholds vector:
+-0.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 2 (Total = 999
+)Which? -> 000 (592) 010 (407) 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 000 010 
+
+Percentage of time with divisions: 0.999000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 68_____________________________________
+Intracellular weights matrix:
+-1 -1 
+-1 1 
+
+Intercellular weights matrix:
+-1 -1 
+-1 -1 
+
+Thresholds vector:
+1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 2 (Total = 997
+)Which? -> 000 (580) 001 (417) 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 000 001 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 69_____________________________________
+Intracellular weights matrix:
+1 1 
+1 1 
+
+Intercellular weights matrix:
+-1 1 
+1 1 
+
+Thresholds vector:
+1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 998
+)Which? -> 011 (998) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 001 011 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 70_____________________________________
+Intracellular weights matrix:
+-1 -1 
+-1 1 
+
+Intercellular weights matrix:
+1 -1 
+-1 -1 
+
+Thresholds vector:
+-0.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 71_____________________________________
+Intracellular weights matrix:
+1 -1 
+1 1 
+
+Intercellular weights matrix:
+-1 1 
+1 -1 
+
+Thresholds vector:
+0.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 3 (Total = 996
+)Which? -> 001 (508) 010 (482) 011 (6) 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 3
+Which? -> 001 010 011 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 72_____________________________________
+Intracellular weights matrix:
+-1 1 
+1 -1 
+
+Intercellular weights matrix:
+1 -1 
+-1 -1 
+
+Thresholds vector:
+0.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 73_____________________________________
+Intracellular weights matrix:
+1 1 
+1 1 
+
+Intercellular weights matrix:
+1 1 
+1 -1 
+
+Thresholds vector:
+0.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 011 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 74_____________________________________
+Intracellular weights matrix:
+1 -1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 1 
+-1 1 
+
+Thresholds vector:
+-1.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 2 (Total = 999
+)Which? -> 000 (478) 010 (521) 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 000 010 
+
+Percentage of time with divisions: 0.999000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 75_____________________________________
+Intracellular weights matrix:
+1 -1 
+-1 1 
+
+Intercellular weights matrix:
+-1 1 
+1 1 
+
+Thresholds vector:
+1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 2 (Total = 998
+)Which? -> 001 (524) 011 (474) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 001 011 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 76_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 1 
+1 -1 
+
+Thresholds vector:
+1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 77_____________________________________
+Intracellular weights matrix:
+1 -1 
+-1 1 
+
+Intercellular weights matrix:
+1 1 
+-1 -1 
+
+Thresholds vector:
+1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 010 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 001 010 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 78_____________________________________
+Intracellular weights matrix:
+1 -1 
+1 1 
+
+Intercellular weights matrix:
+-1 -1 
+1 -1 
+
+Thresholds vector:
+-1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 3 (Total = 665
+)Which? -> 000 (259) 001 (365) 011 (41) 
+Unstable Cells (nº) = 333
+All Cells Appearing in the Lineage
+Total: 3
+Which? -> 000 001 011 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 79_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 1 
+1 -1 
+
+Thresholds vector:
+-1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.001000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 80_____________________________________
+Intracellular weights matrix:
+-1 1 
+1 1 
+
+Intercellular weights matrix:
+-1 -1 
+-1 -1 
+
+Thresholds vector:
+-1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 2
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.001000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 81_____________________________________
+Intracellular weights matrix:
+1 1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 -1 
+1 -1 
+
+Thresholds vector:
+0.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 82_____________________________________
+Intracellular weights matrix:
+-1 -1 
+-1 1 
+
+Intercellular weights matrix:
+1 1 
+1 1 
+
+Thresholds vector:
+1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 2 (Total = 987
+)Which? -> 001 (16) 011 (971) 
+Unstable Cells (nº) = 12
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 001 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 83_____________________________________
+Intracellular weights matrix:
+1 -1 
+1 1 
+
+Intercellular weights matrix:
+-1 1 
+-1 1 
+
+Thresholds vector:
+-0.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 011 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 84_____________________________________
+Intracellular weights matrix:
+1 -1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 1 
+1 -1 
+
+Thresholds vector:
+-1.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 2 (Total = 990
+)Which? -> 001 (450) 010 (540) 
+Unstable Cells (nº) = 10
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 001 010 
+
+Percentage of time with divisions: 0.999000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 85_____________________________________
+Intracellular weights matrix:
+-1 1 
+1 -1 
+
+Intercellular weights matrix:
+1 1 
+1 1 
+
+Thresholds vector:
+-1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 011 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 86_____________________________________
+Intracellular weights matrix:
+1 -1 
+1 -1 
+
+Intercellular weights matrix:
+1 -1 
+1 -1 
+
+Thresholds vector:
+0.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 998
+)Which? -> 000 (998) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 000 010 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 87_____________________________________
+Intracellular weights matrix:
+-1 1 
+-1 1 
+
+Intercellular weights matrix:
+1 -1 
+-1 -1 
+
+Thresholds vector:
+-1.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 1000
+)Which? -> 010 (1000) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 010 
+
+Percentage of time with divisions: 0.999000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 88_____________________________________
+Intracellular weights matrix:
+-1 -1 
+-1 -1 
+
+Intercellular weights matrix:
+-1 -1 
+1 -1 
+
+Thresholds vector:
+1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 89_____________________________________
+Intracellular weights matrix:
+-1 -1 
+1 1 
+
+Intercellular weights matrix:
+1 -1 
+1 -1 
+
+Thresholds vector:
+-1.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 90_____________________________________
+Intracellular weights matrix:
+1 1 
+1 1 
+
+Intercellular weights matrix:
+1 -1 
+-1 1 
+
+Thresholds vector:
+0.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 011 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 011 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 91_____________________________________
+Intracellular weights matrix:
+-1 1 
+1 -1 
+
+Intercellular weights matrix:
+-1 -1 
+1 -1 
+
+Thresholds vector:
+0.500000 -0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 92_____________________________________
+Intracellular weights matrix:
+1 1 
+1 1 
+
+Intercellular weights matrix:
+-1 -1 
+-1 -1 
+
+Thresholds vector:
+-0.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 3 (Total = 993
+)Which? -> 000 (577) 010 (16) 011 (400) 
+Unstable Cells (nº) = 5
+All Cells Appearing in the Lineage
+Total: 3
+Which? -> 000 010 011 
+
+Percentage of time with divisions: 0.997000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 93_____________________________________
+Intracellular weights matrix:
+-1 1 
+-1 1 
+
+Intercellular weights matrix:
+1 1 
+1 -1 
+
+Thresholds vector:
+0.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 000 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 000 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 94_____________________________________
+Intracellular weights matrix:
+-1 -1 
+-1 1 
+
+Intercellular weights matrix:
+-1 1 
+1 1 
+
+Thresholds vector:
+1.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 000 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 000 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 95_____________________________________
+Intracellular weights matrix:
+-1 -1 
+1 1 
+
+Intercellular weights matrix:
+-1 -1 
+-1 -1 
+
+Thresholds vector:
+0.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 000 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 000 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 96_____________________________________
+Intracellular weights matrix:
+-1 -1 
+-1 -1 
+
+Intercellular weights matrix:
+1 1 
+-1 -1 
+
+Thresholds vector:
+-0.500000 0.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 97_____________________________________
+Intracellular weights matrix:
+1 -1 
+1 1 
+
+Intercellular weights matrix:
+-1 1 
+-1 1 
+
+Thresholds vector:
+-1.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 2 (Total = 1000
+)Which? -> 000 (477) 010 (523) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 2
+Which? -> 000 010 
+
+Percentage of time with divisions: 0.999000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 98_____________________________________
+Intracellular weights matrix:
+-1 -1 
+-1 1 
+
+Intercellular weights matrix:
+1 1 
+-1 -1 
+
+Thresholds vector:
+-1.500000 -1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 0 (Total = 0
+)Which? -> 
+Unstable Cells (nº) = 1
+All Cells Appearing in the Lineage
+Total: 0
+Which? -> 
+
+Percentage of time with divisions: 0.000000
+Stopping Condition: TIME
+__________________________________________________________
+
+
+
+_______EMBRYO 99_____________________________________
+Intracellular weights matrix:
+1 -1 
+1 -1 
+
+Intercellular weights matrix:
+1 -1 
+-1 1 
+
+Thresholds vector:
+1.500000 1.500000 
+
+Cells End of Simulation
+Stable Cell Types: 1 (Total = 999
+)Which? -> 000 (999) 
+Unstable Cells (nº) = 0
+All Cells Appearing in the Lineage
+Total: 1
+Which? -> 000 
+
+Percentage of time with divisions: 0.998000
+Stopping Condition: TIME
+__________________________________________________________
+
