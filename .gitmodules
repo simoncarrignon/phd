@@ -46,3 +46,9 @@
 [submodule "dev/csss-emerge"]
 	path = dev/csss-emerge
 	url = git@github.com:simoncarrignon/csss-emerge.git
+[submodule "dev/pandora"]
+	path = dev/pandora
+	url = git@github.com:xrubio/pandora.git
+[submodule "dev/abc-pandora"]
+	path = dev/abc-pandora
+	url = git@framagit.org:simoncarrignon/abc-pandora.git
