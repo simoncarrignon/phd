@@ -1,0 +1,39 @@
+I am working in a project with historians, and archaeologist that are studying this :
+
+The Monte Testaccio. Basically, it is a garbage of amphora used during the Roman Empire,  where the olive oil amphora destinated to Rome where thrown.
+From this garbage historians try to understand how How the Roman Empire was working.
+
+
+How they do that?
+
+Imagine that in the future find one a nowadays garbage. What you will do to understand our economy and social interaction?
+
+You can simply look at what is in the garbage and count it.
+
+From that, and other historical assumpation you made on the history, you can draw hypothesis and theories about what the social mechanism (who where drinking with who, what, when, how much) and the economical activity *who where selling to whom, how much,...) can lead to the distribution we observed in the gargbage.
+
+This is what historians do
+
+We my team we use the assumption and the hypothesis made by the historian to do a model to quantitative test this hypothese and assumption.
+
+
+This allow us first of all to clearly define the hypothese and assumption amde at any level of the system, and allso to use and mix knowledge, comming from different fieald of research (archaeology, psychologye, hsitrocal sources..)
+
+Once we do that, we simulate our model in computer, puting some incertaintity, then we look if the output of our model fit with known historical and archaelogical observation and we can try to understand where come from the difference. Are the assumption, the hypothesis or theorie we use that were wrong? the data we look?
+
+This is what we do to help our understanding of historical process with computer,
+
+But if we look back to our model and the kind of system it describe, We see a particular structure : there is human product that is part to some social activity in this case the wine, wine, the one you like, with who you will drink it. And given this social activity (let says that in group of friend some famous one start to say this wine is better let's drink that)  impact the economic activity. 
+
+This kind o finteraction can be generalize to a lot of different human product. Such as The tool you use to hunt, but also they way you buy, or sell action in the market. All those three things hav ein common that given how people use it, it  can deeply impact the economic activity.
+
+You can resume such system like taht, with the Social, that I call Cultural level where an activity (such as who copy who and how) impact an economical elvel. And in turn, this modification in your economy that will in turn, modify the cultural activity.
+
+O is the system I will study during my Phd, trying to look at what are the important properties of such system, what kind of economy the produce and how they impact the evolution of our culture? 
+
+this is the kind of question I want to explore, by comparing theorietical model and what we know from the Roman Empire.
+
+
+
+
+
