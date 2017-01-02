@@ -37,9 +37,6 @@
 [submodule "dev/trieste-lens"]
 	path = dev/trieste-lens
 	url = git@github.com:simoncarrignon/trieste-lens.git
-[submodule "dev/Lichen-s-project"]
-	path = dev/Lichen-s-project
-	url = git@github.com:ainaollevila/Lichen-s-project.git
 [submodule "dev/ceeculture"]
 	path = dev/ceeculture
 	url = git@framagit.org:simoncarrignon/ceeculture.git
