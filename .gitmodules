@@ -52,3 +52,6 @@
 [submodule "dev/Lichen-s-project"]
 	path = dev/Lichen-s-project
 	url = git@github.com:ainaollevila/Lichen-s-project.git
+[submodule "doc/YSLR_Manchester"]
+	path = doc/YSLR_Manchester
+	url = git@github.com:Mcotsar/YSLR_Manchester.git
