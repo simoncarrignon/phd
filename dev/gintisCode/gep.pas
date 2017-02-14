@@ -341,15 +341,16 @@ begin
 	Halt;
     end;
     SetLength(GSGoodIndex,GSNumGoods+1);
-    R := MinElSubst + (MaxElSubst-MinElSubst)*Random;
-    GSGamma := (R-1)/R;
+    R := MinElSubst + (MaxElSubst-MinElSubst)*Random; {generate a new elasticity between minelsubst and maxelsubst}
+    GSGamma := (R-1)/R;{compute gamma}
     SetLength(GSShare,1+GSNumGoods);
     R := 0;
-    for I := 1 to GSNumGoods do begin
+    for I := 1 to GSNumGoods do begin  {initialize the weight for eahc good in the segment}
 	GSShare[I] := Random;
 	R := R + GSShare[I];
     end;
-    for I := 1 to GSNumGoods do GSShare[I] := GSShare[I]/R;
+    for I := 1 to GSNumGoods do GSShare[I] := GSShare[I]/R;{normalize weight for each good so: sum(weight) = 1 }
+
 end;
 
 Destructor GoodsSegment.Free;
@@ -359,7 +360,7 @@ begin
     inherited Destroy;
 end;
 
-Procedure GoodsSegment.GetOptimalDemandForSegment;
+Procedure GoodsSegment.GetOptimalDemandForSegment; {Compute the optimal demand for the each good of one segment follow eq (7)}
 var
     I,J,K : Integer;
     R : Real;
@@ -369,12 +370,12 @@ begin
     for I := 1 to GSNumGoods do SetLength(F[I],GSNumGoods+1);
     for I := 1 to GSNumGoods do
 	for J := 1 to GSNumGoods do
-	    F[I,J] := Power(GSShare[J]/(GSShare[I]),1/(1-GSGamma));
+	    F[I,J] := Power(GSShare[J]/(GSShare[I]),1/(1-GSGamma)); 
 	for I := 1 to GSNumGoods do begin
 	    R := 0;
 	    for J := 1 to GSNumGoods do R := R + F[I,J];
 	    K := GSGoodIndex[I];
-	    Workers[GSOwner].WDemand[K] := Workers[GSOwner].ShareSeg[GSSegNumber]/R;
+	    Workers[GSOwner].WDemand[K] := Workers[GSOwner].ShareSeg[GSSegNumber]/R; { bizarre les prix disparaisse entre ces equations et (7) ET (8)R=( }
 	end;
 	F := nil;
     end;
@@ -401,18 +402,24 @@ begin
     Delta := 1/(1+Rho);
     EZ := InitialEZ;
     Employed := False;
-    NumSegments := Random(NumGoods div 2);
+    NumSegments := Random(NumGoods div 2); {initialize the number of segment [1,ngoods/2]}
+
     if NumSegments = 0 then Inc(NumSegments);
+
     SetLength(Segments,NumSegments+1);
-    SetLength(ShareSeg,NumSegments+1);
+    SetLength(ShareSeg,NumSegments+1); 
     TShare := 0;
     for J := 1 to NumSegments do begin
 	ShareSeg[J] := Random;
-	TShare := TShare + ShareSeg[J];
+	TShare := TShare + ShareSeg[J]; 
     end;
-    for J := 1 to NumSegments do ShareSeg[J] := ShareSeg[J]/TShare;
+
+    for J := 1 to NumSegments do ShareSeg[J] := ShareSeg[J]/TShare;	{sum(ShareSeg)=1}
+
     SetLength(Shuffle,1+NumSegments);
+
     for J := 1 to NumSegments do Shuffle[J] := 2;
+
     for J := 1 to NumGoods-2*NumSegments do
 	Inc(Shuffle[1+Random(NumSegments)]);
     for J := 1 to NumSegments do
@@ -420,22 +427,22 @@ begin
     SetLength(Shuffle,NumGoods+1);
     for J := 1 to NumGoods do Shuffle[J] := J;
     for J := 1 to NumSegments do 
-    for K := 1 to Segments[J].GSNumGoods do begin
-	L := 1 + Random(NumGoods);
-	while Shuffle[L] = 0 do begin
-	    Inc(L);
-	    if L > NumGoods then L := 1;
-	end;
-	Segments[J].GSGoodIndex[K] := L;
-	Shuffle[L] := 0;
-    end;
+    	for K := 1 to Segments[J].GSNumGoods do begin
+    	    L := 1 + Random(NumGoods);
+    	    while Shuffle[L] = 0 do begin
+    	        Inc(L);
+    	        if L > NumGoods then L := 1;
+    	    end;
+    	    Segments[J].GSGoodIndex[K] := L;
+    	    Shuffle[L] := 0;
+    	end;
     SetLength(NumProbes,NumGoods+1);
     for J := 1 to NumGoods do
 	NumProbes[J] := MinProbes + Random(MaxProbes-MinProbes);
     SetLength(OptimalConsumption,NumGoods+1);
     Shuffle := nil;
 end;
-
+;
 Destructor Worker.Free;
 var
     I : Integer;
@@ -779,7 +786,7 @@ begin
     Goods[J].Employ(K,WIndex,Firms[J,K].CEffort)
 end;
 
-Function Worker.ConsumptionUtility : Real;
+Function Worker.ConsumptionUtility : Real; {ShareSeg = f it's not a function (a power function) but a WEIGHT}
 var
     R,R1 : Real;
     I : Integer;
@@ -1334,9 +1341,9 @@ begin
 	Exit;
     end;
     if Form1.ShockBox.Checked then InitialEZ := 40
-    // If this is too high, it takes forever for U to fall below 5%
+    {// If this is too high, it takes forever for U to fall below 5%
     // If this is too low (e.g., 1.5->1), there is lots of price dispersion
-    //  I don't know why.
+    //  I don't know why.}
 else  InitialEZ := UnemploymentWage*3*Random/Rho;
 end;
 
@@ -1345,7 +1352,7 @@ begin
     BeatsFallback := Offer > Rho*EZ*(1-TaxRate);
 end;
 
-Procedure GoodsSegment.GSGetDemand;
+Procedure GoodsSegment.GSGetDemand; {equation (7) to determine the value x_i that a agent will ask. ;WPrices= p_i; ShareSeg=f_i; GSShare=alpha_i}
 var
     I,J : Integer;
     R : Real;
@@ -1360,9 +1367,9 @@ begin
 		for I := 1 to GSNumGoods do begin
 		    R := 0;
 		    for J := 1 to GSNumGoods do
-			R := R + F[I,J]*Workers[GSOwner].WPrice[GSGoodIndex[J]];
+			R := R + F[I,J]*Workers[GSOwner].WPrice[GSGoodIndex[J]]; {Down aprt of 7}
 		    Workers[GSOwner].WDemand[GSGoodIndex[I]] :=
-		    Workers[GSOwner].Wealth*Workers[GSOwner].ShareSeg[GSSegNumber]/R;
+		    Workers[GSOwner].Wealth*Workers[GSOwner].ShareSeg[GSSegNumber]/R; 
 		end;
 		F := nil;
 	    end;
@@ -1389,8 +1396,7 @@ else begin
     R := 0;
     for I := 1 to GSNumGoods do
 	if Workers[GSOwner].WDemand[GSGoodIndex[I]] > 0 then
-	    R := R +
-	GSShare[I]*Power(Workers[GSOwner].WDemand[GSGoodIndex[I]],GSGamma);
+	    R := R + GSShare[I]*Power(Workers[GSOwner].WDemand[GSGoodIndex[I]],GSGamma);
 	R1 := R;
 	if R > 0 then R := Power(R,1/GSGamma)
     end;
@@ -1906,6 +1912,7 @@ begin
 	UnemploymentWageBox.Text := Format('%*.*f',[6,2,UnemploymentWage]);
 end;
 
+{
 // Optimal Effort is calculated as follows.
 // OptimalEmployees = KStar = 35.
 // The Product from a unit of Effort = Sqrt(1+0.1*Capital)
@@ -1930,6 +1937,7 @@ end;
 // If workers were homogeneous in the disutility of effort (actually,
     //   this varies from 0.0015 to 0.0025), optimal effort would maximize
     //   Effort*Sqrt(1.67) - (0.002)/(1-Effort).This gives POptimalEffort;
+    }
     Procedure FindOptimalEffort;
 begin
     OptimalEffort := 1-Sqrt(((AXMin+AXMax)/2)/Sqrt(1.67));
