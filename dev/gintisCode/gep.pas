@@ -371,14 +371,14 @@ begin
     for I := 1 to GSNumGoods do
 	for J := 1 to GSNumGoods do
 	    F[I,J] := Power(GSShare[J]/(GSShare[I]),1/(1-GSGamma)); 
-	for I := 1 to GSNumGoods do begin
+    for I := 1 to GSNumGoods do begin
 	    R := 0;
 	    for J := 1 to GSNumGoods do R := R + F[I,J];
 	    K := GSGoodIndex[I];
 	    Workers[GSOwner].WDemand[K] := Workers[GSOwner].ShareSeg[GSSegNumber]/R; { bizarre les prix disparaisse entre ces equations et (7) ET (8)R=( }
-	end;
-	F := nil;
     end;
+    F := nil;
+end;
 
     Constructor Worker.Init(I : Integer);
 var
@@ -1364,15 +1364,14 @@ begin
 	for J := 1 to GSNumGoods do
 	    F[I,J] := Power(GSShare[J]*Workers[GSOwner].WPrice[GSGoodIndex[I]]/
 		(GSShare[I]*Workers[GSOwner].WPrice[GSGoodIndex[J]]),1/(1-GSGamma));
-		for I := 1 to GSNumGoods do begin
-		    R := 0;
-		    for J := 1 to GSNumGoods do
-			R := R + F[I,J]*Workers[GSOwner].WPrice[GSGoodIndex[J]]; {Down aprt of 7}
-		    Workers[GSOwner].WDemand[GSGoodIndex[I]] :=
-		    Workers[GSOwner].Wealth*Workers[GSOwner].ShareSeg[GSSegNumber]/R; 
-		end;
-		F := nil;
-	    end;
+    for I := 1 to GSNumGoods do begin
+    	R := 0;
+    	for J := 1 to GSNumGoods do
+		R := R + F[I,J]*Workers[GSOwner].WPrice[GSGoodIndex[J]]; {Down aprt of 7}
+    	Workers[GSOwner].WDemand[GSGoodIndex[I]] := Workers[GSOwner].Wealth*Workers[GSOwner].ShareSeg[GSSegNumber]/R; 
+    end;
+	F := nil;
+end;
 
 var
     GS,R1,R2,R3 : Real;
@@ -1397,7 +1396,7 @@ else begin
     for I := 1 to GSNumGoods do
 	if Workers[GSOwner].WDemand[GSGoodIndex[I]] > 0 then
 	    R := R + GSShare[I]*Power(Workers[GSOwner].WDemand[GSGoodIndex[I]],GSGamma);
-	R1 := R;
+	R1 := R; {useless?}
 	if R > 0 then R := Power(R,1/GSGamma)
     end;
     GSUtility := R;
@@ -1815,7 +1814,7 @@ begin
     //Todo: Figure out why R1 > 1 in some cases
     for J := 1 to NumWorkers do begin
 	R1 := Workers[J].ConsumptionUtility/Workers[J].OptimalUtility;
-	if R1 < 1 then R := R + R1;
+	if R1 < 1 then R := R + R1; {jsute utile pour calculer la moyenne de cette utilité normalizé}
     end;
     EfficiencyAve.Add(R/NumWorkers);
     with ReportForm do if Visible then begin
