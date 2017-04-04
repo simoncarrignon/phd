@@ -52,3 +52,6 @@
 [submodule "doc/YSLR_Manchester"]
 	path = doc/YSLR_Manchester
 	url = git@github.com:Mcotsar/YSLR_Manchester.git
+[submodule "doc/conferences/201709_CCS/ecc17"]
+	path = doc/conferences/201709_CCS/ecc17
+	url = https://framagit.org/sc/ecc17
