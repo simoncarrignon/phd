@@ -147,7 +147,7 @@ plotNetwork<-function(connexion,city=""){
 	output=cbind(outPoints+sort(outWeigth),names(outWeigth[order(outWeigth)]))
 
 
-	plot(input[,1],rep(1,length(inPoints)),cex=sort(inWeigth)/max(inWeigth)*40,bty="n",ylim=c(-2.2,2),xlim=c(-10,215),col=alpha("dark green",0.5),pch=20,xaxt="n",xlab="",yaxt="n", ylab="")
+	plot(input[,1],rep(1,length(inPoints)),cex=sort(inWeigth)/max(inWeigth)*40,bty="n",ylim=c(-2.2,2),col=alpha("dark green",0.5),pch=20,xaxt="n",xlab="",yaxt="n", ylab="")
 	text(input[,1],rep(1.03,length(inPoints))+(sort(inWeigth)/max(inWeigth))/1.4,label=names(inWeigth[order(inWeigth)]),cex=.4,srt=300,c(1,1))
 	points(output[,1],rep(-1,length(outPoints)),cex=sort(outWeigth)/max(outWeigth)*40,col=alpha("dark orange",0.5),pch=20)
 	text(output[,1],(rep(-1.01,length(outPoints))-(sort(outWeigth)/max(outWeigth))/1.4),label=names(outWeigth[order(outWeigth)]),cex=.4,srt=60,adj=c(1,1))
