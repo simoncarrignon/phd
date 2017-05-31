@@ -58,3 +58,6 @@
 [submodule "dev/wine-competition"]
 	path = dev/wine-competition
 	url = git@framagit.org:sc/wine-competition.git
+[submodule "dev/mn_tools"]
+	path = dev/mn_tools
+	url = bsc21394@nord3.bsc.es:~/mn_tools.git
