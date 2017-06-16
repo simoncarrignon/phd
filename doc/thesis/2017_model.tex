@@ -1,5 +1,5 @@
 \documentclass[a4paper]{article}
-\usepackage[margin=1.2in]{geometry}
+\usepackage[margin=0.2in]{geometry}
 %\usepackage{fontspec}
 
 
@@ -25,6 +25,37 @@ Le model se decline en deux version:
     \item Une verison dans laquelle  les agents doivent se emttre d'accords sur des prix qui permettent à tous de maximiser leur fonction d'utilité (unique)
 \end{itemize}
 
+	%%\includegraphics[width=.8\textwidth]{../images/RandRvsRandom100Agents4goods.pdf}\\  All those image are deleted as they where showing result using a bad social learning mechanism
+	%%\includegraphics[width=.8\textwidth]{../images/RandRvsRandom200Agents4goods.pdf}\\
+	%%\includegraphics[width=.8\textwidth]{../images/RandRvsRandom300Agents4goods.pdf}\\
+	%%\includegraphics[width=.8\textwidth]{../images/RandRvsRandom400Agents4goods.pdf}\\
+	%%\includegraphics[width=.8\textwidth]{../images/RandRvsRandom500Agents4goods.pdf}
 
+	\begin{itemize}
+	    \item  Social process: 
+		\begin{itemize}
+		    \item Social Learning
+			\begin{itemize}
+			    \item copymin : the is the one we use
+			    \item copymax : should not change so much but eh ocnsumtion shoudl be diffiernt
+			\end{itemize}
+		    \item Innovation: random mutation $\mu$
+		\end{itemize}
+		
+	z    \item  Economic process:
+		\begin{itemize}
+		    \item prices initialization:
+			\begin{itemize}
+			    \item gintis,
+			    \item random= optimal price at the begining are U(0,1) 
+			    \item randn= optimal price at the begining are normalised to ONE
+			\end{itemize}
+		    \item evaluation function: this should be the function that we somehow been used afterward by social process (copmin/copmax)
+		    \item Exchange Rules 
+			\begin{itemize}
+			    \item Accept only the need and no more : $\leftarrow$ Do the comparaison because it would be better to NOT have that (avoid the use of the need when doing the exchange ie less information)
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
 \end{document}
 
