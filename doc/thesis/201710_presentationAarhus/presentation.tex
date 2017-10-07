@@ -1,12 +1,20 @@
-%% February 2017, 
+%%%Presnetation for Aarhus, 11 October 2017
 
 \documentclass[12pt, notes=show]{beamer}
+
 \usetheme[width=0cm]{Goettingen}
 \usecolortheme{rose}
 \useoutertheme{default}
 \setbeamerfont{caption}{size=\scriptsize}
 \setbeamertemplate{navigation symbols}{}
 
+%%change default colors
+\definecolor{UPF}{RGB}{200,16,46}
+\setbeamercolor{title}{fg=UPF}
+\setbeamercolor{frametitle}{fg=UPF}
+\setbeamercolor{structure}{fg=UPF}
+
+%%To remove upper and lower beamer pane and add number of page
 \addtobeamertemplate{navigation symbols}{}{%
 	\usebeamerfont{footline}%
 	\usebeamercolor[fg]{footline}%
@@ -18,6 +26,7 @@
 \usepackage{fontspec} 
 \setsansfont{Futura LT}
 
+\usepackage{array}
 
 \usepackage{arydshln}
 \usepackage{amsmath}
@@ -27,19 +36,34 @@
 \usepackage{mathtools}
 \usepackage{multirow}
 \usepackage{caption}
-\usepackage{array}
 \usepackage{listings}
+
+\usepackage[beamer,customcolors]{hf-tikz}
+\usepackage{tabularx}
+\usepackage{colortbl}
+
+%%Tikz command used to annotate table
+%
+\newcounter{nodecount}
+
+\newcolumntype{g}{>{\columncolor{red}}c}
+
+\newcommand\tabnode[1]{%
+    \addtocounter{nodecount}{1}%
+    \tikz[remember picture,overlay]\node[inner sep=0pt] (\thenodecount) {#1};}
+%
+%%%%%%%%%%
 
 
 
 \title{
-	An agent-based model of trade in the East Roman Empire (25BC-150AC) \\
-	Quantify the impact of social interaction on economic trends in the East Roman Empire (25BC-150AC)
+	An agent-based model of trade in the Roman East (25BC-150AD) \\
+	{\small Impact of social interactions on economic trends}
 }
 
-\institute{Jerash Workshop,\\ Aarhus, Octobre 2017}
+\institute{UrbNet seminar series\\ Aarhus, Octobre 2017}
 
-\author{Simon Carrignon}
+\author{Simon Carrignon, Tom Brughmans \& Iza Romanowska}
 
 \date{
 	\scriptsize
@@ -70,7 +94,7 @@
 \begin{frame}{ICRATES}
     \footnotesize
     \vspace{.5cm}
-Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
+Change in distribution of Tableware in the  Roman East, 25BC 150AD:
     \begin{itemize}
 	\item 5 types of wares 
 	\item Distribution among 222 sites
@@ -83,39 +107,43 @@ Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
      
  \end{figure}
  \begin{center}
-     \tiny other info: Site with different number of good
+     \tiny other info: Site with different number of goods
  \end{center}
 \end{frame}
 
-\begin{frame}{Brughman and Poblome}
-    Study of 
-    \begin{itemize}
-	\item Economic interactions
-    \end{itemize}
+
+
+\begin{frame}{}
+    \centering
+    \Huge
+    \bf
+    What can explain those patterns?
 \end{frame}
 
+\begin{frame}{Structure of Economy}
+    Brughmans \& Poblome (2016) Antiquity
+    \begin{itemize}
+	\item<1-> Nature of Economic interactions
+	\begin{center}
+		\uncover<2->{\includegraphics[width=.6\textwidth]{images/poblomeMarket}}
+	\end{center}
+    \end{itemize}
+    \uncover<3->{$\rightarrow$ weak market integration \emph{cannot} reproduce the observed pattern}
+\end{frame}
 
-%\begin{frame}{Cultural Evolution}
-%    Social Traits:
-%    \begin{center}
-%	\begin{table}
-%	    \center
-%	    \begin{tabular}{ccc}
-%		\uncover<2->{\includegraphics[height=3cm]{images/m80}} &
-%		\uncover<3->{\includegraphics[height=3cm]{images/m90}} &
-%		\uncover<4->{\includegraphics[height=3cm]{images/m10}} \\
-%		\uncover<2->{80's} & \uncover<3->{90's} & \uncover<4->{now}
-%	    \end{tabular}
-%	\end{table}
-%    \end{center}
-%    \uncover<5->{How they Evolve?}\uncover<6>{ Cultural Evolution }
-%\end{frame}
+\begin{frame}{Another approach}
+    \huge
+    \centering
+    Integrate social-cultural mechanism to those economic interactions.
+    
+\end{frame}
+
 
 
 \begin{frame}{Cultural Evolution}
     \begin{itemize}
-	\item<5->{ culturally transmitted, socially learnt}
-	\item<6->{ similar patterns}
+	\item<5->{ similar patterns}
+	\item<6->{ apparition/disappearance of new trends,fluctuations\dots}
     \end{itemize}
 	\begin{center}
 		\uncover<4->{\includegraphics[width=3cm]{images/cutdog}}\\
@@ -124,19 +152,22 @@ Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
 	    \hspace{1cm}
 	    \uncover<3->{ \includegraphics[width=2cm]{images/pottery}}
 	\end{center}
-    \uncover<7>{$\rightarrow$ What mechanism drive the evolution of such traits?\\
-    \invisible<1->{$\rightarrow$ What mechanism }generate such pattern?}
 \end{frame}
 
-\begin{frame}{What Generate Those Cultural changes?}
-	Simple social mechanisms (Bentley et al, 2004):\\
-	Steel et al.
+\begin{frame}{What Generates Those Cultural changes?}
+    $\rightarrow$ What mechanisms drive the evolution of such traits?\\
+    \invisible<1->{$\rightarrow$ What mechanisms }generate such pattern?
+
+	Social-cultural mechanisms:\\
 	\begin{itemize}
-		\item<2->Random Copy 
-		\item<3-> Frequency biased (conformist/anti-conformist\dots)
-		\item<4->\dots	
+	    \item<2->Individual learning: I learn by my own error or I suddenly have a new idea (\emph{ie} ``innovation''). 
+		\item<3-> Social learning : I learn by exchanging with the other or by watching them. 
 	\end{itemize}
-	\uncover<2>{\begin{figure}
+\end{frame}
+
+\begin{frame}{Contemporary Examples}
+	Distribution of names in the US (Bentley et al, 2004):\\
+	\uncover<2->{\begin{figure}
 		\begin{columns}
 			\begin{column}{.8\textwidth}
 				\centering
@@ -153,12 +184,44 @@ Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
 	    \end{figure}}
 \end{frame}
 
+\begin{frame}{Archaeological Examples}
+	Non-functional attribute  of ceramics (Steele et al, 2010):\\
+	\uncover<2->{\begin{figure}
+		\begin{columns}
+			\begin{column}{.7\textwidth}
+				\centering
+				\uncover<4->{	\includegraphics[width=1\textwidth]{images/steeletal2010Distrib.jpg}}
+			\end{column}
+			\begin{column}{.3\textwidth}
+			    \uncover<3->{\includegraphics[width=1\textwidth]{images/steeletal2010rim}\\\vspace{.5cm}
+				\tiny Distribution of variants for different bowl types given some slight diff. on the rim
+			    }
+			\end{column}
+		\end{columns}
+	    \end{figure}}
+\end{frame}
+\begin{frame}{``Neutral'' model }
+    Assumes :
+    \begin{itemize}
+	\item no functional difference
+	\item negligible economic cost 
+	    \begin{itemize}
+		\item production cost
+		\item importation cost
+		\item \dots
+
+	    \end{itemize}
+	\item no preferences (prestige\dots)
+    \end{itemize}
+    
+\end{frame}
+
 \section{Economic Traits}
 
 
 \begin{frame}
 	\begin{center}
-	    What if such mechanisms act on traits linked to economics?
+	    What if such mechanisms act on traits explicitly linked to economics?
 	\end{center}
 \end{frame}
 
@@ -185,15 +248,37 @@ Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
 	    \only<7>{\includegraphics[width=\textwidth]{images/map7.png}}
 	    \only<8>{\includegraphics[width=\textwidth]{images/map8.png}}
 	    \only<9>{\includegraphics[width=\textwidth]{images/map9.png}}
-	    %\only<10>{\includegraphics[width=\textwidth]{images/map10.png}}
-	    %\only<11>{\includegraphics[width=\textwidth]{images/graph1.png}}
-	    %\only<12>{\includegraphics[width=\textwidth]{images/graph2.png}}
-	    %\only<13>{\includegraphics[width=\textwidth]{images/graph3.png}}
 	\end{overlayarea}
 
     \end{center}
 \end{frame}
 
+\begin{frame}{Another Example}
+	\begin{center}
+	    \only<1>{\includegraphics[width=.8\textwidth]{images/boubou1.png}}
+	    \only<2>{\includegraphics[width=.8\textwidth]{images/boubou4.png}}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Co-evolution of Economy and Culture}
+
+%How Simple Cultural Dynamics influence Economy That in turn will influence cultural dynamics.
+    \vspace{2cm}
+    \begin{center}
+	\begin{overlayarea}{\textwidth}{\textheight}
+	    \only<1>{\includegraphics[width=\textwidth]{images/mapBis1}}
+	    \only<2>{\includegraphics[width=\textwidth]{images/mapBis2}}
+	    \only<3>{\includegraphics[width=\textwidth]{images/map3bBis}}
+	    \only<4>{\includegraphics[width=\textwidth]{images/mapBis3}}
+	    \only<5>{\includegraphics[width=\textwidth]{images/mapBis4}}
+	    \only<6>{\includegraphics[width=\textwidth]{images/mapBis6}}
+	    \only<7>{\includegraphics[width=\textwidth]{images/mapBis7}}
+	    \only<8>{\includegraphics[width=\textwidth]{images/mapBis8}}
+	    \only<9>{\includegraphics[width=\textwidth]{images/mapBis9}}
+	\end{overlayarea}
+
+    \end{center}
+\end{frame}
 
 
 \section{ABM Framework}
@@ -216,9 +301,9 @@ Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
 	\begin{itemize}
 	\item Different Cultural Mechanisms
     \vfill
-	\item Different Trade Assumption
+	\item Different Trade assumption
     \vfill
-	\item Historical and Archaeological Evidences 
+	\item Historical and Archaeological evidences 
     \vfill
 	\item Network Constraints
     \vfill
@@ -228,10 +313,6 @@ Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
 \end{frame}
 	
 \begin{frame}{Agent Based Model}
-    Inpsired by economists doing ACE (Agent-based Computation Economics):
-    \begin{center}
-	Gintis 2007, 2009, Gintis \& Mantel 2012, Chen et al. 2017\dots 
-    \end{center}
     
     \begin{itemize}
 	\item Simple decentralized economy
@@ -242,7 +323,7 @@ Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
 \end{frame}
 
 
-\begin{frame}{Results: Economic Dynamics}
+\begin{frame}{Economic Dynamics}
 	\begin{figure}
 	    \caption{Example for 3 goods and 500 agents}
 	    \begin{columns}
@@ -256,25 +337,10 @@ Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
 
 
 
-\begin{frame}{Model as a starting point}
- Understand interaction between social learning and trade: example from the past
- \vfil
- \begin{itemize}
-     \item Historical Case Study
- \vfil
-     \item Archaeological evidences
- \end{itemize}
-
- %   Compare it to Historical Case studies
-    
-\end{frame}
-
-
-
-\begin{frame}{Historical Case Study}
+\begin{frame}{ICRATES}
     \footnotesize
     \vspace{.5cm}
-Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
+Change in distribution of Tableware in the  Roman East, -25BC 150AD:
     \begin{itemize}
 	\item 5 types of wares 
 	\item Distribution among 222 sites
@@ -286,227 +352,280 @@ Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
      \includegraphics[width=.45\textwidth]{../images/plotNbSiteWGoodData.pdf}
      
  \end{figure}
- \begin{center}
-     \tiny other info: Site with different number of good
- \end{center}
 \end{frame}
 
 \begin{frame}{Specification of the model}
-    Calibrate the simulation:
     \begin{itemize}
-	\item 1000 agents
-	\item 5 goods (+money) to appear 
-	\item 200 ``cultural'' steps 
-	\item 3000 ``trade'' steps ($15\times200$)
-	\item every 40 cultural steps (ie $600$ trade step) a new good appears.
-	\item $\approx 35min$
+	\item Integrate historical knowledge: \\
+	$\rightarrow$ Calibrate the model to produce more ``realistic'' simulations
+	    \begin{itemize}
+		\item 5 different types of good introduce one after this other
+		\item Agents are markets of urban settlements
+		\item Number of agents based on historical estimations
+	    \end{itemize}
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}{Individual vs Social learning}
+
+    We can now precise: \textbf{individual} vs \textbf{social}  learning\\
+    \begin{itemize}
+	\item<2-> agents are markets,
+	\item<3-> \textbf{individual} learning (innovation): \\
+	    \uncover<4->{ \hspace{.5cm} $\rightarrow$ the capacity of a market to generate new solutions by itself (internal changes, interactions within a market: \emph{ie} \textbf{creativity}) } 
+	\item<5-> \textbf{social} learning (cultural transfer): \\
+	    \uncover<6->{ \hspace{.5cm} $\rightarrow$ the tendency of a market to copy another (better) one (interactions, communication between markets: \emph{ie} \textbf{openness}) }
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Experimental framework}
 Individual  vs Social learning  ( $\mu$ vs $\lambda$ )
     \begin{itemize}
-	\item Test change in $\mu$ the innovation rate (``I randomly change a price'')\\
+	\item $\mu \rightarrow$ increase individual learning (``a settlement decides to change the value of a ware'')\\
 	    \hspace{.2cm} $\mu \in \{0.001,0.01,0.1,1\}$
-	\item Test change in $\lambda$, factor to increase the proba. to copy someone better than me\\
+	\item $\lambda\rightarrow$ increase the proba. to copy a more successful settlement\\
 	    \hspace{.2cm} $\lambda \in \{0.0001,0.001,0.01,0.1,1,10\}$
-	\item ( also $\mu$ amplitude, \emph{ie} amplitude of price change when I decide to do so, not shown here)
 	\item  $ 6 \times 4 = 24$ setup, 50s simulation each
     \end{itemize}
 \end{frame}
 
+
 \begin{frame}{Result}
-    Check how changes modify general properties:
+    1200 Simulations for different pairs of parameters.
     \begin{table}
 	\centering
-	\begin{tabular}{c m{2.5cm}c m{2.5cm}}
-	    \multicolumn{2}{c}{\vspace{-1cm}\tiny Quantities at the end} &\multicolumn{2}{c}{\tiny prices at the end}\\
-	    \multirow{1}{2.5cm}{\includegraphics[height=2.5cm]{../images/QuantitieMuCopyAll.pdf}} &
-	    \vspace{1cm}   \includegraphics[height=1.5cm]{../images/QuantitieCopyAll.pdf}&
-	    \multirow{1}{2.5cm}{\includegraphics[height=2.5cm]{../images/PriceMuCopyAll.pdf}} &
-	    \vspace{1cm} \includegraphics[height=1.5cm]{../images/PriceCopyAll.pdf} \\
-	    &	\includegraphics[height=1.5cm]{../images/QuantitieMuAll.pdf}&	&\includegraphics[height=1.5cm]{../images/PriceMuAll.pdf}\\
+
+	\begin{tabular}{rr|cccc}
+	    & &\multicolumn{4}{c}{ $\mu$ } \\
+	    & & $0.001$ & $0.01$ & $0.1$ & $1$ \\ \hline
+	    \multirow{6}{*}{$\lambda$} 
+	    & 0.0001	& $\times50$ & $\times50$ & $\times50$ & $\times50$ \\
+	    & 0.001	& $\times50$ & $\times50$ & $\times50$ & $\times50$ \\
+	    & 0.01	& $\times50$ & $\times50$ & $\times50$ & $\times50$ \\
+	    & 0.1	& $\times50$ & $\times50$ & $\times50$ & $\times50$ \\
+	    & 1		& $\times50$ & $\times50$ & $\times50$ & $\times50$ \\
+	    & 10	& $\times50$ & $\times50$ & $\times50$ & $\times50$ 
 	\end{tabular}
     \end{table}
-   
-    \vspace{-1.5cm}
+
+\end{frame}
+
+\begin{frame}{Result}
+
+    \tikzset{
+	every picture/.style={remember picture,baseline},
+	every node/.style={
+	    inner sep=0pt,
+	    anchor=base,
+	    minimum width=1.8cm,
+	    align=center,
+	    text depth=.25ex,
+	outer sep=1.5pt},
+	every path/.style={
+	    thick, 
+	    rounded corners
+	}
+    }  
+    1200 Simulations for different pairs of parameters.
 
     \begin{table}
+	\center
+	\begin{tabular}{rrcccc}
+	    & &\multicolumn{4}{c}{ creativity } \\
+	    & &\multicolumn{1}{|c}{\tiny $--$ } & \multicolumn{2}{c}{ \tiny \dots }& \tiny $++$ \\\cline{2-6}
+	    \multirow{6}{*}{\rotatebox[origin=c]{90}{openness}} 
+	    & \multirow{2}{*}{\tiny $--$}
+	    		& \multicolumn{1}{|c}{$\times50$ } & $\times50$ & $\times50$ & $\times50$ \\
+			& 		& \multicolumn{1}{|c}{$\times50$ } & $\times50$ & $\times50$ & \tabnode{$\times50$} \\
+	    & \multirow{2}{*}{\tiny \dots}
+	    		& \multicolumn{1}{|c}{$\times50$ } & $\times50$ & $\times50$ & $\times50$ \\
+	    & 		& \multicolumn{1}{|c}{$\times50$ } & $\times50$ & $\times50$ & $\times50$ \\
+	    & \multirow{2}{*}{\tiny $++$}
+	    		& \multicolumn{1}{|c}{$\times50$ } & $\times50$ & $\times50$ & $\times50$ \\
+			& 	& \multicolumn{1}{|c}{ \tabnode{$\times50$} } & $\times50$ & $\times50$ & $\times50$ 
+	\end{tabular}
+    \end{table}
 
-     \tiny Scores at the end
-	\begin{tabular}{c m{2.5cm}}
-	   \multirow{2}{2.5cm}{\includegraphics[height=2.5cm]{../images/ScoreMuCopyAll.pdf}} &
-	   \vspace{1cm}\includegraphics[height=1.5cm]{../images/ScoreCopyAll.pdf}\\
-	    & \includegraphics[height=1.5cm]{../images/ScoreMuAll.pdf} \\
+    \begin{tikzpicture}[remember picture,overlay]
+	\draw<2-> (1) ellipse (.42cm and .33cm) [red];
+	\node<3->[right=.5cm,minimum width=0pt,red] at (1) (A) {ExpB};
+	\draw<4-> (2) ellipse (.42cm and .33cm) [red];
+	\node<5->[below=.5cm,minimum width=0pt,red] at (2) (B) {ExpG};
+	\end{tikzpicture}
+\end{frame}
+
+\begin{frame}{Exemple}
+    \small
+    \centering
+    \begin{table}
+	\begin{tabular}{ccc}
+	    Data 	&  ExpG {\tiny ($\lambda=0.001,\mu=1$)} &  ExpB {\tiny ($\lambda=10,\mu=0.001$)}   \\
+	    \includegraphics[width=.3\textwidth]{images/hmData.pdf}	&
+	    \includegraphics[width=.3\textwidth]{images/hmGoodSimu.pdf}	&
+	    \includegraphics[width=.3\textwidth]{images/hmBadSimu.pdf}	\\
+	    \includegraphics[width=.3\textwidth]{images/plotData.pdf}	&
+	    \includegraphics[width=.3\textwidth]{images/plotGoodSimu.pdf}	&
+	    \includegraphics[width=.3\textwidth]{images/plotBadSimu.pdf}	\\
+
 	\end{tabular}
     \end{table}
 \end{frame}
 
-\begin{frame}{Number of site with good 'N'}
-    \small
-Data \hfill Exp1 \hfill Exp2 \hfill Expe3 
-	\includegraphics[width=\textwidth]{../images/hmNbSiteWGoodN.pdf}\\
-	\includegraphics[width=\textwidth]{../images/plotNbSiteWGoodN.pdf}\\
-\end{frame}
 
-\begin{frame}{Number of site with 'N' different goods}
+\begin{frame}{Compare Simulations with Data}
     \centering
-    \tiny
- Exp1 \hfill Exp2 \hfill Expe3 
-	\includegraphics[width=.95\textwidth]{../images/hmNbGoodPerSite.pdf}\\
-	\vfil
-	\includegraphics[width=.95\textwidth]{../images/plotNbGoodPerSite.pdf}\\
-\end{frame}
+	    Data\\
+	    \includegraphics<1>[width=.3\textwidth]{images/plotData.pdf}  
+	    \includegraphics<2-4>[width=.3\textwidth]{images/plotData1.pdf}
+	    \includegraphics<5-7>[width=.3\textwidth]{images/plotData2.pdf}
+	    \includegraphics<8-10>[width=.3\textwidth]{images/plotData3.pdf}
+	    \includegraphics<11-13>[width=.3\textwidth]{images/plotData4.pdf}
+	    \includegraphics<14-16>[width=.3\textwidth]{images/plotData5.pdf}
+	    \includegraphics<17->[width=.3\textwidth]{images/plotData.pdf}  
+
+	\begin{tabular}{cc}
+	    ExpG & ExpB\\
+	    \includegraphics<1>[width=.3\textwidth]{images/plotGoodSimu.pdf}  
+
+	    \includegraphics<2>[width=.3\textwidth]{images/plotGoodSimu1A.pdf}
+	    \includegraphics<3>[width=.3\textwidth]{images/plotGoodSimu1B.pdf}
+	    \includegraphics<4>[width=.3\textwidth]{images/plotGoodSimu1C.pdf}
+
+	    \includegraphics<5>[width=.3\textwidth]{images/plotGoodSimu2A.pdf}
+	    \includegraphics<6>[width=.3\textwidth]{images/plotGoodSimu2B.pdf}
+	    \includegraphics<7>[width=.3\textwidth]{images/plotGoodSimu2C.pdf}
+
+	    \includegraphics<8>[width=.3\textwidth]{images/plotGoodSimu3A.pdf}
+	    \includegraphics<9>[width=.3\textwidth]{images/plotGoodSimu3B.pdf}
+	    \includegraphics<10>[width=.3\textwidth]{images/plotGoodSimu3C.pdf}
+
+	    \includegraphics<11>[width=.3\textwidth]{images/plotGoodSimu4A.pdf}
+	    \includegraphics<12>[width=.3\textwidth]{images/plotGoodSimu4B.pdf}
+	    \includegraphics<13>[width=.3\textwidth]{images/plotGoodSimu4C.pdf}
+
+	    \includegraphics<14>[width=.3\textwidth]{images/plotGoodSimu5A.pdf}
+	    \includegraphics<15>[width=.3\textwidth]{images/plotGoodSimu5B.pdf}
+	    \includegraphics<16>[width=.3\textwidth]{images/plotGoodSimu5C.pdf}
+
+	    \includegraphics<17>[width=.3\textwidth]{images/plotGoodSimu.pdf}  
+	    \includegraphics<18>[width=.3\textwidth]{images/plotGoodSimuEnd.pdf}  
+
+	    &
+
+	    \includegraphics<1>[width=.3\textwidth]{images/plotBadSimu.pdf}  
+
+	    \includegraphics<2>[width=.3\textwidth]{images/plotBadSimu1A.pdf}
+	    \includegraphics<3>[width=.3\textwidth]{images/plotBadSimu1B.pdf}
+	    \includegraphics<4>[width=.3\textwidth]{images/plotBadSimu1C.pdf}
+
+	    \includegraphics<5>[width=.3\textwidth]{images/plotBadSimu2A.pdf}
+	    \includegraphics<6>[width=.3\textwidth]{images/plotBadSimu2B.pdf}
+	    \includegraphics<7>[width=.3\textwidth]{images/plotBadSimu2C.pdf}
+
+	    \includegraphics<8>[width=.3\textwidth]{images/plotBadSimu3A.pdf}
+	    \includegraphics<9>[width=.3\textwidth]{images/plotBadSimu3B.pdf}
+	    \includegraphics<10>[width=.3\textwidth]{images/plotBadSimu3C.pdf}
+
+	    \includegraphics<11>[width=.3\textwidth]{images/plotBadSimu4A.pdf}
+	    \includegraphics<12>[width=.3\textwidth]{images/plotBadSimu4B.pdf}
+	    \includegraphics<13>[width=.3\textwidth]{images/plotBadSimu4C.pdf}
+
+	    \includegraphics<14>[width=.3\textwidth]{images/plotBadSimu5A.pdf}
+	    \includegraphics<15>[width=.3\textwidth]{images/plotBadSimu5B.pdf}
+	    \includegraphics<16>[width=.3\textwidth]{images/plotBadSimu5C.pdf}
+
+	    \includegraphics<17>[width=.3\textwidth]{images/plotBadSimu.pdf}  
+	    \includegraphics<18>[width=.3\textwidth]{images/plotBadSimuEnd.pdf}  
+	    \\
+
+	    \tiny
+	    $\uncover<4->{\Delta_{ExpG} = A} \uncover<7->{ + B}\uncover<10->{ + C}\uncover<13->{ + D}\uncover<16->{ + E} \uncover<18->{ \approx 31} $ & 
+	    \tiny 
+	    $\uncover<4->{\Delta_{ExpB} = A'} \uncover<7->{ + B'}\uncover<10->{ + C'}\uncover<13->{ + D'}\uncover<16->{ + E'} \uncover<18->{ \approx 42} $ 
 
 
-\begin{frame}{Impact of Social Learning }
- RDSendLine   The copy probability (\emph{ie} Chen's intensity of choice)
-    $$\mu = 0.001$$
-    $$\lambda  in \{0.0001,0.001,0.01,0.1,1,10\}$$
-    \begin{center}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-1_mu0.001-copy0.0001}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-2_mu0.001-copy0.001}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-3_mu0.001-copy0.01}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-4_mu0.001-copy0.1}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-5_mu0.001-copy1}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-6_mu0.001-copy10}}}
-    \end{center}
 
-    \begin{center}
-	\includegraphics[height=2cm]{{{../images/plot/plot-1_mu0.001-copy0.0001}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-2_mu0.001-copy0.001}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-3_mu0.001-copy0.01}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-4_mu0.001-copy0.1}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-5_mu0.001-copy1}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-6_mu0.001-copy10}}}
-    \end{center}
-\end{frame}
 
-\begin{frame}{Impact of Social Learning}
-    The copy probability (\emph{ie} Chen's intensity of choice)
-    $$\mu = 1$$
-    $$\lambda \in \{0.0001,0.001,0.01,0.1,1,10\}$$
-    \begin{center}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-19_mu1-copy0.0001}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-20_mu1-copy0.001}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-21_mu1-copy0.01}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-22_mu1-copy0.1}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-23_mu1-copy1}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-24_mu1-copy10}}}
-    \end{center}
 
-    \begin{center}
-	\includegraphics[height=2cm]{{{../images/plot/plot-19_mu1-copy0.0001}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-20_mu1-copy0.001}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-21_mu1-copy0.01}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-22_mu1-copy0.1}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-23_mu1-copy1}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-24_mu1-copy10}}}
-    \end{center}
-\end{frame}
-
-\begin{frame}{Impact innovation rate}
-    The mutation rate (\emph{ie} internal innovation rate, random change of a price)
-    $$\mu \in \{0.001,0.01,0.1,1\}$$
-    $$\lambda = 0.0001$$
-    \begin{center}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-1_mu0.001-copy0.0001}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-7_mu0.01-copy0.0001}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-13_mu0.1-copy0.0001}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-19_mu1-copy0.0001}}}
-    \end{center}
-
-    \begin{center}
-	\includegraphics[height=2cm]{{{../images/plot/plot-1_mu0.001-copy0.0001}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-7_mu0.01-copy0.0001}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-13_mu0.1-copy0.0001}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-19_mu1-copy0.0001}}}
-    \end{center}
-\end{frame}
-
-\begin{frame}{Impact innovation rate}
-    The mutation rate (\emph{ie} internal innovation rate, random change of a price)
-    $$\mu \in \{0.001,0.01,0.1,1\}$$
-    $$\lambda = 10$$
-    \begin{center}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-6_mu0.001-copy10}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-12_mu0.01-copy10}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-18_mu0.1-copy10}}}
-	\includegraphics[height=2cm]{{{../images/heatmap/heatMap-24_mu1-copy10}}}
-    \end{center}
-
-    \begin{center}
-	\includegraphics[height=2cm]{{{../images/plot/plot-6_mu0.001-copy10}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-12_mu0.01-copy10}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-18_mu0.1-copy10}}}
-	\includegraphics[height=2cm]{{{../images/plot/plot-24_mu1-copy10}}}
-    \end{center}
-
-\end{frame}
-
-\begin{frame}{Hidden changes}
-	Means of non normal distributions!
-
-	change of the whole \emph{distribution}  of how the simulations end, not just moving the mean 
-	\begin{center}
-	    $\rightarrow$ Some parameters lead to totally differents simulations, other no
-	\end{center}
+	\end{tabular}
 	
 
     \end{frame}
 
-\begin{frame}{Distribution of simulations output}
-    \tiny
+\begin{frame}{Distribution of simulations scores}
+    \begin{center}
+	\includegraphics[width=.65\textwidth]{images/histScore.pdf}\\
+    \end{center}
+\end{frame}
 
-	\begin{table}
-	    \begin{tabular}{m{2.1cm}m{2.1cm}m{2.1cm}m{2.1cm}}
-		expe & general & distrib $1Goods$ & distrib $5Goods$ \\
-		mu0.001-copy0.0001 & 
+\begin{frame}{Distribution of simulations scores}
+    \begin{center}
+	\includegraphics[width=.65\textwidth]{images/histScoreGB.pdf}\\
+    \end{center}
+\end{frame}
 
-		\includegraphics[height=2cm]{{{../images/plot/plot-1_mu0.001-copy0.0001}}} &
-		\includegraphics[height=2cm]{{{../images/distrib-1goods-9000timstep-exp1_mu0.001-copy0.0001}}} &
-		\includegraphics[height=2cm]{{{../images/distrib-5goods-9000timstep-exp1_mu0.001-copy0.0001}}} \\
+\begin{frame}{Compare pairs of parameters}
 
-		mu0.01-copy0.0001 & 
+    \begin{center}
+	\includegraphics[width=.65\textwidth]{images/histScoreBest.pdf}\\
+    \end{center}
+    We select only the simulations ``more similar'' to the data.
+\end{frame}
 
-		\includegraphics[height=2cm]{{{../images/plot/plot-7_mu0.01-copy0.0001}}} &
-		\includegraphics[height=2cm]{{{../images/distrib-1goods-9000timstep-exp7_mu0.01-copy0.0001}}} &
-		\includegraphics[height=2cm]{{{../images/distrib-5goods-9000timstep-exp7_mu0.01-copy0.0001}}} \\
+\begin{frame}{Compare pairs of parameters}
+    For each pairs of parameters, we count how many simulations fall within this ``more similar'' threshold.
+    \begin{figure}
+	\includegraphics[width=.4\textwidth]{images/heatmapSimu}\\
+	\centering
+    \end{figure}
 
+    \uncover<2->{Interpretation?
+    \begin{itemize}
+	\item <3-> Model not satisfying yet.
+	\item <4-> \textcolor{UPF}{Very limited}
+	\item <5-> But\dots
+    \end{itemize}
+}
+\end{frame}
 
-		mu0.001-copy10 & 
-
-		\includegraphics[height=2cm]{{{../images/plot/plot-6_mu0.001-copy10}}} &
-		\includegraphics[height=2cm]{{{../images/distrib-1goods-9000timstep-exp6_mu0.001-copy10}}} &
-		\includegraphics[height=2cm]{{{../images/distrib-5goods-9000timstep-exp6_mu0.001-copy10}}} \\
-
-		mu0.01-copy10 & 
-
-		\includegraphics[height=2cm]{{{../images/plot/plot-12_mu0.01-copy10}}} &
-		\includegraphics[height=2cm]{{{../images/distrib-1goods-9000timstep-exp12_mu0.01-copy10}}} &
-		\includegraphics[height=2cm]{{{../images/distrib-5goods-9000timstep-exp12_mu0.01-copy10}}} \\
-
-	    \end{tabular}
-	\end{table}
+\begin{frame}{Interpretation}
+    \begin{figure}
+	\includegraphics[width=.65\textwidth]{images/heatmapSimuProba.pdf}\\
+	\centering
+    \end{figure}
 
 \end{frame}
 
-\begin{frame}{Approximate Bayesian Computation}
-    We can compute for each simulation of a given set of parameter the distance to the data.
-    Thus we can know for which value of parameters our model is the more probable to reproduce the real data.
-\end{frame}
+
+%%%TODO
+%\begin{frame}{Limitation}
+%    (beside the fact that the model isn't satisfying us yet)\\
+%    A way to compare hypothese:\\
+%    \hspace{1cm}Previous example: 
+%    \begin{itemize}
+%	\item All assumptions can change those results
+%	    \begin{itemize}
+%		\item How we defined when ``a experiment \emph{reproduce} the data''
+%		\item The data we are using
+%
+%	    \end{itemize}
+%    \end{itemize}
+%
+%\end{frame}
+
 
 
 \begin{frame}
 	\begin{center}
-		Thank for you attention!\\
+		Thank you for you attention\\
 %		What was the nature of Roman economy?\\
+		\vspace{.5cm}
 		\includegraphics[width=2cm]{images/LOGO-ERC.jpg} \hfil	\includegraphics[width=3cm]{../../logos/epnetLogo.png}\\
-		\vspace{1cm}
+		\includegraphics[width=3cm]{images/leverhulme}\\
+		\vspace{.5cm}
 		\scriptsize
 			http://www.roman-ep.net/\\
-			@epnetproject\\
-			fb.com/EPNetProject\\
 			@simoncarrignon
 	\end{center}
 
