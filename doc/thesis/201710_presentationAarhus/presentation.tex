@@ -70,13 +70,11 @@
 	\begin{columns}
 		\begin{column}{.3\textwidth}
 			\begin{center}
-				Barcelona Supercomputing Center	\\
 				\includegraphics[height=1cm]{../../logos/bscLogo.jpg} \hspace{2cm}
 			\end{center}
 		\end{column}
 		\begin{column}{.3\textwidth}
 			\begin{center}
-				Univ. Pompeu Fabra Complex System Lab.\\
 				\includegraphics[height=1cm]{../../logos/upf_word_imp.jpg} %declare logo image with an alias here 
 			\end{center}
 		\end{column}
@@ -95,11 +93,20 @@
     \footnotesize
     \vspace{.5cm}
 Change in distribution of Tableware in the  Roman East, 25BC 150AD:
-    \begin{itemize}
-	\item 5 types of wares 
-	\item Distribution among 222 sites
-	\item 5121 ware dataset
- \end{itemize}
+\begin{columns}
+    \begin{column}{.5\textwidth}
+	\begin{itemize}
+	    \item 5 types of wares 
+	    \item Distribution among 222 sites
+	    \item 5121 ware dataset
+	\end{itemize}
+    \end{column}
+    \begin{column}{.5\textwidth}
+	\centering
+	\includegraphics[width=.4\textwidth]{images/ESA_Metmuseum.jpg}
+	
+    \end{column}
+\end{columns}
 
  \begin{figure}
      \includegraphics[width=.45\textwidth]{../images/hmNbSiteWGoodData.pdf}
@@ -132,9 +139,14 @@ Change in distribution of Tableware in the  Roman East, 25BC 150AD:
 \end{frame}
 
 \begin{frame}{Another approach}
-    \huge
-    \centering
-    Integrate social-cultural mechanism to those economic interactions.
+     Integrate social-cultural mechanisms to economic interactions:
+    \uncover<2->{
+	\begin{center}
+	    The cultural evolution approach
+	\end{center}
+    }
+
+
     
 \end{frame}
 
@@ -158,11 +170,23 @@ Change in distribution of Tableware in the  Roman East, 25BC 150AD:
     $\rightarrow$ What mechanisms drive the evolution of such traits?\\
     \invisible<1->{$\rightarrow$ What mechanisms }generate such pattern?
 
-	Social-cultural mechanisms:\\
+    \vspace{1cm}
+
+    \uncover<2->{Social-cultural mechanisms:\\}
 	\begin{itemize}
-	    \item<2->Individual learning: I learn by my own error or I suddenly have a new idea (\emph{ie} ``innovation''). 
-		\item<3-> Social learning : I learn by exchanging with the other or by watching them. 
+	    \item<3->Individual learning: I learn by my own error - I suddenly have a new idea (\emph{ie} ``innovation''). 
+		\item<4-> Social learning : I learn by exchanging with the other - by watching them. 
 	\end{itemize}
+\end{frame}
+
+\begin{frame}{Neutral Model}
+    Inspired by evolutionary biology:
+    \begin{itemize}
+	\item<2->Individual learning: random innovation
+	\item<3-> Social learning : random/biased copy of something existing
+    \end{itemize}
+
+    
 \end{frame}
 
 \begin{frame}{Contemporary Examples}
@@ -186,32 +210,34 @@ Change in distribution of Tableware in the  Roman East, 25BC 150AD:
 
 \begin{frame}{Archaeological Examples}
 	Non-functional attribute  of ceramics (Steele et al, 2010):\\
-	\uncover<2->{\begin{figure}
+	\begin{figure}
 		\begin{columns}
 			\begin{column}{.7\textwidth}
 				\centering
-				\uncover<4->{	\includegraphics[width=1\textwidth]{images/steeletal2010Distrib.jpg}}
+				\uncover<3->{	\includegraphics[width=1\textwidth]{images/steeletal2010Distrib.jpg}}
 			\end{column}
 			\begin{column}{.3\textwidth}
-			    \uncover<3->{\includegraphics[width=1\textwidth]{images/steeletal2010rim}\\\vspace{.5cm}
+			    \uncover<2->{\includegraphics[width=1\textwidth]{images/steeletal2010rim}\\\vspace{.5cm}
 				\tiny Distribution of variants for different bowl types given some slight diff. on the rim
 			    }
 			\end{column}
 		\end{columns}
-	    \end{figure}}
+	    \end{figure}
 \end{frame}
+
+
 \begin{frame}{``Neutral'' model }
     Assumes :
     \begin{itemize}
-	\item no functional difference
-	\item negligible economic cost 
+	\item<+-> no functional difference
+	\item<+-> negligible economic cost 
 	    \begin{itemize}
-		\item production cost
-		\item importation cost
-		\item \dots
+		\item<+-> production cost
+		\item<+-> importation cost
+		\item<+-> \dots
 
 	    \end{itemize}
-	\item no preferences (prestige\dots)
+	\item<+-> no preference (prestige\dots)
     \end{itemize}
     
 \end{frame}
@@ -221,7 +247,9 @@ Change in distribution of Tableware in the  Roman East, 25BC 150AD:
 
 \begin{frame}
 	\begin{center}
-	    What if such mechanisms act on traits explicitly linked to economics?
+	    \bf
+	    \Huge
+	    What if such mechanisms are explicitly linked to economics?
 	\end{center}
 \end{frame}
 
@@ -355,38 +383,43 @@ Change in distribution of Tableware in the  Roman East, -25BC 150AD:
 \end{frame}
 
 \begin{frame}{Specification of the model}
-    \begin{itemize}
-	\item Integrate historical knowledge: \\
+    \textcolor{UPF}{\textbf{1.}\Huge}  Integrate historical knowledge: \\
 	$\rightarrow$ Calibrate the model to produce more ``realistic'' simulations
 	    \begin{itemize}
-		\item 5 different types of good introduce one after this other
+		\item 5 different types of good 
+		\item Goods appear one after this other
 		\item Agents are markets of urban settlements
 		\item Number of agents based on historical estimations
 	    \end{itemize}
-    \end{itemize}
     
 \end{frame}
 
 \begin{frame}{Individual vs Social learning}
 
-    We can now precise: \textbf{individual} vs \textbf{social}  learning\\
+    %We can now precise: \textbf{individual} vs \textbf{social}  learning\\
+	Agents as markets of urban settlements:
     \begin{itemize}
-	\item<2-> agents are markets,
-	\item<3-> \textbf{individual} learning (innovation): \\
-	    \uncover<4->{ \hspace{.5cm} $\rightarrow$ the capacity of a market to generate new solutions by itself (internal changes, interactions within a market: \emph{ie} \textbf{creativity}) } 
-	\item<5-> \textbf{social} learning (cultural transfer): \\
-	    \uncover<6->{ \hspace{.5cm} $\rightarrow$ the tendency of a market to copy another (better) one (interactions, communication between markets: \emph{ie} \textbf{openness}) }
+	\item<2-> \textbf{individual} learning (innovation): \\
+	    \uncover<3->{ \hspace{.5cm} $\rightarrow$ the capacity of a market to generate new solutions by itself (internal changes, interactions within a market: \emph{ie} \textbf{creativity}) } 
+	\item<4-> \textbf{social} learning (cultural transfer): \\
+	    \uncover<5->{ \hspace{.5cm} $\rightarrow$ the tendency of a market to copy another (better) one (interactions, communication between markets: \emph{ie} \textbf{openness}) }
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Experimental framework}
-Individual  vs Social learning  ( $\mu$ vs $\lambda$ )
+
+\textcolor{UPF}{\textbf{2.}\Huge}
+\uncover<+->{Experimental setup, test the importance of those factors:}
     \begin{itemize}
-	\item $\mu \rightarrow$ increase individual learning (``a settlement decides to change the value of a ware'')\\
-	    \hspace{.2cm} $\mu \in \{0.001,0.01,0.1,1\}$
-	\item $\lambda\rightarrow$ increase the proba. to copy a more successful settlement\\
-	    \hspace{.2cm} $\lambda \in \{0.0001,0.001,0.01,0.1,1,10\}$
-	\item  $ 6 \times 4 = 24$ setup, 50s simulation each
+	\item<+-> 	    \textbf{Individual learning}/creativity: ``a settlement decides to change the value of a ware''\\
+	    \uncover<+->{$\mu \rightarrow$ increase the probability of creating a new solution\\}
+
+	    \uncover<+->{\hspace{.2cm} $\mu \in \{0.001,0.01,0.1,1\}$}
+	\item<+-> 	    \textbf{Social learning}/openness:``a market decide to copy another, more successful market''\\
+	    \uncover<+->{$\lambda\rightarrow$ increase the probability to copy a more successful settlement\\}
+
+	    \uncover<+->{\hspace{.2cm} $\lambda \in \{0.0001,0.001,0.01,0.1,1,10\}$}
+	\item<+->  $ 6 \times 4 = 24$ setup, 50s simulation each
     \end{itemize}
 \end{frame}
 
