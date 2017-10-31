@@ -461,13 +461,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35355339"
-     inkscape:cx="37.989998"
-     inkscape:cy="1241.2377"
+     inkscape:cx="248.65899"
+     inkscape:cy="1058.9146"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="995"
+     inkscape:window-width="1366"
+     inkscape:window-height="718"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
@@ -493,7 +493,8 @@
        inkscape:label="graph2"
        style="display:inline;fill:#709ecf"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/simon/cooev.png">
       <rect
          x="-158.00958"
          y="-45.854012"
@@ -621,7 +622,7 @@
              y="236.80679"
              x="-593.18317"
              id="tspan60338-3-2-3"
-             sodipodi:role="line">Cultural Level</tspan></text>
+             sodipodi:role="line">Economic Level</tspan></text>
         <text
            transform="matrix(0.99999795,-0.00322094,0.00322084,0.99999168,0,0)"
            inkscape:label="Copy1"
@@ -634,7 +635,7 @@
              id="tspan13616-9-7-4-1-38-3-3-1"
              x="354.06396"
              y="152.23602"
-             style="fill:#709ecf;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;paint-order:markers fill stroke">Social Interactions</tspan></text>
+             style="fill:#709ecf;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;paint-order:markers fill stroke">Economic Activity</tspan></text>
       </g>
       <g
          style="fill:#709ecf"
@@ -737,7 +738,8 @@
        inkscape:original-d="m 185.70587,20.10476 c -0.0308,-24.0760139 -0.8502,-50.013831 -0.88046,-74.090213"
        sodipodi:nodetypes="cc"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/simon/cooev.png" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -753,7 +755,8 @@
        inkscape:original-d="m -107.00756,89.430232 c 2.6e-4,-17.364707 2.6e-4,-92.7266365 0,-110.090815"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.16500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.66000001, 0.66000001;stroke-dashoffset:0;stroke-opacity:1"
        d="M -82.693192,66.884671 V -43.206145"
@@ -763,7 +766,8 @@
        inkscape:original-d="m -82.693192,66.884671 c 2.6e-4,-17.364707 2.6e-4,-92.726638 0,-110.090816"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.16500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.66000002, 0.66000002;stroke-dashoffset:0;stroke-opacity:1"
        d="M -11.973675,109.01723 V -1.0735885"
@@ -773,7 +777,8 @@
        inkscape:original-d="m -11.973675,109.01723 c 2.6e-4,-17.36471 2.6e-4,-92.726641 0,-110.0908185"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.16500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.66000002, 0.66000002;stroke-dashoffset:0;stroke-opacity:1"
        d="M 85.002454,84.204137 V -25.886679"
@@ -783,7 +788,8 @@
        inkscape:original-d="m 85.002454,84.204137 c 2.6e-4,-17.364707 2.6e-4,-92.7266375 0,-110.090816"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.16500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.66000002, 0.66000002;stroke-dashoffset:0;stroke-opacity:1"
        d="M -14.967094,71.80767 V -38.283146"
@@ -793,7 +799,8 @@
        inkscape:original-d="m -14.967094,71.80767 c 2.6e-4,-17.364707 2.6e-4,-92.726638 0,-110.090816"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.16500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.66000002, 0.66000002;stroke-dashoffset:0;stroke-opacity:1"
        d="M 138.35481,60.502569 V -49.588245"
@@ -803,7 +810,8 @@
        inkscape:original-d="m 138.35481,60.502569 c 2.6e-4,-17.364707 2.6e-4,-92.726638 0,-110.090814"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.16500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.66000002, 0.66000002;stroke-dashoffset:0;stroke-opacity:1"
        d="M 155.34779,47.886914 V -62.203905"
@@ -813,7 +821,8 @@
        inkscape:original-d="m 155.34779,47.886914 c 2.6e-4,-17.364707 2.6e-4,-92.726642 0,-110.090819"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.16500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.66000002, 0.66000002;stroke-dashoffset:0;stroke-opacity:1"
        d="M 169.59862,31.505643 V -78.585173"
@@ -823,7 +832,8 @@
        inkscape:original-d="m 169.59862,31.505643 c 2.6e-4,-17.364713 2.6e-4,-92.726641 0,-110.090816"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.16500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.66000002, 0.66000002;stroke-dashoffset:0;stroke-opacity:1"
        d="M 73.728519,55.098085 V -54.992732"
@@ -833,7 +843,8 @@
        inkscape:original-d="m 73.728519,55.098085 c 2.6e-4,-17.364707 2.6e-4,-92.726638 0,-110.090817"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.16500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.66000004, 0.66000004;stroke-dashoffset:0;stroke-opacity:1"
        d="M 5.4576707,33.144514 V -76.946305"
@@ -843,7 +854,8 @@
        inkscape:original-d="m 5.4576707,33.144514 c 2.6e-4,-17.36471 2.6e-4,-92.726643 0,-110.090819"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.16500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.66000005, 0.66000005;stroke-dashoffset:0;stroke-opacity:1"
        d="M 45.494646,38.01983 V -72.070989"
@@ -853,7 +865,8 @@
        inkscape:original-d="m 45.494646,38.01983 c 2.6e-4,-17.36471 2.6e-4,-92.726641 0,-110.090819"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.16500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.66000005, 0.66000005;stroke-dashoffset:0;stroke-opacity:1"
        d="M 24.666358,55.169607 V -54.921217"
@@ -863,7 +876,8 @@
        inkscape:original-d="m 24.666358,55.169607 c 2.6e-4,-17.36471 2.6e-4,-92.726645 0,-110.090824"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 140.22916,84.275 39.158333,92.477083"
@@ -872,7 +886,8 @@
        inkscape:path-effect="#path-effect71354"
        inkscape:original-d="M 140.22916,84.275 C 106.53915,87.008763 72.848874,89.742789 39.158333,92.477083"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 140.22916,84.275 111.91875,68.135417"
@@ -881,7 +896,8 @@
        inkscape:path-effect="#path-effect71358"
        inkscape:original-d="M 140.22916,84.275 C 130.79262,78.894873 121.35582,73.515013 111.91875,68.135417"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 113.23726,-14.704823 98.420599,-33.225665"
@@ -890,7 +906,8 @@
        inkscape:path-effect="#path-effect71362"
        inkscape:original-d="m 113.23726,-14.704823 c -4.93862,-6.173879 -9.87751,-12.347493 -14.816661,-18.520842"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 113.23726,-14.704823 18.019551,-20.577506"
@@ -900,7 +917,8 @@
        inkscape:original-d="M 113.23726,-14.704823 C 88.013979,-9.1488356 43.243379,-26.134019 18.019551,-20.577506"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/simon/cooev.png" />
     <path
        style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient11954-9);stroke-width:14.93203735;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6757-6-5);paint-order:normal"
        d="m -164.64047,21.931621 0.74835,58.093304"
@@ -910,7 +928,8 @@
        inkscape:original-d="m -164.64047,21.931621 c 2.6e-4,18.877623 0.74862,39.215393 0.74835,58.093304"
        sodipodi:nodetypes="cc"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/simon/cooev.png" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -923,7 +942,8 @@
        inkscape:label="graph2"
        style="display:inline;opacity:1;fill:#709ecf"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/simon/cooev.png">
       <rect
          x="389.1701"
          y="-45.854012"
@@ -1107,7 +1127,7 @@
              y="235.73537"
              x="-57.050087"
              id="tspan60338-3-2-3-2"
-             sodipodi:role="line">Economic Level</tspan></text>
+             sodipodi:role="line">Cultural Level</tspan></text>
       </g>
       <g
          style="fill:#669900"
@@ -1232,11 +1252,12 @@
        y="17.921745"
        id="text13618-1-7-4-7-7-6-6-2-1"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><tspan
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="/home/simon/cooev.png"><tspan
          sodipodi:role="line"
          x="-0.05251063"
          y="17.921745"
          style="fill:#669900;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;paint-order:markers fill stroke"
-         id="tspan69469">Economic Activity</tspan></text>
+         id="tspan69469">Social Interactions</tspan></text>
   </g>
 </svg>
