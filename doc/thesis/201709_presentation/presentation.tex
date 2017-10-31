@@ -1,4 +1,4 @@
-%% February 2017, 
+%% presented in september 2017 with sergi
 
 \documentclass[12pt, notes=show]{beamer}
 \usetheme[width=0cm]{Goettingen}
@@ -133,7 +133,28 @@
 	\end{center}
 \end{frame}
 
-\begin{frame}{A social traits an economic weight}
+\begin{frame}{Cryptocurrencies}
+    \begin{figure}
+	\includegraphics[width=\textwidth]{images/btccultevoabstract.png}\\
+    \end{figure}
+
+    A way to exchange values and goods, people will, should, choose the ``best''?
+\end{frame}
+
+\begin{frame}{Yet another neutral model}
+    Lot's of statistical properties follows a neutral model
+    \begin{figure}
+	\includegraphics[width=.6\textwidth]{images/btcpic.png}
+    \end{figure}
+
+    They conclude:
+    \begin{figure}
+	\includegraphics[width=\textwidth]{images/btcNoBest.png}
+    \end{figure}
+\end{frame}
+
+
+\begin{frame}{A social trait and economic value}
 	\begin{center}
 	    \only<1>{\includegraphics[width=.8\textwidth]{images/boubou1.png}}
 	    \only<2>{\includegraphics[width=.8\textwidth]{images/boubou2.png}}
@@ -167,26 +188,6 @@
 
 
 
-\begin{frame}{Cryptocurrencies}
-    \begin{figure}
-	\includegraphics[width=\textwidth]{images/btccultevoabstract.png}\\
-    \end{figure}
-
-    A way to exchange values and goods, people will, should, choose the ``best''?
-\end{frame}
-
-\begin{frame}{Yet another neutral model}
-    Lot's of properties follow a notral model
-    \begin{figure}
-	\includegraphics[width=.6\textwidth]{images/btcpic.png}
-    \end{figure}
-
-    They conclue:
-    \begin{figure}
-	\includegraphics[width=\textwidth]{images/btcNoBest.png}
-    \end{figure}
-\end{frame}
-
 \section{ABM Framework}
 
 
@@ -197,27 +198,40 @@
     \end{center}
 \end{frame}
 
-\begin{frame}{Computer Model}
-    \vfill
-    Agent Based Model
-    \begin{center}
-	\includegraphics[width=.5\textwidth]{images/cooev.png}	
-    \end{center}
-    \vfill
-	\begin{itemize}
-	\item Different Cultural Mechanisms
-    \vfill
-	\item Different Trade Assumption
-    \vfill
-	\item Historical and Archaeological Evidences 
-    \vfill
-	\item Network Constraints
-    \vfill
-	\item \dots
-    \vfill
-	\end{itemize}
-\end{frame}
+%\begin{frame}{Computer Model}
+%    \vfill
+%    Agent Based Model
+%    \begin{center}
+%	\includegraphics[width=.5\textwidth]{images/cooev.png}	
+%    \end{center}
+%    \vfill
+%	\begin{itemize}
+%	\item Different Cultural Mechanisms
+%    \vfill
+%	\item Different Trade Assumption
+%    \vfill
+%	\item Historical and Archaeological Evidences 
+%    \vfill
+%	\item Network Constraints
+%    \vfill
+%	\item \dots
+%    \vfill
+%	\end{itemize}
+%\end{frame}
 	
+\begin{frame}{Agent Based Model}
+    Inpsired by economists doing ACE (Agent-based Computation Economics):
+    \begin{center}
+	Gintis 2007, 2009, Gintis \& Mantel 2012, Chen et al. 2017\dots 
+    \end{center}
+    
+    \begin{itemize}
+	\item Simple decentralized economy
+	\item Agent produce and exchanges goods
+	\item Agents can socially learn form each other and ``innovate''
+	\item Reach Walrasian ``general equilibrium''
+    \end{itemize}
+\end{frame}
 
 
 \begin{frame}{Results: Economic Dynamics}
@@ -233,15 +247,21 @@
 \end{frame}
 
 
-\begin{frame}{Economic}
-    Model used by economists (Gintes and mandel, Chen et al) to test certains economic assumption
+
+\begin{frame}{Model as a starting point}
+ Understand interaction between social learning and trade: example from the past
+ \vfil
+ \begin{itemize}
+     \item Historical Case Study
+ \vfil
+     \item Archaeological evidences
+ \end{itemize}
+
+ %   Compare it to Historical Case studies
     
 \end{frame}
 
-\begin{frame}
-    Compare it to Historical Case studies
-    
-\end{frame}
+
 
 \begin{frame}{Historical Case Study}
     \footnotesize
@@ -258,10 +278,13 @@ Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
      \includegraphics[width=.45\textwidth]{../images/plotNbSiteWGoodData.pdf}
      
  \end{figure}
+ \begin{center}
+     \tiny other info: Site with different number of good
+ \end{center}
 \end{frame}
 
 \begin{frame}{Specification of the model}
-    Simulations with ``real'' parameters:
+    Calibrate the simulation:
     \begin{itemize}
 	\item 1000 agents
 	\item 5 goods (+money) to appear 
@@ -273,16 +296,13 @@ Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
 \end{frame}
 
 \begin{frame}{Experimental framework}
+Individual  vs Social learning  ( $\mu$ vs $\lambda$ )
     \begin{itemize}
-	\item Test change in $\mu$ the innovation rate (``I randomly change a price'')
-	\item Test change in $\lambda$, factor to increase the proba. to copy someone better than me
-	\item ( also $\mu$ amplitude, \emph{ie} amplitute of price change when I decide to do so, not shown here)
-    \end{itemize}
-\end{frame}
-\begin{frame}{Parameter tested}
-    \begin{itemize}
-	\item $\lambda \in \{0.0001,0.001,0.01,0.1,1,10\}$
-	\item $\mu \in \{0.001,0.01,0.1,1\}$
+	\item Test change in $\mu$ the innovation rate (``I randomly change a price'')\\
+	    \hspace{.2cm} $\mu \in \{0.001,0.01,0.1,1\}$
+	\item Test change in $\lambda$, factor to increase the proba. to copy someone better than me\\
+	    \hspace{.2cm} $\lambda \in \{0.0001,0.001,0.01,0.1,1,10\}$
+	\item ( also $\mu$ amplitude, \emph{ie} amplitude of price change when I decide to do so, not shown here)
 	\item  $ 6 \times 4 = 24$ setup, 50s simulation each
     \end{itemize}
 \end{frame}
@@ -318,7 +338,7 @@ Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
 	\begin{columns}
 		\begin{column}{.5\textwidth}
     \footnotesize
-    A theoretical exploration of the model on Individual (Q-Learnign) vs social learning ($\lambda$).
+    A theoretical exploration of the model on Individual (Q-Learning) vs social learning ($\lambda$).
 		\end{column}
 		\begin{column}{.5\textwidth}
     \begin{figure}
@@ -357,7 +377,7 @@ Change in distribution of Tableware in the East Roman Empire, -25BC 150AC:
     \end{figure}
 \end{frame}
 \begin{frame}{Case study: Dynamics of changes}
-    Final equilibrium state doesn't intereste us:\\
+    Final equilibrium state doesn't interest us:\\
 
     {\centering $\rightarrow$ Dynamic of changes}
 
@@ -376,7 +396,7 @@ Data \hfill Exp1 \hfill Exp2 \hfill Expe3
 	\includegraphics[width=\textwidth]{../images/plotNbSiteWGoodN.pdf}\\
 \end{frame}
 
-\begin{frame}{Number of site with 'N'differents goods}
+\begin{frame}{Number of site with 'N' different goods}
     \centering
     \tiny
  Exp1 \hfill Exp2 \hfill Expe3 
@@ -520,7 +540,7 @@ Data \hfill Exp1 \hfill Exp2 \hfill Expe3
 
 \begin{frame}{Approximate Bayesian Computation}
     We can compute for each simulation of a given set of parameter the distance to the data.
-    Thus we can know for which value of paramaters our model is the more probable to reproduce the real data.
+    Thus we can know for which value of parameters our model is the more probable to reproduce the real data.
 \end{frame}
 
 \begin{frame}{Trieste Case Study}
