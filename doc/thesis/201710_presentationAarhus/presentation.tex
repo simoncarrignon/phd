@@ -103,7 +103,8 @@ Change in distribution of Tableware in the  Roman East, 25BC 150AD:
     \end{column}
     \begin{column}{.5\textwidth}
 	\centering
-	\includegraphics[width=.4\textwidth]{images/ESA_Metmuseum.jpg}
+	\includegraphics[width=.4\textwidth]{images/ESA_Metmuseum.jpg}\\
+	\textit{\tiny Eastern sigillata A}
 	
     \end{column}
 \end{columns}
@@ -142,7 +143,8 @@ Change in distribution of Tableware in the  Roman East, 25BC 150AD:
      Integrate social-cultural mechanisms to economic interactions:
     \uncover<2->{
 	\begin{center}
-	    The cultural evolution approach
+	    \bf
+	    The Cultural Evolution approach
 	\end{center}
     }
 
@@ -230,6 +232,7 @@ Change in distribution of Tableware in the  Roman East, 25BC 150AD:
     Assumes :
     \begin{itemize}
 	\item<+-> no functional difference
+	\item<+-> Simple frequency-based bias (conformism, anti-conformism bias, no preference, prestige\dots)
 	\item<+-> negligible economic cost 
 	    \begin{itemize}
 		\item<+-> production cost
@@ -237,7 +240,6 @@ Change in distribution of Tableware in the  Roman East, 25BC 150AD:
 		\item<+-> \dots
 
 	    \end{itemize}
-	\item<+-> no preference (prestige\dots)
     \end{itemize}
     
 \end{frame}
@@ -314,39 +316,41 @@ Change in distribution of Tableware in the  Roman East, 25BC 150AD:
 
 \begin{frame}{General Framework}
     
-    \begin{center}
+    \begin{center} 
 	\includegraphics[width=.8\textwidth]{images/cooev.png}	
     \end{center}
 \end{frame}
 
 \begin{frame}{Computer Model}
     \vfill
-    Agent Based Model
     \begin{center}
-	\includegraphics[width=.5\textwidth]{images/cooev.png}	
+	\includegraphics<+->[width=.5\textwidth]{images/cooev.png}	
     \end{center}
+    \uncover<+->{Agent Based Model}
     \vfill
 	\begin{itemize}
-	\item Different Cultural Mechanisms
+	\item<+-> Different cultural transmission mechanisms
     \vfill
-	\item Different Trade assumption
+	\item<+-> Different trade assumptions
     \vfill
-	\item Historical and Archaeological evidences 
+	\item<+-> Historical and Archaeological evidences 
     \vfill
-	\item Network Constraints
+	\item<+-> Network Constraints
     \vfill
-	\item \dots
+	\item<+-> \dots
     \vfill
 	\end{itemize}
 \end{frame}
 	
 \begin{frame}{Agent Based Model}
     
+\uncover<+->{Already implemented and studied at theoretial (Carrignon et al. 2016, Gintis 2006, Chen et al. 2017}
     \begin{itemize}
-	\item Simple decentralized economy
-	\item Agent produce and exchanges goods
-	\item Agents can socially learn form each other and ``innovate''
-	\item Reach Walrasian ``general equilibrium''
+	\item<+-> Simple decentralized economy
+	\item<+-> Agents produce and exchange goods
+	\item<+-> Agents are ranked givent ``their economic success''
+	\item<+-> Agents can socially learn form each other and ``innovate''
+	\item<+-> Reach Walrasian ``general equilibrium'' when agents copy the best 
     \end{itemize}
 \end{frame}
 
@@ -383,13 +387,15 @@ Change in distribution of Tableware in the  Roman East, -25BC 150AD:
 \end{frame}
 
 \begin{frame}{Specification of the model}
-    \textcolor{UPF}{\textbf{1.}\Huge}  Integrate historical knowledge: \\
-	$\rightarrow$ Calibrate the model to produce more ``realistic'' simulations
+    \uncover<+->{ { \bf A case study and a model}\\}
+    \vspace{1cm}
+    \uncover<+->{\textcolor{UPF}{\textbf{1. }\Huge}Integrate historical knowledge: \\
+$\rightarrow$ Calibrate the model to produce more ``realistic'' simulations}
 	    \begin{itemize}
-		\item 5 different types of good 
-		\item Goods appear one after this other
-		\item Agents are markets of urban settlements
-		\item Number of agents based on historical estimations
+		\item<+-> 5 different types of good 
+		\item<+-> Goods appear one after this other
+		\item<+-> Agents are markets of urban settlements
+		\item<+-> Number of agents based on historical estimations
 	    \end{itemize}
     
 \end{frame}
@@ -397,19 +403,18 @@ Change in distribution of Tableware in the  Roman East, -25BC 150AD:
 \begin{frame}{Individual vs Social learning}
 
     %We can now precise: \textbf{individual} vs \textbf{social}  learning\\
-	Agents as markets of urban settlements:
+    \textcolor{UPF}{\textbf{2. }\Huge}Agents as markets of urban settlements:
     \begin{itemize}
 	\item<2-> \textbf{individual} learning (innovation): \\
 	    \uncover<3->{ \hspace{.5cm} $\rightarrow$ the capacity of a market to generate new solutions by itself (internal changes, interactions within a market: \emph{ie} \textbf{creativity}) } 
-	\item<4-> \textbf{social} learning (cultural transfer): \\
+	\item<4-> \textbf{social} learning (cultural transmission): \\
 	    \uncover<5->{ \hspace{.5cm} $\rightarrow$ the tendency of a market to copy another (better) one (interactions, communication between markets: \emph{ie} \textbf{openness}) }
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Experimental framework}
 
-\textcolor{UPF}{\textbf{2.}\Huge}
-\uncover<+->{Experimental setup, test the importance of those factors:}
+\textcolor{UPF}{\textbf{3. }\Huge}\uncover<+->{Experimental setup, test the importance of those factors:}
     \begin{itemize}
 	\item<+-> 	    \textbf{Individual learning}/creativity: ``a settlement decides to change the value of a ware''\\
 	    \uncover<+->{$\mu \rightarrow$ increase the probability of creating a new solution\\}
@@ -632,20 +637,20 @@ Change in distribution of Tableware in the  Roman East, -25BC 150AD:
 
 
 %%%TODO
-%\begin{frame}{Limitation}
-%    (beside the fact that the model isn't satisfying us yet)\\
-%    A way to compare hypothese:\\
-%    \hspace{1cm}Previous example: 
-%    \begin{itemize}
-%	\item All assumptions can change those results
-%	    \begin{itemize}
-%		\item How we defined when ``a experiment \emph{reproduce} the data''
-%		\item The data we are using
-%
-%	    \end{itemize}
-%    \end{itemize}
-%
-%\end{frame}
+\begin{frame}{Limitations}
+    {\tiny(beside the fact that the model isn't the good one yet)\\}
+    \vspace{1cm}
+    Heavily rely on expert knowledge:
+    \begin{itemize}
+	\item Every assumption counts :
+	    \begin{itemize}
+		\item The way we use the data
+		\item How we defined when ``a experiment \emph{reproduce} the data''
+	    \end{itemize}
+	\item Interpretation is relative: compare hypothesis
+    \end{itemize}
+
+\end{frame}
 
 
 
