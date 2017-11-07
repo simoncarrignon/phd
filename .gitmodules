@@ -45,7 +45,7 @@
 	url = git@github.com:xrubio/pandora.git
 [submodule "dev/abc-pandora"]
 	path = dev/abc-pandora
-	url = git@framagit.org:simoncarrignon/abc-pandora.git
+	url = git@framagit.org:sc/abc-pandora.git
 [submodule "dev/Lichen-s-project"]
 	path = dev/Lichen-s-project
 	url = git@github.com:ainaollevila/Lichen-s-project.git
