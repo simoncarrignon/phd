@@ -36,7 +36,7 @@
 	url = git@github.com:simoncarrignon/trieste-lens.git
 [submodule "dev/ceeculture"]
 	path = dev/ceeculture
-	url = git@framagit.org:simoncarrignon/ceeculture.git
+	url = git@framagit.org:sc/ceeculture.git
 [submodule "dev/csss-emerge"]
 	path = dev/csss-emerge
 	url = git@github.com:simoncarrignon/csss-emerge.git
