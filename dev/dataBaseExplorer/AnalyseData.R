@@ -1,6 +1,7 @@
  library(rworldmap)
  library(mapdata)
  library(scales)
+ install.packages("mapdata")
  #library(map)
 # newmap <- getMap(resolution = "low")
 # #Meilleur map:
@@ -234,6 +235,49 @@ printRedCity<-function(cities,lhlp){
 	}
 
 
+}
+
+nobvember2017 <- function(){
+		    alladb=unique(read.csv("allAmphoraDBstr.csv"))[,]
+		    coordinateB=read.csv("allFortFl.csv")[,]
+		    creteCoor=read.csv("placesWithCoordinates.csv")[,]
+
+ png("fortOnly.png",height=630,width=920)
+		    	map("worldHires",".",  col="gray95", fill=TRUE,xlim=c(-16,50),ylim=c(20,60),mar=c(0,0,0,0))
+		    	points(coordinateB[,2],coordinateB[,3],pch=20,cex=4,col=alpha("orange", 0.3))
+		    	legend("topright",legend=c("legionary fort"),col=c(alpha("orange", 0.3)),bty="o",bg="white",pch=20,pt.cex=c(4))
+   dev.off()
+
+ png("stampsOnly.png",height=630,width=920)
+		    	map("worldHires",".",  col="gray95", fill=TRUE,xlim=c(-16,50),ylim=c(20,60),mar=c(0,0,0,0))
+		    	points(alladb[,3],alladb[,4],pch=20,cex=2,col=alpha("green",.1))
+		    	legend("topright",legend=c("amphora in CEIPAC"),col=c(alpha("green",.3)),bty="o",bg="white",pch=20,pt.cex=c(2))
+			dev.off()
+
+ png("fortAndStamps.png",height=630,width=920)
+		    	map("worldHires",".",  col="gray95", fill=TRUE,xlim=c(-16,50),ylim=c(20,60),mar=c(0,0,0,0))
+		    	points(coordinateB[,2],coordinateB[,3],pch=20,cex=4,col=alpha("orange", 0.3))
+		    	points(alladb[,3],alladb[,4],pch=20,cex=2,col=alpha("green",.1))
+		    	legend("topright",legend=c("legionary fort","amphora in CEIPAC"),col=c(alpha("orange", 0.3),alpha("green",.3)),bty="o",bg="white",pch=20,pt.cex=c(4,2,2))
+			dev.off()
+ pdf("fortOnly.pdf")
+		    	map("worldHires",".",  col="gray95", fill=TRUE,xlim=c(-16,50),ylim=c(20,60),mar=c(0,0,0,0))
+		    	points(coordinateB[,2],coordinateB[,3],pch=20,cex=4,col=alpha("orange", 0.3))
+		    	legend("topright",legend=c("legionary fort"),col=c(alpha("orange", 0.3)),bty="o",bg="white",pch=20,pt.cex=c(4))
+   dev.off()
+
+ pdf("stampsOnly.pdf")
+		    	map("worldHires",".",  col="gray95", fill=TRUE,xlim=c(-16,50),ylim=c(20,60),mar=c(0,0,0,0))
+		    	points(alladb[,3],alladb[,4],pch=20,cex=2,col=alpha("green",.1))
+		    	legend("topright",legend=c("amphora in CEIPAC"),col=c(alpha("green",.3)),bty="o",bg="white",pch=20,pt.cex=c(2))
+			dev.off()
+
+ pdf("fortAndStamps.pdf")
+		    	map("worldHires",".",  col="gray95", fill=TRUE,xlim=c(-16,50),ylim=c(20,60),mar=c(0,0,0,0))
+		    	points(coordinateB[,2],coordinateB[,3],pch=20,cex=4,col=alpha("orange", 0.3))
+		    	points(alladb[,3],alladb[,4],pch=20,cex=2,col=alpha("green",.1))
+		    	legend("topright",legend=c("legionary fort","amphora in CEIPAC"),col=c(alpha("orange", 0.3),alpha("green",.3)),bty="o",bg="white",pch=20,pt.cex=c(4,2,2))
+			dev.off()
 }
 
 
