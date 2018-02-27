@@ -1,0 +1,51 @@
+N=2^C
+N = number of state
+C=log_2(N)
+thsus random desorganized elemetns are more complex
+it depends on the scale we want to describe
+
+correlated coherent random 
+
+
+Koch cure: how long is the koch curve? depend on the scale => the cast length
+
+
+stochastic fractal
+me suis achete run moleskine au plus grand calme
+
+== Probabilities
+
+
+mesuring something that is not sure
+
+===Information theorie
+
+shannon something  usual bears no information
+entropie
+how much nformation you need to describe something
+
+\begin{itemize}
+\item informatin
+I(x)=-log P(x)
+
+
+\item Entropy: 
+H(x)=E_{X~P}[I(x)]=-E_{x~P}[logP(x)]
+
+X~P means X follows P
+
+
+\item mutual information:
+I(X;Y)=E_{X,Y}[SI(x,y)]=
+I(X;Y)=H(X)_H(X|Y)
+
+\item KL div:DKL(P||Q)=E_{X~P}[logP(x)-logQ(x)]
+\item cross entropy:
+\end{itemize}
+
+
+Normal law and power law fat tail and blablabl
+
+how to compare two variable: are they correlated?
+
+Pearson correlation uses average thus is useless

@@ -1,0 +1,15 @@
+I had to addthe $JAVA_HOME path to /opt/hadoop/etc/hadoop/yarn-env.sh and not only in bash
+in my bashrc  (enfiate je l'ai ajouter a haddoop-env.sh)
+
+#############################################
+#############################################
+# PATC big data class
+#
+# Set Hadoop -related environment variables
+export HADOOP_HOME=/opt/hadoop
+# Set JAVA_HOME  (we will also configure JAVA_HOME directly for Hadoop later on)
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 #this is to had in 
+# Add Hadoop bin/ directory to PATH
+export PATH=$PATH:$HADOOP_HOME/bin
+
+
