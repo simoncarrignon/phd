@@ -61,3 +61,6 @@
 [submodule "dev/mn_tools"]
 	path = dev/mn_tools
 	url = bsc21394@nord3.bsc.es:~/mn_tools.git
+[submodule "dev/network-efficiency"]
+	path = dev/network-efficiency
+	url = git@framagit.org:sc/network-efficiency.git
