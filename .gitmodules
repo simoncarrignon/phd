@@ -64,3 +64,6 @@
 [submodule "dev/network-efficiency"]
 	path = dev/network-efficiency
 	url = git@framagit.org:sc/network-efficiency.git
+[submodule "full_projects/icrates_abc"]
+	path = full_projects/icrates_abc
+	url = git@framagit.org:sc/icrates_abc.git
