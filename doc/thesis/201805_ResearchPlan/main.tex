@@ -1,0 +1,90 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=1in]{geometry}
+
+
+%%%%lualatex on
+%\usepackage{luatextra}
+%\usepackage{fontspec}
+%%Ligatures={Contextual, Common, Historical, Rare, Discretionary}
+%\setmainfont[Mapping=tex-text]{Linux Libertine O}
+%%Phd Description after meeting with Xavi on the 27th of July
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+
+\title{Research Plan}
+\author{Simon Carrignon}
+
+\begin{document}
+
+\vspace{-1cm}
+\hspace{-1cm}
+\begin{minipage}{.5\textwidth}
+    \noindent \includegraphics[width=5cm]{images/upfLogo.jpeg} 
+\end{minipage}
+\hfill
+\begin{minipage}{.5\textwidth}
+    \flushright
+    \textbf{ \Large RESEARCH PLAN }
+\end{minipage}
+
+\vspace{3cm}
+
+\hspace{-1cm}
+\fbox{
+
+    \begin{minipage}{\textwidth}
+	\vspace{.2cm}
+	\noindent\textbf{Student:} Simon Carrignon
+	\vspace{.5cm}
+
+	\noindent\textbf{Project Title:} ``Cultural evolution and long term economic dynamics: The case study of Rome.''
+	\vspace{.5cm}
+
+	\noindent\textbf{PhD thesis supervisors:} Xavier Rubio-Campillo \& Sergi Vavlerde
+	\vspace{.5cm}
+
+	\noindent\textbf{Research Group:} Barcelona Supercomputing Center \& Complex System Lab (UPF)  
+	\vspace{.2cm}
+    \end{minipage}
+
+}
+
+\section*{Progress:}
+
+\subsection*{June to Decembre 2017}
+	\begin{itemize}
+        \item Roman East Case Study \emph{ June}, starting collaboration with Tom Brugman on Icrates databes as a case study of the model.
+	    \item Conference in Complex System (Cancun): organisation of satellite session about `` Evolution of Cultural Complexity'' \emph{(September)}
+	    \item Invited Lecture at Aarhus Denmark for the group Urbnet\emph{(September)}:
+            \begin{itemize}
+                \item  Presentation of the first results of the ICRATES case study. Partnership with the group to model : ``An agent-based model of trade in the East Roman Empire (25BC-150AC)''
+                \item Partnership with the urbnet team to model cultural evolution in Jerash.
+            \end{itemize}
+	\end{itemize}
+
+	{\small
+	\noindent \textbf{General}: Rewriting of the model to fit Tom Brughmans' case study of changes in plate provenance in the Roman East. Integrating historical and archaological knowledge to the model proposition of a more realistic version of the model.\\
+	    \textbf{Problems}: While I had to specify more precisely the model in order to make it fit better with the case study at sake, I had to remove lot of thing that were implemented for generalisation purpose. Doing so I tried to keep the possibilities of generalisation in the model, which makes the things much more complex than what they should be if the model had been designed from the begginning to study this scenario. 
+	}
+
+\subsection*{January to June 2018}
+	\begin{itemize}
+	    \item NECSI Winter School in MIT, Boston: data anlysis, machine learning, deep learning \emph{(January)}
+	    \item PRACE class on Big Data \emph{(February)}
+	    \item CLICKS English writing skills \emph{(March)}
+	    \item EPNET Workshop \emph{(Februrary)}
+	    \item 28th Theoretical Roman Archaeology Conference, Edinbourg \emph{(March)}
+:  Presentation ABC, meeting with Bettencourt and Hanson, preparing a workshop in Knoxville with Stephen Collins	    
+        \item Running quick ABC with a new model developped for the partnership with Urbnet (Denmark) \emph{(Avril)}
+        \item Workshop on  month stay at University of Tennessee, Knoxville, with Alex Bentley \emph{(Juin)}
+        \item One month stay at University of Tennessee, Knoxville, with Alex Bentley \emph{(Juin)}
+	\end{itemize}
+	{\small
+	\noindent   \textbf{General}:Starting to run extensive number of simulations for Approximate Bayesian Computation. Again organizing the satellite @CCS and trying to publish proceedings in the SAGE journal Adaptive Behavior  of the past edition.\\
+    \textbf{Problems}: Rewriting the ABC algorithm to make it suitable for HPC facilities, and more precisely for Marenostrum 4. Then I realized that our access to MN is really limited. Thus I had to rewrite most of the thing to run it again on nord 3 (some remainings part of the Marenostrum 3).
+	}
+
+	\section*{Plan:}
+\end{document}
