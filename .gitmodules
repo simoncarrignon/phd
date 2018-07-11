@@ -73,3 +73,6 @@
 [submodule "dev/spread"]
 	path = dev/spread
 	url = git@framagit.org:sc/spread.git
+[submodule "dev/exp-growth"]
+	path = dev/exp-growth
+	url = git@framagit.org:sc/exp-growth.git
