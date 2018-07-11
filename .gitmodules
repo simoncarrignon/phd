@@ -73,6 +73,6 @@
 [submodule "dev/exp-growth"]
 	path = dev/exp-growth
 	url = git@framagit.org:sc/exp-growth.git
-[submodule "dev/spread/"]
-	path = dev/spread/
+[submodule "dev/twitter-spread"]
+	path = dev/twitter-spread
 	url = git@github.com:simoncarrignon/twitter-spread.git
