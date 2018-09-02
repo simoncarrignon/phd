@@ -79,3 +79,6 @@
 [submodule "dev/twitter-spread"]
 	path = dev/twitter-spread
 	url = git@github.com:simoncarrignon/twitter-spread.git
+[submodule "doc/conferences/201809_CCS/ecc18"]
+	path = doc/conferences/201809_CCS/ecc18
+	url = git@framagit.org:sc/ecc18.git
