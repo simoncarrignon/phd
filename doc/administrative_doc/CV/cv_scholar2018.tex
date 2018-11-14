@@ -1,0 +1,195 @@
+\documentclass[10pt,a4paper]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{4cm}           % if you want to change the width of the column with the dates
+%\setlength{\maketitlenamewidth}{10cm}        % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{metalogo}
+\usepackage{hyperref}
+\usepackage{libertineotf}
+% personal data
+\firstname{Simon}
+\familyname{Carrignon}
+%\title{Resumé title (optional)}               % optional, remove the line if not wanted
+\address{Carrer d'Hondures, 74}{08027 Barcelona, Spain}    % optional, remove the line if not wanted
+%\mobile{+1~(234)~567~890}                     % optional, remove the line if not wanted
+%\phone{+2~(345)~678~901}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+\email{simon.carrignon@bsc.es}                          % optional, remove the line if not wanted
+%\homepage{www.johndoe.com}                    % optional, remove the line if not wanted
+%\extrainfo{additional information}            % optional, remove the line if not wanted
+%\photo[64pt][0.4pt]{picture}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+\usepackage{multibib}
+\newcites{paper,poster,talk}{{Peer reviewed paper in journal or proceedings},{Posters in conferences},{ Talks in conferences}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\thispagestyle{empty}
+\pagestyle{empty}
+\section{Education}
+\cventry{since Jan. 2015}{PhD Student in Biomedicine}{Universitat Pompeu Fabra}{Barcelona, Spain}{}{Co-evolution of trade and culture : theoretical study of the evolution of a decentralized economy driven by cultural dynamics. Focus on the Roman Empire case study. Co-direction between Barcelona Supercomputing Center and Univ. Pompeu Fabra Complex System Lab.}
+\cventry{2011--2013}{Master Student in Logic, Philosophy, History and Sociology of Science}{Université Denis Diderot Paris 7}{Paris, France}{}{Classes in Hist., Philo. \& Socio. of Sciences. Topic of interest: Evolutionary Theory and the epistemic link btw. Evolutionary Robotics \& Evolutionary Biology. }
+\cventry{2009--2011}{Master Student in Natural \& Artificial Cognition}{École Pratique des Hautes Études}{Paris, France}{}{Classes in Cognitive Sciences with courses of Neurosciences, Cognitive Psychology \& Artificial Intelligence.}
+\cventry{2008--2009}{Exchange Student}{Université de Montréal}{Montréal, Canada}{}{One year to finish the bachelor with courses in Neurosciences, Artificial Intelligence \& Bioinformatics.}
+\cventry{2007--2009}{License Student in Computer Science, sp. MIV}{Université Claude Bernard Lyon 1}{Lyon, France}{}{License with classes in Biology, Computer Science \& Bioinformatics.}
+\cventry{2005--2007}{License Student in Computer Science \& Biology.}{Université Joseph Fourrier}{Grenoble, France}{}{Two years to learn the fundamentals in Computer Science \& Biology.} % arguments 3 to 6 can be left empty
+
+\section{Master Thesis}
+	\vspace{.4cm}
+\cventry{Mars -- Aug. 2011}{Master ``Natural \& Artificial Cognition'', École Pratiques des Hautes Études (Paris,Fr) }{Supervisor: N. Bredèche}{LRI-INRIA-Paris Sud}{}{
+	\vspace{.15cm}
+	\emph{Title}: Self-organization in swarm of autonomous agents: evolution of specialized behaviors.\newline
+	\emph{Abstract}: The goal was to investigate the emergence of speciation during environment-driven evolutionary adaptation in a population of autonomous robotic units. We address the case of sympatric speciation (occurrence of speciation without geographical isolation). We show that such speciation is possible in a robotic setup under very specific constraints with respect to mating opportunities and resources distribution.
+}
+	\vspace{.4cm}
+\cventry{Apr. -- Sept. 2013}{Master ``Logic Philosophy History \& Sociology of Sciences'',  Univ. Paris 7 (Fr)}{Supervisor: F. Bouchard}{CIRST-UdeM (Canada) }{}{
+	\vspace{.15cm}
+	\emph{Title}: Evolutionary Robotics as a model to study Biology of Evolution.\newline
+	\emph{Abstract}: To justify the use of Evolutionary Robotics as a model to study evolution, we first explain the general principles and history of darwinian evolution and present current approaches. After, we underline the pertinance of the application of models (as in the semantic view), and simulations of those models, to study life. To finally introduce ER and to show that, as an embodied artificial life experiment, it combines numerous advantages that make it an ideal model to study evolution. 
+}
+%I built up the experimental setup, run all experiment on a national grid (www.grid5000.fr) and collect and analysed the data.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience \Huge}
+\subsection{Professional}
+\cventry{June 2018}{Visiting Scholar }{NIMBIOS}{Knoxville, USA}{}{One month visiting scholar with professor Alex Bentley. Development of a new model to understand the spreads of information on online social media and validation of the model against available datasets using Approximate Bayesian Computation. R-package and vignette available: \href{https://github.com/simoncarrignon/twitter-spread}{github.com/simoncarrignon/twitter-spread}}
+\cventry{Jan. 2010--Mar. 2012}{Research engineer }{LUTIN-Université Paris 8}{Paris, France}{}{1 week to 3 months short contracts during which I help researchers in data processing \& statistical analysis and that allow me to develop or complete:
+\begin{itemize}
+	\item ACACIA Coop: a Netlogo program used to explore the worth of altruistic behaviors in swarm of autonomous agent~(\href{https://github.com/simoncarrignon/acacia-coop}{@git})
+	\item Pedestrian: a Netlogo program which allow user to test agent based pedestrian models in real map~(\href{https://github.com/simoncarrignon/pedestrian}{@git}).
+\end{itemize}
+}%
+\cventry{Sept. 2011--Jan. 2012}{Junior Lecturer (Chargé de cours)}{Université Paris Dauphine}{Paris, France}{}{Course for 2nd yr. university students. Total amount of teaching: 36hr.
+	\newline{} Elementary notions of algorithmic and databases manipulation (w/ Foxpro).}%
+\cventry{Sept. 2010--Jan. 2012}{Junior Lecturer (Chargé de cours)}{Université Paris 8}{Paris, France}{}{Course for undergraduate students (License Students). Total amount of teaching: 144hr. 
+\newline{}C2I classes-- gives the fundamentals to use the office tools and to understand computers. }%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{.2cm}
+\subsection{Internship}
+\cventry{Sept. 2009--Jan. 2011}{Human Heuristic \& Autonomous Robot}{Supervisor: E. Zibetti (CHArt-Univ. P8)}{Paris, France}{}{Development of a Java API to control a Khepera III robot via bluetooth linked with autonomous controller build from Human Heuristics found after the analysis of real experiments. }
+\cventry{May 2009--Aug. 2009}{Controler for physiological experiments}{Supervisor: A. Green~(Dept. de Physio.-UdeM)}{Montréal, Canada}{}{Graphical interface and communication's tools to control and synchronize an experimental setup designed to make physiological studies on the monkey.}
+\cventry{May 2008--Aug. 2008}{Phylogenetic, Bacteries \& LGT }{Supervisor: V. Daubin~(LBBE-UCBL)}{Lyon, France}{}{C++ implementation of an algorithm used to adjust the species tree with the genetic tree including duplication and LGT.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{.2cm}
+\subsection{Summer School \& Workshop}
+\cventry{June 2018}{Modeling Complex Systems in Archaeology}{2018 DySoC Critical Workshop}{Knoxville, USA}{}{
+     The aim of this workshop was to bring awareness to the variety of techniques, engage in critical comparison and evaluation of the ways in which these tools are used, and examine how we should treat model selection, evaluation, and statistical inference in complex problems in archaeology. 
+}
+\cventry{January 2018}{New England Complex System Institute Winter School}{2018 NECSI Winter School }{Cambridge, USA}{}{
+    Intensive week-long courses on complexity science: modeling and networks, and data analytics.
+}\cventry{October 2017}{UrbNet, Aarhus University}{2017 UrbNet }{Aarhus, Denmark}{}{
+     Specialist workshop for the Danish-German Jerash Northwest Quarter Project.
+}
+\cventry{June 2016}{Santa Fe Institute Complex System Summer School}{2016 SFI CSSS }{Santa Fe, USA}{}{
+Intensive 4 weeks series of lectures, labs, and discussion sessions focusing on foundational concepts, tools, and current topics in complexity science. Participants collaborate in developing novel research projects throughout the 4 weeks of the program that culminate in final presentations and papers. }
+
+\cventry{Feb 2016}{Data And Cities As Complex Adaptive Systems}{1st DACAS International Workshop}{Manchester, England}{}{Development of an innovative and cross-disciplinary set of tools to study cities as Complex Adaptive Systems by taking into account wide range of data sources and by integrating the interactions between 'hard' infrastructure with economic, ecological and social systems. Laureate of one of the bursary offered by the Manchester Metropolitan University.}
+
+\cventry{July 2015}{The Computational turn: Simulation in Science.}{Scientific World Conception Summer School }{Vienna, Austria}{}{Reflections and lectures about the epistemological consequences of the introduction of computational methods and simulation in science and their relation with traditional experiment ; how it has greatly expanding the scope of what can be studied in micro-economic systems, high energy physics as well as the challenge such methods face in natural and social sciences.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Organisation and Edition}
+\cventry{Septembre 2018}{Website: \href{https://ccs18.bsc.es}{ccs18.bsc.es}}{Evolution of Cultural Complexity III }{Thessaloniki Greece }{}{Organisation and chair of the sattellite ``Evolution of Cultural Complexity'' at the 2018 Conference on Complex System. Invited speakers: Peter Turchin \& Anne Kandler }
+\cventry{Septembre 2017}{Website: \href{https://ccs17.bsc.es}{ccs17.bsc.es}}{Evolution of Cultural Complexity II}{Cancun, Mexico }{}{Organisation and chair of the sattellite ``Evolution of Cultural Complexity'' at the 2017 Conference on Complex System. Invited speakers: Sergi Valverde, Tom Froese \& Alex Bentley }
+\cventry{Avril 2013}{Website: \href{http://laremi.net}{laremi.net}}{Darwin as a Conducer}{Lyon France}{}{organisation of a conference on the use of Darwiniand theories to understand changes in music. Invited speaker: Olivier Morin, Mathieu Charbonneau \& Jan Jansen}
+
+
+
+\section{Languages}
+\cvitemwithcomment{French}{Mother Tongue}{}
+\cvitemwithcomment{English}{Good}{Good experience in academic written \& spoken English}
+\cvitemwithcomment{Spanish}{Good}{Daily use}
+
+\section{Fundings \& Grants}
+\cvitem{Severo Ochoa mobility grant}{Linux (Ubuntu/Debian end \& admin user), Windows XP, Seven, Vista. Grid/Supercomputer usage.}{}{}
+\cvitem{DACAS }{\LaTeX / \LuaTeX,Open Office \& Microsoft Office Writers.}{}{}
+%%\cvitem{Databases}{Mysql,Oracle (SQL).}{}{}
+\cvitem{NECSI}{C/C++, R, Bash, Python, (Java, Php).}{}{}
+
+\section{Computer skills}
+\cvitem{OS}{Linux (Ubuntu/Debian end \& admin user), Windows XP, Seven, Vista. Grid/Supercomputer usage.}{}{}
+\cvitem{Publishing}{\LaTeX / \LuaTeX,Open Office \& Microsoft Office Writers.}{}{}
+%%\cvitem{Databases}{Mysql,Oracle (SQL).}{}{}
+\cvitem{Programming}{C/C++, R, Bash, Python, (Java, Php).}{}{}
+\cvitem{Parallel Computing}{MPI (R/C/C++/Python), SLURM, LSF.}{}{}
+\cvitem{Statistical analysis/Visualing}{R, Excel, Matlab.}{}{}
+\cvitem{Git}{\href{https://github.com/simoncarrignon/}{github.com\/simoncarrignon}}{}{}
+
+%\section{Works}
+%\begin{itemize}
+%	\item \cvitem{\href{http://www.clicktoenlarge.fr}{Click To Enlarge}}{Integration(\emph{\href{http://www.clicktoenlarge.fr}{http://www.clicktoenlarge.fr}}).}{}
+%	\item \cvitem{\href{http://elisya.org}{Personal Cloud}}{Installation, administration \& maintenance of bunch of services. (\emph{\href{http://elisya.org}{http://elisya.org}}).}{}{}
+%	\item \cvitem{\href{http://www.ineffable.fr}{Ineffable}}{Maintenance, Administration \& Worpdress Theme Customization(\emph{\href{http://www.ineffable.fr}{http://www.ineffable.fr}}).}{}{}
+%\end{itemize}
+
+\section{Interests}
+\cvitem{}{Among other things, I used to have a lot of associative activities mostly revolving around music but also around sciences communication and popularization. I like reading, traveling around the world and dive into the Linux CLI.}
+
+
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+%\newpage 
+
+
+ %-----       letter       ---------------------------------------------------------
+% % recipient data
+%\recipient{iWeb service des Ressources Humaine}{20 Place du commerce, L'île-des-Soeurs\\Montréal}
+%\date{5 juin, 2012}
+%\opening{Madame, Monsieur,}
+%\closing{Dans l'attente de votre réponse, veuillez recevoir mes salutations distinguées,}
+%\enclosure{curriculum vit\ae{}}
+%\makelettertitle
+%
+%Je termine actuellement mon Second Master en Philosophie des Sciences, et suis à la recherche d'un emploi pour Février 2013. J'ai trouvé votre offre d'Administrateur Linux sur internet et aimerais beaucoup pouvoir en discuter avec vous.
+%
+%Si mon activité de recherche des dernières années de mon cursus universitaire a été plutôt ``fondamentale'' et peu ``pratique'', je l'ai toujours menée en continuant de parfaire ma formation initiale en informatique. Comme j'ai décidé cette année de mettre un terme à ce cursus universitaire, j'aimerais plonger plus encore dans la pratique de l'informatique au quotidient et intensément. J'ai toujours aimé proposer des solutions alternatives d'hébergement, de conférence, de courriel à mes proches et suis ainsi très familier avec LAMP ainsi qu'avec l'administration de serveurs (debian  notamment, via SSH). J'ai aussi pendant mes divers stages universitaires beaucoup pratiqué la programmation et suis ainsi capable de coder dans de multiple langages différents, pour répondre à des problèmes très divers.
+%
+%Ma formation à la recherche me permets d'être très efficaces en matière de résolution de problèmes complexes, et je peux faire des liens entre des domaines très différents pour trouver des solutions nouvelles et inovantes. 
+%
+%Votre offre m'attire tout particulièrement car elle propose de travailler avec des technologies qui me plaisent et que je maitrise (LAMP), pour répondre à une problématique qui me touche beaucoup est pour laquelle je suis pret à m'investire totalement, l'explorant moi-même depuis plusieurs mois pendant mon temps libre (le Cloud).
+%
+%\makeletterclosing
+%
+\section{Publications \& Conference}
+
+\vspace{.5cm}
+\nocitepaper{gaudiello2010representations}
+\nocitepaper{carrignon2015modelingthecoevolutionoftradeandcultureinpastsocieties}
+\nocitepaper{bredeche2017benefitsofproportionateselectioninembodiedevolutionacasestudywithbehaviouralspecialization}
+\nocitepaper{montanier2016behavioralspecializationinembodiedevolutionaryroboticswhysodifficult,medernach2015evolutionary,medernach2016evolution}
+\bibliographystylepaper{abbrv}
+\bibliographypaper{../../biblio/bib/SimonCarrignon}                   % 'publications' is the name of a BibTeX file
+
+\vspace{.5cm}
+\nociteposter{carrignon2013whyapply,morer2016influenceofthetopologyofculturalnetworksontheequilibriumofanexchangebasedeconomy,carrignon2017impactofdifferentsociallearningmechanismsontheemergenceofawalrasianequilibrium,coto2016exploringamphorabetica,carrignon2017inovationandeconomy}
+\bibliographystyleposter{abbrv}
+\bibliographyposter{../../biblio/bib/SimonCarrignon}                   % 'publications' is the name of a BibTeX file
+
+\vspace{.5cm}
+\nocitetalk{carrignon2018}
+\nocitetalk{carrignon2016coevolutionofcultureandtradeimpactofculturalnetworktopologyoneconomicdynamics,carrignon2018hpcmodel,carrignon2018bayes,carrignon2018abmtrac,adams2016lichen,carrignon2016patternsinglobalization,carrignon2016modelandsimulaion}
+\bibliographystyletalk{abbrv}
+\bibliographytalk{../../biblio/bib/SimonCarrignon}                   % 'publications' is the name of a BibTeX file
+\end{document}
+%
+%% end of file `template.tex'.
+
+
