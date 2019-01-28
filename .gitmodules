@@ -82,3 +82,6 @@
 [submodule "doc/conferences/201809_CCS/ecc18"]
 	path = doc/conferences/201809_CCS/ecc18
 	url = git@framagit.org:sc/ecc18.git
+[submodule "dev/pybibnet"]
+	path = dev/pybibnet
+	url = git@framagit.org:sc/pybibnet.git
