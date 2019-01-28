@@ -1,0 +1,33 @@
+Summary Simmon Carrignon:
+
+WP4: Development of plateform to test theoretical model and simulation (as done in the previous preiod and following WP3). The plateform, developed in python, allows to use Approximated Baysian Computation with any kind of model on the new supercomputer of the BSC.  Approximate Baysian Computing is the framework we choose to test and validate our model. It is a powerfull tools already developed in our team which allows to calculate probabilities that a model to explain the available data. In order to test the framework, the model developped in the previous period and published (carrignon et al 2016) had to be adapted to be used against the ICRATES dataset. The need of another dataset was motivated as a first case study as the temporal and spatial resolution offered by the EPNET dataset presented do not yet propose a suffisant precise temporal and spatial resolution to be used . Over than 780 000 simulations approximating more than 100 000 hours of computation  where used using ABC against the data. The result of those tests are going to be submitted in the coming weeks to internation journals and illustrate how can be successfully done the articulation between WP3 & WP4, opening the door to more analysis in the future.
+
+Activity:
+
+Developping and adapting new and existing agents based model. Developping Bayesian Inference tools and plateform for ABC. Running simulation and analyse results. Help maintaining pandora
+
+Extendande our framework to different dataset and model
+    - JERASH
+    - ICRATES
+    - Twitter
+
+
+Task:
+ - Develop a python tools to run ABC of different model on the diferetns computer of the BSC
+ - Adapt the theoretical model developped in the previous phase to a real case study
+ - Develop a model of cultural evolution to test the emergence of conformism via foreign vs local preferrences
+ - Develop a model of cultural evolution of amphora shape given different degree of cultural interactions and isolation by distance
+ - Help parallelized computation for global/local efficiency index
+ - organisation of the satellite at the Conference on Complex System to promote interplay between archaeology, cultural evolution and Complex System (setpembre 2017 and setpember 2018)
+
+
+Travel:
+ - TRAC 2017 Durham
+ - EHBEA 2017 paris
+ - Aarhus 2017
+ - CCS 2017 Cancun  wrmup
+ - CCS 2017 Cancun 
+ - TRAC 2018 edinburgo
+ - CCS 2018 Greece
+ 
+
