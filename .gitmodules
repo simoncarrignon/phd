@@ -88,3 +88,6 @@
 [submodule "doc/paper/20150401-WSC-paper"]
 	path = doc/paper/20150401-WSC-paper
 	url = git@github.com:simoncarrignon/20150401-WSC-paper.git
+[submodule "doc/conferences/20151208-WSC-presentation"]
+	path = doc/conferences/20151208-WSC-presentation
+	url = git@github.com:simoncarrignon/20151208-WSC-presentation.git
