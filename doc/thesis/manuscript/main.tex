@@ -17,8 +17,8 @@
 \usepackage{graphicx}
 
 %FONTS TIMES OR GARAMOND, 
-\usepackage{times}
-%\usepackage{garamond}
+%\usepackage{New Roman}
+\setmainfont{EB Garamond}
 
 %WITHOUT HEADINGS: NO MODIFICATION
 \pagestyle{plain}
@@ -40,12 +40,12 @@
 
 
 %ADD YOUR DATA
-\title{Derrière les Fagots, les cailloux}
-\subtitle{La où le temps emporte les cageots et les roses à fleurs}
-\author{Edgard dumontel de Rosmeont}
-\thyear{2019 }
-\department{38 IZER}
-\supervisor{God Himself}
+\title{Social Change and Content Bias, a large scale analysis}
+\subtitle{A model based approach of content-bias impact on large scale cultural change}
+\author{Simon Carrignon}
+\thyear{2019}
+\department{}
+\supervisor{Sergi Valverde \& Xavier Rubio-Campillo}
 
 
 \begin{document}
@@ -113,128 +113,51 @@ menys de 150 paraules.
 
 %START THE TEXT
 \mainmatter
-\chapter*{Introduction}
-
-Do we know? no we don!
-
-Has
-\begin{description}
-\item[file tesi-upf.cls] It is a modification of the style {\tt book} with the following particularities
-  \begin{enumerate}
-  \item The cover is redesigned (the instruction\verb+\maketitle+).
-
-  \item The titles of the chapters are written in capital letters.
-
-  \item Is redesigned {\tt cleardoublepage} because the blank pages are not numbered.
-  \end{enumerate}
-
-\item[The preamble] Has diferent instructions
-  \begin{enumerate}
-  \item The combination of the packages {\tt geometry} i {\tt crop} It allows framing what will be the final page that will then be cut to size {\tt B5}. Before cutting it, it is advisable to remove the marks, commenting on the corresponding orders, unless the printing company asks us to do so.
-
-  \item In the event that the thesis is in Catalan, the title of `` Index '' for `` Summary '' is redefined.
-
-  \item The package is used {\tt times} to use this font.
-
-  \item It indicates \verb+\pagestyle{plain}+ so that the headings do not appear.
-
-  \item  To the orders {\tt title}, {\tt subtitle}, {\tt author}, {\tt thyear},{\tt department}, {\tt supervisor} the appropriate values ??must be put. \LaTeX will generate the cover from them.
-  \end{enumerate}
-
-\item[packages] For the convenience of the user the packages are incorporated {\tt crop} i {\tt geometry}. 
-
-\item[Bibliography] o check the operation, a small bibliographic database is incorporated, named  \verb+tesi_upf_bib.bib+
 
 
-\item[Tables] It incorporates a \verb+figure+ i un \verb+tabular+ to check the operation of the indexes.
+\chapter{ Introduction}
 
-\end{description}
-
-
-\section*{Index}
-
-It is advisable to use the index with entries like the following, which refers to the inventor of \LaTeX:  \verb+\index{Lamport}+ \index{Lamport}. 
-\begin{enumerate}
-\item The orders \verb+\usepackage{makeidx} \makeindex+ in the preamble of the document and \verb+\printindex+ In the place where we want the references to appear, they cause the index to be generated. To generate it effectively you must use the program \verb+makeindex+ (it is done in a different way according to the distribution and the editor we use).
-\end{enumerate}
-
-\section*{The bibliography}
-In order to be able to efficiently use bibliographic references, it is convenient to use the BibTeX program. To do it 
-\begin{enumerate}
-\item We write in the preamble \verb+\bibliographystyle{plain}+ where instead of \verb+plain+ It can be some of the usual styles, for example \verb+vancouver+\ldots Vancouver style is also included \verb+vancouver+.
-
-\item On the site of the document where we want the list of references to appear, we write \verb+ \bibliography{tesi_upf_bib}
-
-
-\end{enumerate}
-
-
-
-
-\chapter{The first chapter}
-Example of the first chapter using some section and subsection.\footnote{Example of footnote} Note that you can have the chapters in separate files and use them \verb+\input{}+.
-
-
-\section{A section}
-Specifically, the first one, which contains a table
-
-\begin{table}[h]
-  \centering
-  \begin{tabular}{|l|l|}
-   \hline
-    0 & 0 \\ \hline
-    0 & 0 \\ \hline    
-  \end{tabular}
-  \caption{test}
-
-\end{table}
-
-\subsection{A subsection}
-The first subsection of the first section.
-
-\section{Another section}
-the second one 
-
-It incorporates a figure with the logo of the UPF (Figura \ref{fig:logo}) {so that it goes down to the index of figures.
-\begin{figure}[h]
-  \centering
-  \includegraphics[scale=0.5]{logo_upf.png}
-    \caption{Graphic example}
-    \label{fig:logo}
-\end{figure}
+\section{Cultural Evolution (from darwin to Cultural Evolution theory)}
+\subsection{ Evolutionary biology (Section 1 of Master tesis philosophy of science)}
+\subsubsection{ History (darwin, mendel, modern synthesis, critics of modernr synthesis and adaptationist)}
+\subsubsection{Methods and problems}
+darwin need for artificial evolution and thought experiment, probel of `` how to prove NAtural selection'', problem of 
+\subsection{How to study society and their evolution?}
+\subsubsection{History}
+\subsubsection{Cultural Evolution}
+\subsubsection{Social Learning Strategies }
+\subsection{Cultural Transmission \& Bias}
+\subsubsection{ Social Learning Strategies}
+\subsubsection{Critics toward transmission/imitation centered theories:}
+Cognitivies attractors (Morin 2015) page 99 chapitre 3: The Myth of compulsive imitation
+To solve that: intrinsic appeal
+\subsubsection{ Need to study more complex strategies and more precisely (Kandler crtics on random mnidek)}
+We face a problem: to study long term changes relying on complex cognitives transmission. How one can track on using the other? General simple models are good and quick but as mentionned by the critics need to be refined.
+\section{ Model and Model Selection} (\emph{ie} how to study previous section)
+\subsection{ Agent Base Modeling (Section 2 of master in philosophy of science \cite{carrignon2016modelandsimulaion}): }
+With practical example from paper published between 2015 and 2018? \cite{montanier2016behavioralspecializationinembodiedevolutionaryroboticswhysodifficult},\cite{zibetti2015acaciaesanagentbasedmodelingandsimulationtoolforinvestigatingsocialbehaviorsinresourcelimitedtwodimensionalenvironments}\cite{medernach2016evolution})
+\subsection{ Bayesian Inference (TRAJ paper section on baeysian inference)}
+\chapter{ The limit of context dependant bias, a bayesian approach to online social media}
+\section{ Simple context model (random neutral model, conformity and other frequency based bias)}
+\section{ a case study with 10 years of online social media} (paper with Bentley and Ruck \cite{carrignon2018})
+Some reflexion: chains of transmission \emph{are} wide. As imaginaned by Morin, p140
+\chapter{'Meta Content': Economy and undirect access to content via success bias}
+\section{Agent based model integrate Social Learning Stragies with economic changes, a theoretical exploration}
+(Winter Simulation Conference paper \cite{carrignon2015modelingthecoevolutionoftradeandcultureinpastsocieties})
+\section{ Historical case study ICRATES and ABC} (paper with Tom and Isa \cite{carrignon2018abmtrac})
+\chapter{Conclusion}
+       
 
 
-\chapter{The second chapter}
-
-Lorem ipsum dicam tation maiorum vel ea, an nam minimum pertinax vituperatoribus, mea no illud tibique nostrum. Odio aperiri dolorem in sit, utinam labore adipiscing cu vel. Nam porro choro cu, nam virtute maluisset voluptatum in, per te vero iuvaret praesent. Eos ut volumus pertinacia interesset, tota debitis abhorreant mei et, clita electram pri at. Ea fabulas admodum theophrastus sea, id nostro omnium periculis sed. Vim id nulla aliquando. Id mel habeo nostrud mandamus, laudem legimus fastidii quo ea, ut iriure utamur quo.
-
-Cu sit nobis omnesque scripserit, nec albucius perfecto salutatus ex. Novum debet propriae vis cu, sed ea suscipit accusata, nam minim salutandi voluptatum ut. Quaerendum definitiones est ut, no quo postea prompta scaevola. Nec at choro soleat causae, per ut docendi denique, discere veritus no sed. Ei sed sale delicatissimi mediocritatem, eligendi deterruisset ut mei, ignota offendit ocurreret at mel. Numquam blandit gubergren an pro, mei cu quot dolore recteque. Suscipit aliquyam principes eam ut, id error dicit perpetua qui.
-
-Eam mentitum noluisse instructior cu, ad scripta nonummy aliquyam eos. Augue possit gloriatur mel an, mea et dolorum suavitate assueverit. At ius dolores persecuti moderatius, id qui justo tantas dissentiet. Integre invenire imperdiet ut mea, harum alienum officiis te nam, integre qualisque conceptam in vis. Viderer consetetur vim id, sumo tempor complectitur vim an. His te aeterno tamquam integre, nec agam aliquando repudiandae id, te fabellas verterem sea.
-
-Per dicit veniam delicata ut, dicunt corpora mei eu. His no alienum accusata accommodare, eu nam clita audire invidunt. Mutat debitis mediocrem duo te, ex vis prima labore inermis. Usu eu dictas possim vocent. Suas meliore ancillae ad eum, eam ei cibo viderer similique.
-
-Usu ne apeirian deserunt expetendis, sed in iisque abhorreant definiebas, quo nulla inermis appareat cu. Ei nam possim docendi pertinax, ut duis veritus detracto pri. Animal percipit ius ne, ne iisque quaeque philosophia pro, ut sed nobis nullam adolescens. Persius principes omittantur per an. Mel quot nostrud labores at, ad vis latine persius petentium. Cum partiendo neglegentur mediocritatem ut, per simul aliquando tincidunt no, falli nominavi molestiae ex nam.
-
-Saperet inciderint in vim, vis quod civibus accusata in. Et ullum facilisi accommodare nec, decore utroque definitionem an vel, id duo kasd facer latine. Ea sumo ullamcorper per, ex pro nobis efficiendi concludaturque, vix eu verear luptatum ocurreret. Ocurreret intellegat te eum, ius ea cibo epicurei dignissim. Diam elit quaeque cum ut. Est dicat summo prodesset te, no vel harum saepe sensibus, et ignota altera doming qui.
-
-Sit altera regione feugiat in, vim ad augue mediocritatem, duo reque choro theophrastus ea. Ipsum apeirian voluptatum duo no, nam ut ornatus accumsan percipitur, est no posse suscipiantur vituperatoribus. Errem legendos partiendo est cu, est clita signiferumque cu. Ea nulla scripta signiferumque eam, sea vidit dolores officiis ei, nibh saepe in nam. Ad vim justo dolor reprimique, eum ad labitur dissentias scriptorem, cu tempor mentitum assentior eum. Id vis mucius percipit invidunt.
-
-Vel at ullum intellegam constituam, mea dicta affert perpetua ea. Eripuit blandit iracundia nec ea, tale timeam molestie cum te. Cum ei kasd mazim, per ei delenit ullamcorper, ad sale vocibus temporibus usu. An nonummy oporteat phaedrum sed, eu unum deserunt incorrupte mei. His an possim delicata, ei accumsan constituam mea. Ei viris constituam pro, cu inimicus argumentum duo.
-
-Cu regione veritus persequeris vis, tation nusquam percipit in pri, vis no labitur deseruisse. Ius in reque fierent. Quo et erant recusabo honestatis. Iusto accusam liberavisse ex mei, ut cum nobis primis accommodare, viderer vocibus assueverit ut nec. Id odio oporteat instructior pri. Nam sint illud vituperatoribus no, zzril ubique dissentias id nec.
-
-Cu est legimus reformidans. Nam cibo mucius dolores ad, prima posse similique vix te. Mea at nemore mandamus assueverit, sit viris option scaevola cu. At omnis decore nostro pro, aliquyam explicari salutatus ei mea, sea no falli incorrupte. Graeco bonorum lobortis ut sed, ut pro discere legimus, an sea volumus consetetur.
-
-
-
-
-\bibliography{exemple_bibtex}
+\bibliography{../../biblio/bib/phd,../../biblio/bib/SimonCarrignon}
 
 
 
 \backmatter
 \printindex
+
+
+
 
 
 
