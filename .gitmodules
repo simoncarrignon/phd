@@ -85,3 +85,6 @@
 [submodule "dev/pybibnet"]
 	path = dev/pybibnet
 	url = git@framagit.org:sc/pybibnet.git
+[submodule "doc/paper/20150401-WSC-paper"]
+	path = doc/paper/20150401-WSC-paper
+	url = git@github.com:simoncarrignon/20150401-WSC-paper.git
